@@ -1,0 +1,18 @@
+BOJ StandardHandlesLab
+
+CRT ErrorMode: Original  = 0x00000000 (0 decimal)
+               New Value = 0x00000003 (3 decimal)
+
+The standard input (STDIN) handle is attached to the console.
+    Per SHS_StandardHandleState, the handle is attached to its console.
+
+The standard output (STDOUT) handle is redirected to a file.
+GetConsoleMode status code = 6    Per SHS_StandardHandleState, the handle is redirected to a file or pipe.
+
+    Redirection Target = \\?\C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Redirected_Streams\STDOUT.TXT
+The standard error (STDERR) handle is attached to the console.
+    Per SHS_StandardHandleState, the handle is attached to its console.
+
+
+EOJ StandardHandlesLab
+

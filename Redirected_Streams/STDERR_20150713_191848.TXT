@@ -1,0 +1,6 @@
+RedirectedStreamTester has completed its initial reports.
+Do whatever you need to verify how things stand.
+Press RETURN to record the final state of affairs.
+RedirectedStreamTester EOJ
+Running time = 00:00:01.7532037
+Press ENTER to exit the program.

@@ -1,0 +1,7 @@
+2015/06/24 23:34:29	BOJ C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\scripts\RedirectionDrills.CMD, version 1.00
+2015/06/24 23:34:29	Working Directory = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Redirected_Streams
+2015/06/24 23:34:29	Program File Name = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.exe
+2015/06/24 23:34:29	THE_DRILL: ERR STDERR=R,STDERR.TXT STDIN=D STDOUT=D
+2015/06/24 23:34:29	THE_DRILL: Task ERR - STDERR redirected, everything else to console
+2015/06/24 23:34:30	THE_DRILL: Task ERR - STDERR redirected to STDERR.TXT
+2015/06/24 23:34:37	THE_DRILL: Task ERR completed = exit code = 0

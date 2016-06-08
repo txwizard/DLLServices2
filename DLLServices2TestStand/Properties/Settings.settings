@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DLLServices2TestStand.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ExceptionGUIDsListingFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ExceptionGUIDsListingFile.TXT</Value>
+    </Setting>
+    <Setting Name="ExcceptionMessageTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ExcceptionMessageTable.TXT</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

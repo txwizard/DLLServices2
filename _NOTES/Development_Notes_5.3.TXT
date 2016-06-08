@@ -1,0 +1,980 @@
+          Development Notes for WizardWrx.DLLServices2.dll, version 5.3
+
+================================================================================
+10/13/2014 19:09:21 - Break the link with WizardWrx.DLLServices.
+================================================================================
+
+BOJ C:\bin\UnlockVisualStudio20xxProperties.CMD
+
+----------------------------------------------------------------------
+Unlocking Properties source files in directory C:\Documents and Settings\DAG\MyDocuments\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2
+----------------------------------------------------------------------
+
+-------------------------------------------------
+Step 1: Remove the write protect flags.
+-------------------------------------------------
+
+File not found - settings.*
+
+-------------------------------------------------
+Step 2: Demonstrate the outcome of step 1.
+-------------------------------------------------
+
+           C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\Properties\Resources.Designer.cs
+           C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\Properties\Resources.resx
+           C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\Resources.Designer.cs
+           C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\Resources.resx
+File not found - settings.*
+           C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\Properties\AssemblyInfo.cs
+           C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+
+-------------------------------------------------
+Step 3: List the file sizes and last write dates.
+-------------------------------------------------
+
+ Volume in drive C is SYS
+ Volume Serial Number is 2430-E62E
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\Properties
+
+06/09/2014  14:59            15,411 Resources.Designer.cs
+06/09/2014  14:59            11,753 Resources.resx
+               2 File(s)         27,164 bytes
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties
+
+07/20/2014  20:23             8,459 Resources.Designer.cs
+07/20/2014  20:23             8,161 Resources.resx
+               2 File(s)         16,620 bytes
+
+     Total Files Listed:
+               4 File(s)         43,784 bytes
+               0 Dir(s)  28,239,458,304 bytes free
+ Volume in drive C is SYS
+ Volume Serial Number is 2430-E62E
+File Not Found
+ Volume in drive C is SYS
+ Volume Serial Number is 2430-E62E
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\Properties
+
+07/20/2014  20:59             1,804 AssemblyInfo.cs
+               1 File(s)          1,804 bytes
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties
+
+07/20/2014  20:59             1,453 AssemblyInfo.cs
+               1 File(s)          1,453 bytes
+
+     Total Files Listed:
+               2 File(s)          3,257 bytes
+               0 Dir(s)  28,239,458,304 bytes free
+
+-------------------------------------------------
+EOJ UnlockVisualStudio20xxProperties.CMD
+-------------------------------------------------
+
+WWPause version 3, 0, 0, 4
+Mon 13 Oct 2014 19:08:59 Local
+
+Please press RETURN when ready...
+
+
+------ Build started: Project: DLLServices2, Configuration: Debug Any CPU ------
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(477,34): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(478,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(479,27): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem' is obsolete: 'Use OutputOptions.StandardOutput and/or OutputOptions.StandardError.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(992,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1032,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1032,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1078,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1078,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2084,31): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2201,29): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem' is obsolete: 'Use OutputOptions.StandardOutput and/or OutputOptions.StandardError.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2201,29): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2201,29): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+
+Compile complete -- 0 errors, 12 warnings
+Build started 10/13/2014 19:40:09.
+
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 10/13/2014 19:40:10 (10/14/2014 00:40:10 UTC)
+          Build Number = 160
+  Sleeping for 3 seconds
+  Waking from cat nap
+
+CoreResGen:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\ResGen.exe /useSourcePath
+                                                               /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                               /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.configuration.dll
+                                                               /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                               /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll"
+                                                               /compile Properties\Resources.resx,obj\Debug\WizardWrx.DLLServices2.Properties.Resources.resources
+
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig
+                                                      /nowarn:1701,1702
+                                                      /nostdlib+
+                                                      /errorreport:prompt
+                                                      /warn:4
+                                                      /define:TRACE;DEBUG
+
+                                                      /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                      /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.configuration.dll
+                                                      /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                      /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll"
+
+                                                      /debug+
+                                                      /debug:full
+                                                      /filealign:512
+                                                      /optimize-
+                                                      /out:obj\Debug\WizardWrx.DLLServices2.dll
+                                                      /resource:obj\Debug\WizardWrx.DLLServices2.Properties.Resources.resources
+                                                      /target:library 
+                                                      
+                                                      AssemblyLocatorBase.cs 
+                                                      ErrorMessagesInColor.cs 
+                                                      PropertyDefaults.cs 
+                                                      StateManager.cs 
+                                                      ExceptionLogger.cs 
+                                                      IP6CUtilLib1.cs 
+                                                      MessageInColor.cs 
+                                                      Properties\AssemblyInfo.cs 
+                                                      Properties\Resources.Designer.cs 
+                                                      TimeDisplayFormatter.cs
+                                                      
+_CopyOutOfDateSourceItemsToOutputDirectoryAlways:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\WizardWrx.DLLServices2.dll.config"                           to "bin\Debug\WizardWrx.DLLServices2.dll.config".
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\WizardWrx.DLLServices2.dll"                                                                                                                                        to "bin\Debug\WizardWrx.DLLServices2.dll".
+  DLLServices2                                                                                                                                                                                    -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll
+  Copying file from "obj\Debug\WizardWrx.DLLServices2.pdb"                                                                                                                                        to "bin\Debug\WizardWrx.DLLServices2.pdb".
+
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll
+          Version    = 5.3.160.33608
+          File Date  = 10/13/2014 19:40:16 (10/14/2014 00:40:16 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\BuildHistory.LOG
+          File Date  = 10/13/2014 19:40:17 (10/14/2014 00:40:17 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:07.34
+------ Build started: Project: DLLServices2TestStand, Configuration: Debug x86 ------
+Build started 10/13/2014 19:40:17.
+
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 10/13/2014 19:40:17 (10/14/2014 00:40:17 UTC)
+          Build Number = 155
+  Sleeping for 3 seconds
+  Waking from cat nap
+
+CoreResGen:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\ResGen.exe /useSourcePath 
+                                                               /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+                                                               /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll 
+                                                               /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.dll" 
+                                                               /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.dll" 
+                                                               /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" 
+                                                               /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" 
+                                                               /compile Properties\Resources.resx,obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig 
+                                                      /nowarn:1701,1702 
+                                                      /nostdlib+ 
+                                                      /platform:x86 
+                                                      /errorreport:prompt 
+                                                      /warn:4 
+                                                      /define:DEBUG;TRACE 
+                                                      
+                                                      /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+                                                      /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll 
+                                                      /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.dll" 
+                                                      /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.dll" 
+                                                      /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" 
+                                                      /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" 
+                                                      
+                                                      /debug+ 
+                                                      /debug:full 
+                                                      /filealign:512 
+                                                      /optimize- 
+                                                      /out:obj\x86\Debug\DLLServices2TestStand.exe 
+                                                      /resource:obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources 
+                                                      /target:exe 
+                                                      /win32icon:WW_Icon1.ico 
+                                                      
+                                                      Program.cs 
+                                                      Properties\AssemblyInfo.cs 
+                                                      Properties\Resources.Designer.cs
+
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.dll" to "bin\Debug\WizardWrx.ApplicationHelpers2.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.dll"             to "bin\Debug\WizardWrx.ConsoleAppAids2.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"                        to "bin\Debug\WizardWrx.DLLServices2.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.pdb"                        to "bin\Debug\WizardWrx.DLLServices2.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.pdb" to "bin\Debug\WizardWrx.ApplicationHelpers2.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.xml" to "bin\Debug\WizardWrx.ApplicationHelpers2.xml".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.pdb"             to "bin\Debug\WizardWrx.ConsoleAppAids2.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.xml"             to "bin\Debug\WizardWrx.ConsoleAppAids2.xml".
+
+_CopyOutOfDateSourceItemsToOutputDirectoryAlways:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\WizardWrx.DLLServices2.dll.config"                           to "bin\Debug\WizardWrx.DLLServices2.dll.config".
+
+_CopyAppConfigFile:
+
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\DLLServices2TestStand.exe" to "bin\Debug\DLLServices2TestStand.exe".
+  DLLServices2TestStand -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+  Copying file from "obj\x86\Debug\DLLServices2TestStand.pdb" to "bin\Debug\DLLServices2TestStand.pdb".
+
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+          Version    = 5.3.155.33610
+          File Date  = 10/13/2014 19:40:21 (10/14/2014 00:40:21 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\BuildHistory.LOG
+          File Date  = 10/13/2014 19:40:22 (10/14/2014 00:40:22 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:05.03
+========== Build: 2 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\mscorlib.dll'
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll'
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll'
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll'
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll'
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.vshost.exe'
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\WizardWrx.SharedUtl2\2.69.212.31430__17d2d8ea40c2dbbc\WizardWrx.SharedUtl2.dll', Symbols loaded.
+The thread 'vshost.NotifyLoad' (0xe9c) has exited with code 0 (0x0).
+The thread '<No Name>' (0x274) has exited with code 0 (0x0).
+The thread 'vshost.LoadReference' (0xb38) has exited with code 0 (0x0).
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe', Symbols loaded.
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.dll', Symbols loaded.
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll'
+The thread '<No Name>' (0xdc4) has exited with code 0 (0x0).
+A first chance exception of type 'System.Exception' occurred in DLLServices2TestStand.exe
+A first chance exception of type 'System.Exception' occurred in DLLServices2TestStand.exe
+'DLLServices2TestStand.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\WizardWrx.DateMath\2.7.52.38686__17d2d8ea40c2dbbc\WizardWrx.DateMath.dll'
+The program '[3936] DLLServices2TestStand.vshost.exe: Managed (v2.0.50727)' has exited with code 0 (0x0).
+
+
+------ Build started: Project: DLLServices2, Configuration: Release Any CPU ------
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(477,34): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(478,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(479,27): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem' is obsolete: 'Use OutputOptions.StandardOutput and/or OutputOptions.StandardError.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(992,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1032,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1032,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1078,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1078,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2084,31): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2201,29): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem' is obsolete: 'Use OutputOptions.StandardOutput and/or OutputOptions.StandardError.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2201,29): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2201,29): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ErrorMessagesInColor.cs(1200,15): warning CS1570: XML comment on 'WizardWrx.DLLServices2.ErrorMessagesInColor.RecoverableExceptionTextColor' has badly formed XML -- 'End tag 'returns' does not match the start tag 'summary'.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1885,26): warning CS1572: XML comment on 'WizardWrx.DLLServices2.ExceptionLogger.AddCommonElements(System.Text.StringBuilder, System.Text.StringBuilder, System.Exception, WizardWrx.DLLServices2.ExceptionLogger.OutputOptions)' has a param tag for 'penmStackTraceDisposition', but there is no parameter by that name
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1905,27): warning CS1573: Parameter 'penmOutputOptions' has no matching param tag in the XML comment for 'WizardWrx.DLLServices2.ExceptionLogger.AddCommonElements(System.Text.StringBuilder, System.Text.StringBuilder, System.Exception, WizardWrx.DLLServices2.ExceptionLogger.OutputOptions)' (but other parameters do)
+
+Compile complete -- 0 errors, 15 warnings
+Build started 10/13/2014 20:02:28.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 10/13/2014 20:02:29 (10/14/2014 01:02:29 UTC)
+          Build Number = 161
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreResGen:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\ResGen.exe /useSourcePath /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.configuration.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /compile Properties\Resources.resx,obj\Release\WizardWrx.DLLServices2.Properties.Resources.resources 
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.DLLServices2.XML /define:TRACE;DEBUG /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.configuration.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.DLLServices2.dll /resource:obj\Release\WizardWrx.DLLServices2.Properties.Resources.resources /target:library AssemblyLocatorBase.cs ErrorMessagesInColor.cs PropertyDefaults.cs StateManager.cs ExceptionLogger.cs IP6CUtilLib1.cs MessageInColor.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs TimeDisplayFormatter.cs
+_CopyOutOfDateSourceItemsToOutputDirectoryAlways:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\WizardWrx.DLLServices2.dll.config" to "bin\Release\WizardWrx.DLLServices2.dll.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.DLLServices2.dll" to "bin\Release\WizardWrx.DLLServices2.dll".
+  DLLServices2 -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll
+  Copying file from "obj\Release\WizardWrx.DLLServices2.pdb" to "bin\Release\WizardWrx.DLLServices2.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll
+          Version    = 5.3.161.34276
+          File Date  = 10/13/2014 20:02:33 (10/14/2014 01:02:33 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\BuildHistory.LOG
+          File Date  = 10/13/2014 20:02:33 (10/14/2014 01:02:33 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.78
+------ Build started: Project: DLLServices2TestStand, Configuration: Release x86 ------
+Build started 10/13/2014 20:02:33.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 10/13/2014 20:02:33 (10/14/2014 01:02:33 UTC)
+          Build Number = 156
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreResGen:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\ResGen.exe /useSourcePath /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /compile Properties\Resources.resx,obj\x86\Release\DLLServices2TestStand.Properties.Resources.resources 
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\DLLServices2TestStand.exe /resource:obj\x86\Release\DLLServices2TestStand.Properties.Resources.resources /target:exe /win32icon:WW_Icon1.ico Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.dll" to "bin\Release\WizardWrx.ApplicationHelpers2.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.dll" to "bin\Release\WizardWrx.ConsoleAppAids2.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll" to "bin\Release\WizardWrx.DLLServices2.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.pdb" to "bin\Release\WizardWrx.DLLServices2.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.xml" to "bin\Release\WizardWrx.DLLServices2.xml".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.pdb" to "bin\Release\WizardWrx.ApplicationHelpers2.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.xml" to "bin\Release\WizardWrx.ApplicationHelpers2.xml".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.pdb" to "bin\Release\WizardWrx.ConsoleAppAids2.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.xml" to "bin\Release\WizardWrx.ConsoleAppAids2.xml".
+_CopyOutOfDateSourceItemsToOutputDirectoryAlways:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\WizardWrx.DLLServices2.dll.config" to "bin\Release\WizardWrx.DLLServices2.dll.config".
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Release\DLLServices2TestStand.exe" to "bin\Release\DLLServices2TestStand.exe".
+  DLLServices2TestStand -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe
+  Copying file from "obj\x86\Release\DLLServices2TestStand.pdb" to "bin\Release\DLLServices2TestStand.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe
+          Version    = 5.3.156.34278
+          File Date  = 10/13/2014 20:02:37 (10/14/2014 01:02:37 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\BuildHistory.LOG
+          File Date  = 10/13/2014 20:02:38 (10/14/2014 01:02:38 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.54
+========== Build: 2 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+
+================================================================================
+10/14/2014 01:48:10
+================================================================================
+
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+C:\Documents and Settings\DAG\My Documents>P6FileStatsWin.PL -fC:\WizardWrx.DLLServices2.dll -s "-oC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Inventory_WizardWrx_DLLServices2_dll.CSV"
+P6FileStatsWin version 2.52
+Copyright 2001, P6 Consulting, 2008-2010, WizardWrx.
+All rights reserved world wide.
+P6 Consulting and WizardWrx are trade marks of Simple Soft Services, Inc.
+
+Monday 13 October 2014 - 20:11:54
+
+Command submitted to shell: dir C:\WizardWrx.DLLServices2.dll /b /s
+
+Awaiting respone ...
+58 items returned by shell
+Done!
+
+Launching C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Inventory_WizardWrx_DLLServices2_dll.CSV in Microsoft Excel.
+
+Thank you for using P6FileStatsWin!
+
+C:\Documents and Settings\DAG\My Documents>WWEnumProcessex
+'WWEnumProcessex' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Documents and Settings\DAG\My Documents>WWEnumProcesses
+<unknown>  (PID: 4)
+smss.exe  (PID: 588)
+<unknown>  (PID: 636)
+winlogon.exe  (PID: 660)
+services.exe  (PID: 704)
+lsass.exe  (PID: 716)
+svchost.exe  (PID: 900)
+<unknown>  (PID: 964)
+svchost.exe  (PID: 1096)
+<unknown>  (PID: 1144)
+<unknown>  (PID: 1332)
+spoolsv.exe  (PID: 1404)
+jqs.exe  (PID: 1632)
+LMIGuardianSvc.exe  (PID: 1652)
+STacSV.exe  (PID: 1868)
+svchost.exe  (PID: 360)
+NTPTIME.EXE  (PID: 1256)
+Explorer.EXE  (PID: 1604)
+msseces.exe  (PID: 2156)
+ipoint.exe  (PID: 2168)
+jusched.exe  (PID: 2200)
+GoogleToolbarNotifier.exe  (PID: 2236)
+SpiderOak.exe  (PID: 2252)
+ctfmon.exe  (PID: 2296)
+dpupdchk.exe  (PID: 2300)
+xmarkssync.exe  (PID: 2324)
+Magnifying Glass.exe  (PID: 2524)
+trayprodder.exe  (PID: 2612)
+ONENOTEM.EXE  (PID: 2624)
+PopMenu.exe  (PID: 2664)
+MsMpEng.exe  (PID: 2916)
+SpiderOak.exe  (PID: 2960)
+<unknown>  (PID: 2788)
+<unknown>  (PID: 1244)
+brstswnd.exe  (PID: 3864)
+Brnipmon.exe  (PID: 3480)
+EZPayWebPmtsNotifier.exe  (PID: 380)
+EXCEL.EXE  (PID: 232)
+cmd.exe  (PID: 3196)
+uedit32.exe  (PID: 3608)
+WWEnumProcesses.exe  (PID: 452)
+
+C:\Documents and Settings\DAG\My Documents>attrib "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3.TXT"
+     R     C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3.TXT
+
+C:\Documents and Settings\DAG\My Documents>attrib "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3.TXT" -r
+
+C:\Documents and Settings\DAG\My Documents>attrib "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3.TXT"
+           C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3.TXT
+
+C:\Documents and Settings\DAG\My Documents>dir "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\NOLANB\EZPayWebPmtsNotifier\EZPayWebPmtsNotifier\bin\Release\EZPayWebPmtsNotifier.exe
+ Volume in drive C is SYS
+ Volume Serial Number is 2430-E62E
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\NOLANB\EZPayWebPmtsNotifier\EZPayWebPmtsNotifier\bin\Release
+
+10/04/2014  16:55            43,008 EZPayWebPmtsNotifier.exe
+               1 File(s)         43,008 bytes
+               0 Dir(s)  28,248,928,256 bytes free
+
+C:\Documents and Settings\DAG\My Documents>dir "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\NOLANB\EZPayWebPmtsNotifier\EZPayWebPmtsNotifier\bin\Release\EZPayWebPmtsNotifier.exe"
+ Volume in drive C is SYS
+ Volume Serial Number is 2430-E62E
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\NOLANB\EZPayWebPmtsNotifier\EZPayWebPmtsNotifier\bin\Release
+
+10/04/2014  16:55            43,008 EZPayWebPmtsNotifier.exe
+               1 File(s)         43,008 bytes
+               0 Dir(s)  28,248,928,256 bytes free
+
+C:\Documents and Settings\DAG\My Documents> "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\NOLANB\EZPayWebPmtsNotifier\EZPayWebPmtsNotifier\bin\Release\EZPayWebPmtsNotifier.exe" SHUTDOWN
+
+C:\Documents and Settings\DAG\My Documents>WWEnumProcesses
+<unknown>  (PID: 4)
+smss.exe  (PID: 588)
+<unknown>  (PID: 636)
+winlogon.exe  (PID: 660)
+services.exe  (PID: 704)
+lsass.exe  (PID: 716)
+svchost.exe  (PID: 900)
+<unknown>  (PID: 964)
+svchost.exe  (PID: 1096)
+<unknown>  (PID: 1144)
+<unknown>  (PID: 1332)
+spoolsv.exe  (PID: 1404)
+jqs.exe  (PID: 1632)
+LMIGuardianSvc.exe  (PID: 1652)
+STacSV.exe  (PID: 1868)
+svchost.exe  (PID: 360)
+NTPTIME.EXE  (PID: 1256)
+Explorer.EXE  (PID: 1604)
+msseces.exe  (PID: 2156)
+ipoint.exe  (PID: 2168)
+jusched.exe  (PID: 2200)
+GoogleToolbarNotifier.exe  (PID: 2236)
+SpiderOak.exe  (PID: 2252)
+ctfmon.exe  (PID: 2296)
+dpupdchk.exe  (PID: 2300)
+xmarkssync.exe  (PID: 2324)
+Magnifying Glass.exe  (PID: 2524)
+trayprodder.exe  (PID: 2612)
+ONENOTEM.EXE  (PID: 2624)
+PopMenu.exe  (PID: 2664)
+MsMpEng.exe  (PID: 2916)
+SpiderOak.exe  (PID: 2960)
+<unknown>  (PID: 2788)
+<unknown>  (PID: 1244)
+brstswnd.exe  (PID: 3864)
+Brnipmon.exe  (PID: 3480)
+EZPayWebPmtsNotifier.exe  (PID: 380)
+EXCEL.EXE  (PID: 232)
+cmd.exe  (PID: 3196)
+uedit32.exe  (PID: 3608)
+WWEnumProcesses.exe  (PID: 3516)
+
+C:\Documents and Settings\DAG\My Documents>
+
+================================================================================
+10/14/2014 01:52:28
+================================================================================
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll
+
+
+================================================================================
+10/14/2014 01:57:26 - Rebuild the entire project, so that the files get new time
+                      stamps.
+================================================================================
+
+------ Rebuild All started: Project: DLLServices2, Configuration: Release Any CPU ------
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(477,34): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(478,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(479,27): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem' is obsolete: 'Use OutputOptions.StandardOutput and/or OutputOptions.StandardError.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(992,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1032,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1032,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1078,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1078,39): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2084,31): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2201,29): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem' is obsolete: 'Use OutputOptions.StandardOutput and/or OutputOptions.StandardError.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2201,29): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2201,29): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ErrorMessagesInColor.cs(1200,15): warning CS1570: XML comment on 'WizardWrx.DLLServices2.ErrorMessagesInColor.RecoverableExceptionTextColor' has badly formed XML -- 'End tag 'returns' does not match the start tag 'summary'.'
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1885,26): warning CS1572: XML comment on 'WizardWrx.DLLServices2.ExceptionLogger.AddCommonElements(System.Text.StringBuilder, System.Text.StringBuilder, System.Exception, WizardWrx.DLLServices2.ExceptionLogger.OutputOptions)' has a param tag for 'penmStackTraceDisposition', but there is no parameter by that name
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1905,27): warning CS1573: Parameter 'penmOutputOptions' has no matching param tag in the XML comment for 'WizardWrx.DLLServices2.ExceptionLogger.AddCommonElements(System.Text.StringBuilder, System.Text.StringBuilder, System.Exception, WizardWrx.DLLServices2.ExceptionLogger.OutputOptions)' (but other parameters do)
+
+Compile complete -- 0 errors, 15 warnings
+Build started 10/14/2014 01:56:59.
+
+CoreClean:
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll.config".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Release\WizardWrx.DLLServices2.Properties.Resources.resources".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Release\GenerateResource-ResGen.read.1.tlog".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Release\GenerateResource-ResGen.write.1.tlog".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Release\WizardWrx.DLLServices2.dll".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Release\WizardWrx.DLLServices2.pdb".
+
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 10/14/2014 01:57:00 (10/14/2014 06:57:00 UTC)
+          Build Number = 162
+  Sleeping for 3 seconds
+  Waking from cat nap
+
+CoreResGen:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\ResGen.exe /useSourcePath /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.configuration.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /compile Properties\Resources.resx,obj\Release\WizardWrx.DLLServices2.Properties.Resources.resources 
+
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.DLLServices2.XML /define:TRACE;DEBUG /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.configuration.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.DLLServices2.dll /resource:obj\Release\WizardWrx.DLLServices2.Properties.Resources.resources /target:library AssemblyLocatorBase.cs ErrorMessagesInColor.cs PropertyDefaults.cs StateManager.cs ExceptionLogger.cs IP6CUtilLib1.cs MessageInColor.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs TimeDisplayFormatter.cs
+
+_CopyOutOfDateSourceItemsToOutputDirectoryAlways:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\WizardWrx.DLLServices2.dll.config" to "bin\Release\WizardWrx.DLLServices2.dll.config".
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.DLLServices2.dll" to "bin\Release\WizardWrx.DLLServices2.dll".
+  DLLServices2 -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll
+  Copying file from "obj\Release\WizardWrx.DLLServices2.pdb" to "bin\Release\WizardWrx.DLLServices2.pdb".
+
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll
+          Version    = 5.3.162.1712
+          File Date  = 10/14/2014 01:57:06 (10/14/2014 06:57:06 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\BuildHistory.LOG
+          File Date  = 10/14/2014 01:57:06 (10/14/2014 06:57:06 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:07.20
+------ Rebuild All started: Project: DLLServices2TestStand, Configuration: Release x86 ------
+Build started 10/14/2014 01:57:07.
+CoreClean:
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe.config".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\WizardWrx.DLLServices2.dll.config".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\WizardWrx.ApplicationHelpers2.dll".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\WizardWrx.ConsoleAppAids2.dll".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\WizardWrx.DLLServices2.dll".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\WizardWrx.DLLServices2.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\WizardWrx.DLLServices2.xml".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\WizardWrx.ApplicationHelpers2.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\WizardWrx.ApplicationHelpers2.xml".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\WizardWrx.ConsoleAppAids2.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\WizardWrx.ConsoleAppAids2.xml".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Release\ResolveAssemblyReference.cache".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Release\DLLServices2TestStand.Properties.Resources.resources".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Release\GenerateResource-ResGen.read.1.tlog".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Release\GenerateResource-ResGen.write.1.tlog".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Release\DLLServices2TestStand.exe".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Release\DLLServices2TestStand.pdb".
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 10/14/2014 01:57:07 (10/14/2014 06:57:07 UTC)
+          Build Number = 157
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreResGen:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\ResGen.exe /useSourcePath /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /compile Properties\Resources.resx,obj\x86\Release\DLLServices2TestStand.Properties.Resources.resources 
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\DLLServices2TestStand.exe /resource:obj\x86\Release\DLLServices2TestStand.Properties.Resources.resources /target:exe /win32icon:WW_Icon1.ico Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.dll" to "bin\Release\WizardWrx.ApplicationHelpers2.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.dll" to "bin\Release\WizardWrx.ConsoleAppAids2.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll" to "bin\Release\WizardWrx.DLLServices2.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.pdb" to "bin\Release\WizardWrx.DLLServices2.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.xml" to "bin\Release\WizardWrx.DLLServices2.xml".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.pdb" to "bin\Release\WizardWrx.ApplicationHelpers2.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers2\ApplicationHelpers2\bin\Release\WizardWrx.ApplicationHelpers2.xml" to "bin\Release\WizardWrx.ApplicationHelpers2.xml".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.pdb" to "bin\Release\WizardWrx.ConsoleAppAids2.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.xml" to "bin\Release\WizardWrx.ConsoleAppAids2.xml".
+_CopyOutOfDateSourceItemsToOutputDirectoryAlways:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\WizardWrx.DLLServices2.dll.config" to "bin\Release\WizardWrx.DLLServices2.dll.config".
+_CopyAppConfigFile:
+  Copying file from "app.config" to "bin\Release\DLLServices2TestStand.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Release\DLLServices2TestStand.exe" to "bin\Release\DLLServices2TestStand.exe".
+  DLLServices2TestStand -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe
+  Copying file from "obj\x86\Release\DLLServices2TestStand.pdb" to "bin\Release\DLLServices2TestStand.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe
+          Version    = 5.3.157.1715
+          File Date  = 10/14/2014 01:57:11 (10/14/2014 06:57:11 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\BuildHistory.LOG
+          File Date  = 10/14/2014 01:57:12 (10/14/2014 06:57:12 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:05
+========== Rebuild All: 2 succeeded, 0 failed, 0 skipped ==========
+
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>Date2FN -r MassUpdate.CMD
+Date2FN, version 1.3.72.500
+Begin @ 10/14/2014 02:07:19.034 (10/14/2014 07:07:19.034 UTC)
+
+Original File Name       = MassUpdate.CMD
+Time Stamp Mask          = YYYYMMDD_hhmmss
+Flag File As Read Only   = True
+Directory Recursion Flag = False
+UQ Filespec Flag         = False
+New File Name            = MassUpdate_20141014_020654.CMD
+
+Date2FN End
+10/14/2014 02:07:19.378 (10/14/2014 07:07:19.378 UTC)
+Elapsed time: 0:00:00:00.343
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>MassUpdate_20141014_020654.CMD > MassUpdate_20141014_020654.LOG
+Sharing violation
+
+Please press RETURN when ready...
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>pskill EZPayWebPmtsNotifier.exe
+
+PsKill v1.15 - Terminates processes on local or remote systems
+Copyright (C) 1999-2012  Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+Process EZPayWebPmtsNotifier.exe killed.
+
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>MassUpdate_20141014_020654.CMD >> MassUpdate_20141014_020654.LOG
+
+Please press RETURN when ready...
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>
+
+
+================================================================================
+10/14/2014 02:22:09 - Hide the shell script.
+================================================================================
+
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>attrib MassUpdate_20141014_020654.XLSX +r
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>dir MassUpdate_20141014_020654.ZIPX
+ Volume in drive C is SYS
+ Volume Serial Number is 2430-E62E
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES
+
+10/14/2014  02:20            22,496 MassUpdate_20141014_020654.ZIPX
+               1 File(s)         22,496 bytes
+               0 Dir(s)  28,247,371,776 bytes free
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>attrib MassUpdate_20141014_020654.ZIPX +r
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>attrib MassUpdate_20141014_020654.ZIPX
+A    R     C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\MassUpdate_20141014_020654.ZIPX
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>dir MassUpdate_20141014_020654.XLSX
+ Volume in drive C is SYS
+ Volume Serial Number is 2430-E62E
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES
+
+10/14/2014  02:15            24,211 MassUpdate_20141014_020654.XLSX
+               1 File(s)         24,211 bytes
+               0 Dir(s)  28,247,371,776 bytes free
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>sdelete -a MassUpdate_20141014_020654.XLSX
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\MassUpdate_20141014_020654.XLSX...deleted.
+1 files found
+
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>sdelete -a MassUpdate_20141014_020654.LOG
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\MassUpdate_20141014_020654.LOG...deleted.
+1 files found
+
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>sdelete -a MassUpdate_20141014_020654.CMD
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\MassUpdate_20141014_020654.CMD...deleted.
+1 files found
+
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>attrib MassUpdate_20141014_020654.XLSX +r
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>dir MassUpdate_20141014_020654.ZIPX
+ Volume in drive C is SYS
+ Volume Serial Number is 2430-E62E
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Proj
+ects\WizardWrx_Libs\DLLServices2\_NOTES
+
+10/14/2014  02:20            22,496 MassUpdate_20141014_020654.ZIPX
+               1 File(s)         22,496 bytes
+               0 Dir(s)  28,247,371,776 bytes free
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>attrib MassUpdate_20141014_020654.ZIPX +r
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>attrib MassUpdate_20141014_020654.ZIPX
+A    R     C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Project
+s\WizardWrx_Libs\DLLServices2\_NOTES\MassUpdate_20141014_020654.ZIPX
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>dir MassUpdate_20141014_020654.XLSX
+ Volume in drive C is SYS
+ Volume Serial Number is 2430-E62E
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Proj
+ects\WizardWrx_Libs\DLLServices2\_NOTES
+
+10/14/2014  02:15            24,211 MassUpdate_20141014_020654.XLSX
+               1 File(s)         24,211 bytes
+               0 Dir(s)  28,247,371,776 bytes free
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>sdelete -a MassUpdate_20141014_020654.XLSX
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES\MassUpdate_20141014_020654.XLSX...deleted.
+1 files found
+
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>sdelete -a MassUpdate_20141014_020654.LOG
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES\MassUpdate_20141014_020654.LOG...deleted.
+1 files found
+
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>sdelete -a MassUpdate_20141014_020654.CMD
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES\MassUpdate_20141014_020654.CMD...deleted.
+1 files found
+
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>sdelete -a Development_Notes_5.3.TXT
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES\Development_Notes_5.3.TXT...deleted.
+1 files found
+
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>ren Development_Notes_5.3a.TXT Development_Notes_5.3.T
+XT
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>dir Development_Notes_5.3.TXT
+ Volume in drive C is SYS
+ Volume Serial Number is 2430-E62E
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Proj
+ects\WizardWrx_Libs\DLLServices2\_NOTES
+
+10/14/2014  02:23            71,661 Development_Notes_5.3.TXT
+               1 File(s)         71,661 bytes
+               0 Dir(s)  28,247,355,392 bytes free
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>attrib Development_Notes_5.3.TXT
+A          C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Project
+s\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3.TXT
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>attrib Development_Notes_5.3.TXT +r
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>attrib Development_Notes_5.3.TXT
+A    R     C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Project
+s\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3.TXT
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>dir *.bak
+ Volume in drive C is SYS
+ Volume Serial Number is 2430-E62E
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Proj
+ects\WizardWrx_Libs\DLLServices2\_NOTES
+
+10/14/2014  01:58            66,758 Development_Notes_5.3.TXT.bak
+10/13/2014  13:53            56,180 DOSTASK.BAT.bak
+               2 File(s)        122,938 bytes
+               0 Dir(s)  28,247,355,392 bytes free
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>sdelete *.bak
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES\Development_Notes_5.3.TXT.bak...deleted.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES\DOSTASK.BAT.bak...deleted.
+2 files found
+
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>dir *(?).*
+ Volume in drive C is SYS
+ Volume Serial Number is 2430-E62E
+
+ Directory of C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Proj
+ects\WizardWrx_Libs\DLLServices2\_NOTES
+
+10/13/2014  20:03            40,188 Development_Notes_5.3(0).TXT
+10/14/2014  01:58            66,758 Development_Notes_5.3(1).TXT
+10/14/2014  02:13            68,276 Development_Notes_5.3(2).TXT
+10/13/2014  13:53            56,180 DOSTASK(0).BAT
+               4 File(s)        231,402 bytes
+               0 Dir(s)  28,247,482,368 bytes free
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx
+_Libs\DLLServices2\_NOTES>sdelete *(?).*
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3(0).TXT...deleted.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3(1).TXT...deleted.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3(2).TXT...
+Error opening C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3(2).TXT for delete: Access is denied.
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\DOSTASK(0).BAT...deleted.
+4 files found
+
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>Date2FN -r Inventory_WizardWrx_DLLServices2_dll.CSV
+Date2FN, version 1.3.72.500
+Begin @ 10/14/2014 02:25:00.706 (10/14/2014 07:25:00.706 UTC)
+
+Original File Name       = Inventory_WizardWrx_DLLServices2_dll.CSV
+Time Stamp Mask          = YYYYMMDD_hhmmss
+Flag File As Read Only   = True
+Directory Recursion Flag = False
+UQ Filespec Flag         = False
+New File Name            = Inventory_WizardWrx_DLLServices2_dll_20141013_201430.CSV
+
+Date2FN End
+10/14/2014 02:25:01.519 (10/14/2014 07:25:01.519 UTC)
+Elapsed time: 0:00:00:00.812
+
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>sdelete -a "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3(2).TXT"
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Development_Notes_5.3(2).TXT...deleted.
+1 files found
+
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_NOTES>

@@ -1,0 +1,637 @@
+DLLServices2TestStand, version 6.1.559.39673 BOJ
+2016-05-19 23:20:35.331 (2016-05-20 04:20:35.331 UTC)
+OutputOptions Initial                  = 27 (39 decimal = ActivePropsToStdErr)
+OutputOptions Event Logging Enabled    = 2F (47 decimal = EventLog, ActivePropsToStdErr)
+
+Testing StateManager.GetAssemblyProductAndVersion:
+
+    Entry Assembly product version (MajorOnly, 1 parts) = DLLServices2TestStand, version 6
+    Entry Assembly product version (MajorAndMinor, 2 parts) = DLLServices2TestStand, version 6.1
+    Entry Assembly product version (MajroMinorBuild, 3 parts) = DLLServices2TestStand, version 6.1.559
+    Entry Assembly product version (MajroMinorBuild, 3 parts) = DLLServices2TestStand, version 6.1.559
+    Entry Assembly product version (MajorMinroBuildRevision, 4 parts) = DLLServices2TestStand, version 6.1.559.39673
+    Entry Assembly product version (MajorMinroBuildRevision, 4 parts) = DLLServices2TestStand, version 6.1.559.39673
+
+    Entry Assembly default product version = DLLServices2TestStand, version 6.1.559.39673
+
+StateManager.GetAssemblyProductAndVersion Tests Completed
+
+
+
+Fully qualified program name, per StateManager GetAssemblyFQFN method = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+
+Executable Subsystem = 3: Image runs in the Windows character subsystem.
+
+Console handle Standard Input (STDIN, a. k. a., Console.In) is attached to a console, NOT redirected.
+Console handle Standard Output (STDOUT, a. k. a., Console.Out) is redirected to a file or pipe \\?\C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\DLLServices2TestStand_6.0_Output_Debug.LOG.
+Console handle Standard Error (STDERR, a. k. a., Console.Error) is attached to a console, NOT redirected.
+
+This text should appear as White letters on a DarkGray background.
+
+
+The next screen displays selected properties of the library that is about to be exercised.
+
+
+Selected properties of the library under test:
+
+    AssemblyFileBaseName = WizardWrx.DLLServices2
+    VersionString        = 6.1.431.39671
+    Culture              = Invariant Language (Invariant Country)
+    PublicKeyToken       = 
+    Runtime Version      = v2.0.50727
+    AssemblyGuidString   = c1190387-03c3-430a-8ec4-d22173620201
+    ProductName          = DLLServices
+    LegalCopyright       = Copyright c 2013-2016, David A. Gray
+    LegalTrademarks      = 
+    CompanyName          = David A. Gray
+    Description          = WizardWrx.DLLServices2
+    Comments             = 
+
+    AssembyDirName       = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug
+    AssemblyFileName     = WizardWrx.DLLServices2.dll
+
+    File Creation Date   = 2016-04-05 23:45:43 (2016-04-06 04:45:43 UTC)
+    File Modified Date   = 2016-05-19 23:02:22 (2016-05-20 04:02:22 UTC)
+
+End of selected properties
+
+
+The colors shown below were read from WizardWrx.DllServices2.dll.config.
+
+The default colors of a fatal exception, as seen through
+individdual properties, are White text on a DarkRed background.
+
+The default colors of a fatal exception, as seen through
+the GetDefaultErrorMessageColors method, are White text on a DarkRed background.
+
+The default colors of a fatal exception, as seen through
+the GetDefaultMessageColors method, are White text on a DarkRed background.
+
+The default colors of a recoverable exception, as seen through
+individdual properties, are Black text on a Yellow background.
+
+The default colors of a recoverable exception, as seen through
+the GetDefaultErrorMessageColors method, are Black text on a Yellow background.
+
+The default colors of a recoverable exception, as seen through
+the GetDefaultMessageColors method, are Black text on a Yellow background.
+
+
+OutputOptions Before Adding STDERR     = 2F (47 decimal = EventLog, ActivePropsToStdErr)
+OutputOptions Output to Standard Error = 2F (47 decimal = EventLog, ActivePropsToStdErr)
+Exception Test Case 1
+
+
+The colors shown below were supplied by the test stand program.
+
+The default colors of a fatal exception, as seen through
+individdual properties, are Red text on a White background.
+
+The default colors of a fatal exception, as seen through
+the GetDefaultErrorMessageColors method, are Red text on a White background.
+
+The default colors of a fatal exception, as seen through
+the GetDefaultMessageColors method, are Red text on a White background.
+
+The default colors of a recoverable exception, as seen through
+individdual properties, are Yellow text on a DarkMagenta background.
+
+The default colors of a recoverable exception, as seen through
+the GetDefaultErrorMessageColors method, are Yellow text on a DarkMagenta background.
+
+The default colors of a recoverable exception, as seen through
+the GetDefaultMessageColors method, are Yellow text on a DarkMagenta background.
+
+
+Exception Test Case 2
+
+
+
+Test # 1 - Exercising class ArrayInfo:
+
+    Public  Constant ArrayInfo.ARRAY_FIRST_ELEMENT  = 0
+    Public  Constant ArrayInfo.ARRAY_IS_EMPTY       = 0
+    Public  Constant ArrayInfo.ARRAY_INVALID_INDEX  = -1
+    Public  Constant ArrayInfo.INDEX_FROM_ORDINAL   = -1
+    Public  Constant ArrayInfo.ARRAY_SECOND_ELEMENT = 1
+    Public  Constant ArrayInfo.NEXT_INDEX           = 1
+    Public  Constant ArrayInfo.ORDINAL_FROM_INDEX   = 1
+
+    Public method ArrayInfo.IndexFromOrdinal       =  9 , for pintOrdinal = 10
+    Public method ArrayInfo.OrdinalFromIndex       = 11 , for pintIndex   = 10
+
+Test # 1 Done - Final Status Code = 0
+
+Test # 2 - Exercising class CSVFileInfo:
+
+    Public  Constant CSVFileInfo.EMPTY_FILE     = 0
+    Public  Constant CSVFileInfo.LABEL_ROW      = 0
+    Public  Constant CSVFileInfo.FIRST_RECORD   = 1
+
+    Public method CSVFileInfo.IndexFromOrdinal = 5 , for pastrWholeFile = 6
+
+Test # 2 Done - Final Status Code = 0
+
+
+Test # 3 - Exercising class DisplayFormats:
+
+Integral format strings - sample = 65533
+
+    Public Constant DisplayFormats.HEXADECIMAL                       = X (Sample = FFFD)
+    Public Constant DisplayFormats.HEXADECIMAL_2                     = X2 (Sample = FFFD)
+    Public Constant DisplayFormats.HEXADECIMAL_4                     = X4 (Sample = FFFD)
+    Public Constant DisplayFormats.HEXADECIMAL_8                     = X8 (Sample = 0000FFFD)
+
+    Public Constant DisplayFormats.HEXADECIMAL_PREFIX_0H_LC          = 0h (Sample = 0hFFFD)
+    Public Constant DisplayFormats.HEXADECIMAL_PREFIX_0H_LC          = 0h (Sample = 0hFFFD)
+    Public Constant DisplayFormats.HEXADECIMAL_PREFIX_0X_LC          = 0x (Sample = 0xFFFD)
+    Public Constant DisplayFormats.HEXADECIMAL_PREFIX_0X_UC          = 0X (Sample = 0XFFFD)
+
+
+
+More Integral format strings - sample = 65533
+
+    Public Constant DisplayFormats.NUMBER_PER_REG_SETTINGS           = N (Sample = 65,533.00)
+    Public Constant DisplayFormats.NUMBER_PER_REG_SETTINGS_0D        = N0 (Sample = 65,533)
+    Public Constant DisplayFormats.NUMBER_PER_REG_SETTINGS_2D        = N2 (Sample = 65,533.00)
+    Public Constant DisplayFormats.NUMBER_PER_REG_SETTINGS_3D        = N3 (Sample = 65,533.000)
+
+Floating point format strings - sample = 0.997
+
+    Public Constant DisplayFormats.PERCENT                           = P (Sample = 99.70 %)
+    Public Constant DisplayFormats.PERCENT_DIGITS_2                  = P2 (Sample = 99.70 %)
+
+
+Date and Time format strings - sample = 2016-05-19 23:20:36
+
+    Public Constant DisplayFormats.STANDARD_DISPLAY_DATE_FORMAT      = ^YYYY/^MM/^DD (Sample = 2016/05/19)
+    Public Constant DisplayFormats.STANDARD_DISPLAY_DATE_TIME_FORMAT = ^YYYY/^MM/^DD ^hh:^mm:^ss (Sample = 2016/05/19 23:20:36)
+    Public Constant DisplayFormats.STANDARD_DISPLAY_TIME_FORMAT      = ^hh:^mm:^ss (Sample = 23:20:36)
+
+    Public Method DisplayFormats.FormatDateForShow                   = 2016/05/19
+    Public Method DisplayFormats.FormatDateTimeForShow               = 2016/05/19 23:20:36
+    Public Method DisplayFormats.FormatTimeForShow                   = 23:20:36
+
+Test # 3 Done - Final Status Code = 0
+
+
+Test # 4 - Exercising class FileIOFlags:
+
+    Public Constant FileIOFlags.FILE_COPY_OVERWRITE_FORBIDDEN = False
+    Public Constant FileIOFlags.FILE_COPY_OVERWRITE_PERMITTED = True
+
+    Public Constant FileIOFlags.FILE_OUT_APPEND               = True
+    Public Constant FileIOFlags.FILE_OUT_CREATE               = False
+
+    Public Constant FileIOFlags.MAKE_STREAM_IO_ASYNCHRONOUS   = True
+    Public Constant FileIOFlags.MAKE_STREAM_IO_SYNCHRONOUS    = False
+
+Test # 4 Done - Final Status Code = 0
+
+
+Test # 5 - Exercising class ListInfo:
+
+    Public Constant ListInfo.BEGINNING_OF_BUFFER       = 0
+    Public Constant ListInfo.BINARY_SEARCH_NOT_FOUND   = -1
+    Public Constant ListInfo.EMPTY_STRING_LENGTH       = 0
+    Public Constant ListInfo.INDEXOF_NOT_FOUND         = -1
+    Public Constant ListInfo.LIST_IS_EMPTY             = 0
+    Public Constant ListInfo.SUBSTR_BEGINNING          = 0
+    Public Constant ListInfo.SUBSTR_SECOND_CHAR        = 1
+
+Input Sample for the following Public Method tests = The quick brown fox jumped over the lazy dog.
+
+    Public Method ListInfo.FirstCharOfString           = T
+    Public Method ListInfo.LastCharacterOfString       = .
+    Public Method ListInfo.NthCharacterOfString        = q, where N = 5
+    Public Method ListInfo.NthCharacterOfString        =  , where N = 100
+    Public Method ListInfo.PenultimateCharactrOfString = g
+    Public Method ListInfo.PenultimateCharactrOfString = NUL
+    Public Method ListInfo.SecondCharacterOfString     = h
+    Public Method ListInfo.SecondCharacterOfString     = NUL
+
+Test # 5 Done - Final Status Code = 0
+
+
+Test # 6 - Exercising class PathPositions:
+
+    Public Constant PathPositions.FQFN_PREFIX_START_POS   = 1
+    Public Constant PathPositions.FQFN_PREFIX_START_LEN   = 2
+    Public Constant PathPositions.MAX_PATH                = 260
+    Public Constant PathPositions.UNC_HOSTNAME_PREFIX_POS = 0
+    Public Constant PathPositions.UNC_HOSTNAME_START_POS  = 2
+
+Test # 6 Done - Final Status Code = 0
+
+Test # 7 - Exercising class SpecialCharacters:
+
+    Public Constant SpecialCharacters.AMPERSAND     = & (ASCII code = 38 (0x26)
+    Public Constant SpecialCharacters.COLON         = : (ASCII code = 58 (0x3A)
+    Public Constant SpecialCharacters.COMMA         = , (ASCII code = 44 (0x2C)
+    Public Constant SpecialCharacters.DOUBLE_QUOTE  = " (ASCII code = 34 (0x22)
+    Public Constant SpecialCharacters.FULL_STOP     = . (ASCII code = 46 (0x2E)
+    Public Constant SpecialCharacters.NUL           =   (ASCII code =  0 (0x00)
+    Public Constant SpecialCharacters.PERCENT_SIGN  = % (ASCII code = 37 (0x25)
+    Public Constant SpecialCharacters.SEMICOLON     = ; (ASCII code = 59 (0x3B)
+    Public Constant SpecialCharacters.SPACE         =   (ASCII code = 32 (0x20)
+    Public Constant SpecialCharacters.TAB           = 	 (ASCII code =  9 (0x09)
+
+Test # 7 Done - Final Status Code = 0
+
+
+Test # 8 - Exercising class StringTricks.Chop:
+
+Chop Test 1: Input String Length  = 47, Value = This test line has a Windows line terminator.
+
+             Output String Length = 45, Value = This test line has a Windows line terminator.
+
+Chop Test 2: Input String Length  = 43, Value = This test line has a Unix line terminator.
+
+             Output String Length = 42, Value = This test line has a Unix line terminator.
+
+Chop Test 3: Input String Length  = 51, Value = This test line is terminated by a carriage return.
+             Output String Length = 50, Value = This test line is terminated by a carriage return.
+
+Chop Test 4: Input String Length  = 31, Value = This test line is unterminated.
+             Output String Length = 31, Value = This test line is unterminated.
+
+Chop Test 5: Input String Length  = 0, Value = [Empty String]
+             Output String Length = 0, Value = [Empty String]
+
+Chop Test 6: Input String Length  = 0, Value = [Null String]
+             Output String Length = 0, Value = [Null String]
+
+
+Test # 8 Done - Final Status Code = 0
+
+
+Test # 9 - Exercising class Util:
+
+    Public method Util.FileMatchesRegExpMask = True , for filename = WEBPMTS.TXT and mask = WEBPMTS\.*
+    Public method Util.FileMatchesRegExpMask = True , for filename = WEBPMTS.TXT and mask = WEBPMTS.TXT
+    Public method Util.FileMatchesRegExpMask = True , for filename = WEBPMTS.PSV and mask = WEBPMTS\.*
+    Public method Util.FileMatchesRegExpMask = False, for filename = WEBPMTS.PSV and mask = WEBPMTS.TXT
+
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics
+                                                Value Name = AppliedDPI
+                                                Value Type = REG_DWORD
+                                                Value Data = 96
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_CURRENT_USER\Control Panel\International
+                                                Value Name = iDigits
+                                                Value Type = REG_DWORD
+                                                Value Data = 0
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Excel\Security\Trusted Locations\Location2
+                                                Value Name = Path
+                                                Value Type = REG_EXPAND_SZ
+                                                Value Data = C:\Users\DAVE\AppData\Roaming\Microsoft\Templates
+
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager
+                                                Value Name = ObjectDirectories
+                                                Value Type = REG_MULTI_SZ
+                                                Value Data = 2 substrings, as follows:
+
+        Value # 1 = \Windows
+        Value # 2 = \RPC Control
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager
+                                                Value Name = SetupExecute
+                                                Value Type = REG_MULTI_SZ
+                                                Value Data = 0 substrings
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager
+                                                Value Name = SetupExecute2
+                                                Value Type = REG_MULTI_SZ
+                                                Value Data = 0 substrings
+
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\StructuredQuery
+                                                Value Name = SchemaChangedLast
+                                                Value Type = REG_QWORD
+                                                Value Data = 130927117866985536
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones\Central Standard Time
+                                                Value Name = TZI
+                                                Value Type = REG_BINARY
+                                                Value Data = 68010000 00000000 c4ffffff 00000b00 00000100 02000000 00000000 00000300 00000200 02000000 00000000
+
+Unless Idiom Tests Begin:
+
+    Boolean Expression = True, Unless = False
+    Boolean Expression = False, Unless = True
+
+Unless Idiom Tests Done!
+
+
+
+Evaluate loop state with a Less Than or Equal To Limit:
+
+Loop Limit Values: Start = 1
+                   Stop  = 10
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+1	True	False	True	False	
+2	False	True	True	False	
+3	False	True	True	False	
+4	False	True	True	False	
+5	False	True	True	False	
+6	False	True	True	False	
+7	False	True	True	False	
+8	False	True	True	False	
+9	False	True	True	False	
+10	False	True	False	True	
+
+
+Evaluate loop state with a Less Than or Equal To Limit:
+
+Loop Limit Values: Start = 0
+                   Stop  = 12
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+0	True	False	True	False	
+1	False	True	True	False	
+2	False	True	True	False	
+3	False	True	True	False	
+4	False	True	True	False	
+5	False	True	True	False	
+6	False	True	True	False	
+7	False	True	True	False	
+8	False	True	True	False	
+9	False	True	True	False	
+10	False	True	True	False	
+11	False	True	True	False	
+12	False	True	False	True	
+
+
+Evaluate loop state with a Less Than or Equal To Limit:
+
+Loop Limit Values: Start = -10
+                   Stop  = 5
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+-10	True	False	True	False	
+-9	False	True	True	False	
+-8	False	True	True	False	
+-7	False	True	True	False	
+-6	False	True	True	False	
+-5	False	True	True	False	
+-4	False	True	True	False	
+-3	False	True	True	False	
+-2	False	True	True	False	
+-1	False	True	True	False	
+0	False	True	True	False	
+1	False	True	True	False	
+2	False	True	True	False	
+3	False	True	True	False	
+4	False	True	True	False	
+5	False	True	False	True	
+
+
+Evaluate loop state with a Less Than Limit:
+
+Loop Limit Values: Start = 1
+                   Stop  = 10
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+1	True	False	True	False	
+2	False	True	True	False	
+3	False	True	True	False	
+4	False	True	True	False	
+5	False	True	True	False	
+6	False	True	True	False	
+7	False	True	True	False	
+8	False	True	True	False	
+9	False	True	False	True	
+
+
+Evaluate loop state with a Less Than Limit:
+
+Loop Limit Values: Start = 0
+                   Stop  = 12
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+0	True	False	True	False	
+1	False	True	True	False	
+2	False	True	True	False	
+3	False	True	True	False	
+4	False	True	True	False	
+5	False	True	True	False	
+6	False	True	True	False	
+7	False	True	True	False	
+8	False	True	True	False	
+9	False	True	True	False	
+10	False	True	True	False	
+11	False	True	False	True	
+
+
+Evaluate loop state with a Less Than Limit:
+
+Loop Limit Values: Start = -10
+                   Stop  = 5
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+-10	True	False	True	False	
+-9	False	True	True	False	
+-8	False	True	True	False	
+-7	False	True	True	False	
+-6	False	True	True	False	
+-5	False	True	True	False	
+-4	False	True	True	False	
+-3	False	True	True	False	
+-2	False	True	True	False	
+-1	False	True	True	False	
+0	False	True	True	False	
+1	False	True	True	False	
+2	False	True	True	False	
+3	False	True	True	False	
+4	False	True	False	True	
+
+
+Evaluate loop state with a Greater Than Limit:
+
+Loop Limit Values: Start = 10
+                   Stop  = 1
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+10	True	False	True	False	
+9	False	True	True	False	
+8	False	True	True	False	
+7	False	True	True	False	
+6	False	True	True	False	
+5	False	True	True	False	
+4	False	True	True	False	
+3	False	True	True	False	
+2	False	True	False	True	
+
+
+Evaluate loop state with a Greater Than Limit:
+
+Loop Limit Values: Start = 12
+                   Stop  = 0
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+12	True	False	True	False	
+11	False	True	True	False	
+10	False	True	True	False	
+9	False	True	True	False	
+8	False	True	True	False	
+7	False	True	True	False	
+6	False	True	True	False	
+5	False	True	True	False	
+4	False	True	True	False	
+3	False	True	True	False	
+2	False	True	True	False	
+1	False	True	False	True	
+
+
+Evaluate loop state with a Greater Than Limit:
+
+Loop Limit Values: Start = 5
+                   Stop  = -10
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+5	True	False	True	False	
+4	False	True	True	False	
+3	False	True	True	False	
+2	False	True	True	False	
+1	False	True	True	False	
+0	False	True	True	False	
+-1	False	True	True	False	
+-2	False	True	True	False	
+-3	False	True	True	False	
+-4	False	True	True	False	
+-5	False	True	True	False	
+-6	False	True	True	False	
+-7	False	True	True	False	
+-8	False	True	True	False	
+-9	False	True	False	True	
+
+
+Evaluate loop state with a Greater Than or Equal To Limit:
+
+Loop Limit Values: Start = 10
+                   Stop  = 1
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+10	True	False	True	False	
+9	False	True	True	False	
+8	False	True	True	False	
+7	False	True	True	False	
+6	False	True	True	False	
+5	False	True	True	False	
+4	False	True	True	False	
+3	False	True	True	False	
+2	False	True	True	False	
+1	False	True	False	True	
+
+
+Evaluate loop state with a Greater Than or Equal To Limit:
+
+Loop Limit Values: Start = 12
+                   Stop  = 0
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+12	True	False	True	False	
+11	False	True	True	False	
+10	False	True	True	False	
+9	False	True	True	False	
+8	False	True	True	False	
+7	False	True	True	False	
+6	False	True	True	False	
+5	False	True	True	False	
+4	False	True	True	False	
+3	False	True	True	False	
+2	False	True	True	False	
+1	False	True	True	False	
+0	False	True	False	True	
+
+
+Evaluate loop state with a Greater Than or Equal To Limit:
+
+Loop Limit Values: Start = 5
+                   Stop  = -10
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+5	True	False	True	False	
+4	False	True	True	False	
+3	False	True	True	False	
+2	False	True	True	False	
+1	False	True	True	False	
+0	False	True	True	False	
+-1	False	True	True	False	
+-2	False	True	True	False	
+-3	False	True	True	False	
+-4	False	True	True	False	
+-5	False	True	True	False	
+-6	False	True	True	False	
+-7	False	True	True	False	
+-8	False	True	True	False	
+-9	False	True	True	False	
+-10	False	True	False	True	
+
+
+Evaluate loop state with a Equal To Limit:
+
+Loop Limit Values: Start = 1
+                   Stop  = 10
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+1	True	False	True	False	
+10	False	True	False	True	
+
+
+Evaluate loop state with a Equal To Limit:
+
+Loop Limit Values: Start = 0
+                   Stop  = 12
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+0	True	False	True	False	
+12	False	True	False	True	
+
+
+Evaluate loop state with a Equal To Limit:
+
+Loop Limit Values: Start = -10
+                   Stop  = 5
+
+Index	First	Next	More	Last
+-----	-----	-----	-----	-----	
+-10	True	False	True	False	
+5	False	True	False	True	
+
+Test # 9 Done - Final Status Code = 0
+DLLServices2TestStand EOJ
+Running time = 00:00:00.7880450
+Press ENTER to exit the program.
+
+Exercising the new special message generators.
+
+    Test 1: Get the ERROR_SUCCESS placeholder from ExceptionLogger.GetSpecifiedReservedErrorMessage         : ERROR_SUCCESS Placeholder
+    Test 2: Get the runtime error message for EvtLog from ExceptionLogger.GetSpecifiedReservedErrorMessage  : A run-time exception forced the program to end prematurely.{0}Pleasr see he (0) event log for a message with event source = (0).
+    Test 3: Get the runtime error message for STDERR from ExceptionLogger.GetSpecifiedReservedErrorMessage  : A run-time exception forced the program to end prematurely.
+Please see the message just above this line.
+    Test 4: Get the runtime error message for STDOUT from ExceptionLogger.GetSpecifiedReservedErrorMessage  : A run-time exception forced the program to end prematurely.
+Please see the message just above this line.
+    Test 5: Get the runtime error message for Program from ExceptionLogger.GetSpecifiedReservedErrorMessage : An internal error has occurred.
+Internal routine GetReservedErrorMessage was called with an invalid ErrorExitOptions value of 40.
+
+Special message generators have been exercised.
+

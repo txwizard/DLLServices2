@@ -1,0 +1,10 @@
+Method Name	Class Tested
+ArrayInfoExercises	ArrayInfo
+ChopChop	StringTricks.Chop
+CSVFileInfoExercises	CSVFileInfo
+DisplayFormatsExercises	DisplayFormats
+FileIOFlagsExercises	FileIOFlags
+ListInfoExercises	ListInfo
+PathPositionsExercises	PathPositions
+SpecialCharactersExercises	SpecialCharacters
+UtilsExercises	Util

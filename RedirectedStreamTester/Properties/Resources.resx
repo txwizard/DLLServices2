@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ARGNAME_STDERR" xml:space="preserve">
+    <value>stderr</value>
+    <comment>This string names the argument that names the file to which the Standard Error stream is redirected.</comment>
+  </data>
+  <data name="ARGNAME_STDIN" xml:space="preserve">
+    <value>stdin</value>
+    <comment>This string names the argument that names the file to which the Standard Input stream is redirected.</comment>
+  </data>
+  <data name="ARGNAME_STDOUT" xml:space="preserve">
+    <value>stdout</value>
+    <comment>This string names the argument that names the file to which the Standard Output stream is redirected.</comment>
+  </data>
+  <data name="ARGVALUE_DEFAULT" xml:space="preserve">
+    <value>Default</value>
+    <comment>Use this string to explicitly declare that the stream is NOT redirected.</comment>
+  </data>
+  <data name="ARGVALUE_REDIRECTED" xml:space="preserve">
+    <value>Redirected</value>
+    <comment>Use this string to explicitly declare that the stream is redirected. This argument may be abbreviated to its first letter. Regardless, the target file name must follow it, separated by a comma.</comment>
+  </data>
+  <data name="BOJ_MSG_TPL" xml:space="preserve">
+    <value>{0}, version {1} BOJ{4}{2} ({3} UTC)</value>
+    <comment>This message is always displayed once, as the program starts.</comment>
+  </data>
+  <data name="EOJ_MSG_TPL" xml:space="preserve">
+    <value>{0} EOJ{2}Running time = {1}{2}Press ENTER to exit the program.</value>
+    <comment>Unlike its sibling, ERRMSG_SUCCESS, this message is displayed.</comment>
+  </data>
+  <data name="ERRMSG_RUNTIME" xml:space="preserve">
+    <value>A run-time exception was caught and reported.</value>
+    <comment>Exit code 1 is reserved for reporting runtime errors.</comment>
+  </data>
+  <data name="ERRMSG_STREAMSTATE_CTOR" xml:space="preserve">
+    <value>A {0} exception was caught in routine {1}, while processing its {2} argument. Details follow.{4}{3}</value>
+    <comment>The StreamState constructor uses this template to construct exception reports about an error encountered while processing its inputs.</comment>
+  </data>
+  <data name="ERRMSG_STREAMSTATE_FORMAT" xml:space="preserve">
+    <value>The state value of argument {0} is invalid.{2}Its value, {1}, contains too many commas.</value>
+    <comment>The StreamState argument must contain exactly zero (degenerate case) or 1 comma.</comment>
+  </data>
+  <data name="ERRMSG_SUCCESS" xml:space="preserve">
+    <value>Processing completed without errors.</value>
+    <comment>This message is never displayed; it holds the spot in the array that is reserved for exit code zero.</comment>
+  </data>
+  <data name="LOGMSG_ACTUAL_STDERR_STATE" xml:space="preserve">
+    <value>    STDERR State, per Command Line = {0}{1}</value>
+  </data>
+  <data name="LOGMSG_ACTUAL_STDIN_STATE" xml:space="preserve">
+    <value>    STDIN State, per Command Line  = {0}{1}</value>
+  </data>
+  <data name="LOGMSG_ACTUAL_STDOUT_STATE" xml:space="preserve">
+    <value>    STDOUT State, per Command Line = {0}{1}</value>
+  </data>
+  <data name="LOGMSG_ASSEMBLY_RUNTIME_VER" xml:space="preserve">
+    <value>{0}    Assembly ImageRuntimeVersion   = {1}{2}</value>
+    <comment>This message identifies the assembly runtime version, and is displayed on the console and recorded in the event log.</comment>
+  </data>
+  <data name="LOGMSG_CWD" xml:space="preserve">
+    <value>    Working Directory              = {0}{0}{1}</value>
+  </data>
+  <data name="LOGMSG_EOJ" xml:space="preserve">
+    <value>{0} EOJ{2}Running time = {1}</value>
+  </data>
+  <data name="LOGMSG_REPORTED_STDERR_STATE" xml:space="preserve">
+    <value>    STDERR State, per .NET BCL     = {0}{1}</value>
+  </data>
+  <data name="LOGMSG_REPORTED_STDIN_STATE" xml:space="preserve">
+    <value>    STDIN State, per .NET BCL      = {0}{1}</value>
+  </data>
+  <data name="LOGMSG_REPORTED_STDOUT_STATE" xml:space="preserve">
+    <value>    STDOUT State, per .NET BCL     = {0}{1}</value>
+  </data>
+  <data name="LOGMSG_RESUMING" xml:space="preserve">
+    <value>{0} is resuming.</value>
+    <comment>Next  comes the final report on the state of the file system, covering the same files listed before execution suspended.</comment>
+  </data>
+  <data name="LOGMSG_RUN_PARAMETERS" xml:space="preserve">
+    <value>Run Parameters:{0}</value>
+    <comment>Format Item 0 gets a linefeed.</comment>
+  </data>
+  <data name="LOGMSG_STATE_OF_AFFAIRS" xml:space="preserve">
+    <value>{1}State of the file system at {0}{1}</value>
+    <comment>Format Item 1 gets a linefeed.</comment>
+  </data>
+  <data name="LOGMSG_STREAM_DEFAULT" xml:space="preserve">
+    <value>Directed to the default stream (the console).</value>
+    <comment>This message appears, as is, in the State comumn.</comment>
+  </data>
+  <data name="LOGMSG_STREAM_FILE_ACCESSED" xml:space="preserve">
+    <value>                 Last Access Time  = {0}{1}</value>
+  </data>
+  <data name="LOGMSG_STREAM_FILE_CREATED" xml:space="preserve">
+    <value>                 Created Time      = {0}{1}</value>
+  </data>
+  <data name="LOGMSG_STREAM_FILE_MODIFIED" xml:space="preserve">
+    <value>                 Last Write Time   = {0}{1}</value>
+  </data>
+  <data name="LOGMSG_STREAM_FILE_PRESENT" xml:space="preserve">
+    <value>                 File Exists       = {0}{1}</value>
+  </data>
+  <data name="LOGMSG_STREAM_FILE_SIZE" xml:space="preserve">
+    <value>                 Reported Size     = {0}{1}</value>
+  </data>
+  <data name="LOGMSG_STREAM_FILE_STATE" xml:space="preserve">
+    <value>    {0,-6} File: Quualified Name   = {1}{2}</value>
+  </data>
+  <data name="LOGMSG_STREAM_REDIRECTED" xml:space="preserve">
+    <value>Redirected to a file</value>
+    <comment>This message appears as is in the event log.</comment>
+  </data>
+  <data name="LOGMSG_STREAM_STATE_UNKNOWN" xml:space="preserve">
+    <value>UNKNOWN</value>
+    <comment>This is a place holder for testing the .NET Framework 4 Client Profile.</comment>
+  </data>
+  <data name="LOGMSG_TASK_STAGE_BOJ" xml:space="preserve">
+    <value>at startup</value>
+    <comment>This message appears in the initial report on the state of the file system.</comment>
+  </data>
+  <data name="LOGMSG_TASK_STAGE_EOJ" xml:space="preserve">
+    <value>at shutdown</value>
+    <comment>This message appears in the final report on the state of the file system.</comment>
+  </data>
+  <data name="LOGMSG_WAIT_FOR_OPERATOR" xml:space="preserve">
+    <value>{0} has completed its initial reports.</value>
+    <comment>This message goes into the event log when MSG_PROMPT_TO_RESUME hits the console.</comment>
+  </data>
+  <data name="MSG_PROMPT_TO_RESUME" xml:space="preserve">
+    <value>{0} has completed its initial reports.{1}Do whatever you need to verify how things stand.{1}Press RETURN to record the final state of affairs.</value>
+    <comment>This prompt displays after the initial state of affairs has been recorded, to inform you that it's time to take stock of your file system, and perform whatever other tests you deem appropriate.</comment>
+  </data>
+  <data name="MSG_STREAM_REDIRECTED" xml:space="preserve">
+    <value>Redirected to {0}</value>
+    <comment>This message appears in the State column for a redirected stream. The file name replaces the token.</comment>
+  </data>
+  <data name="MSG_STREAM_STATE_LABELS" xml:space="preserve">
+    <value>Stream Name and Description                          State</value>
+    <comment>This string labels the columns of the display.</comment>
+  </data>
+  <data name="MSG_STREAM_STATE_RULE1" xml:space="preserve">
+    <value>---------------------------------------------------- --------------------------</value>
+    <comment>This string underlines the labels.</comment>
+  </data>
+  <data name="MSG_STREAM_STATE_RULE2" xml:space="preserve">
+    <value>-------------------------------------------------------------------------------</value>
+    <comment>This ruler appears above and below the table.</comment>
+  </data>
+  <data name="MSG_STREAM_STATE_VALUES" xml:space="preserve">
+    <value>{0,-52} {1}</value>
+    <comment>The table details are fed through this format string.</comment>
+  </data>
+  <data name="MSG_STREAM_STDERR" xml:space="preserve">
+    <value>STDERR (Standard Error), represented by Console.Error</value>
+    <comment>This string is the Stream Name and Description for the Standard Error stream.</comment>
+  </data>
+  <data name="MSG_STREAM_STDIN" xml:space="preserve">
+    <value>STDIN (Standard Input), represented by Console.In</value>
+    <comment>This string is the Stream Name and Description for the Standard Input stream.</comment>
+  </data>
+  <data name="MSG_STREAM_STDOUT" xml:space="preserve">
+    <value>STDOUT (Standard Output), represented by Console.Out</value>
+    <comment>This string is the Stream Name and Description for the Standard Output stream.</comment>
+  </data>
+</root>

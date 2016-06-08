@@ -1,0 +1,6 @@
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe.config
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharpLiteralsParser.csprojResolveAssemblyReference.cache
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharbStringParsingTester.exe
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharbStringParsingTester.pdb

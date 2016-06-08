@@ -1,0 +1,28 @@
+2015/06/25 17:21:56	BOJ C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\scripts\RedirectionDrills.CMD, version 1.00
+2015/06/25 17:21:56	Working Directory = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Redirected_Streams
+2015/06/25 17:21:56	Program File Name = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.exe
+2015/06/25 17:21:56	THE_DRILL: OUT STDERR=D STDIN=D STDOUT=R,STDOUT.TXT
+2015/06/25 17:21:56	THE_DRILL: Task OUT - STDOUT redirected, everything else to console
+2015/06/25 17:21:56	THE_DRILL: Task OUT - STDOUT redirected to STDOUT.TXT
+2015/06/25 17:21:56	THE_DRILL: Task OUT completed = exit code = 0
+2015/06/25 17:22:23	BOJ C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\scripts\RedirectionDrills.CMD, version 1.00
+2015/06/25 17:22:23	Working Directory = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Redirected_Streams
+2015/06/25 17:22:23	Program File Name = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.exe
+2015/06/25 17:22:24	THE_DRILL: OUT STDERR=D STDIN=D STDOUT=R,STDOUT.TXT
+2015/06/25 17:22:24	THE_DRILL: Task OUT - STDOUT redirected, everything else to console
+2015/06/25 17:22:24	THE_DRILL: Task OUT - STDOUT redirected to STDOUT.TXT
+2015/06/25 17:22:24	THE_DRILL: Task OUT completed = exit code = 0
+2015/06/25 17:45:15	BOJ C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\scripts\RedirectionDrills.CMD, version 1.01
+2015/06/25 17:45:15	Working Directory = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Redirected_Streams
+2015/06/25 17:45:15	Program File Name = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.exe
+2015/06/25 17:45:15	THE_DRILL: OUT STDERR=D STDIN=D STDOUT=R,STDOUT.TXT
+2015/06/25 17:45:15	THE_DRILL: Task OUT - STDOUT redirected, everything else to console
+2015/06/25 17:45:16	THE_DRILL: Task OUT - STDOUT redirected to a new STDOUT.TXT - existing report preserved
+2015/06/25 17:45:18	THE_DRILL: Task OUT completed = exit code = 0
+2015/06/25 17:46:50	BOJ C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\scripts\RedirectionDrills.CMD, version 1.01
+2015/06/25 17:46:50	Working Directory = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Redirected_Streams
+2015/06/25 17:46:50	Program File Name = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.exe
+2015/06/25 17:46:50	THE_DRILL: OUT STDERR=D STDIN=D STDOUT=R,STDOUT.TXT
+2015/06/25 17:46:50	THE_DRILL: Task OUT - STDOUT redirected, everything else to console
+2015/06/25 17:46:51	THE_DRILL: Task OUT - STDOUT redirected to a new STDOUT.TXT - existing report preserved
+2015/06/25 17:46:54	THE_DRILL: Task OUT completed = exit code = 0

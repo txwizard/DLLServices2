@@ -1,0 +1,70 @@
+2016/03/29 19:00:14: BOJ DLLServices2TestStand.
+2016/03/29 19:00:23: EOJ DLLServices2TestStand.
+2016/03/29 19:00:56: BOJ DLLServices2TestStand.
+2016/03/29 19:00:56: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:00:56:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:00:57: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:00:57:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:00:59: Entering PauseForPictures method with pfAppendLineFeed = True.
+2016/03/29 19:00:59:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:01: Entering PauseForPictures method with pfAppendLineFeed = True.
+2016/03/29 19:01:01:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:02: Entering PauseForPictures method with pfAppendLineFeed = True.
+2016/03/29 19:01:02:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:04: Entering PauseForPictures method with pfAppendLineFeed = True.
+2016/03/29 19:01:04:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:05: Entering PauseForPictures method with pfAppendLineFeed = True.
+2016/03/29 19:01:05:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:06: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:06:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:09: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:09:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:09: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:09:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:10: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:10:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:11: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:11:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:12: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:12:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:13: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:13:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:13: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:13:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:13: Entering PauseForPictures method with pfAppendLineFeed = True.
+2016/03/29 19:01:13:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:13: Entering PauseForPictures method with pfAppendLineFeed = True.
+2016/03/29 19:01:13:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:14: Entering PauseForPictures method with pfAppendLineFeed = True.
+2016/03/29 19:01:14:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:14: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:14:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:14: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:14:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:14: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:14:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:14: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:14:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:14: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:14:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:15: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:15:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:15: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:15:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:15: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:15:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:15: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:15:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:15: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:15:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:15: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:15:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:15: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:15:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:15: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:15:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:15: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:15:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:15: Entering PauseForPictures method with pfAppendLineFeed = False.
+2016/03/29 19:01:15:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2016/03/29 19:01:16: EOJ DLLServices2TestStand.

@@ -1,0 +1,8 @@
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\KeysEnumLab\KeysEnumLab\bin\Debug\KeysEnumLab.exe.config
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\KeysEnumLab\KeysEnumLab\bin\Debug\KeysEnumLab.exe
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\KeysEnumLab\KeysEnumLab\bin\Debug\KeysEnumLab.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\KeysEnumLab\KeysEnumLab\obj\Debug\KeysEnumLab.csprojResolveAssemblyReference.cache
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\KeysEnumLab\KeysEnumLab\obj\Debug\KeysEnumLab.exe
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\KeysEnumLab\KeysEnumLab\obj\Debug\KeysEnumLab.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\KeysEnumLab\KeysEnumLab\obj\Debug\KeysEnumLab.Properties.Resources.resources
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\KeysEnumLab\KeysEnumLab\obj\Debug\KeysEnumLab.csproj.GenerateResource.Cache

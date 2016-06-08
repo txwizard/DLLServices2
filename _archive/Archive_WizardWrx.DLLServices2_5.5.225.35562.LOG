@@ -1,0 +1,277 @@
+            Backup of WizardWrx.DLLServices2, version  5.5.225.35562
+
+================================================================================
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\DAVE>makezip_dag "C:\Users\Public\Documents\_Backups\program_source\Visual_Studio_2013\WizardWrx.DLLServices2_5_5_225_35562.ZIPX" "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\*"
+
+---------------------------------------------------------------------
+makezip_dag, version 9.00 Begin
+
+Archive Name   = "C:\Users\Public\Documents\_Backups\program_source\Visual_Studio_2013\WizardWrx.DLLServices2_5_5_225_35562.ZIPX"
+Input Filespec = "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\*"
+---------------------------------------------------------------------
+
+
+---------------------------------------------------------------------
+Creating a FULL backup
+---------------------------------------------------------------------
+
+
+---------------------------------------------------------------------
+MAKEAZIP     = DATE2FN
+DATE2FN      = Y
+COMPUTERNAME = ENIGMA
+---------------------------------------------------------------------
+
+
+---------------------------------------------------------------------
+Using WinZip Command Line Add-on in directory C:\Program Files\WinZip
+---------------------------------------------------------------------
+
+WinZip(R) Command Line Support Add-On Version 4.0 64-bit (Build 10562)
+Copyright (c) 1991-2013 WinZip International LLC - All Rights Reserved
+
+Command line: "C:\Program Files\WinZip\WZZIP.EXE"  -^ -a+ -ez -whs -o -p -r -yx -sxxxxxxxx -ycAES256 "C:\Users\Public\Documents\_Backups\program_source\Visual_Studio_2013\WizardWrx.DLLServices2_5_5_225_35562_ENIGMA.ZIPX" "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\*"
+
+using encryption AES-256
+
+
+Adding _archive\
+Adding _archive\Archive_DLLServices2.CMD
+Adding _archive\Archive_WizardWrx.DLLServices_5.0.77.1176.LOG
+Adding _archive\Archive_WizardWrx.DLLServices_5.1.141.35301.LOG
+Adding _archive\Archive_WizardWrx.DLLServices_5.1.153.41364.LOG
+Adding _archive\Archive_WizardWrx.DLLServices_5.1.159.35985.LOG
+Adding _archive\Archive_WizardWrx.DLLServices_5.3.162.1712.LOG
+Adding _archive\Old_Notes_20150608_213026.ZIPX
+Adding _archive\Visual_Studio_2010_Source_Backups.lnk
+Adding _archive\WizardWrx.DLLServices2.dll.config_20140622_170304.ZIPX
+Adding _archive\WizardWrx.DLLServices2.dll.config_ENIGMA_20150615_175944.ZIPX
+Adding _archive\WizardWrx.DLLServices2_5_3_162_1712.7z.lnk
+Adding _archive\WizardWrx.DLLServices2_5_4_174_18276.ZIPX.lnk
+Adding _NOTES\
+Adding _NOTES\ApplicationHelpers3_Program_20150606_223541.CS
+Adding _NOTES\BitwiseOperatorsCS.ZIP
+Adding _NOTES\Central_Standard_Time_REG_BINARY.REG
+Adding _NOTES\DefaultProductID.REG
+Adding _NOTES\Development_Notes_5.3.TXT
+Adding _NOTES\Development_Notes_5.4.TXT
+Adding _NOTES\Development_Notes_5.5.TXT
+Adding _NOTES\DLLServices2TestStand_Debug_5.5_20150615_133209.LOG
+Adding _NOTES\DLLServices2TestStand_Debug_5.5_20150615_172819.LOG
+Adding _NOTES\Full_Color_Output_Demonstration_v5.4.DOCX
+Adding _NOTES\Full_Color_Output_Demonstration_v5.5.DOCX
+Adding _NOTES\HotStart_REG_QWORD.REG
+Adding _NOTES\Inventory_WizardWrx_DLLServices2_dll_20141013_201430.CSV
+Adding _NOTES\MassUpdate_20141014_020654.ZIPX
+Adding _NOTES\Registry_Value_6_EXPAND.REG
+Adding _NOTES\StructuredQuery_REG_QWORD.REG
+Adding _NOTES\UCResult_ArrayInfo_Classes_20150608_212828.TXT
+Adding _NOTES\UCResult_CSVFileInfo_Classes_20150609_005000.TXT
+Adding _NOTES\UCResult_DisplayFormats_Classes_20150609_010041.TXT
+Adding _NOTES\UCResult_ListInfo_Classes_20150608_225348.TXT
+Adding _NOTES\UCResult_SpecialCharacters_Classes_20150608_225721.TXT
+Adding DLLServices2.SLN
+Adding DLLServices2.suo
+Adding DLLServices2.v12.suo
+Adding DLLServices2\
+Adding DLLServices2\ArrayInfo.cs
+Adding DLLServices2\AssemblyLocatorBase.cs
+Adding DLLServices2\bin\
+Adding DLLServices2\bin\Debug\
+Adding DLLServices2\bin\Debug\P6CUtilLib1.dll
+Adding DLLServices2\bin\Debug\WizardWrx.DateMath.dll
+Adding DLLServices2\bin\Debug\WizardWrx.DateMath.pdb
+Adding DLLServices2\bin\Debug\WizardWrx.DateMath.xml
+Adding DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll
+Adding DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll.config
+Adding DLLServices2\bin\Debug\WizardWrx.DLLServices2.pdb
+Adding DLLServices2\bin\Debug\WizardWrx.SharedUtl2.dll
+Adding DLLServices2\bin\Debug\WizardWrx.SharedUtl2.pdb
+Adding DLLServices2\bin\Debug\WizardWrx.SharedUtl2.xml
+Adding DLLServices2\bin\Release\
+Adding DLLServices2\bin\Release\P6CUtilLib1.dll
+Adding DLLServices2\bin\Release\WizardWrx.DateMath.dll
+Adding DLLServices2\bin\Release\WizardWrx.DateMath.pdb
+Adding DLLServices2\bin\Release\WizardWrx.DateMath.xml
+Adding DLLServices2\bin\Release\WizardWrx.DLLServices2.dll
+Adding DLLServices2\bin\Release\WizardWrx.DLLServices2.dll.config
+Adding DLLServices2\bin\Release\WizardWrx.DLLServices2.pdb
+Adding DLLServices2\bin\Release\WizardWrx.DLLServices2.XML
+Adding DLLServices2\bin\Release\WizardWrx.SharedUtl2.dll
+Adding DLLServices2\bin\Release\WizardWrx.SharedUtl2.pdb
+Adding DLLServices2\bin\Release\WizardWrx.SharedUtl2.xml
+Adding DLLServices2\BuildHistory.LOG
+Adding DLLServices2\CSVFileInfo.cs
+Adding DLLServices2\DisplayFormats.cs
+Adding DLLServices2\DLLServices2.csproj
+Adding DLLServices2\ErrorMessagesInColor.cs
+Adding DLLServices2\ExceptionLogger.cs
+Adding DLLServices2\FileIOFlags.cs
+Adding DLLServices2\IP6CUtilLib1.cs
+Adding DLLServices2\ListInfo.cs
+Adding DLLServices2\Logic.cs
+Adding DLLServices2\MessageInColor.cs
+Adding DLLServices2\obj\
+Adding DLLServices2\obj\Debug\
+Adding DLLServices2\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+Adding DLLServices2\obj\Debug\DLLServices2.csproj.FileListAbsolute.txt
+Adding DLLServices2\obj\Debug\DLLServices2.csproj.GenerateResource.Cache
+Adding DLLServices2\obj\Debug\DLLServices2.csprojResolveAssemblyReference.cache
+Adding DLLServices2\obj\Debug\TempPE\
+Adding DLLServices2\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+Adding DLLServices2\obj\Debug\WizardWrx.DLLServices2.dll
+Adding DLLServices2\obj\Debug\WizardWrx.DLLServices2.pdb
+Adding DLLServices2\obj\Debug\WizardWrx.DLLServices2.Properties.Resources.resources
+Adding DLLServices2\obj\Release\
+Adding DLLServices2\obj\Release\DesignTimeResolveAssemblyReferences.cache
+Adding DLLServices2\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache
+Adding DLLServices2\obj\Release\DLLServices2.csproj.FileListAbsolute.txt
+Adding DLLServices2\obj\Release\DLLServices2.csproj.GenerateResource.Cache
+Adding DLLServices2\obj\Release\TempPE\
+Adding DLLServices2\obj\Release\TempPE\Properties.Resources.Designer.cs.dll
+Adding DLLServices2\obj\Release\WizardWrx.DLLServices2.dll
+Adding DLLServices2\obj\Release\WizardWrx.DLLServices2.pdb
+Adding DLLServices2\obj\Release\WizardWrx.DLLServices2.Properties.Resources.resources
+Adding DLLServices2\P6CUtilLib1.dll
+Adding DLLServices2\PathPositions.cs
+Adding DLLServices2\Properties\
+Adding DLLServices2\Properties\AssemblyInfo.cs
+Adding DLLServices2\Properties\Resources.Designer.cs
+Adding DLLServices2\Properties\Resources.resx
+Adding DLLServices2\PropertyDefaults.cs
+Adding DLLServices2\RegistryValues.cs
+Adding DLLServices2\SpecialCharacters.cs
+Adding DLLServices2\StateManager.cs
+Adding DLLServices2\SysDateFormatters.cs
+Adding DLLServices2\TimeDisplayFormatter.cs
+Adding DLLServices2\Util.cs
+Adding DLLServices2\WizardWrx.DLLServices2.dll.config
+Adding DLLServices2TestStand\
+Adding DLLServices2TestStand\app.config
+Adding DLLServices2TestStand\bin\
+Adding DLLServices2TestStand\bin\Debug\
+Adding DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+Adding DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe.config
+Adding DLLServices2TestStand\bin\Debug\DLLServices2TestStand.pdb
+Adding DLLServices2TestStand\bin\Debug\DLLServices2TestStand.vshost.exe
+Adding DLLServices2TestStand\bin\Debug\DLLServices2TestStand.vshost.exe.config
+Adding DLLServices2TestStand\bin\Debug\DLLServices2TestStand.vshost.exe.manifest
+Adding DLLServices2TestStand\bin\Debug\P6CUtilLib1.dll
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.ApplicationHelpers2.dll
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.ApplicationHelpers2.pdb
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.ApplicationHelpers2.xml
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.ConsoleAppAids2.dll
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.ConsoleAppAids2.pdb
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.ConsoleAppAids2.xml
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.DateMath.dll
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.DateMath.pdb
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.DateMath.xml
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.dll
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.dll.config
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.pdb
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.SharedUtl2.dll
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.SharedUtl2.pdb
+Adding DLLServices2TestStand\bin\Debug\WizardWrx.SharedUtl2.xml
+Adding DLLServices2TestStand\bin\Release\
+Adding DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe
+Adding DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe.config
+Adding DLLServices2TestStand\bin\Release\DLLServices2TestStand.pdb
+Adding DLLServices2TestStand\bin\Release\DLLServices2TestStand.vshost.exe
+Adding DLLServices2TestStand\bin\Release\DLLServices2TestStand.vshost.exe.config
+Adding DLLServices2TestStand\bin\Release\DLLServices2TestStand.vshost.exe.manifest
+Adding DLLServices2TestStand\bin\Release\P6CUtilLib1.dll
+Adding DLLServices2TestStand\bin\Release\WizardWrx.ApplicationHelpers2.dll
+Adding DLLServices2TestStand\bin\Release\WizardWrx.ApplicationHelpers2.pdb
+Adding DLLServices2TestStand\bin\Release\WizardWrx.ApplicationHelpers2.xml
+Adding DLLServices2TestStand\bin\Release\WizardWrx.ConsoleAppAids2.dll
+Adding DLLServices2TestStand\bin\Release\WizardWrx.ConsoleAppAids2.pdb
+Adding DLLServices2TestStand\bin\Release\WizardWrx.ConsoleAppAids2.xml
+Adding DLLServices2TestStand\bin\Release\WizardWrx.DateMath.dll
+Adding DLLServices2TestStand\bin\Release\WizardWrx.DateMath.pdb
+Adding DLLServices2TestStand\bin\Release\WizardWrx.DateMath.xml
+Adding DLLServices2TestStand\bin\Release\WizardWrx.DLLServices2.dll
+Adding DLLServices2TestStand\bin\Release\WizardWrx.DLLServices2.dll.config
+Adding DLLServices2TestStand\bin\Release\WizardWrx.DLLServices2.pdb
+Adding DLLServices2TestStand\bin\Release\WizardWrx.DLLServices2.xml
+Adding DLLServices2TestStand\bin\Release\WizardWrx.SharedUtl2.dll
+Adding DLLServices2TestStand\bin\Release\WizardWrx.SharedUtl2.pdb
+Adding DLLServices2TestStand\bin\Release\WizardWrx.SharedUtl2.xml
+Adding DLLServices2TestStand\BuildHistory.LOG
+Adding DLLServices2TestStand\ClassTestMap.TXT
+Adding DLLServices2TestStand\DLLServices2TestStand.csproj
+Adding DLLServices2TestStand\NewClassTests_20140914.cs
+Adding DLLServices2TestStand\obj\
+Adding DLLServices2TestStand\obj\x86\
+Adding DLLServices2TestStand\obj\x86\Debug\
+Adding DLLServices2TestStand\obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache
+Adding DLLServices2TestStand\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+Adding DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.csproj.FileListAbsolute.txt
+Adding DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.csproj.GenerateResource.Cache
+Adding DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.csprojResolveAssemblyReference.cache
+Adding DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.exe
+Adding DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.pdb
+Adding DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources
+Adding DLLServices2TestStand\obj\x86\Debug\TempPE\
+Adding DLLServices2TestStand\obj\x86\Debug\TempPE\Properties.Resources.Designer.cs.dll
+Adding DLLServices2TestStand\obj\x86\Release\
+Adding DLLServices2TestStand\obj\x86\Release\DesignTimeResolveAssemblyReferences.cache
+Adding DLLServices2TestStand\obj\x86\Release\DesignTimeResolveAssemblyReferencesInput.cache
+Adding DLLServices2TestStand\obj\x86\Release\DLLServices2TestStand.csproj.FileListAbsolute.txt
+Adding DLLServices2TestStand\obj\x86\Release\DLLServices2TestStand.csproj.GenerateResource.Cache
+Adding DLLServices2TestStand\obj\x86\Release\DLLServices2TestStand.csprojResolveAssemblyReference.cache
+Adding DLLServices2TestStand\obj\x86\Release\DLLServices2TestStand.exe
+Adding DLLServices2TestStand\obj\x86\Release\DLLServices2TestStand.pdb
+Adding DLLServices2TestStand\obj\x86\Release\DLLServices2TestStand.Properties.Resources.resources
+Adding DLLServices2TestStand\obj\x86\Release\TempPE\
+Adding DLLServices2TestStand\obj\x86\Release\TempPE\Properties.Resources.Designer.cs.dll
+Adding DLLServices2TestStand\Program.cs
+Adding DLLServices2TestStand\Properties\
+Adding DLLServices2TestStand\Properties\AssemblyInfo.cs
+Adding DLLServices2TestStand\Properties\Resources.Designer.cs
+Adding DLLServices2TestStand\Properties\Resources.resx
+Adding DLLServices2TestStand\TestStand\
+Adding DLLServices2TestStand\WW_Icon1.ico
+Adding LockVisualStudio20xxProperties.CMD.lnk
+Adding UnlockVisualStudio20xxProperties.CMD.lnk
+Total bytes=17127821, Compressed=5959097 -> 65 percent savings.
+
+Copying Zip file "C:\Users\Public\Documents\_Backups\program_source\Visual_Studio_2013\WizardWrx.DLLServices2_5_5_225_35562_ENIGMA.ZIPX".
+
+Date2FN, version 1.3.72.500
+Begin @ 2015-06-15 20:57:19.309 (2015-06-16 01:57:19.309 UTC)
+
+Original File Name       = C:\Users\Public\Documents\_Backups\program_source\Visual_Studio_2013\WizardWrx.DLLServices2_5_5_225_35562_ENIGMA.ZIPX
+Time Stamp Mask          = YYYYMMDD_hhmmss
+Flag File As Read Only   = True
+Directory Recursion Flag = False
+UQ Filespec Flag         = False
+New File Name            = C:\Users\Public\Documents\_Backups\program_source\Visual_Studio_2013\WizardWrx.DLLServices2_5_5_225_35562_ENIGMA_20150615_205146.ZIPX
+
+Date2FN End
+2015-06-15 20:57:19.418 (2015-06-16 01:57:19.418 UTC)
+Elapsed time: 0:00:00:00.109
+
+---------------------------------------------------------------------
+MAKEZIP_DAG.CMD Done!
+---------------------------------------------------------------------
+
+WWSleep version 3, 0, 5, 0
+Mon 15 Jun 2015 20:57:19 Local
+Stop on CR
+Stop on CTRL-C
+Pausing for up to 3 seconds.
+
+To interrupt the countdown and resume with the next step,
+press the Return (Enter) key or CTRL-C.
+Custom control event handler installed
+1 seconds remaining
+Exiting after waiting for 3 seconds
+
+Done!
+
+
+C:\Users\DAVE>

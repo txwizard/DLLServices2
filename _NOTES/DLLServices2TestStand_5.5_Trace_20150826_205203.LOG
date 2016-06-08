@@ -1,0 +1,647 @@
+2015/07/10 00:55:19: BOJ DLLServices2TestStand.
+2015/07/10 01:00:23: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:00:23: Entering IsStdOutRedirected method.
+2015/07/10 01:00:23:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:00:23:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:00:23:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:04:58: BOJ DLLServices2TestStand.
+2015/07/10 01:05:27: BOJ DLLServices2TestStand.
+2015/07/10 01:06:26: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:06:26: Entering IsStdOutRedirected method.
+2015/07/10 01:06:26:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:06:26:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:06:26:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:19:14: BOJ DLLServices2TestStand.
+2015/07/10 01:20:10: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:20:10: Entering IsStdOutRedirected method.
+2015/07/10 01:20:10:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:20:10:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:20:10:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:32:17: BOJ DLLServices2TestStand.
+2015/07/10 01:32:17: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:32:17: Entering IsStdOutRedirected method.
+2015/07/10 01:32:17:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:32:17:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:32:17:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:32:52: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:32:52: Entering IsStdOutRedirected method.
+2015/07/10 01:32:52:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:32:52:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:32:52:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:33:13: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:33:13: Entering IsStdOutRedirected method.
+2015/07/10 01:33:13:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:33:13:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:33:13:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:33:24: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:33:24: Entering IsStdOutRedirected method.
+2015/07/10 01:33:24:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:33:24:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:33:24:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:33:47: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:33:47: Entering IsStdOutRedirected method.
+2015/07/10 01:33:47:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:33:47:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:33:47:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:33:56: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:33:56: Entering IsStdOutRedirected method.
+2015/07/10 01:33:56:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:33:56:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:33:56:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:34:04: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:34:04: Entering IsStdOutRedirected method.
+2015/07/10 01:34:04:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:34:04:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:34:04:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:34:14: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:34:14: Entering IsStdOutRedirected method.
+2015/07/10 01:34:14:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:34:14:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:34:14:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:34:22: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:34:22: Entering IsStdOutRedirected method.
+2015/07/10 01:34:22:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:34:22:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:34:22:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:34:31: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:34:31: Entering IsStdOutRedirected method.
+2015/07/10 01:34:31:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:34:31:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:34:31:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:34:39: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:34:39: Entering IsStdOutRedirected method.
+2015/07/10 01:34:39:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:34:39:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:34:39:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:34:48: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:34:48: Entering IsStdOutRedirected method.
+2015/07/10 01:34:48:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:34:48:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:34:48:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:34:55: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:34:55: Entering IsStdOutRedirected method.
+2015/07/10 01:34:55:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:34:55:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:34:55:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:02: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:35:02: Entering IsStdOutRedirected method.
+2015/07/10 01:35:02:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:02:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:02:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:10: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:35:10: Entering IsStdOutRedirected method.
+2015/07/10 01:35:10:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:10:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:10:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:16: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:35:16: Entering IsStdOutRedirected method.
+2015/07/10 01:35:16:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:16:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:16:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:23: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:23: Entering IsStdOutRedirected method.
+2015/07/10 01:35:23:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:23:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:23:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:29: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:29: Entering IsStdOutRedirected method.
+2015/07/10 01:35:29:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:29:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:29:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:36: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:36: Entering IsStdOutRedirected method.
+2015/07/10 01:35:36:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:36:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:36:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:42: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:42: Entering IsStdOutRedirected method.
+2015/07/10 01:35:42:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:42:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:42:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:42: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:42: Entering IsStdOutRedirected method.
+2015/07/10 01:35:42:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:42:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:42:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:44: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:44: Entering IsStdOutRedirected method.
+2015/07/10 01:35:44:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:44:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:44:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:44: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:44: Entering IsStdOutRedirected method.
+2015/07/10 01:35:44:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:44:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:44:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:45: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:45: Entering IsStdOutRedirected method.
+2015/07/10 01:35:45:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:45:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:45:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:45: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:45: Entering IsStdOutRedirected method.
+2015/07/10 01:35:45:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:45:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:45:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:45: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:45: Entering IsStdOutRedirected method.
+2015/07/10 01:35:45:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:45:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:45:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:46: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:46: Entering IsStdOutRedirected method.
+2015/07/10 01:35:46:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:46:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:46:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:46: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:46: Entering IsStdOutRedirected method.
+2015/07/10 01:35:46:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:46:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:46:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:46: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:46: Entering IsStdOutRedirected method.
+2015/07/10 01:35:46:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:46:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:46:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:47: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:47: Entering IsStdOutRedirected method.
+2015/07/10 01:35:47:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:47:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:47:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:48: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:35:48: Entering IsStdOutRedirected method.
+2015/07/10 01:35:48:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:35:48:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:35:48:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:35:48: EOJ DLLServices2TestStand.
+2015/07/10 01:41:51: BOJ DLLServices2TestStand.
+2015/07/10 01:41:51: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:41:51: Entering IsStdOutRedirected method.
+2015/07/10 01:41:51:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:41:51:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:41:51:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:41:55: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:41:55: Entering IsStdOutRedirected method.
+2015/07/10 01:41:55:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:41:55:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:41:55:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:41:56: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:41:56: Entering IsStdOutRedirected method.
+2015/07/10 01:41:56:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:41:56:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:41:56:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:41:56: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:41:56: Entering IsStdOutRedirected method.
+2015/07/10 01:41:56:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:41:56:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:41:56:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:41:58: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:41:58: Entering IsStdOutRedirected method.
+2015/07/10 01:41:58:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:41:58:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:41:58:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:41:58: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:41:58: Entering IsStdOutRedirected method.
+2015/07/10 01:41:58:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:41:58:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:41:58:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:41:58: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:41:58: Entering IsStdOutRedirected method.
+2015/07/10 01:41:58:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:41:58:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:41:58:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:41:59: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:41:59: Entering IsStdOutRedirected method.
+2015/07/10 01:41:59:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:41:59:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:41:59:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:41:59: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:41:59: Entering IsStdOutRedirected method.
+2015/07/10 01:41:59:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:41:59:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:41:59:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:41:59: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:41:59: Entering IsStdOutRedirected method.
+2015/07/10 01:41:59:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:41:59:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:41:59:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:41:59: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:41:59: Entering IsStdOutRedirected method.
+2015/07/10 01:41:59:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:41:59:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:41:59:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:00: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:00: Entering IsStdOutRedirected method.
+2015/07/10 01:42:00:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:00:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:00:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:00: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:00: Entering IsStdOutRedirected method.
+2015/07/10 01:42:00:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:00:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:00:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:00: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:42:00: Entering IsStdOutRedirected method.
+2015/07/10 01:42:00:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:00:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:00:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:00: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:42:00: Entering IsStdOutRedirected method.
+2015/07/10 01:42:00:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:00:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:00:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:00: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/07/10 01:42:00: Entering IsStdOutRedirected method.
+2015/07/10 01:42:00:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:00:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:00:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:01: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:01: Entering IsStdOutRedirected method.
+2015/07/10 01:42:01:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:01:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:01:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:01: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:01: Entering IsStdOutRedirected method.
+2015/07/10 01:42:01:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:01:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:01:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:01: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:01: Entering IsStdOutRedirected method.
+2015/07/10 01:42:01:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:01:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:01:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:01: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:01: Entering IsStdOutRedirected method.
+2015/07/10 01:42:01:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:01:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:01:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:02: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:02: Entering IsStdOutRedirected method.
+2015/07/10 01:42:02:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:02:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:02:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:02: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:02: Entering IsStdOutRedirected method.
+2015/07/10 01:42:02:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:02:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:02:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:02: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:02: Entering IsStdOutRedirected method.
+2015/07/10 01:42:02:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:02:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:02:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:03: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:03: Entering IsStdOutRedirected method.
+2015/07/10 01:42:03:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:03:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:03:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:03: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:03: Entering IsStdOutRedirected method.
+2015/07/10 01:42:03:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:03:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:03:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:03: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:03: Entering IsStdOutRedirected method.
+2015/07/10 01:42:03:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:03:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:03:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:04: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:04: Entering IsStdOutRedirected method.
+2015/07/10 01:42:04:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:04:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:04:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:04: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:04: Entering IsStdOutRedirected method.
+2015/07/10 01:42:04:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:04:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:04:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:04: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:04: Entering IsStdOutRedirected method.
+2015/07/10 01:42:04:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:04:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:04:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:05: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:05: Entering IsStdOutRedirected method.
+2015/07/10 01:42:05:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:05:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:05:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:05: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/07/10 01:42:05: Entering IsStdOutRedirected method.
+2015/07/10 01:42:05:      IsStdOutRedirected: ThisProcess object initialized
+2015/07/10 01:42:05:      IsStdOutRedirected: InvalidOperationException
+2015/07/10 01:42:05:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/07/10 01:42:05: EOJ DLLServices2TestStand.
+2015/08/26 20:42:24: BOJ DLLServices2TestStand.
+2015/08/26 20:42:25: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:42:25: Entering IsStdOutRedirected method.
+2015/08/26 20:42:25:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:42:25:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:42:25:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:42:57: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:42:57: Entering IsStdOutRedirected method.
+2015/08/26 20:42:57:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:42:57:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:42:57:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:43:09: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:43:09: Entering IsStdOutRedirected method.
+2015/08/26 20:43:09:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:43:09:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:43:09:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:43:17: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:43:17: Entering IsStdOutRedirected method.
+2015/08/26 20:43:17:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:43:17:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:43:17:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:43:23: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:43:23: Entering IsStdOutRedirected method.
+2015/08/26 20:43:23:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:43:23:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:43:23:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:43:30: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:43:30: Entering IsStdOutRedirected method.
+2015/08/26 20:43:30:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:43:30:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:43:30:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:43:37: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:43:37: Entering IsStdOutRedirected method.
+2015/08/26 20:43:37:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:43:37:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:43:37:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:43:43: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:43:43: Entering IsStdOutRedirected method.
+2015/08/26 20:43:43:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:43:43:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:43:43:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:44:23: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:44:23: Entering IsStdOutRedirected method.
+2015/08/26 20:44:23:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:44:23:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:44:23:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:44:40: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:44:40: Entering IsStdOutRedirected method.
+2015/08/26 20:44:40:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:44:40:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:44:40:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:45:00: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:45:00: Entering IsStdOutRedirected method.
+2015/08/26 20:45:00:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:45:00:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:45:00:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:45:09: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:45:09: Entering IsStdOutRedirected method.
+2015/08/26 20:45:09:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:45:09:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:45:09:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:45:17: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:45:17: Entering IsStdOutRedirected method.
+2015/08/26 20:45:17:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:45:17:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:45:17:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:45:24: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:45:24: Entering IsStdOutRedirected method.
+2015/08/26 20:45:24:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:45:24:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:45:24:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:45:42: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:45:42: Entering IsStdOutRedirected method.
+2015/08/26 20:45:42:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:45:42:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:45:42:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:45:57: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:45:57: Entering IsStdOutRedirected method.
+2015/08/26 20:45:57:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:45:57:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:45:57:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:46:23: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:46:23: Entering IsStdOutRedirected method.
+2015/08/26 20:46:23:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:46:23:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:46:23:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:46:43: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:46:43: Entering IsStdOutRedirected method.
+2015/08/26 20:46:43:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:46:43:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:46:43:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:46:50: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:46:50: Entering IsStdOutRedirected method.
+2015/08/26 20:46:50:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:46:50:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:46:50:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:46:56: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:46:56: Entering IsStdOutRedirected method.
+2015/08/26 20:46:56:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:46:56:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:46:56:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:47:02: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:47:02: Entering IsStdOutRedirected method.
+2015/08/26 20:47:02:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:47:02:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:47:02:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:47:09: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:47:09: Entering IsStdOutRedirected method.
+2015/08/26 20:47:09:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:47:09:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:47:09:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:47:15: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:47:15: Entering IsStdOutRedirected method.
+2015/08/26 20:47:15:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:47:15:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:47:15:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:47:22: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:47:22: Entering IsStdOutRedirected method.
+2015/08/26 20:47:22:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:47:22:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:47:22:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:47:28: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:47:28: Entering IsStdOutRedirected method.
+2015/08/26 20:47:28:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:47:28:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:47:28:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:47:34: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:47:34: Entering IsStdOutRedirected method.
+2015/08/26 20:47:34:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:47:34:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:47:34:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:47:41: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:47:41: Entering IsStdOutRedirected method.
+2015/08/26 20:47:41:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:47:41:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:47:41:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:47:47: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:47:47: Entering IsStdOutRedirected method.
+2015/08/26 20:47:47:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:47:47:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:47:47:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:47:53: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:47:53: Entering IsStdOutRedirected method.
+2015/08/26 20:47:53:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:47:53:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:47:53:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:48:00: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:48:00: Entering IsStdOutRedirected method.
+2015/08/26 20:48:00:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:48:00:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:48:00:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:48:06: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:48:06: Entering IsStdOutRedirected method.
+2015/08/26 20:48:06:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:48:06:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:48:06:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:48:14: EOJ DLLServices2TestStand.
+2015/08/26 20:50:08: BOJ DLLServices2TestStand.
+2015/08/26 20:50:08: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:50:08: Entering IsStdOutRedirected method.
+2015/08/26 20:50:08:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:14:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:45:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:49: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:51:49: Entering IsStdOutRedirected method.
+2015/08/26 20:51:49:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:49:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:49:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:49: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:51:49: Entering IsStdOutRedirected method.
+2015/08/26 20:51:49:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:49:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:49:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:50: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:51:50: Entering IsStdOutRedirected method.
+2015/08/26 20:51:50:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:50:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:50:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:51: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:51:51: Entering IsStdOutRedirected method.
+2015/08/26 20:51:51:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:51:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:51:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:51: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:51:51: Entering IsStdOutRedirected method.
+2015/08/26 20:51:51:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:51:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:51:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:52: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:52: Entering IsStdOutRedirected method.
+2015/08/26 20:51:52:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:52:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:52:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:52: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:52: Entering IsStdOutRedirected method.
+2015/08/26 20:51:52:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:52:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:52:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:53: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:53: Entering IsStdOutRedirected method.
+2015/08/26 20:51:53:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:53:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:53:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:54: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:54: Entering IsStdOutRedirected method.
+2015/08/26 20:51:54:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:54:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:54:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:54: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:54: Entering IsStdOutRedirected method.
+2015/08/26 20:51:54:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:54:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:54:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:55: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:55: Entering IsStdOutRedirected method.
+2015/08/26 20:51:55:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:55:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:55:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:55: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:55: Entering IsStdOutRedirected method.
+2015/08/26 20:51:55:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:55:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:55:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:56: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:51:56: Entering IsStdOutRedirected method.
+2015/08/26 20:51:56:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:56:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:56:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:56: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:51:56: Entering IsStdOutRedirected method.
+2015/08/26 20:51:56:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:56:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:56:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:56: Entering PauseForPictures method with pfAppendLineFeed = True.
+2015/08/26 20:51:56: Entering IsStdOutRedirected method.
+2015/08/26 20:51:56:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:56:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:56:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:57: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:57: Entering IsStdOutRedirected method.
+2015/08/26 20:51:57:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:57:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:57:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:57: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:57: Entering IsStdOutRedirected method.
+2015/08/26 20:51:57:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:57:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:57:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:58: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:58: Entering IsStdOutRedirected method.
+2015/08/26 20:51:58:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:58:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:58:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:58: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:58: Entering IsStdOutRedirected method.
+2015/08/26 20:51:58:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:58:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:58:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:58: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:58: Entering IsStdOutRedirected method.
+2015/08/26 20:51:58:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:58:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:58:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:59: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:59: Entering IsStdOutRedirected method.
+2015/08/26 20:51:59:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:59:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:59:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:59: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:59: Entering IsStdOutRedirected method.
+2015/08/26 20:51:59:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:59:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:59:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:51:59: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:51:59: Entering IsStdOutRedirected method.
+2015/08/26 20:51:59:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:51:59:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:51:59:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:52:00: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:52:00: Entering IsStdOutRedirected method.
+2015/08/26 20:52:00:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:52:00:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:52:00:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:52:00: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:52:00: Entering IsStdOutRedirected method.
+2015/08/26 20:52:00:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:52:00:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:52:00:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:52:01: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:52:01: Entering IsStdOutRedirected method.
+2015/08/26 20:52:01:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:52:01:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:52:01:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:52:01: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:52:01: Entering IsStdOutRedirected method.
+2015/08/26 20:52:01:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:52:01:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:52:01:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:52:01: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:52:01: Entering IsStdOutRedirected method.
+2015/08/26 20:52:01:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:52:01:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:52:01:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:52:02: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:52:02: Entering IsStdOutRedirected method.
+2015/08/26 20:52:02:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:52:02:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:52:02:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:52:02: Entering PauseForPictures method with pfAppendLineFeed = False.
+2015/08/26 20:52:02: Entering IsStdOutRedirected method.
+2015/08/26 20:52:02:      IsStdOutRedirected: ThisProcess object initialized
+2015/08/26 20:52:02:      IsStdOutRedirected: InvalidOperationException
+2015/08/26 20:52:02:      PauseForPictures: IsStdOutRedirected returned FALSE.
+2015/08/26 20:52:03: EOJ DLLServices2TestStand.

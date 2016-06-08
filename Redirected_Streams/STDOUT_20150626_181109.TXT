@@ -1,0 +1,11 @@
+BOJ StandardHandlesLab
+
+CRT ErrorMode: Original  = 0x00000000 (0 decimal)
+               New Value = 0x00000003 (3 decimal)
+
+The standard input (STDIN) handle is attached to the console.
+The standard output (STDOUT) handle is redirected to a file.
+The standard error (STDERR) handle is attached to the console.
+
+EOJ StandardHandlesLab
+

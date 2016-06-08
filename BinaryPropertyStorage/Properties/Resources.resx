@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ERRMSG_TABSTOPLEFT_VALUE_DETAIL" xml:space="preserve">
+    <value>The TabStopJustLeft new property value must be a valid TabIndex (greater than zero).</value>
+    <comment>Message value of ArgumentOutOfRange exception thrown by TabStopJustLeft property setter on TabStopIndex</comment>
+  </data>
+  <data name="ERRMSG_TABSTOPLEFT_VALUE_NAME" xml:space="preserve">
+    <value>TabStopJustLeft new property value</value>
+    <comment>ParamName value of ArgumentOutOfRange exception thrown by TabStopJustLeft property setter on TabStopIndex</comment>
+  </data>
+  <data name="FRMLBL_ENC_CBO_ASCII" xml:space="preserve">
+    <value>ASCII</value>
+    <comment>Text for encoding item in list box for ASCII encoding</comment>
+  </data>
+  <data name="FRMLBL_ENC_CBO_UNICODE" xml:space="preserve">
+    <value>Unicode</value>
+    <comment>Text for encoding item in list box for Unicode encoding</comment>
+  </data>
+  <data name="FRMLBL_ENC_CBO_UTF_32" xml:space="preserve">
+    <value>UTF-32</value>
+    <comment>Text for encoding item in list box for UTF-32 encoding</comment>
+  </data>
+  <data name="FRMLBL_ENC_CBO_UTF_7" xml:space="preserve">
+    <value>UTF-7</value>
+    <comment>Text for encoding item in list box for UTF-7 encoding</comment>
+  </data>
+  <data name="FRMLBL_ENC_CBO_UTF_8" xml:space="preserve">
+    <value>UTF-8</value>
+    <comment>Text for encoding item in list box for UTF-8 encoding</comment>
+  </data>
+  <data name="FRMLBL_PRD_CMDBROWSEFORDIRECTORY" xml:space="preserve">
+    <value>Select</value>
+    <comment>Label for cmdBrowseForDirectory button on Form1</comment>
+  </data>
+  <data name="FRMLBL_PRD_LBLWORKINGDIRECTORY" xml:space="preserve">
+    <value>Working Directory</value>
+    <comment>Label for lblWorkingDirectory column in ProfileDirectory</comment>
+  </data>
+  <data name="FRMLBL_PRF_CMDNEWPROFILE" xml:space="preserve">
+    <value>New Profile</value>
+    <comment>Label for cmdNewProfile button on Form1</comment>
+  </data>
+  <data name="FRMLBL_PRF_CMDPROFILEFILEBROWSER" xml:space="preserve">
+    <value>Browse</value>
+    <comment>Label for cmdProfileFileBrowser button on Form1</comment>
+  </data>
+  <data name="FRMLBL_PRF_CMDSAVEPROFILE" xml:space="preserve">
+    <value>Save Profile</value>
+    <comment>Label for cmdSaveProfile button on Form1</comment>
+  </data>
+  <data name="FRMLBL_PRF_ERRMSG_INVALID_GUID_FORMAT" xml:space="preserve">
+    <value>The GUID generated by the SaveProfile routine has an unexpected length of {0} bytes. The expected length is 16 bytes.</value>
+    <comment>Message generated by the SaveProfile routine gets an unexpected byte count for its marker GUID.</comment>
+  </data>
+  <data name="FRMLBL_PRF_ERRMSG_INVALID_INT32_FORMAT" xml:space="preserve">
+    <value>The supplied INT32 entity converted to an unexpected number of bytes; expected 4, got {0}.</value>
+    <comment>Message generated by the SaveProfile routine gets an unexpected byte count for one of its Int32 conversions.</comment>
+  </data>
+  <data name="FRMLBL_PRF_ERRMSG_MUST_BE_GUID_STRING" xml:space="preserve">
+    <value>The first column in any row must be a well formed GUID string. The value that is in error is {1}{0}{1}.</value>
+    <comment>Message generated by the SaveProfile routine gets an invalid GUID string.</comment>
+  </data>
+  <data name="FRMLBL_PRF_ERRMSG_NO_PROPERTIES" xml:space="preserve">
+    <value>At least one property must be specified. There are none in row {0} with a GUID of {1}.</value>
+    <comment>Message generated by the SaveProfile routine gets a row that contains no properties.</comment>
+  </data>
+  <data name="FRMLBL_PRF_HIDECOLUMTOKEN_1_OF_2" xml:space="preserve">
+    <value>hidden</value>
+    <comment>First of 2 tokens that signal intention to hide a column</comment>
+  </data>
+  <data name="FRMLBL_PRF_HIDECOLUMTOKEN_2_OF_2" xml:space="preserve">
+    <value>hide</value>
+    <comment>Second of 2 tokens that signal intention to hide a column</comment>
+  </data>
+  <data name="FRMLBL_PRF_LBLFILENAME" xml:space="preserve">
+    <value>Profile File Name</value>
+    <comment>Label for txtFileName text box NamedProfile</comment>
+  </data>
+  <data name="FRMLBL_PRF_LBLPROFILENAME" xml:space="preserve">
+    <value>Profile Name</value>
+    <comment>Label for lblProfileName column in NamedProfile</comment>
+  </data>
+  <data name="FRMLBL_PRF_METADATA_SAVE_FAILED" xml:space="preserve">
+    <value>Profile metadata save failed.</value>
+    <comment>Message displayed when the profile metadata save failed.</comment>
+  </data>
+  <data name="FRMLBL_PRF_MSG_DIRECTORY_CREATED" xml:space="preserve">
+    <value>The specified working directory was created.</value>
+    <comment>Message displayed in prompt window when a new working directory is created.</comment>
+  </data>
+  <data name="FRMLBL_PRF_MSG_DIRECTORY_FOUND" xml:space="preserve">
+    <value>The specified working directory exists.</value>
+    <comment>Message displayed in prompt window when the specified working directory exists.</comment>
+  </data>
+  <data name="FRMLBL_PRF_MSG_DIRECTORY_NOT_CREATED" xml:space="preserve">
+    <value>$$WorkingDirectoryName$$ was specified, but hasn't been created. Create it or select a different directory.</value>
+    <comment>Message displayed in prompt window when the user declines to allow the directory to be created.</comment>
+  </data>
+  <data name="FRMLBL_PRF_MSG_DIRECTORY_NOT_FOUND" xml:space="preserve">
+    <value>{0} does not exist.{1}{1}Do you want to create it?</value>
+    <comment>Message displayed on message box when the specified directory cannot be found</comment>
+  </data>
+  <data name="FRMLBL_PRF_MSG_PROFILE_EXISTS" xml:space="preserve">
+    <value>The specified profile exists, and it has a file in the specified working directory, which will be overwritten if the profile is saved.</value>
+    <comment>Message displayed when the name is changed to that of a profile for which a file exists in the working directory.</comment>
+  </data>
+  <data name="FRMLBL_PRF_MSG_PROFILE_IS_BRAND_NEW" xml:space="preserve">
+    <value>The specified profile is new, and no file exists in the specified working directory.</value>
+    <comment>Message displayed when the profile name is changed to that of a brand new profile.</comment>
+  </data>
+  <data name="FRMLBL_PRF_MSG_PROFILE_SAVED" xml:space="preserve">
+    <value>Profile saved. {0} bytes written to disk.</value>
+    <comment>Message displayed following a successful save.</comment>
+  </data>
+  <data name="FRMLBL_PRF_MSG_PROFILE_SAVE_FAILED" xml:space="preserve">
+    <value>Profile save failed because {0}.</value>
+    <comment>Message displayed following a save failure.</comment>
+  </data>
+  <data name="FRMLBL_PRF_MSG_PROFILE_SAVE_PROMPT" xml:space="preserve">
+    <value>Save changes to profile?</value>
+    <comment>Message displayed when closing with unsaved work</comment>
+  </data>
+  <data name="FRMLBL_PRF_PROFILEFILENAMESUFFIX" xml:space="preserve">
+    <value>BinaryPropertyMetaData</value>
+    <comment>Suffix (extension) to append to profile name to create file</comment>
+  </data>
+  <data name="FRMLBL_PRF_TXTPROFILEFILENAME" xml:space="preserve">
+    <value>$$WorkingDirectoryName$$\$$ProfileName$$.BIN</value>
+    <comment>Initial value for txtFileName text box on Form1</comment>
+  </data>
+  <data name="FRMLBL_PRF_TXTPROFILENAME" xml:space="preserve">
+    <value>untitled</value>
+    <comment>Default value for txtProfileName column in NamedProfile</comment>
+  </data>
+  <data name="FRMLBL_PRF_TXTPROFILEUNSPECIFIEDCWD" xml:space="preserve">
+    <value>The working directory is unspecified.</value>
+    <comment>Message indicating that the working directory is unspecified.</comment>
+  </data>
+  <data name="FRMLBL_PSD_CMDAPPLYNEWLABELS" xml:space="preserve">
+    <value>Apply New Labels</value>
+    <comment>Label for button PropertyStringDetails</comment>
+  </data>
+  <data name="FRMLBL_PSD_ITEMGUID" xml:space="preserve">
+    <value>GUID</value>
+    <comment>Label for ItemGuid column in PropertyStringDetails</comment>
+  </data>
+  <data name="FRMLBL_PSD_PROPERTYSTRING1" xml:space="preserve">
+    <value>Property String 1</value>
+    <comment>Label for PropertyString1 column in PropertyStringDetails</comment>
+  </data>
+  <data name="FRMLBL_PSD_PROPERTYSTRING2" xml:space="preserve">
+    <value>Property String 2</value>
+    <comment>Label for PropertyString2 column in PropertyStringDetails</comment>
+  </data>
+  <data name="FRMLBL_PSD_PROPERTYSTRING3" xml:space="preserve">
+    <value>Property String 3</value>
+    <comment>Label for PropertyString3 column in PropertyStringDetails</comment>
+  </data>
+  <data name="FRMLBL_PSD_PROPERTYSTRING4" xml:space="preserve">
+    <value>Property String 4</value>
+    <comment>Label for PropertyString4 column in PropertyStringDetails</comment>
+  </data>
+  <data name="FRMLBL_PSD_PROPERTYSTRING5" xml:space="preserve">
+    <value>Property String 5</value>
+    <comment>Label for PropertyString5 column in PropertyStringDetails</comment>
+  </data>
+  <data name="FRMLBL_PSD_PROPERTYSTRING6" xml:space="preserve">
+    <value>Property String 6</value>
+    <comment>Label for PropertyString6 column in PropertyStringDetails</comment>
+  </data>
+  <data name="FRMLBL_PSD_PROPERTYSTRING7" xml:space="preserve">
+    <value>Property String 7</value>
+    <comment>Label for PropertyString7 column in PropertyStringDetails</comment>
+  </data>
+  <data name="FRMLBL_PSD_PROPERTYSTRING8" xml:space="preserve">
+    <value>Property String 8</value>
+    <comment>Label for PropertyString8 column in PropertyStringDetails</comment>
+  </data>
+  <data name="FRMLBL_PSN_PROPERTYSTRINGLABEL" xml:space="preserve">
+    <value>Property String Label</value>
+    <comment>Label for PropertyStringLabel column in PropertyStringNames</comment>
+  </data>
+  <data name="FRMLBL_PSN_PROPERTYSTRINGNAME" xml:space="preserve">
+    <value>Property String Name</value>
+    <comment>Label for PropertyStringName column in PropertyStringNames</comment>
+  </data>
+  <data name="FRMLBL_PSN_PROPERTYSTRINGORDER" xml:space="preserve">
+    <value>Property String Order</value>
+    <comment>Label for PropertyStringOrder column in PropertyStringNames</comment>
+  </data>
+  <data name="FRMLBL_TFG_CMDNAMEYOUROWNFILEGUID" xml:space="preserve">
+    <value>Name Your Own File GUID</value>
+    <comment>Label for button to prompt for a new GUID to parse and use</comment>
+  </data>
+  <data name="FRMLBL_TFG_CMDNEWFILEGUID" xml:space="preserve">
+    <value>New File GUID</value>
+    <comment>Label for button to cause a new GUID to be generated</comment>
+  </data>
+  <data name="FRMLBL_TFG_TXTFILEGUID" xml:space="preserve">
+    <value>File GUID</value>
+    <comment>Label for File GUID text box</comment>
+  </data>
+</root>

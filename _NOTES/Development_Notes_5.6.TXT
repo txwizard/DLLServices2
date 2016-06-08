@@ -1,0 +1,2041 @@
+          Development Notes for WizardWrx.DLLServices2.dll, version 5.6
+
+================================================================================
+2015-08-30 18:24:54
+================================================================================
+
+    ----------------------------------------------------------------------------
+    Revision History
+    ----------------------------------------------------------------------------
+
+    Date       Version Author Description
+    ---------- ------- ------ --------------------------------------------------
+    2015/08/31 5.6     DAG    Add a couple of overlooked special strings.
+    ============================================================================
+
+1>------ Rebuild All started: Project: DLLServices2, Configuration: Debug Any CPU ------
+1>Build started 2015-08-30 23:09:31.
+
+1>CoreClean:
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\P6CUtilLib1.dll".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll.config".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.pdb".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Debug\WizardWrx.DLLServices2.Properties.Resources.resources".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Debug\DLLServices2.csproj.GenerateResource.Cache".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Debug\WizardWrx.DLLServices2.dll".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Debug\WizardWrx.DLLServices2.pdb".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Debug\DLLServices2.csprojResolveAssemblyReference.cache".
+
+1>PreBuildEvent:
+1>  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ "
+1>  Build Task           = IncrementBuildNbr
+1>  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\Properties\AssemblyInfo.cs
+1>          Project Type = CSharp
+1>          File Date    = 2015-08-30 23:09:31 (2015-08-31 04:09:31 UTC)
+1>          Build Number = 281
+1>  Sleeping for 3 seconds
+1>  Waking from cat nap
+
+1>CoreResGen:
+1>  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath
+                                                                         
+                                                                         /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                                         /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Configuration.dll
+                                                                         /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                                         
+                                                                         /compile Properties\Resources.resx,
+                                                                         obj\Debug\WizardWrx.DLLServices2.Properties.Resources.resources
+1>  Processing resource file "Properties\Resources.resx"
+                        into "obj\Debug\WizardWrx.DLLServices2.Properties.Resources.resources".
+
+1>CoreCompile:
+1>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                    /nowarn:1701,
+                                                            1702,
+                                                            2008
+                                                    /nostdlib+
+                                                    /errorreport:prompt
+                                                    /warn:4
+                                                    /doc:bin\Debug\WizardWrx.DLLServices2.XML
+                                                    /define:TRACE;
+                                                            DEBUG;
+                                                            NET20
+                                                    /errorendlocation
+                                                    /preferreduilang:en-US
+                                                    /highentropyva-
+                                                    
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Configuration.dll
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                    
+                                                    /debug+
+                                                    /debug:full
+                                                    /filealign:512
+                                                    /optimize-
+                                                    /out:obj\Debug\WizardWrx.DLLServices2.dll
+                                                    
+                                                    /resource:obj\Debug\WizardWrx.DLLServices2.Properties.Resources.resources
+                                                    
+                                                    /target:library
+                                                    /utf8output
+                                                    
+                                                    ArrayInfo.cs
+                                                    AssemblyLocatorBase.cs
+                                                    CmdLneArgsBasic.cs
+                                                    CSVFileInfo.cs
+                                                    DisplayFormats.cs
+                                                    ErrorMessagesInColor.cs
+                                                    ExceptionLogger.cs
+                                                    FileIOFlags.cs
+                                                    IniFileReader.cs
+                                                    IP6CUtilLib1.cs
+                                                    ListInfo.cs
+                                                    Logic.cs
+                                                    MagicBooleans.cs
+                                                    MagicNumbers.cs
+                                                    MessageInColor.cs
+                                                    NumericFormats.cs
+                                                    PathPositions.cs
+                                                    PropertyDefaults.cs
+                                                    RegExpSupport.cs
+                                                    RegistryValues.cs
+                                                    SpecialCharacters.cs
+                                                    SpecialStrings.cs
+                                                    StateManager.cs
+                                                    StringTricks.cs
+                                                    SyncRoot.cs
+                                                    SysDateFormatters.cs
+                                                    TextBlocks.cs
+                                                    TimeDisplayFormatter.cs
+                                                    Util.cs
+                                                    
+                                                    Properties\AssemblyInfo.cs
+                                                    Properties\Resources.Designer.cs
+
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(534,34,534,55): warning CS0618:   'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(535,39,535,64): warning CS0618:   'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(536,21,536,34): warning CS0618:   'WizardWrx.DLLServices2.ExceptionLogger.Subsystem'             is obsolete: 'Use OutputOptions.StandardOutput or OutputOptions.StandardError.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1057,39,1057,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1097,39,1097,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1097,39,1097,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1143,39,1143,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1143,39,1143,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2220,31,2220,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2337,29,2337,48): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem'             is obsolete: 'Use OutputOptions.StandardOutput or OutputOptions.StandardError.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2337,29,2337,48): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2337,29,2337,48): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ArrayInfo.cs(86,21,86,29): warning CS1574: XML comment on 'WizardWrx.ArrayInfo' has cref attribute 'ListInfo' that could not be resolved
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\MagicBooleans.cs(87,21,87,29): warning CS1574: XML comment on 'WizardWrx.MagicBooleans' has cref attribute 'ListInfo' that could not be resolved
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\MagicBooleans.cs(96,18,96,89): warning CS1584: XML comment on 'WizardWrx.MagicBooleans.ENUM_PARSE_CASE_INSENSITIVE' has syntactically incorrect cref attribute 'https://msdn.microsoft.com/en-us/library/vstudio/kxydatf9(v=vs.80).aspx'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\MagicBooleans.cs(96,23,96,25): warning CS1658: Syntax error, '(' expected. See also error CS1003.
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\MagicBooleans.cs(106,18,106,89): warning CS1584: XML comment on 'WizardWrx.MagicBooleans.ENUM_PARSE_CASE_SENSITIVE' has syntactically incorrect cref attribute 'https://msdn.microsoft.com/en-us/library/vstudio/essfb559(v=vs.80).aspx'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\MagicBooleans.cs(106,23,106,25): warning CS1658: Syntax error, '(' expected. See also error CS1003.
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\MagicNumbers.cs(92,21,92,29): warning CS1574: XML comment on 'WizardWrx.MagicNumbers' has cref attribute 'ListInfo' that could not be resolved
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\PathPositions.cs(84,21,84,29): warning CS1574: XML comment on 'WizardWrx.PathPositions' has cref attribute 'ListInfo' that could not be resolved
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\StateManager.cs(536,19,536,28): warning CS1591: Missing XML comment for publicly visible type or member 'WizardWrx.DLLServices2.StateManager.AppUptime'
+1>_CopyOutOfDateSourceItemsToOutputDirectory:
+1>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\P6CUtilLib1.dll" to "bin\Debug\P6CUtilLib1.dll".
+1>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\WizardWrx.DLLServices2.dll.config" to "bin\Debug\WizardWrx.DLLServices2.dll.config".
+1>CopyFilesToOutputDirectory:
+1>  Copying file from "obj\Debug\WizardWrx.DLLServices2.dll" to "bin\Debug\WizardWrx.DLLServices2.dll".
+1>  DLLServices2 -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll
+1>  Copying file from "obj\Debug\WizardWrx.DLLServices2.pdb" to "bin\Debug\WizardWrx.DLLServices2.pdb".
+1>PostBuildEvent:
+1>  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+1>  Build Task           = RecordBuildDetails
+1>  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll
+1>          Version    = 5.6.281.39887
+1>          File Date  = 2015-08-30 23:09:35 (2015-08-31 04:09:35 UTC)
+1>  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\BuildHistory.LOG
+1>          File Date  = 2015-08-30 23:09:35 (2015-08-31 04:09:35 UTC)
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:03.88
+2>------ Rebuild All started: Project: DLLServices2TestStand, Configuration: Debug x86 ------
+3>------ Rebuild All started: Project: RedirectedStreamTester, Configuration: Debug Any CPU ------
+2>Build started 2015-08-30 23:09:35.
+2>CoreClean:
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe.config".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\P6CUtilLib1.dll".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.dll.config".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.pdb".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.dll".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.pdb".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.xml".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.csprojResolveAssemblyReference.cache".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.csproj.GenerateResource.Cache".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.exe".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.pdb".
+2>PreBuildEvent:
+2>  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ "
+2>  Build Task           = IncrementBuildNbr
+2>  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+2>          Project Type = CSharp
+2>          File Date    = 2015-08-30 23:09:35 (2015-08-31 04:09:35 UTC)
+2>          Build Number = 357
+2>  Sleeping for 3 seconds
+2>  Waking from cat nap
+2>CoreResGen:
+2>  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" /compile Properties\Resources.resx,obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources
+2>  Processing resource file "Properties\Resources.resx" into "obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources".
+2>CoreCompile:
+2>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE;DEBUG;NET20 /errorendlocation /preferreduilang:en-US /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\x86\Debug\DLLServices2TestStand.exe /resource:obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources /resource:ClassTestMap.TXT,DLLServices2TestStand.ClassTestMap.TXT /target:exe /utf8output /win32icon:WW_Icon1.ico CmdLneArgsTests.cs NewClassTests_20140914.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+2>_CopyFilesMarkedCopyLocal:
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" to "bin\Debug\WizardWrx.DLLServices2.dll".
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.pdb" to "bin\Debug\WizardWrx.DLLServices2.pdb".
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.xml" to "bin\Debug\WizardWrx.DLLServices2.xml".
+2>_CopyOutOfDateSourceItemsToOutputDirectory:
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\P6CUtilLib1.dll" to "bin\Debug\P6CUtilLib1.dll".
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\WizardWrx.DLLServices2.dll.config" to "bin\Debug\WizardWrx.DLLServices2.dll.config".
+2>_CopyAppConfigFile:
+2>  Copying file from "app.config" to "bin\Debug\DLLServices2TestStand.exe.config".
+2>CopyFilesToOutputDirectory:
+2>  Copying file from "obj\x86\Debug\DLLServices2TestStand.exe" to "bin\Debug\DLLServices2TestStand.exe".
+2>  DLLServices2TestStand -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+2>  Copying file from "obj\x86\Debug\DLLServices2TestStand.pdb" to "bin\Debug\DLLServices2TestStand.pdb".
+2>PostBuildEvent:
+2>  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe"
+2>  Build Task           = RecordBuildDetails
+2>  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+2>          Version    = 5.6.357.39889
+2>          File Date  = 2015-08-30 23:09:38 (2015-08-31 04:09:38 UTC)
+2>  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\BuildHistory.LOG
+2>          File Date  = 2015-08-30 23:09:39 (2015-08-31 04:09:39 UTC)
+2>
+2>Build succeeded.
+2>
+2>Time Elapsed 00:00:03.65
+3>Build started 2015-08-30 23:09:35.
+3>CoreClean:
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.exe.config".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\P6CUtilLib1.dll".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\WizardWrx.DLLServices2.dll.config".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.exe".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.pdb".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\WizardWrx.DLLServices2.dll".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\WizardWrx.DLLServices2.pdb".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\WizardWrx.DLLServices2.xml".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\obj\Debug\RedirectedStreamTester.csprojResolveAssemblyReference.cache".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\obj\Debug\RedirectedStreamTester.Properties.Resources.resources".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\obj\Debug\RedirectedStreamTester.csproj.GenerateResource.Cache".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\obj\Debug\RedirectedStreamTester.exe".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\obj\Debug\RedirectedStreamTester.pdb".
+3>ResolveAssemblyReferences:
+3>  A TargetFramework profile exclusion list will be generated.
+3>CoreResGen:
+3>  "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" /compile Properties\Resources.resx,obj\Debug\RedirectedStreamTester.Properties.Resources.resources
+3>  Processing resource file "Properties\Resources.resx" into "obj\Debug\RedirectedStreamTester.Properties.Resources.resources".
+3>GenerateTargetFrameworkMonikerAttribute:
+3>Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+3>CoreCompile:
+3>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:DEBUG;TRACE /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\RedirectedStreamTester.exe /resource:obj\Debug\RedirectedStreamTester.Properties.Resources.resources /target:exe /utf8output /win32icon:WW_Icon1.ico Program.cs StreamStateInfo.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs"
+3>_CopyFilesMarkedCopyLocal:
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" to "bin\Debug\WizardWrx.DLLServices2.dll".
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.pdb" to "bin\Debug\WizardWrx.DLLServices2.pdb".
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.xml" to "bin\Debug\WizardWrx.DLLServices2.xml".
+3>_CopyOutOfDateSourceItemsToOutputDirectory:
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\P6CUtilLib1.dll" to "bin\Debug\P6CUtilLib1.dll".
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\WizardWrx.DLLServices2.dll.config" to "bin\Debug\WizardWrx.DLLServices2.dll.config".
+3>_CopyAppConfigFile:
+3>  Copying file from "App.config" to "bin\Debug\RedirectedStreamTester.exe.config".
+
+3>CopyFilesToOutputDirectory:
+3>  Copying file from "obj\Debug\RedirectedStreamTester.exe"
+                   to "bin\Debug\RedirectedStreamTester.exe".
+3>                     RedirectedStreamTester -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.exe
+3>  Copying file from "obj\Debug\RedirectedStreamTester.pdb" 
+                   to "bin\Debug\RedirectedStreamTester.pdb".
+3>
+3>Build succeeded.
+3>
+3>Time Elapsed 00:00:03.99
+========== Rebuild All: 3 succeeded, 0 failed, 0 skipped ==========
+
+
+================================================================================
+2015-08-31 00:05:21 - Rebuild with as many of the cross references resolved as I
+                      can manage.
+================================================================================
+
+1>------ Rebuild All started: Project: DLLServices2, Configuration: Debug Any CPU ------
+1>Build started 2015-08-31 00:05:04.
+
+1>CoreClean:
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\P6CUtilLib1.dll".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll.config".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.pdb".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Debug\WizardWrx.DLLServices2.Properties.Resources.resources".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Debug\DLLServices2.csproj.GenerateResource.Cache".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Debug\WizardWrx.DLLServices2.dll".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Debug\WizardWrx.DLLServices2.pdb".
+1>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\obj\Debug\DLLServices2.csprojResolveAssemblyReference.cache".
+
+1>PreBuildEvent:
+1>  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ "
+1>  Build Task           = IncrementBuildNbr
+1>  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\Properties\AssemblyInfo.cs
+1>          Project Type = CSharp
+1>          File Date    = 2015-08-31 00:05:04 (2015-08-31 05:05:04 UTC)
+1>          Build Number = 287
+1>  Sleeping for 3 seconds
+1>  Waking from cat nap
+
+1>CoreResGen:
+1>  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath
+                                                                         
+                                                                         /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                                         /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Configuration.dll
+                                                                         /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                                         
+                                                                         /compile Properties\Resources.resx,
+                                                                                  obj\Debug\WizardWrx.DLLServices2.Properties.Resources.resources
+1>  Processing resource file "Properties\Resources.resx"
+                        into "obj\Debug\WizardWrx.DLLServices2.Properties.Resources.resources".
+
+1>CoreCompile:
+1>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                    /nowarn:1701,
+                                                            1702,
+                                                            2008
+                                                    /nostdlib+
+                                                    /errorreport:prompt
+                                                    /warn:4
+                                                    /doc:bin\Debug\WizardWrx.DLLServices2.XML
+                                                    /define:TRACE;
+                                                            DEBUG;
+                                                            NET20
+                                                    /errorendlocation
+                                                    /preferreduilang:en-US
+                                                    /highentropyva-
+                                                    
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Configuration.dll
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                    
+                                                    /debug+
+                                                    /debug:full
+                                                    /filealign:512
+                                                    /optimize-
+                                                    /out:obj\Debug\WizardWrx.DLLServices2.dll
+                                                    /resource:obj\Debug\WizardWrx.DLLServices2.Properties.Resources.resources
+                                                    /target:library
+                                                    /utf8output
+                                                    
+                                                    ArrayInfo.cs
+                                                    AssemblyLocatorBase.cs
+                                                    CmdLneArgsBasic.cs
+                                                    CSVFileInfo.cs
+                                                    DisplayFormats.cs
+                                                    ErrorMessagesInColor.cs
+                                                    ExceptionLogger.cs
+                                                    FileIOFlags.cs
+                                                    IniFileReader.cs
+                                                    IP6CUtilLib1.cs
+                                                    ListInfo.cs
+                                                    Logic.cs
+                                                    MagicBooleans.cs
+                                                    MagicNumbers.cs
+                                                    MessageInColor.cs
+                                                    NumericFormats.cs
+                                                    PathPositions.cs
+                                                    PropertyDefaults.cs
+                                                    RegExpSupport.cs
+                                                    RegistryValues.cs
+                                                    SpecialCharacters.cs
+                                                    SpecialStrings.cs
+                                                    StateManager.cs
+                                                    StringTricks.cs
+                                                    SyncRoot.cs
+                                                    SysDateFormatters.cs
+                                                    TextBlocks.cs
+                                                    TimeDisplayFormatter.cs
+                                                    Util.cs
+                                                    
+                                                    Properties\AssemblyInfo.cs
+                                                    Properties\Resources.Designer.cs
+
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(534,34,534,55):   warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(535,39,535,64):   warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(536,21,536,34):   warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem'             is obsolete: 'Use OutputOptions.StandardOutput or OutputOptions.StandardError.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1057,39,1057,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1097,39,1097,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1097,39,1097,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1143,39,1143,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1143,39,1143,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2220,31,2220,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2337,29,2337,48): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem'             is obsolete: 'Use OutputOptions.StandardOutput or OutputOptions.StandardError.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2337,29,2337,48): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2337,29,2337,48): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\MagicBooleans.cs(87,21,87,39): warning CS1574: XML comment on 'WizardWrx.MagicBooleans' has cref attribute 'WizawdWrx.ListInfo' that could not be resolved
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\MagicNumbers.cs(95,21,95,39):  warning CS1574: XML comment on 'WizardWrx.MagicNumbers'  has cref attribute 'WizardWrx.ListInfo' that could not be resolved
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\PathPositions.cs(86,21,86,39): warning CS1574: XML comment on 'WizardWrx.PathPositions' has cref attribute 'WizardWrx.ListInfo' that could not be resolved
+
+1>_CopyOutOfDateSourceItemsToOutputDirectory:
+1>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\P6CUtilLib1.dll"
+                   to "bin\Debug\P6CUtilLib1.dll".
+1>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\WizardWrx.DLLServices2.dll.config"
+                   to "bin\Debug\WizardWrx.DLLServices2.dll.config".
+
+1>CopyFilesToOutputDirectory:
+1>  Copying file from "obj\Debug\WizardWrx.DLLServices2.dll"
+                   to "bin\Debug\WizardWrx.DLLServices2.dll".
+1>                     DLLServices2 -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll
+1>  Copying file from "obj\Debug\WizardWrx.DLLServices2.pdb"
+                   to "bin\Debug\WizardWrx.DLLServices2.pdb".
+
+1>PostBuildEvent:
+1>  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+1>  Build Task           = RecordBuildDetails
+1>  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll
+1>          Version    = 5.6.287.41554
+1>          File Date  = 2015-08-31 00:05:08 (2015-08-31 05:05:08 UTC)
+1>  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\BuildHistory.LOG
+1>          File Date  = 2015-08-31 00:05:08 (2015-08-31 05:05:08 UTC)
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:04.02
+2>------ Rebuild All started: Project: DLLServices2TestStand, Configuration: Debug x86 ------
+
+3>------ Rebuild All started: Project: RedirectedStreamTester, Configuration: Debug Any CPU ------
+2>Build started 2015-08-31 00:05:08.
+
+2>CoreClean:
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe.config".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\P6CUtilLib1.dll".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.dll.config".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.pdb".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.dll".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.pdb".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.xml".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.csprojResolveAssemblyReference.cache".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.csproj.GenerateResource.Cache".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.exe".
+2>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\obj\x86\Debug\DLLServices2TestStand.pdb".
+
+2>PreBuildEvent:
+2>  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ "
+2>  Build Task           = IncrementBuildNbr
+2>  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+2>          Project Type = CSharp
+2>          File Date    = 2015-08-31 00:05:08 (2015-08-31 05:05:08 UTC)
+2>          Build Number = 363
+2>  Sleeping for 3 seconds
+2>  Waking from cat nap
+
+2>CoreResGen:
+2>  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath
+                                                                         
+                                                                         /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                                         /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                                         /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+                                                                         
+                                                                         /compile Properties\Resources.resx,
+                                                                                  obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources
+2>  Processing resource file "Properties\Resources.resx"
+                        into "obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources".
+
+2>CoreCompile:
+2>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                    /nowarn:1701,
+                                                            1702,
+                                                            2008
+                                                    /nostdlib+
+                                                    /platform:x86
+                                                    /errorreport:prompt
+                                                    /warn:4
+                                                    /define:TRACE;
+                                                            DEBUG;
+                                                            NET20
+                                                    /errorendlocation
+                                                    /preferreduilang:en-US
+                                                    /highentropyva-
+                                                    
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                    
+                                                    /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+                                                    
+                                                    /debug+
+                                                    /debug:full
+                                                    /filealign:512
+                                                    /optimize-
+                                                    /out:obj\x86\Debug\DLLServices2TestStand.exe
+                                                    
+                                                    /resource:obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources
+                                                    /resource:ClassTestMap.TXT,
+                                                              DLLServices2TestStand.ClassTestMap.TXT
+                                                    
+                                                    /target:exe
+                                                    /utf8output
+                                                    /win32icon:WW_Icon1.ico
+                                                    
+                                                    CmdLneArgsTests.cs
+                                                    NewClassTests_20140914.cs
+                                                    Program.cs
+                                                    
+                                                    Properties\AssemblyInfo.cs
+                                                    Properties\Resources.Designer.cs
+
+2>_CopyFilesMarkedCopyLocal:
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+                   to "bin\Debug\WizardWrx.DLLServices2.dll".
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.pdb"
+                   to "bin\Debug\WizardWrx.DLLServices2.pdb".
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.xml"
+                   to "bin\Debug\WizardWrx.DLLServices2.xml".
+
+2>_CopyOutOfDateSourceItemsToOutputDirectory:
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\P6CUtilLib1.dll"
+                   to "bin\Debug\P6CUtilLib1.dll".
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\WizardWrx.DLLServices2.dll.config"
+                   to "bin\Debug\WizardWrx.DLLServices2.dll.config".
+
+2>_CopyAppConfigFile:
+2>  Copying file from "app.config"
+                   to "bin\Debug\DLLServices2TestStand.exe.config".
+
+2>CopyFilesToOutputDirectory:
+2>  Copying file from "obj\x86\Debug\DLLServices2TestStand.exe"
+                   to "bin\Debug\DLLServices2TestStand.exe".
+2>                     DLLServices2TestStand -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+2>  Copying file from "obj\x86\Debug\DLLServices2TestStand.pdb"
+                   to "bin\Debug\DLLServices2TestStand.pdb".
+
+2>PostBuildEvent:
+2>  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe"
+2>  Build Task           = RecordBuildDetails
+2>  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+2>          Version    = 5.6.363.41556
+2>          File Date  = 2015-08-31 00:05:12 (2015-08-31 05:05:12 UTC)
+2>  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\BuildHistory.LOG
+2>          File Date  = 2015-08-31 00:05:12 (2015-08-31 05:05:12 UTC)
+2>
+2>Build succeeded.
+2>
+2>Time Elapsed 00:00:03.72
+
+3>Build started 2015-08-31 00:05:08.
+3>CoreClean:
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.exe.config".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\P6CUtilLib1.dll".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\WizardWrx.DLLServices2.dll.config".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.exe".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.pdb".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\WizardWrx.DLLServices2.dll".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\WizardWrx.DLLServices2.pdb".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\WizardWrx.DLLServices2.xml".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\obj\Debug\RedirectedStreamTester.csprojResolveAssemblyReference.cache".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\obj\Debug\RedirectedStreamTester.Properties.Resources.resources".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\obj\Debug\RedirectedStreamTester.csproj.GenerateResource.Cache".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\obj\Debug\RedirectedStreamTester.exe".
+3>  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\obj\Debug\RedirectedStreamTester.pdb".
+
+3>ResolveAssemblyReferences:
+3>  A TargetFramework profile exclusion list will be generated.
+
+3>CoreResGen:
+3>  "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\resgen.exe" /useSourcePath
+                                                                                           /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll"
+                                                                                           /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll"
+                                                                                           /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll"
+                                                                                           /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll"
+                                                                                           
+                                                                                           /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+                                                                                           
+                                                                                           /compile Properties\Resources.resx,
+                                                                                                    obj\Debug\RedirectedStreamTester.Properties.Resources.resources
+3>  Processing resource file "Properties\Resources.resx"
+                        into "obj\Debug\RedirectedStreamTester.Properties.Resources.resources".
+
+3>GenerateTargetFrameworkMonikerAttribute:
+3>Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+3>CoreCompile:
+3>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                    /nowarn:1701,
+                                                            1702,
+                                                            2008
+                                                    /nostdlib+
+                                                    /platform:x86
+                                                    /errorreport:prompt
+                                                    /warn:4
+                                                    /define:DEBUG;
+                                                            TRACE
+                                                    /errorendlocation
+                                                    /preferreduilang:en-US
+                                                    /highentropyva-
+                                                    
+                                                    /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll"
+                                                    /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll"
+                                                    /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll"
+                                                    /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll"
+
+                                                    /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+                                                    
+                                                    /debug+
+                                                    /debug:full
+                                                    /filealign:512
+                                                    /optimize-
+                                                    /out:obj\Debug\RedirectedStreamTester.exe
+                                                    
+                                                    /resource:obj\Debug\RedirectedStreamTester.Properties.Resources.resources
+                                                    
+                                                    /target:exe
+                                                    /utf8output
+                                                    /win32icon:WW_Icon1.ico
+                                                    
+                                                    Program.cs
+                                                    StreamStateInfo.cs
+                                                    
+                                                    Properties\AssemblyInfo.cs
+                                                    Properties\Resources.Designer.cs
+                                                    
+                                                    "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs"
+
+3>_CopyFilesMarkedCopyLocal:
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+                   to "bin\Debug\WizardWrx.DLLServices2.dll".
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.pdb"
+                   to "bin\Debug\WizardWrx.DLLServices2.pdb".
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.xml"
+                   to "bin\Debug\WizardWrx.DLLServices2.xml".
+
+3>_CopyOutOfDateSourceItemsToOutputDirectory:
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\P6CUtilLib1.dll"
+                   to "bin\Debug\P6CUtilLib1.dll".
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\WizardWrx.DLLServices2.dll.config"
+                   to "bin\Debug\WizardWrx.DLLServices2.dll.config".
+
+3>_CopyAppConfigFile:
+3>  Copying file from "App.config"
+                   to "bin\Debug\RedirectedStreamTester.exe.config".
+
+3>CopyFilesToOutputDirectory:
+3>  Copying file from "obj\Debug\RedirectedStreamTester.exe"
+                   to "bin\Debug\RedirectedStreamTester.exe".
+3>                     RedirectedStreamTester -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.exe
+3>  Copying file from "obj\Debug\RedirectedStreamTester.pdb"
+                   to "bin\Debug\RedirectedStreamTester.pdb".
+3>
+3>Build succeeded.
+3>
+3>Time Elapsed 00:00:04.03
+========== Rebuild All: 3 succeeded, 0 failed, 0 skipped ==========
+
+
+
+================================================================================
+2015-08-31 00:19:01 - Run the entire test set.
+================================================================================
+
+DLLServices2TestStand, version 5.6.363.41556 BOJ
+2015-08-31 00:18:46.801 (2015-08-31 05:18:46.801 UTC)
+
+Fully qualified program name, per StateManager GetAssemblyFQFN method = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+
+Executable Subsystem = 3: Image runs in the Windows character subsystem.
+
+Console handle Standard Input (STDIN, a. k. a., Console.In) is attached to a console.
+Console handle Standard Output (STDOUT, a. k. a., Console.Out) is attached to a console.
+Console handle Standard Error (STDERR, a. k. a., Console.Error) is attached to a console.
+
+This text should appear as White letters on a DarkGray background.
+
+
+The next screen displays selected properties of the library that is about to be exercised.
+
+Press ENTER to resume the program.
+Selected properties of the library under test:
+
+    AssemblyFileBaseName = WizardWrx.DLLServices2
+    VersionString        = 5.6.287.41554
+    Culture              = Invariant Language (Invariant Country)
+    PublicKeyToken       =
+    AssemblyGuidString   = c1190387-03c3-430a-8ec4-d22173620201
+
+    ProductName          = DLLServices
+    LegalCopyright       = Copyright c 2013-2015, David A. Gray
+    LegalTrademarks      =
+    CompanyName          = David A. Gray
+    Description          = WizardWrx.DLLServices2
+    Comments             =
+
+    AssembyDirName       = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug
+    AssemblyFileName     = WizardWrx.DLLServices2.dll
+
+    File CreatION Date   = 2015-06-23 10:16:43 (2015-06-23 15:16:43 UTC)
+    File Modified Date   = 2015-08-31 00:05:08 (2015-08-31 05:05:08 UTC)
+
+End of selected properties
+
+Press ENTER to resume the program.
+
+The colors shown below were read from WizardWrx.DllServices2.dll.config.
+
+The default colors of a fatal exception, as seen through
+individdual properties, are White text on a DarkRed background.
+
+The default colors of a fatal exception, as seen through
+the GetDefaultErrorMessageColors method, are White text on a DarkRed background.
+
+
+The default colors of a fatal exception, as seen through
+the GetDefaultMessageColors method, are White text on a DarkRed background.
+
+The default colors of a recoverable exception, as seen through
+individdual properties, are Yellow text on a Black background.
+
+The default colors of a recoverable exception, as seen through
+the GetDefaultErrorMessageColors method, are Yellow text on a Black background.
+
+The default colors of a recoverable exception, as seen through
+the GetDefaultMessageColors method, are Yellow text on a Black background.
+
+Press ENTER to resume the program.
+
+Exception Test Case 1
+
+An System.Exception exception was caught in routine Main:
+               Message          = Test Exception Message Number 1
+Exception Method = Void Main(System.String[])
+Exception Source = DLLServices2TestStand
+
+Stack Trace Begin:
+   at DLLServices2TestStand.Program.Main(String[] args) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Program.cs:line 252
+End of Stack Trace
+
+There are no further exceptions to report.
+Press ENTER to resume the program.
+
+The colors shown below were supplied by the test stand program.
+
+The default colors of a fatal exception, as seen through
+individdual properties, are Red text on a White background.
+
+The default colors of a fatal exception, as seen through
+the GetDefaultErrorMessageColors method, are Red text on a White background.
+
+The default colors of a fatal exception, as seen through
+the GetDefaultMessageColors method, are Red text on a White background.
+
+The default colors of a recoverable exception, as seen through
+individdual properties, are Yellow text on a DarkMagenta background.
+
+The default colors of a recoverable exception, as seen through
+the GetDefaultErrorMessageColors method, are Yellow text on a DarkMagenta background.
+
+The default colors of a recoverable exception, as seen through
+the GetDefaultMessageColors method, are Yellow text on a DarkMagenta background.
+
+
+Press ENTER to resume the program.
+
+Exception Test Case 2
+
+An System.Exception exception was caught in routine Main:
+               Message          = Test Exception Message Number 2
+Exception Method = Void Main(System.String[])
+Exception Source = DLLServices2TestStand
+
+Stack Trace Begin:
+   at DLLServices2TestStand.Program.Main(String[] args) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Program.cs:line 279
+End of Stack Trace
+
+There are no further exceptions to report.
+Press ENTER to resume the program.
+
+
+Test # 1 - Exercising class ArrayInfo:
+
+    Public  Constant ArrayInfo.ARRAY_FIRST_ELEMENT  = 0
+    Public  Constant ArrayInfo.ARRAY_IS_EMPTY       = 0
+    Public  Constant ArrayInfo.ARRAY_INVALID_INDEX  = -1
+    Public  Constant ArrayInfo.INDEX_FROM_ORDINAL   = -1
+    Public  Constant ArrayInfo.ARRAY_SECOND_ELEMENT = 1
+    Public  Constant ArrayInfo.NEXT_INDEX           = 1
+    Public  Constant ArrayInfo.ORDINAL_FROM_INDEX   = 1
+
+    Public method ArrayInfo.IndexFromOrdinal       =  9 , for pintOrdinal = 10
+    Public method ArrayInfo.OrdinalFromIndex       = 11 , for pintIndex   = 10
+
+Test # 1 Done - Final Status Code = 0
+
+Test # 2 - Exercising class CSVFileInfo:
+
+    Public  Constant CSVFileInfo.EMPTY_FILE     = 0
+    Public  Constant CSVFileInfo.LABEL_ROW      = 0
+    Public  Constant CSVFileInfo.FIRST_RECORD   = 1
+
+    Public method CSVFileInfo.IndexFromOrdinal = 5 , for pastrWholeFile = 6
+
+Test # 2 Done - Final Status Code = 0
+Press ENTER to resume the program.
+
+Test # 3 - Exercising class DisplayFormats:
+
+Integral format strings - sample = 65533
+
+    Public Constant DisplayFormats.HEXADECIMAL                       = X (Sample = FFFD)
+    Public Constant DisplayFormats.HEXADECIMAL_2                     = X2 (Sample = FFFD)
+    Public Constant DisplayFormats.HEXADECIMAL_4                     = X4 (Sample = FFFD)
+    Public Constant DisplayFormats.HEXADECIMAL_8                     = X8 (Sample = 0000FFFD)
+
+    Public Constant DisplayFormats.HEXADECIMAL_PREFIX_0H_LC          = 0h (Sample = 0hFFFD)
+    Public Constant DisplayFormats.HEXADECIMAL_PREFIX_0H_LC          = 0h (Sample = 0hFFFD)
+    Public Constant DisplayFormats.HEXADECIMAL_PREFIX_0X_LC          = 0x (Sample = 0xFFFD)
+    Public Constant DisplayFormats.HEXADECIMAL_PREFIX_0X_UC          = 0X (Sample = 0XFFFD)
+
+Press ENTER to resume the program.
+
+More Integral format strings - sample = 65533
+
+    Public Constant DisplayFormats.NUMBER_PER_REG_SETTINGS           = N (Sample = 65,533.00)
+    Public Constant DisplayFormats.NUMBER_PER_REG_SETTINGS_0D        = N0 (Sample = 65,533)
+    Public Constant DisplayFormats.NUMBER_PER_REG_SETTINGS_2D        = N2 (Sample = 65,533.00)
+    Public Constant DisplayFormats.NUMBER_PER_REG_SETTINGS_3D        = N3 (Sample = 65,533.000)
+
+Floating point format strings - sample = 0.997
+
+    Public Constant DisplayFormats.PERCENT                           = P (Sample = 99.70 %)
+    Public Constant DisplayFormats.PERCENT_DIGITS_2                  = P2 (Sample = 99.70 %)
+Press ENTER to resume the program.
+
+Date and Time format strings - sample = 2015-08-31 00:21:52
+
+    Public Constant DisplayFormats.STANDARD_DISPLAY_DATE_FORMAT      = ^YYYY/^MM/^DD (Sample = 2015/08/31)
+    Public Constant DisplayFormats.STANDARD_DISPLAY_DATE_TIME_FORMAT = ^YYYY/^MM/^DD ^hh:^mm:^ss (Sample = 2015/08/31 00:21:52)
+    Public Constant DisplayFormats.STANDARD_DISPLAY_TIME_FORMAT      = ^hh:^mm:^ss (Sample = 00:21:52)
+
+    Public Method DisplayFormats.FormatDateForShow                   = 2015/08/31
+    Public Method DisplayFormats.FormatDateTimeForShow               = 2015/08/31 00:21:52
+    Public Method DisplayFormats.FormatTimeForShow                   = 00:21:52
+
+Test # 3 Done - Final Status Code = 0
+Press ENTER to resume the program.
+
+Test # 4 - Exercising class FileIOFlags:
+
+    Public Constant FileIOFlags.FILE_COPY_OVERWRITE_FORBIDDEN = False
+    Public Constant FileIOFlags.FILE_COPY_OVERWRITE_PERMITTED = True
+
+    Public Constant FileIOFlags.FILE_OUT_APPEND               = True
+    Public Constant FileIOFlags.FILE_OUT_CREATE               = False
+
+    Public Constant FileIOFlags.MAKE_STREAM_IO_ASYNCHRONOUS   = True
+    Public Constant FileIOFlags.MAKE_STREAM_IO_SYNCHRONOUS    = False
+
+Test # 4 Done - Final Status Code = 0
+Press ENTER to resume the program.
+
+Test # 5 - Exercising class ListInfo:
+
+    Public Constant ListInfo.BEGINNING_OF_BUFFER       = 0
+    Public Constant ListInfo.BINARY_SEARCH_NOT_FOUND   = -1
+    Public Constant ListInfo.EMPTY_STRING_LENGTH       = 0
+    Public Constant ListInfo.INDEXOF_NOT_FOUND         = -1
+    Public Constant ListInfo.LIST_IS_EMPTY             = 0
+    Public Constant ListInfo.SUBSTR_BEGINNING          = 0
+    Public Constant ListInfo.SUBSTR_SECOND_CHAR        = 1
+
+Input Sample for the following Public Method tests = The quick brown fox jumped over the lazy dog.
+
+    Public Method ListInfo.FirstCharOfString           = T
+    Public Method ListInfo.LastCharacterOfString       = .
+    Public Method ListInfo.NthCharacterOfString        = q, where N = 5
+    Public Method ListInfo.NthCharacterOfString        =  , where N = 100
+    Public Method ListInfo.PenultimateCharactrOfString = g
+    Public Method ListInfo.PenultimateCharactrOfString = NUL
+    Public Method ListInfo.SecondCharacterOfString     = h
+    Public Method ListInfo.SecondCharacterOfString     = NUL
+
+Test # 5 Done - Final Status Code = 0
+Press ENTER to resume the program.
+
+Test # 6 - Exercising class PathPositions:
+
+    Public Constant PathPositions.FQFN_PREFIX_START_POS   = 1
+    Public Constant PathPositions.FQFN_PREFIX_START_LEN   = 2
+    Public Constant PathPositions.MAX_PATH                = 260
+    Public Constant PathPositions.UNC_HOSTNAME_PREFIX_POS = 0
+    Public Constant PathPositions.UNC_HOSTNAME_START_POS  = 2
+
+Test # 6 Done - Final Status Code = 0
+
+Test # 7 - Exercising class SpecialCharacters:
+
+    Public Constant SpecialCharacters.AMPERSAND     = & (ASCII code = 38 (0x26)
+    Public Constant SpecialCharacters.COLON         = : (ASCII code = 58 (0x3A)
+    Public Constant SpecialCharacters.COMMA         = , (ASCII code = 44 (0x2C)
+    Public Constant SpecialCharacters.DOUBLE_QUOTE  = " (ASCII code = 34 (0x22)
+    Public Constant SpecialCharacters.NUL           =   (ASCII code =  0 (0x00)
+    Public Constant SpecialCharacters.PERCENT_SIGN  = % (ASCII code = 37 (0x25)
+    Public Constant SpecialCharacters.SEMICOLON     = ; (ASCII code = 59 (0x3B)
+    Public Constant SpecialCharacters.SPACE         =   (ASCII code = 32 (0x20)
+    Public Constant SpecialCharacters.TAB           =    (ASCII code =  9 (0x09)
+
+
+Test # 7 Done - Final Status Code = 0
+Press ENTER to resume the program.
+An System.Exception exception was caught in routine Main:
+               Message          = Method ChopChop is undefined.
+Exception Method = Void BeginTest(System.String, Int32 ByRef)
+Exception Source = DLLServices2TestStand
+
+Stack Trace Begin:
+   at DLLServices2TestStand.NewClassTests_20140914.BeginTest(String pstrMethodName, Int32& pintTestNumber) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\NewClassTests_20140914.cs:line 782
+   at DLLServices2TestStand.NewClassTests_20140914.ChopChop(Int32& pintTestNumber) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\NewClassTests_20140914.cs:line 134
+   at DLLServices2TestStand.Program.Main(String[] args) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Program.cs:line 376
+End of Stack Trace
+
+There are no further exceptions to report.
+DLLServices2TestStand EOJ
+Running time = 00:03:58.0535217
+Press ENTER to exit the program.
+
+
+================================================================================
+2015-08-31 00:26:34 - Rebuild the test stand program. Everything else is up to
+                      date.
+================================================================================
+
+1>------ Build started: Project: DLLServices2TestStand, Configuration: Debug x86 ------
+1>Build started 2015-08-31 00:26:20.
+
+1>PreBuildEvent:
+1>  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ "
+1>  Build Task           = IncrementBuildNbr
+1>  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+1>          Project Type = CSharp
+1>          File Date    = 2015-08-31 00:26:20 (2015-08-31 05:26:20 UTC)
+1>          Build Number = 364
+1>  Sleeping for 3 seconds
+1>  Waking from cat nap
+
+1>CoreResGen:
+1>  No resources are out of date with respect to their source files. Skipping resource generation.
+
+1>CoreCompile:
+1>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                    /nowarn:1701,
+                                                            1702,
+                                                            2008
+                                                    /nostdlib+
+                                                    /platform:x86
+                                                    /errorreport:prompt
+                                                    /warn:4
+                                                    /define:TRACE;
+                                                            DEBUG;
+                                                            NET20
+                                                    /errorendlocation
+                                                    /preferreduilang:en-US
+                                                    /highentropyva-
+                                                    
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                    
+                                                    /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+                                                    
+                                                    /debug+
+                                                    /debug:full
+                                                    /filealign:512
+                                                    /optimize-
+                                                    /out:obj\x86\Debug\DLLServices2TestStand.exe
+                                                    
+                                                    /resource:obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources
+                                                    /resource:ClassTestMap.TXT,
+                                                              DLLServices2TestStand.ClassTestMap.TXT
+                                                    
+                                                    /target:exe
+                                                    /utf8output
+                                                    /win32icon:WW_Icon1.ico
+                                                    
+                                                    CmdLneArgsTests.cs
+                                                    NewClassTests_20140914.cs
+                                                    Program.cs
+                                                    Properties\AssemblyInfo.cs
+                                                    Properties\Resources.Designer.cs
+
+1>_CopyOutOfDateSourceItemsToOutputDirectory:
+1>Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+
+1>_CopyAppConfigFile:
+1>Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+1>CopyFilesToOutputDirectory:
+1>  Copying file from "obj\x86\Debug\DLLServices2TestStand.exe"
+                   to "bin\Debug\DLLServices2TestStand.exe".
+1>                     DLLServices2TestStand -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+1>  Copying file from "obj\x86\Debug\DLLServices2TestStand.pdb"
+                   to "bin\Debug\DLLServices2TestStand.pdb".
+
+1>PostBuildEvent:
+1>  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe"
+1>  Build Task           = RecordBuildDetails
+1>  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+1>          Version    = 5.6.364.42192
+1>          File Date  = 2015-08-31 00:26:24 (2015-08-31 05:26:24 UTC)
+1>  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\BuildHistory.LOG
+1>          File Date  = 2015-08-31 00:26:24 (2015-08-31 05:26:24 UTC)
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:04.01
+========== Build: 1 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: DLLServices2, Configuration: Debug Any CPU ------
+1>Build started 2015-08-31 00:32:13.
+1>PreBuildEvent:
+1>  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ "
+1>  Build Task           = IncrementBuildNbr
+1>  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\Properties\AssemblyInfo.cs
+1>          Project Type = CSharp
+1>          File Date    = 2015-08-31 00:32:13 (2015-08-31 05:32:13 UTC)
+1>          Build Number = 288
+1>  Sleeping for 3 seconds
+1>  Waking from cat nap
+1>CoreResGen:
+1>  No resources are out of date with respect to their source files. Skipping resource generation.
+1>CoreCompile:
+1>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Debug\WizardWrx.DLLServices2.XML /define:TRACE;DEBUG;NET20 /errorendlocation /preferreduilang:en-US /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Configuration.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\WizardWrx.DLLServices2.dll /resource:obj\Debug\WizardWrx.DLLServices2.Properties.Resources.resources /target:library /utf8output ArrayInfo.cs AssemblyLocatorBase.cs CmdLneArgsBasic.cs CSVFileInfo.cs DisplayFormats.cs ErrorMessagesInColor.cs ExceptionLogger.cs FileIOFlags.cs IniFileReader.cs IP6CUtilLib1.cs ListInfo.cs Logic.cs MagicBooleans.cs MagicNumbers.cs MessageInColor.cs NumericFormats.cs PathPositions.cs PropertyDefaults.cs RegExpSupport.cs RegistryValues.cs SpecialCharacters.cs SpecialStrings.cs StateManager.cs StringTricks.cs SyncRoot.cs SysDateFormatters.cs TextBlocks.cs TimeDisplayFormatter.cs Util.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(534,34,534,55): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(535,39,535,64): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(536,21,536,34): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem' is obsolete: 'Use OutputOptions.StandardOutput or OutputOptions.StandardError.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1057,39,1057,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1097,39,1097,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1097,39,1097,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1143,39,1143,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1143,39,1143,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2220,31,2220,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2337,29,2337,48): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem' is obsolete: 'Use OutputOptions.StandardOutput or OutputOptions.StandardError.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2337,29,2337,48): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog' is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2337,29,2337,48): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\MagicBooleans.cs(87,21,87,39): warning CS1574: XML comment on 'WizardWrx.MagicBooleans' has cref attribute 'WizawdWrx.ListInfo' that could not be resolved
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\MagicNumbers.cs(95,21,95,39): warning CS1574: XML comment on 'WizardWrx.MagicNumbers' has cref attribute 'WizardWrx.ListInfo' that could not be resolved
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\PathPositions.cs(86,21,86,39): warning CS1574: XML comment on 'WizardWrx.PathPositions' has cref attribute 'WizardWrx.ListInfo' that could not be resolved
+1>_CopyOutOfDateSourceItemsToOutputDirectory:
+1>Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+1>CopyFilesToOutputDirectory:
+1>  Copying file from "obj\Debug\WizardWrx.DLLServices2.dll" to "bin\Debug\WizardWrx.DLLServices2.dll".
+1>  DLLServices2 -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll
+1>  Copying file from "obj\Debug\WizardWrx.DLLServices2.pdb" to "bin\Debug\WizardWrx.DLLServices2.pdb".
+1>PostBuildEvent:
+1>  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+1>  Build Task           = RecordBuildDetails
+1>  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll
+1>          Version    = 5.6.288.42368
+1>          File Date  = 2015-08-31 00:32:17 (2015-08-31 05:32:17 UTC)
+1>  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\BuildHistory.LOG
+1>          File Date  = 2015-08-31 00:32:17 (2015-08-31 05:32:17 UTC)
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:03.77
+2>------ Build started: Project: DLLServices2TestStand, Configuration: Debug x86 ------
+3>------ Build started: Project: RedirectedStreamTester, Configuration: Debug Any CPU ------
+2>Build started 2015-08-31 00:32:17.
+2>PreBuildEvent:
+2>  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ "
+2>  Build Task           = IncrementBuildNbr
+2>  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+2>          Project Type = CSharp
+2>          File Date    = 2015-08-31 00:32:17 (2015-08-31 05:32:17 UTC)
+2>          Build Number = 365
+2>  Sleeping for 3 seconds
+2>  Waking from cat nap
+2>CoreResGen:
+2>  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" /compile Properties\Resources.resx,obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources
+2>  Processing resource file "Properties\Resources.resx" into "obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources".
+2>CoreCompile:
+2>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE;DEBUG;NET20 /errorendlocation /preferreduilang:en-US /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\x86\Debug\DLLServices2TestStand.exe /resource:obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources /resource:ClassTestMap.TXT,DLLServices2TestStand.ClassTestMap.TXT /target:exe /utf8output /win32icon:WW_Icon1.ico CmdLneArgsTests.cs NewClassTests_20140914.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+2>_CopyFilesMarkedCopyLocal:
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" to "bin\Debug\WizardWrx.DLLServices2.dll".
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.pdb" to "bin\Debug\WizardWrx.DLLServices2.pdb".
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.xml" to "bin\Debug\WizardWrx.DLLServices2.xml".
+2>_CopyOutOfDateSourceItemsToOutputDirectory:
+2>Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+2>_CopyAppConfigFile:
+2>Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+2>CopyFilesToOutputDirectory:
+2>  Copying file from "obj\x86\Debug\DLLServices2TestStand.exe" to "bin\Debug\DLLServices2TestStand.exe".
+2>  DLLServices2TestStand -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+2>  Copying file from "obj\x86\Debug\DLLServices2TestStand.pdb" to "bin\Debug\DLLServices2TestStand.pdb".
+2>PostBuildEvent:
+2>  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe"
+2>  Build Task           = RecordBuildDetails
+2>  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+2>          Version    = 5.6.365.42370
+2>          File Date  = 2015-08-31 00:32:21 (2015-08-31 05:32:21 UTC)
+2>  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\BuildHistory.LOG
+2>          File Date  = 2015-08-31 00:32:21 (2015-08-31 05:32:21 UTC)
+2>
+2>Build succeeded.
+2>
+2>Time Elapsed 00:00:03.73
+3>Build started 2015-08-31 00:32:17.
+3>ResolveAssemblyReferences:
+3>  A TargetFramework profile exclusion list will be generated.
+3>CoreResGen:
+3>  "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" /compile Properties\Resources.resx,obj\Debug\RedirectedStreamTester.Properties.Resources.resources
+3>  Processing resource file "Properties\Resources.resx" into "obj\Debug\RedirectedStreamTester.Properties.Resources.resources".
+3>GenerateTargetFrameworkMonikerAttribute:
+3>Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+3>CoreCompile:
+3>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:DEBUG;TRACE /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\RedirectedStreamTester.exe /resource:obj\Debug\RedirectedStreamTester.Properties.Resources.resources /target:exe /utf8output /win32icon:WW_Icon1.ico Program.cs StreamStateInfo.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs"
+3>_CopyFilesMarkedCopyLocal:
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" to "bin\Debug\WizardWrx.DLLServices2.dll".
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.pdb" to "bin\Debug\WizardWrx.DLLServices2.pdb".
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.xml" to "bin\Debug\WizardWrx.DLLServices2.xml".
+3>_CopyOutOfDateSourceItemsToOutputDirectory:
+3>Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+3>_CopyAppConfigFile:
+3>Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+3>CopyFilesToOutputDirectory:
+3>  Copying file from "obj\Debug\RedirectedStreamTester.exe" to "bin\Debug\RedirectedStreamTester.exe".
+3>  RedirectedStreamTester -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Debug\RedirectedStreamTester.exe
+3>  Copying file from "obj\Debug\RedirectedStreamTester.pdb" to "bin\Debug\RedirectedStreamTester.pdb".
+3>
+3>Build succeeded.
+3>
+3>Time Elapsed 00:00:03.87
+========== Build: 3 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+================================================================================
+2015-08-31 00:39:34 - Add the new method to the list.
+================================================================================
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\DAVE>dir "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ClassTestMap.TXT"
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand
+
+2014-09-15  03:23               297 ClassTestMap.TXT
+               1 File(s)            297 bytes
+               0 Dir(s)  569,502,126,080 bytes free
+
+C:\Users\DAVE>attrib "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ClassTestMap.TXT" -r
+
+C:\Users\DAVE>attrib "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ClassTestMap.TXT"
+             C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ClassTestMap.TXT
+
+C:\Users\DAVE>attrib "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ClassTestMap.TXT" +r
+
+C:\Users\DAVE>attrib "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ClassTestMap.TXT"
+A    R       C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ClassTestMap.TXT
+
+C:\Users\DAVE>dir "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ClassTestMap.TXT"
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand
+
+2015-08-31  00:38               325 ClassTestMap.TXT
+               1 File(s)            325 bytes
+               0 Dir(s)  569,505,972,224 bytes free
+
+C:\Users\DAVE>dir "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\*bak
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand
+
+2014-09-15  03:23               297 ClassTestMap.TXT.bak
+               1 File(s)            297 bytes
+               0 Dir(s)  569,506,000,896 bytes free
+
+C:\Users\DAVE>sdelete "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\*bak
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ClassTestMap.TXT.bak...deleted.
+1 files found
+
+
+C:\Users\DAVE>dir "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\*(*)*
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand
+
+2014-09-15  03:23               297 ClassTestMap(0).TXT
+               1 File(s)            297 bytes
+               0 Dir(s)  569,505,906,688 bytes free
+
+C:\Users\DAVE>sdelete "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\*(*)*
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ClassTestMap(0).TXT...deleted.
+1 files found
+
+
+C:\Users\DAVE>
+
+================================================================================
+2015-08-31 00:40:53 - This rebuild updates only CUSTOM resources that are
+                      embedded and read by CUSTOM code.
+================================================================================
+
+1>------ Build started: Project: DLLServices2TestStand, Configuration: Debug x86 ------
+1>Build started 2015-08-31 00:40:43.
+
+1>PreBuildEvent:
+1>  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ "
+1>  Build Task           = IncrementBuildNbr
+1>  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+1>          Project Type = CSharp
+1>          File Date    = 2015-08-31 00:40:43 (2015-08-31 05:40:43 UTC)
+1>          Build Number = 366
+1>  Sleeping for 3 seconds
+1>  Waking from cat nap
+
+1>CoreResGen:
+1>  No resources are out of date with respect to their source files. Skipping resource generation.
+
+1>CoreCompile:
+1>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                    /nowarn:1701,
+                                                            1702,
+                                                            2008
+                                                    /nostdlib+
+                                                    /platform:x86
+                                                    /errorreport:prompt
+                                                    /warn:4
+                                                    /define:TRACE;
+                                                            DEBUG;
+                                                            NET20
+                                                    /errorendlocation
+                                                    /preferreduilang:en-US
+                                                    /highentropyva-
+                                                    
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                    
+                                                    /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+
+                                                    /debug+
+                                                    /debug:full
+                                                    /filealign:512
+                                                    /optimize-
+                                                    /out:obj\x86\Debug\DLLServices2TestStand.exe
+                                                    
+                                                    /resource:obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources
+                                                    /resource:ClassTestMap.TXT,
+                                                              DLLServices2TestStand.ClassTestMap.TXT
+                                                    
+                                                    /target:exe
+                                                    /utf8output
+                                                    /win32icon:WW_Icon1.ico
+                                                    
+                                                    CmdLneArgsTests.cs
+                                                    NewClassTests_20140914.cs
+                                                    Program.cs
+                                                    
+                                                    Properties\AssemblyInfo.cs
+                                                    Properties\Resources.Designer.cs
+
+1>_CopyOutOfDateSourceItemsToOutputDirectory:
+1>Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+
+1>_CopyAppConfigFile:
+1>Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+1>CopyFilesToOutputDirectory:
+1>  Copying file from "obj\x86\Debug\DLLServices2TestStand.exe"
+                   to "bin\Debug\DLLServices2TestStand.exe".
+1>                     DLLServices2TestStand -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+1>  Copying file from "obj\x86\Debug\DLLServices2TestStand.pdb"
+                   to "bin\Debug\DLLServices2TestStand.pdb".
+
+1>PostBuildEvent:
+1>  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe"
+1>  Build Task           = RecordBuildDetails
+1>  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+1>          Version    = 5.6.366.42623
+1>          File Date  = 2015-08-31 00:40:46 (2015-08-31 05:40:46 UTC)
+1>  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\BuildHistory.LOG
+1>          File Date  = 2015-08-31 00:40:47 (2015-08-31 05:40:47 UTC)
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:03.76
+========== Build: 1 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+
+		strTestCase	"This test line has a Windows line terminator.\r\n"		string
+		pstrIn		"This test line has a Windows line terminator.\r\n"		string
+		strChopped	"This test line has a Windows line terminator."			string
+
+		strTestCase	"This test line has a Unix line terminator.\n"			string
+		strChopped	"This test line has a Unix line terminator."			string
+
+		strTestCase	"This test line is terminated by a carriage return.\r"	string
+		strChopped	"This test line is terminated by a carriage return."	string
+
+		strTestCase	"This test line is unterminated."						string
+		strChopped	"This test line is unterminated."						string
+
+System.NullReferenceException was caught
+  IsTransient=false
+  Message=Object reference not set to an instance of an object.
+  Source=DLLServices2TestStand
+  StackTrace:
+       at DLLServices2TestStand.NewClassTests_20140914.ChopChop(Int32& pintTestNumber) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\NewClassTests_20140914.cs:line 171
+       at DLLServices2TestStand.Program.Main(String[] args) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Program.cs:line 376
+  InnerException: 
+
+1>------ Build started: Project: DLLServices2TestStand, Configuration: Debug x86 ------
+1>Build started 2015-08-31 00:55:10.
+1>PreBuildEvent:
+1>  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ "
+1>  Build Task           = IncrementBuildNbr
+1>  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+1>          Project Type = CSharp
+1>          File Date    = 2015-08-31 00:55:11 (2015-08-31 05:55:11 UTC)
+1>          Build Number = 367
+1>  Sleeping for 3 seconds
+1>  Waking from cat nap
+1>CoreResGen:
+1>  No resources are out of date with respect to their source files. Skipping resource generation.
+1>CoreCompile:
+1>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE;DEBUG;NET20 /errorendlocation /preferreduilang:en-US /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\x86\Debug\DLLServices2TestStand.exe /resource:obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources /resource:ClassTestMap.TXT,DLLServices2TestStand.ClassTestMap.TXT /target:exe /utf8output /win32icon:WW_Icon1.ico CmdLneArgsTests.cs NewClassTests_20140914.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+1>_CopyOutOfDateSourceItemsToOutputDirectory:
+1>Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+1>_CopyAppConfigFile:
+1>Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+1>CopyFilesToOutputDirectory:
+1>  Copying file from "obj\x86\Debug\DLLServices2TestStand.exe" to "bin\Debug\DLLServices2TestStand.exe".
+1>  DLLServices2TestStand -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+1>  Copying file from "obj\x86\Debug\DLLServices2TestStand.pdb" to "bin\Debug\DLLServices2TestStand.pdb".
+1>PostBuildEvent:
+1>  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe"
+1>  Build Task           = RecordBuildDetails
+1>  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+1>          Version    = 5.6.367.43057
+1>          File Date  = 2015-08-31 00:55:14 (2015-08-31 05:55:14 UTC)
+1>  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\BuildHistory.LOG
+1>          File Date  = 2015-08-31 00:55:14 (2015-08-31 05:55:14 UTC)
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:03.66
+========== Build: 1 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+
+
+Test # 8 - Exercising class StringTricks.Chop:
+
+Chop Test 1: Input String Length = 47, Value = This test line has a Windows line terminator.
+
+             Output String Length = 45, Value = This test line has a Windows line terminator.
+
+Chop Test 2: Input String Length = 43, Value = This test line has a Unix line terminator.
+
+             Output String Length = 42, Value = This test line has a Unix line terminator.
+
+Chop Test 3: Input String Length = 51, Value = This test line is terminated by a carriage return.
+             Output String Length = 50, Value = This test line is terminated by a carriage return.
+
+Chop Test 4: Input String Length = 31, Value = This test line is unterminated.
+             Output String Length = 31, Value = This test line is unterminated.
+
+Chop Test 5: Input String Length = 0, Value = [Empty String]
+             Output String Length = 0, Value = [Empty String]
+
+Chop Test 6: Input String Length = 0, Value = [Null String]
+             Output String Length = 0, Value = [Null String]
+
+
+Test # 8 Done - Final Status Code = 0
+
+
+Test # 8 - Exercising class StringTricks.Chop:
+
+Chop Test 1: Input String Length = 47, Value = This test line has a Windows line
+ terminator.
+
+             Output String Length = 45, Value = This test line has a Windows lin
+e terminator.
+
+Chop Test 2: Input String Length = 43, Value = This test line has a Unix line te
+rminator.
+
+             Output String Length = 42, Value = This test line has a Unix line t
+erminator.
+
+Chop Test 3: Input String Length = 51, Value = This test line is terminated by a
+ carriage return.
+             Output String Length = 50, Value = This test line is terminated by
+a carriage return.
+
+Chop Test 4: Input String Length = 31, Value = This test line is unterminated.
+             Output String Length = 31, Value = This test line is unterminated.
+
+Chop Test 5: Input String Length = 0, Value = [Empty String]
+             Output String Length = 0, Value = [Empty String]
+
+Chop Test 6: Input String Length = 0, Value = [Null String]
+             Output String Length = 0, Value = [Null String]
+
+
+Test # 8 Done - Final Status Code = 0
+
+Test # 9 - Exercising class Util:
+
+    Public method Util.FileMatchesRegExpMask = True , for filename = WEBPMTS.TXT and mask = WEBPMTS\.*
+    Public method Util.FileMatchesRegExpMask = True , for filename = WEBPMTS.TXT and mask = WEBPMTS.TXT
+    Public method Util.FileMatchesRegExpMask = True , for filename = WEBPMTS.PSV and mask = WEBPMTS\.*
+    Public method Util.FileMatchesRegExpMask = False, for filename = WEBPMTS.PSV and mask = WEBPMTS.TXT
+
+Press ENTER to resume the program.
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics
+                                                Value Name = AppliedDPI
+                                                Value Type = REG_DWORD
+                                                Value Data = 96
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_CURRENT_USER\Control Panel\International
+                                                Value Name = iDigits
+                                                Value Type = REG_DWORD
+                                                Value Data = 0
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Excel\Security\Trusted Locations\Location2
+                                                Value Name = Path
+                                                Value Type = REG_EXPAND_SZ
+                                                Value Data = C:\Users\DAVE\AppDa
+ta\Roaming\Microsoft\Templates
+
+Press ENTER to resume the program.
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager
+                                                Value Name = ObjectDirectories
+                                                Value Type = REG_MULTI_SZ
+                                                Value Data = 2 substrings, as follows:
+
+        Value # 1 = \Windows
+        Value # 2 = \RPC Control
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager
+                                                Value Name = SetupExecute
+                                                Value Type = REG_MULTI_SZ
+                                                Value Data = 0 substrings
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager
+                                                Value Name = SetupExecute2
+                                                Value Type = REG_MULTI_SZ
+                                                Value Data = 0 substrings
+
+Press ENTER to resume the program.
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\StructuredQuery
+                                                Value Name = SchemaChangedLast
+                                                Value Type = REG_QWORD
+                                                Value Data = 130381824135218837
+
+    Public method RegistryValues.RegQueryValue: Key Name   = HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones\Central Standard Time
+                                                Value Name = TZI
+                                                Value Type = REG_BINARY
+                                                Value Data = 68010000 00000000 c4ffffff 00000b00 00000100 02000000 00000000 00000300 00000200 02000000 00000000
+
+Unless Idiom Tests Begin:
+
+    Boolean Expression = True, Unless = False
+    Boolean Expression = False, Unless = True
+
+Unless Idiom Tests Done!
+
+Press ENTER to resume the program.
+
+
+================================================================================
+2015-08-31 01:01:25 - Beautify the output a tad, which causes the .NET resources
+                      to be regenerated.
+================================================================================
+
+1>------ Build started: Project: DLLServices2TestStand, Configuration: Debug x86 ------
+1>Build started 2015-08-31 01:01:03.
+
+1>PreBuildEvent:
+1>  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ "
+1>  Build Task           = IncrementBuildNbr
+1>  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+1>          Project Type = CSharp
+1>          File Date    = 2015-08-31 01:01:03 (2015-08-31 06:01:03 UTC)
+1>          Build Number = 368
+1>  Sleeping for 3 seconds
+1>  Waking from cat nap
+
+1>CoreResGen:
+1>  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath
+                                                                         
+                                                                         /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                                         /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                                         
+                                                                         /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+                                                                         
+                                                                         /compile Properties\Resources.resx,
+                                                                                  obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources
+1>  Processing resource file "Properties\Resources.resx"
+                        into "obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources".
+
+1>CoreCompile:
+1>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                    /nowarn:1701,
+                                                            1702,
+                                                            2008
+                                                    /nostdlib+
+                                                    /platform:x86
+                                                    /errorreport:prompt
+                                                    /warn:4
+                                                    /define:TRACE;
+                                                            DEBUG;
+                                                            NET20
+                                                    /errorendlocation
+                                                    /preferreduilang:en-US
+                                                    /highentropyva-
+                                                    
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                    
+                                                    /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Debug\WizardWrx.DLLServices2.dll"
+                                                    
+                                                    /debug+
+                                                    /debug:full
+                                                    /filealign:512
+                                                    /optimize-
+                                                    /out:obj\x86\Debug\DLLServices2TestStand.exe
+                                                    
+                                                    /resource:obj\x86\Debug\DLLServices2TestStand.Properties.Resources.resources
+                                                    /resource:ClassTestMap.TXT,
+                                                              DLLServices2TestStand.ClassTestMap.TXT
+                                                    
+                                                    /target:exe
+                                                    /utf8output
+                                                    /win32icon:WW_Icon1.ico
+                                                    
+                                                    CmdLneArgsTests.cs
+                                                    NewClassTests_20140914.cs
+                                                    Program.cs
+                                                    
+                                                    Properties\AssemblyInfo.cs
+                                                    Properties\Resources.Designer.cs
+
+1>_CopyOutOfDateSourceItemsToOutputDirectory:
+1>Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+
+1>_CopyAppConfigFile:
+1>Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+1>CopyFilesToOutputDirectory:
+1>  Copying file from "obj\x86\Debug\DLLServices2TestStand.exe"
+                   to "bin\Debug\DLLServices2TestStand.exe".
+1>                     DLLServices2TestStand -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+1>  Copying file from "obj\x86\Debug\DLLServices2TestStand.pdb"
+                   to "bin\Debug\DLLServices2TestStand.pdb".
+
+1>PostBuildEvent:
+1>  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe"
+1>  Build Task           = RecordBuildDetails
+1>  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+1>          Version    = 5.6.368.33
+1>          File Date  = 2015-08-31 01:01:06 (2015-08-31 06:01:06 UTC)
+1>  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\BuildHistory.LOG
+1>          File Date  = 2015-08-31 01:01:06 (2015-08-31 06:01:06 UTC)
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:03.62
+========== Build: 1 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+
+DLLServices2TestStand, version 5.6.368.33 BOJ
+2015-08-31 01:05:59.679 (2015-08-31 06:05:59.679 UTC)
+
+Fully qualified program name, per StateManager GetAssemblyFQFN method = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+
+Executable Subsystem = 3: Image runs in the Windows character subsystem.
+
+Console handle Standard Input (STDIN, a. k. a., Console.In) is attached to a console.
+Console handle Standard Output (STDOUT, a. k. a., Console.Out) is attached to a console.
+Console handle Standard Error (STDERR, a. k. a., Console.Error) is attached to a console.
+
+This text should appear as White letters on a DarkGray background.
+
+
+The next screen displays selected properties of the library that is about to be exercised.
+
+Press ENTER to resume the program.
+Selected properties of the library under test:
+
+    AssemblyFileBaseName = WizardWrx.DLLServices2
+    VersionString        = 5.6.288.42368
+    Culture              = Invariant Language (Invariant Country)
+    PublicKeyToken       =
+    AssemblyGuidString   = c1190387-03c3-430a-8ec4-d22173620201
+
+    ProductName          = DLLServices
+    LegalCopyright       = Copyright c 2013-2015, David A. Gray
+    LegalTrademarks      =
+    CompanyName          = David A. Gray
+    Description          = WizardWrx.DLLServices2
+    Comments             =
+
+    AssembyDirName       = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug
+    AssemblyFileName     = WizardWrx.DLLServices2.dll
+
+    File CreatION Date   = 2015-06-23 10:16:43 (2015-06-23 15:16:43 UTC)
+    File Modified Date   = 2015-08-31 00:32:17 (2015-08-31 05:32:17 UTC)
+
+End of selected properties
+
+Press ENTER to resume the program.
+
+Test # 8 - Exercising class StringTricks.Chop:
+
+Chop Test 1: Input String Length  = 47, Value = This test line has a Windows line terminator.
+
+             Output String Length = 45, Value = This test line has a Windows line terminator.
+
+Chop Test 2: Input String Length  = 43, Value = This test line has a Unix line terminator.
+
+             Output String Length = 42, Value = This test line has a Unix line terminator.
+
+Chop Test 3: Input String Length  = 51, Value = This test line is terminated by a carriage return.
+             Output String Length = 50, Value = This test line is terminated by a carriage return.
+
+Chop Test 4: Input String Length  = 31, Value = This test line is unterminated.
+             Output String Length = 31, Value = This test line is unterminated.
+
+Chop Test 5: Input String Length  = 0, Value = [Empty String]
+             Output String Length = 0, Value = [Empty String]
+
+Chop Test 6: Input String Length  = 0, Value = [Null String]
+             Output String Length = 0, Value = [Null String]
+
+
+Test # 8 Done - Final Status Code = 0
+Press ENTER to resume the program.
+
+Evaluate loop state with a Equal To Limit:
+
+Loop Limit Values: Start = -10
+                   Stop  = 5
+
+Index   First   Next    More    Last
+-----   -----   -----   -----   -----
+-10     True    False   True    False
+5       False   True    False   True
+
+Test # 9 Done - Final Status Code = 0
+DLLServices2TestStand EOJ
+Running time = 00:01:59.3404602
+Press ENTER to exit the program.
+
+'DLLServices2TestStand.exe' (CLR v2.0.50727: DefaultDomain): Loaded 'C:\Windows\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\mscorlib.dll'. Symbols loaded.
+'DLLServices2TestStand.exe' (CLR v2.0.50727: DefaultDomain): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe'. Symbols loaded.
+'DLLServices2TestStand.exe' (CLR v2.0.50727: DLLServices2TestStand.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\WizardWrx.DLLServices2.dll'. Symbols loaded.
+'DLLServices2TestStand.exe' (CLR v2.0.50727: DLLServices2TestStand.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll'. Symbols loaded.
+'DLLServices2TestStand.exe' (CLR v2.0.50727: DLLServices2TestStand.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Symbols loaded.
+'DLLServices2TestStand.exe' (CLR v2.0.50727: DLLServices2TestStand.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll'. Symbols loaded.
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.Exception' occurred in DLLServices2TestStand.exe
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.Exception' occurred in DLLServices2TestStand.exe
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+A first chance exception of type 'System.InvalidOperationException' occurred in System.dll
+The program '[0xAD8] DLLServices2TestStand.exe' has exited with code 0 (0x0).
+
+
+================================================================================
+2015-08-31 01:08:54 - Create the retail build.
+================================================================================
+
+1>------ Build started: Project: DLLServices2, Configuration: Release Any CPU ------
+1>Build started 2015-08-31 01:08:37.
+
+1>PreBuildEvent:
+1>  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ "
+1>  Build Task           = IncrementBuildNbr
+1>  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\Properties\AssemblyInfo.cs
+1>          Project Type = CSharp
+1>          File Date    = 2015-08-31 01:08:37 (2015-08-31 06:08:37 UTC)
+1>          Build Number = 289
+1>  Sleeping for 3 seconds
+1>  Waking from cat nap
+
+1>CoreResGen:
+1>  No resources are out of date with respect to their source files. Skipping resource generation.
+
+1>CoreCompile:
+1>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                    /nowarn:1701,
+                                                            1702,
+                                                            2008
+                                                    /nostdlib+
+                                                    /errorreport:prompt
+                                                    /warn:4
+                                                    /doc:bin\Release\WizardWrx.DLLServices2.XML
+                                                    /define:TRACE;
+                                                            NET20
+                                                    /errorendlocation
+                                                    /preferreduilang:en-US
+                                                    /highentropyva-
+                                                    
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Configuration.dll
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                    
+                                                    /debug:pdbonly
+                                                    /filealign:512
+                                                    /optimize+
+                                                    /out:obj\Release\WizardWrx.DLLServices2.dll
+                                                    
+                                                    /resource:obj\Release\WizardWrx.DLLServices2.Properties.Resources.resources
+                                                    
+                                                    /target:library
+                                                    /utf8output
+                                                    
+                                                    ArrayInfo.cs
+                                                    AssemblyLocatorBase.cs
+                                                    CmdLneArgsBasic.cs
+                                                    CSVFileInfo.cs
+                                                    DisplayFormats.cs
+                                                    ErrorMessagesInColor.cs
+                                                    ExceptionLogger.cs
+                                                    FileIOFlags.cs
+                                                    IniFileReader.cs
+                                                    IP6CUtilLib1.cs
+                                                    ListInfo.cs
+                                                    Logic.cs
+                                                    MagicBooleans.cs
+                                                    MagicNumbers.cs
+                                                    MessageInColor.cs
+                                                    NumericFormats.cs
+                                                    PathPositions.cs
+                                                    PropertyDefaults.cs
+                                                    RegExpSupport.cs
+                                                    RegistryValues.cs
+                                                    SpecialCharacters.cs
+                                                    SpecialStrings.cs
+                                                    StateManager.cs
+                                                    StringTricks.cs
+                                                    SyncRoot.cs
+                                                    SysDateFormatters.cs
+                                                    TextBlocks.cs
+                                                    TimeDisplayFormatter.cs
+                                                    Util.cs
+                                                    
+                                                    Properties\AssemblyInfo.cs
+                                                    Properties\Resources.Designer.cs
+
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(534,34,534,55):   warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(535,39,535,64):   warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(536,21,536,34):   warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem'             is obsolete: 'Use OutputOptions.StandardOutput or OutputOptions.StandardError.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1057,39,1057,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1097,39,1097,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1097,39,1097,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1143,39,1143,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(1143,39,1143,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2220,31,2220,59): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2337,29,2337,48): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.Subsystem'             is obsolete: 'Use OutputOptions.StandardOutput or OutputOptions.StandardError.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2337,29,2337,48): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.RecordinEventLog'      is obsolete: 'Use OutputOptions.EventLog.'
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ExceptionLogger.cs(2337,29,2337,48): warning CS0618: 'WizardWrx.DLLServices2.ExceptionLogger.StackTraceDisposition' is obsolete: 'Use OutputOptions.Stack.'
+
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\MagicBooleans.cs(87,21,87,39):       warning CS1574: XML comment on 'WizardWrx.MagicBooleans' has cref attribute 'WizawdWrx.ListInfo' that could not be resolved
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\MagicNumbers.cs(95,21,95,39):        warning CS1574: XML comment on 'WizardWrx.MagicNumbers'  has cref attribute 'WizardWrx.ListInfo' that could not be resolved
+1>C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\PathPositions.cs(86,21,86,39):       warning CS1574: XML comment on 'WizardWrx.PathPositions' has cref attribute 'WizardWrx.ListInfo' that could not be resolved
+
+1>_CopyOutOfDateSourceItemsToOutputDirectory:
+1>Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+
+1>CopyFilesToOutputDirectory:
+1>  Copying file from "obj\Release\WizardWrx.DLLServices2.dll"
+                   to "bin\Release\WizardWrx.DLLServices2.dll".
+1>                     DLLServices2 -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll
+1>  Copying file from "obj\Release\WizardWrx.DLLServices2.pdb"
+                   to "bin\Release\WizardWrx.DLLServices2.pdb".
+
+1>PostBuildEvent:
+1>  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll"
+1>  Build Task           = RecordBuildDetails
+1>  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll
+1>          Version    = 5.6.289.260
+1>          File Date  = 2015-08-31 01:08:41 (2015-08-31 06:08:41 UTC)
+1>  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\BuildHistory.LOG
+1>          File Date  = 2015-08-31 01:08:41 (2015-08-31 06:08:41 UTC)
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:03.97
+2>------ Build started: Project: DLLServices2TestStand, Configuration: Release x86 ------
+
+3>------ Build started: Project: RedirectedStreamTester, Configuration: Release Any CPU ------
+2>Build started 2015-08-31 01:08:41.
+
+2>PreBuildEvent:
+2>  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ "
+2>  Build Task           = IncrementBuildNbr
+2>  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+2>          Project Type = CSharp
+2>          File Date    = 2015-08-31 01:08:41 (2015-08-31 06:08:41 UTC)
+2>          Build Number = 369
+2>  Sleeping for 3 seconds
+2>  Waking from cat nap
+
+2>CoreResGen:
+2>  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath
+                                                                         
+                                                                         /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                                         /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                                         
+                                                                         /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll"
+                                                                         
+                                                                         /compile Properties\Resources.resx,
+                                                                                  obj\x86\Release\DLLServices2TestStand.Properties.Resources.resources
+2>  Processing resource file "Properties\Resources.resx"
+                        into "obj\x86\Release\DLLServices2TestStand.Properties.Resources.resources".
+
+2>CoreCompile:
+2>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                    /nowarn:1701,
+                                                            1702,
+                                                            2008
+                                                    /nostdlib+
+                                                    /platform:x86
+                                                    /errorreport:prompt
+                                                    /warn:4
+                                                    /define:TRACE;
+                                                            NET20
+                                                    /errorendlocation
+                                                    /preferreduilang:en-US
+                                                    /highentropyva-
+
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                    /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                    
+                                                    /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll"
+                                                    /debug:pdbonly
+                                                    /filealign:512
+                                                    /optimize+
+                                                    /out:obj\x86\Release\DLLServices2TestStand.exe
+                                                    
+                                                    /resource:obj\x86\Release\DLLServices2TestStand.Properties.Resources.resources
+                                                    /resource:ClassTestMap.TXT,
+                                                              DLLServices2TestStand.ClassTestMap.TXT
+                                                    
+                                                    /target:exe
+                                                    /utf8output
+                                                    /win32icon:WW_Icon1.ico
+                                                    
+                                                    CmdLneArgsTests.cs
+                                                    NewClassTests_20140914.cs
+                                                    Program.cs
+                                                    
+                                                    Properties\AssemblyInfo.cs
+                                                    Properties\Resources.Designer.cs
+
+2>_CopyFilesMarkedCopyLocal:
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll"
+                   to "bin\Release\WizardWrx.DLLServices2.dll".
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.pdb"
+                   to "bin\Release\WizardWrx.DLLServices2.pdb".
+2>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.xml"
+                   to "bin\Release\WizardWrx.DLLServices2.xml".
+
+2>_CopyOutOfDateSourceItemsToOutputDirectory:
+2>Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+
+2>_CopyAppConfigFile:
+2>Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+2>CopyFilesToOutputDirectory:
+2>  Copying file from "obj\x86\Release\DLLServices2TestStand.exe"
+                   to "bin\Release\DLLServices2TestStand.exe".
+2>                     DLLServices2TestStand -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe
+2>  Copying file from "obj\x86\Release\DLLServices2TestStand.pdb"
+                   to "bin\Release\DLLServices2TestStand.pdb".
+
+2>PostBuildEvent:
+2>  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe"
+2>  Build Task           = RecordBuildDetails
+2>  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe
+2>          Version    = 5.6.369.262
+2>          File Date  = 2015-08-31 01:08:44 (2015-08-31 06:08:44 UTC)
+2>  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\BuildHistory.LOG
+2>          File Date  = 2015-08-31 01:08:45 (2015-08-31 06:08:45 UTC)
+2>
+2>Build succeeded.
+2>
+2>Time Elapsed 00:00:03.78
+
+3>Build started 2015-08-31 01:08:41.
+
+3>ResolveAssemblyReferences:
+3>  A TargetFramework profile exclusion list will be generated.
+
+3>CoreResGen:
+3>  "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\resgen.exe" /useSourcePath
+                                                                                           
+                                                                                           /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll"
+                                                                                           /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll"
+                                                                                           /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll"
+                                                                                           /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll"
+                                                                                           
+                                                                                           /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll"
+                                                                                           
+                                                                                           /compile Properties\Resources.resx,
+                                                                                                    obj\Release\RedirectedStreamTester.Properties.Resources.resources
+3>  Processing resource file "Properties\Resources.resx"
+                        into "obj\Release\RedirectedStreamTester.Properties.Resources.resources".
+
+3>GenerateTargetFrameworkMonikerAttribute:
+3>Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+3>CoreCompile:
+3>  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                    /nowarn:1701,
+                                                            1702,
+                                                            2008
+                                                    /nostdlib+
+                                                    /platform:x86
+                                                    /errorreport:prompt
+                                                    /warn:4
+                                                    /define:TRACE
+                                                    /errorendlocation
+                                                    /preferreduilang:en-US
+                                                    /highentropyva-
+                                                    
+                                                    /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll"
+                                                    /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll"
+                                                    /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll"
+                                                    /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll"
+                                                    
+                                                    /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll"
+                                                    
+                                                    /debug:pdbonly
+                                                    /filealign:512
+                                                    /optimize+
+                                                    /out:obj\Release\RedirectedStreamTester.exe
+                                                    
+                                                    /resource:obj\Release\RedirectedStreamTester.Properties.Resources.resources
+                                                    
+                                                    /target:exe
+                                                    /utf8output
+                                                    /win32icon:WW_Icon1.ico
+                                                    
+                                                    Program.cs
+                                                    StreamStateInfo.cs
+                                                    
+                                                    Properties\AssemblyInfo.cs
+                                                    Properties\Resources.Designer.cs
+                                                    
+                                                    "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs"
+
+3>_CopyFilesMarkedCopyLocal:
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll"
+                   to "bin\Release\WizardWrx.DLLServices2.dll".
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.pdb"
+                   to "bin\Release\WizardWrx.DLLServices2.pdb".
+3>  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.xml"
+                   to "bin\Release\WizardWrx.DLLServices2.xml".
+
+3>_CopyOutOfDateSourceItemsToOutputDirectory:
+3>Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+
+3>_CopyAppConfigFile:
+3>Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+3>CopyFilesToOutputDirectory:
+3>  Copying file from "obj\Release\RedirectedStreamTester.exe"
+                   to "bin\Release\RedirectedStreamTester.exe".
+3>                     RedirectedStreamTester -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\RedirectedStreamTester\bin\Release\RedirectedStreamTester.exe
+3>  Copying file from "obj\Release\RedirectedStreamTester.pdb"
+                   to "bin\Release\RedirectedStreamTester.pdb".
+3>
+3>Build succeeded.
+3>
+3>Time Elapsed 00:00:04.07
+========== Build: 3 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\DAVE>dir "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll"
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release
+
+2015-08-31  01:08            95,744 WizardWrx.DLLServices2.dll
+               1 File(s)         95,744 bytes
+               0 Dir(s)  569,698,922,496 bytes free
+
+C:\Users\DAVE>ShowVer "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll"
+VERSIONINFO for file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll":  (type:0)
+  Signature:       feef04bd
+  StrucVersion:    1.0
+  FileVersion:     5.6.289.260
+  ProductVersion:  5.6.289.260
+  FileFlagsMask:   0x3f
+  FileFlags:       0
+  FileOS:          VOS__WINDOWS32
+  FileType:        VFT_DLL
+  FileDate:        0.0
+ Translation: 000004b0
+ LangID: 000004b0
+  CompanyName       : David A. Gray
+  FileDescription   : WizardWrx.DLLServices2
+  FileVersion       : 5.6.289.260
+  InternalName      : WizardWrx.DLLServices2.dll
+  LegalCopyright    : Copyright ¬ 2013-2015, David A. Gray
+  OriginalFilename  : WizardWrx.DLLServices2.dll
+  ProductName       : DLLServices
+  ProductVersion    : 5.6.289.260
+  Assembly Version  : 5.6.289.260
+
+C:\Users\DAVE>

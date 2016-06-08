@@ -1,0 +1,17 @@
+RedirectedStreamTester, version 5.5.0.0 BOJ
+2015-09-24 05:45:20.086 (2015-09-24 10:45:20.086 UTC)
+
+    Assembly ImageRuntimeVersion   = v4.0.30319
+
+-------------------------------------------------------------------------------
+Stream Name and Description                          State
+---------------------------------------------------- --------------------------
+STDERR                                               D
+STDIN                                                D
+STDOUT                                               Redirected to STDOUT.TXT
+-------------------------------------------------------------------------------
+
+Before calling FooBarFoo, intFoo = 12345
+     Entering FooBarFoo, pintFoo = 12345
+     Leaving FooBarFoo, pintFoo  = 152399025
+After calling FooBarFoo, intFoo  = 12345

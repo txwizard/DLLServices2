@@ -1,0 +1,9 @@
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\bin\Debug\BinaryPropertyStorage.exe.config
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\bin\Debug\BinaryPropertyStorage.exe
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\bin\Debug\BinaryPropertyStorage.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\obj\Debug\BinaryPropertyStorage.Form1.resources
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\obj\Debug\BinaryPropertyStorage.Properties.Resources.resources
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\obj\Debug\BinaryPropertyStorage.csproj.GenerateResource.Cache
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\obj\Debug\BinaryPropertyStorage.exe
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\obj\Debug\BinaryPropertyStorage.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\obj\Debug\BinaryPropertyStorage.csprojResolveAssemblyReference.cache

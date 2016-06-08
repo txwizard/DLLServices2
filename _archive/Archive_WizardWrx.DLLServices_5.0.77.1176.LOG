@@ -1,0 +1,49 @@
+"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_archive\Archive_DLLServices2.CMD" Begin
+
+-------------------------------------------------------------------------
+Project Assembly = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll
+Backup Directory = C:\COMMON_DATA\Assorted_Zips\program_source\Visual Studio 2010
+Backup Password  = Default
+-------------------------------------------------------------------------
+
+WWSourceCodeArchiver, version 2.0.11.25045
+Begin @ 06/07/2014 01:52:40 (06/07/2014 06:52:40 UTC)
+
+ProjectPath            = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release\WizardWrx.DLLServices2.dll
+TargetPath             = C:\COMMON_DATA\Assorted_Zips\program_source\Visual Studio 2010\
+Product Type           = DynamicLinkLibrary
+
+Program Directory Name = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\DLLServices2\bin\Release
+Program File Name      = WizardWrx.DLLServices2.dll
+    File Size          = 46,080
+    Create Date (LOC)  = 2014/06/07 01:39:14.275
+    Create Date (UTC)  = 2014/06/07 06:39:14.275
+    Mod Date (LOC)     = 2014/06/07 01:39:14.275
+    Mod Date (UTC)     = 2014/06/07 06:39:14.275
+Project Name           = DLLServices2
+Project Root           = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\
+Assembly FullName      = WizardWrx.DLLServices2, Version=5.0.77.1176, Culture=neutral, PublicKeyToken=null
+    BaseName           = WizardWrx.DLLServices2
+    Full Version       = 5.0.77.1176
+    Culture            = neutral
+    PublicKeyToken     = null
+
+2014/06/07 01:52:40.937 Creating archive.
+2014/06/07 01:52:42.390 The archive was successfully created.
+2014/06/07 01:52:42.484 Archive flag reset on 85 project files.
+
+Archive FQFN           = C:\COMMON_DATA\Assorted_Zips\program_source\Visual Studio 2010\WizardWrx.DLLServices2_5_0_77_1176.7z
+    File Size          = 283,295
+    Create Date (LOC)  = 2014/06/07 01:52:41.078
+    Create Date (UTC)  = 2014/06/07 06:52:41.078
+    Mod Date (LOC)     = 2014/06/07 01:52:42.390
+    Mod Date (UTC)     = 2014/06/07 06:52:42.390
+
+WWSourceCodeArchiver End - 06/07/2014 01:52:42 (06/07/2014 06:52:42 UTC)
+Elapsed time: 00:00:02.921
+"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\DLLServices2\_archive\Archive_DLLServices2.CMD" Done!
+WWPause version 2, 0, 0, 3
+Sat 07 Jun 2014 06:52:43 UTC
+Sat 07 Jun 2014 01:52:43 Local
+
+Please press RETURN when ready...

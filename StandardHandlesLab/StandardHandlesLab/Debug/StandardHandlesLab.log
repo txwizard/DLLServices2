@@ -1,0 +1,625 @@
+﻿Build started 2015-09-22 10:16:39.
+     1>Project "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\StandardHandlesLab\StandardHandlesLab.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Standard.8E1919AC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /W3 /WX- /Od /Oy- /D _FORCE_DEBUGGER /D STANDARD_HANDLES_LAB /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ProgramIDFromArgV.C StandardHandleState.C
+         Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /ZI /W3 /WX- /Od /Oy- /D _FORCE_DEBUGGER /D STANDARD_HANDLES_LAB /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ProgramIDFromArgV.C StandardHandleState.C
+         
+         StandardHandleState.C
+     1>c:\users\dave\documents\visual studio 2013\projects\wizardwrx_libs\dllservices2\standardhandleslab\standardhandleslab\standardhandlestate.c(91): warning C4047: 'initializing' : 'HANDLE' differs in levels of indirection from 'DWORD'
+     1>c:\users\dave\documents\visual studio 2013\projects\wizardwrx_libs\dllservices2\standardhandleslab\standardhandleslab\standardhandlestate.c(109): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'HANDLE'
+     1>c:\users\dave\documents\visual studio 2013\projects\wizardwrx_libs\dllservices2\standardhandleslab\standardhandleslab\standardhandlestate.c(109): warning C4024: 'GetStdHandle' : different types for formal and actual parameter 1
+         ProgramIDFromArgV.C
+     1>c:\users\dave\documents\visual studio 2013\projects\wizardwrx_libs\dllservices2\standardhandleslab\standardhandleslab\programidfromargv.c(132): warning C4047: '=' : 'TCHAR *' differs in levels of indirection from 'DWORD_PTR'
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /W3 /WX- /Od /Oy- /D _FORCE_DEBUGGER /D STANDARD_HANDLES_LAB /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StandardHandlesLab.cpp
+         Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /ZI /W3 /WX- /Od /Oy- /D _FORCE_DEBUGGER /D STANDARD_HANDLES_LAB /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StandardHandlesLab.cpp
+         
+         StandardHandlesLab.cpp
+         c:\users\dave\documents\programming\visual_studio_6\include\standardmacros_dag.h: Preprocessor symbols _DEBUG and _FORCE_DEBUGGER are defined. ForceIntoDEebugger expands into DebugBreak call.
+         c:\users\dave\documents\programming\visual_studio_6\include\standardmacros_dag.h: Since preprocessor symbol COMMON_CONSTANTS_P6C_INCLUDED is UNdefined, a subset of the macros defined therein are defined here.
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\StandardHandlesLab.res" StandardHandlesLab.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\Debug\StandardHandlesLab.exe" /VERBOSE /INCREMENTAL FixedStringBuffers.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\Debug\StandardHandlesLab.pdb" /MAP /SUBSYSTEM:CONSOLE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\Debug\StandardHandlesLab.lib" /MACHINE:X86 /SAFESEH Debug\StandardHandlesLab.res
+         Debug\ProgramIDFromArgV.obj
+         Debug\StandardHandlesLab.obj
+         Debug\StandardHandleState.obj
+         Microsoft (R) Incremental Linker Version 12.00.31101.0
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         "/OUT:C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\Debug\StandardHandlesLab.exe" /VERBOSE /INCREMENTAL FixedStringBuffers.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG "/PDB:C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\Debug\StandardHandlesLab.pdb" /MAP /SUBSYSTEM:CONSOLE /DYNAMICBASE /NXCOMPAT "/IMPLIB:C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\Debug\StandardHandlesLab.lib" /MACHINE:X86 /SAFESEH Debug\StandardHandlesLab.res 
+         Debug\ProgramIDFromArgV.obj 
+         Debug\StandardHandlesLab.obj 
+         Debug\StandardHandleState.obj 
+         
+         Starting pass 1
+         Processed /DEFAULTLIB:MSVCRTD
+         Processed /DEFAULTLIB:OLDNAMES
+     1>ProgramIDFromArgV.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         Processed /DEFAULTLIB:uuid.lib
+         
+         Searching libraries
+             Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\FixedStringBuffers.lib:
+               Found __imp__FB_FormatMessageW
+                 Referenced in StandardHandlesLab.obj
+                 Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+               Found __imp__FB_GetResourceBufferTChars
+                 Referenced in StandardHandlesLab.obj
+                 Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+               Found __imp__FB_GetlpResourceBufferW
+                 Referenced in StandardHandlesLab.obj
+                 Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+               Found __imp__FB_LoadStringW
+                 Referenced in StandardHandlesLab.obj
+                 Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+               Found __IMPORT_DESCRIPTOR_FixedStringBuffers
+                 Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+                 Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+                 Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+                 Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+                 Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+               Found __NULL_IMPORT_DESCRIPTOR
+                 Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+                 Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+               Found FixedStringBuffers_NULL_THUNK_DATA
+                 Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+                 Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+               Found __imp__HeapAlloc@12
+                 Referenced in ProgramIDFromArgV.obj
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetProcessHeap@0
+                 Referenced in ProgramIDFromArgV.obj
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetStdHandle@4
+                 Referenced in StandardHandlesLab.obj
+                 Referenced in StandardHandleState.obj
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__DebugBreak@0
+                 Referenced in StandardHandlesLab.obj
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetUnhandledExceptionFilter@4
+                 Referenced in StandardHandlesLab.obj
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetLastError@0
+                 Referenced in StandardHandlesLab.obj
+                 Referenced in StandardHandleState.obj
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetErrorMode@4
+                 Referenced in StandardHandlesLab.obj
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetModuleHandleW@4
+                 Referenced in StandardHandlesLab.obj
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetProcAddress@8
+                 Referenced in StandardHandlesLab.obj
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetConsoleMode@8
+                 Referenced in StandardHandlesLab.obj
+                 Referenced in StandardHandleState.obj
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetLastError@4
+                 Referenced in StandardHandleState.obj
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __IMPORT_DESCRIPTOR_KERNEL32
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found KERNEL32_NULL_THUNK_DATA
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Loaded kernel32.lib(KERNEL32.dll)
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRTD.lib:
+               Found __imp__wcslen
+                 Referenced in ProgramIDFromArgV.obj
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __imp__wcsstr
+                 Referenced in ProgramIDFromArgV.obj
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found _memcpy
+                 Referenced in ProgramIDFromArgV.obj
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __RTC_CheckEsp
+                 Referenced in ProgramIDFromArgV.obj
+                 Referenced in StandardHandlesLab.obj
+                 Referenced in StandardHandleState.obj
+                 Loaded MSVCRTD.lib(stack.obj)
+               Found __RTC_InitBase
+                 Referenced in ProgramIDFromArgV.obj
+                 Referenced in StandardHandlesLab.obj
+                 Referenced in StandardHandleState.obj
+                 Loaded MSVCRTD.lib(init.obj)
+               Found __imp__wprintf
+                 Referenced in StandardHandlesLab.obj
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found _memset
+                 Referenced in StandardHandlesLab.obj
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found @__security_check_cookie@4
+                 Referenced in StandardHandlesLab.obj
+                 Loaded MSVCRTD.lib(secchk.obj)
+               Found ___security_cookie
+                 Referenced in StandardHandlesLab.obj
+                 Referenced in MSVCRTD.lib(secchk.obj)
+                 Loaded MSVCRTD.lib(gs_cookie.obj)
+               Found _wmainCRTStartup
+                 Loaded MSVCRTD.lib(wcrtexe.obj)
+               Found __IMPORT_DESCRIPTOR_MSVCR120D
+                 Referenced in MSVCRTD.lib(MSVCR120D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR120D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR120D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR120D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR120D.dll)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found "void __cdecl _RTC_Failure(void *,int)" (?_RTC_Failure@@YAXPAXH@Z)
+                 Referenced in MSVCRTD.lib(stack.obj)
+                 Loaded MSVCRTD.lib(error.obj)
+               Found __RTC_SetErrorFuncW
+                 Referenced in MSVCRTD.lib(init.obj)
+                 Loaded MSVCRTD.lib(userapi.obj)
+               Found __CRT_RTC_INITW
+                 Referenced in MSVCRTD.lib(init.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found ___report_gsfailure
+                 Referenced in MSVCRTD.lib(secchk.obj)
+                 Loaded MSVCRTD.lib(gs_report.obj)
+               Found ___CxxSetUnhandledExceptionFilter
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(unhandld.obj)
+               Found __XcptFilter
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __amsg_exit
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __wsetargv
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(wdllargv.obj)
+               Found __imp____wgetmainargs
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __imp____set_app_type
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __imp___CrtDbgReportW
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __imp___CrtSetCheckCount
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __IsNonwritableInCurrentImage
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(pesect.obj)
+               Found __imp__exit
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __imp___exit
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __imp___cexit
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found ___security_init_cookie
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(gs_support.obj)
+               Found __matherr
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(merr.obj)
+               Found _atexit
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(atonexit.obj)
+               Found __RTC_Initialize
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(initsect.obj)
+               Found __imp___configthreadlocale
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __setdefaultprecision
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(fp8.obj)
+               Found __imp____setusermatherr
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __initterm_e
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __initterm
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __except_handler4
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Referenced in MSVCRTD.lib(pesect.obj)
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(chandler4gs.obj)
+               Found ___globallocalestatus
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(xthdloc.obj)
+               Found __commode
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(xncommod.obj)
+               Found __dowildcard
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(wildcard.obj)
+               Found __newmode
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(_newmode.obj)
+               Found __imp____winitenv
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found ___native_startup_state
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(natstart.obj)
+               Found __fmode
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(xtxtmode.obj)
+               Found __imp___fmode
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __imp___commode
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found ___xi_a
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Loaded MSVCRTD.lib(cinitexe.obj)
+         Processed /DEFAULTLIB:kernel32.lib
+          Processed /DISALLOWLIB:libcmt.lib
+          Processed /DISALLOWLIB:libcmtd.lib
+          Processed /DISALLOWLIB:msvcrt.lib
+               Found MSVCR120D_NULL_THUNK_DATA
+                 Referenced in MSVCRTD.lib(MSVCR120D.dll)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded MSVCRTD.lib(pdblkup.obj)
+               Found __crt_debugger_hook
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found ___crtUnhandledException
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found ___crtTerminateProcess
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found "void __cdecl terminate(void)" (?terminate@@YAXXZ)
+                 Referenced in MSVCRTD.lib(unhandld.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found ___crtSetUnhandledExceptionFilter
+                 Referenced in MSVCRTD.lib(unhandld.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __lock
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __unlock
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __imp___calloc_dbg
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found ___dllonexit
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __imp___onexit
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __invoke_watson
+                 Referenced in MSVCRTD.lib(fp8.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __controlfp_s
+                 Referenced in MSVCRTD.lib(fp8.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __except_handler4_common
+                 Referenced in MSVCRTD.lib(chandler4gs.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found _wcscpy_s
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __wmakepath_s
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+               Found __wsplitpath_s
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded MSVCRTD.lib(MSVCR120D.dll)
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+             Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\FixedStringBuffers.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+               Found __imp__EncodePointer@4
+                 Referenced in MSVCRTD.lib(wcrtexe.obj)
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__IsDebuggerPresent@0
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__RaiseException@16
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__LoadLibraryExW@12
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__MultiByteToWideChar@24
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__WideCharToMultiByte@32
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found _IsProcessorFeaturePresent@4
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__QueryPerformanceCounter@4
+                 Referenced in MSVCRTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCurrentProcessId@0
+                 Referenced in MSVCRTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCurrentThreadId@0
+                 Referenced in MSVCRTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetSystemTimeAsFileTime@4
+                 Referenced in MSVCRTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__DecodePointer@4
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapFree@12
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__VirtualQuery@12
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__FreeLibrary@4
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetModuleFileNameW@12
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+         
+         Finished searching libraries
+         
+         Finished pass 1
+         
+         
+         Searching libraries
+             Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\FixedStringBuffers.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRTD.lib:
+               Found __load_config_used
+                 Loaded MSVCRTD.lib(loadcfg.obj)
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+             Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\FixedStringBuffers.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+         
+         Finished searching libraries
+         
+         Invoking rc.exe:
+          /v
+          /x
+          /fo
+          "C:\Users\DAVE\AppData\Local\Temp\lnk{5A47828C-2FCF-4A40-97A5-61E5496B6B57}.tmp"
+          "C:\Users\DAVE\AppData\Local\Temp\lnk{FF51CE8D-86AB-482F-B1AD-41FDA4601F0B}.tmp"
+         Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17298
+         
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         
+         Creating C:\Users\DAVE\AppData\Local\Temp\lnk{5A47828C-2FCF-4A40-97A5-61E5496B6B57}.tmp
+         
+         Using codepage 1252 as default
+         
+         C:\Users\DAVE\AppData\Local\Temp\lnk{FF51CE8D-86AB-482F-B1AD-41FDA4601F0B}.tmp.
+         Writing 24:1,	lang:0x409,	size 381
+         
+         Invoking cvtres.exe:
+          /machine:x86
+          /verbose
+          /out:"C:\Users\DAVE\AppData\Local\Temp\lnk{B0304EAE-A9EA-4355-B468-42D31BE4F126}.tmp"
+          /readonly
+          "Debug\StandardHandlesLab.res"
+          "C:\Users\DAVE\AppData\Local\Temp\lnk{5A47828C-2FCF-4A40-97A5-61E5496B6B57}.tmp"
+         Microsoft (R) Windows Resource To Object Converter Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         adding resource. type:ICON, name:1, language:0x0409, flags:0x1010, size:744
+         adding resource. type:ICON, name:2, language:0x0409, flags:0x1010, size:296
+         adding resource. type:ICON, name:3, language:0x0409, flags:0x1010, size:2216
+         adding resource. type:ICON, name:4, language:0x0409, flags:0x1010, size:3752
+         adding resource. type:ICON, name:5, language:0x0409, flags:0x1010, size:1640
+         adding resource. type:ICON, name:6, language:0x0409, flags:0x1010, size:1384
+         adding resource. type:GROUP_ICON, name:101, language:0x0409, flags:0x1030, size:90
+         adding resource. type:VERSION, name:1, language:0x0409, flags:0x30, size:796
+         adding resource. type:STRING, name:7, language:0x0409, flags:0x1030, size:1088
+         adding resource. type:STRING, name:8, language:0x0409, flags:0x1030, size:1700
+         adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:381
+         
+         Unused libraries:
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib
+           C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib
+           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib
+         
+         Starting pass 2
+              StandardHandlesLab.res
+              StandardHandleState.obj
+              StandardHandlesLab.obj
+              ProgramIDFromArgV.obj
+              FixedStringBuffers.lib(FixedStringBuffers.dll)
+              FixedStringBuffers.lib(FixedStringBuffers.dll)
+              FixedStringBuffers.lib(FixedStringBuffers.dll)
+              FixedStringBuffers.lib(FixedStringBuffers.dll)
+              FixedStringBuffers.lib(FixedStringBuffers.dll)
+              FixedStringBuffers.lib(FixedStringBuffers.dll)
+              FixedStringBuffers.lib(FixedStringBuffers.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              MSVCRTD.lib(unhandld.obj)
+              MSVCRTD.lib(atonexit.obj)
+              MSVCRTD.lib(cinitexe.obj)
+              MSVCRTD.lib(gs_cookie.obj)
+              MSVCRTD.lib(gs_report.obj)
+              MSVCRTD.lib(gs_support.obj)
+              MSVCRTD.lib(merr.obj)
+              MSVCRTD.lib(natstart.obj)
+              MSVCRTD.lib(pesect.obj)
+              MSVCRTD.lib(wcrtexe.obj)
+              MSVCRTD.lib(wdllargv.obj)
+              MSVCRTD.lib(wildcard.obj)
+              MSVCRTD.lib(chandler4gs.obj)
+              MSVCRTD.lib(fp8.obj)
+              MSVCRTD.lib(loadcfg.obj)
+              MSVCRTD.lib(secchk.obj)
+              MSVCRTD.lib(_newmode.obj)
+              MSVCRTD.lib(xncommod.obj)
+              MSVCRTD.lib(xtxtmode.obj)
+              MSVCRTD.lib(xthdloc.obj)
+              MSVCRTD.lib(userapi.obj)
+              MSVCRTD.lib(stack.obj)
+              MSVCRTD.lib(pdblkup.obj)
+              MSVCRTD.lib(initsect.obj)
+              MSVCRTD.lib(init.obj)
+              MSVCRTD.lib(error.obj)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+              MSVCRTD.lib(MSVCR120D.dll)
+         Finished pass 2
+         StandardHandlesLab.vcxproj -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\Debug\StandardHandlesLab.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Standard.8E1919AC.tlog\unsuccessfulbuild".
+         Touching "Debug\Standard.8E1919AC.tlog\StandardHandlesLab.lastbuildstate".
+     1>Done Building Project "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\StandardHandlesLab\StandardHandlesLab.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.24

@@ -1,0 +1,16 @@
+DLLServices2TestStand, version 6.0.454.38646 BOJ
+2016-03-29 22:29:10.376 (2016-03-30 03:29:10.376 UTC)
+
+Testing StateManager.GetAssemblyProductAndVersion:
+
+    Entry Assembly product version (MajorOnly, 1 parts) = DLLServices2TestStand.exe, version 6
+    Entry Assembly product version (MajorAndMinor, 2 parts) = DLLServices2TestStand.exe, version 6.0
+    Entry Assembly product version (MajroMinorBuild, 3 parts) = DLLServices2TestStand.exe, version 6.0.454
+    Entry Assembly product version (MajroMinorBuild, 3 parts) = DLLServices2TestStand.exe, version 6.0.454
+    Entry Assembly product version (MajorMinroBuildRevision, 4 parts) = DLLServices2TestStand.exe, version 6.0.454.38646
+    Entry Assembly product version (MajorMinroBuildRevision, 4 parts) = DLLServices2TestStand.exe, version 6.0.454.38646
+
+    Entry Assembly default product version = DLLServices2TestStand.exe, version 6.0.454.38646
+
+StateManager.GetAssemblyProductAndVersion Tests Completed
+

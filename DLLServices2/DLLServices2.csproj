@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0244F74-69F0-4383-9698-46FEE524B446}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WizardWrx.DLLServices2</RootNamespace>
+    <AssemblyName>WizardWrx.DLLServices2</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>bin\Debug\WizardWrx.DLLServices2.XML</DocumentationFile>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NET20</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\WizardWrx.DLLServices2.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <!--
+	2015/06/08 DAG Add the following, per suggestion marked as solution in
+	               "Conditional Compilation and Framework Targets," threat at
+	               http://stackoverflow.com/questions/2923210/conditional-compilation-and-framework-targets
+-->
+  <PropertyGroup>
+    <DefineConstants Condition=" !$(DefineConstants.Contains(';NET')) ">$(DefineConstants);$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</DefineConstants>
+    <DefineConstants Condition=" $(DefineConstants.Contains(';NET')) ">$(DefineConstants.Remove($(DefineConstants.LastIndexOf(";NET"))));$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net20\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="WizardWrx.BitMath">
+      <HintPath>..\..\BitMath\BitMath\bin\Release\WizardWrx.BitMath.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayInfo.cs" />
+    <Compile Include="AssemblyLocatorBase.cs" />
+    <Compile Include="CmdLneArgsBasic.cs" />
+    <Compile Include="CSVFileInfo.cs" />
+    <Compile Include="DisplayFormats.cs" />
+    <Compile Include="EnhancedIOException.cs" />
+    <Compile Include="ErrorMessagesInColor.cs" />
+    <Compile Include="ExceptionLogger.cs" />
+    <Compile Include="FileInfoExtension.cs" />
+    <Compile Include="FileIOFlags.cs" />
+    <Compile Include="FileNameTricks.cs" />
+    <Compile Include="GenericSingletonBase.cs" />
+    <Compile Include="IniFileReader.cs" />
+    <Compile Include="IP6CUtilLib1.cs" />
+    <Compile Include="ListInfo.cs" />
+    <Compile Include="Logic.cs" />
+    <Compile Include="MagicBooleans.cs" />
+    <Compile Include="MagicNumbers.cs" />
+    <Compile Include="MessageInColor.cs" />
+    <Compile Include="NumericFormats.cs" />
+    <Compile Include="PathPositions.cs" />
+    <Compile Include="PropertyDefaults.cs" />
+    <Compile Include="RegExpSupport.cs" />
+    <Compile Include="RegistryValues.cs" />
+    <Compile Include="SpecialCharacters.cs" />
+    <Compile Include="SpecialStrings.cs" />
+    <Compile Include="StateManager.cs" />
+    <Compile Include="StringTricks.cs" />
+    <Compile Include="SyncRoot.cs" />
+    <Compile Include="SysDateFormatters.cs" />
+    <Compile Include="TextBlocks.cs" />
+    <Compile Include="TimeDisplayFormatter.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\..\..\..\Programming\Visual_Studio_6\DLL\FixedStringBuffers\Release\FixedStringBuffers.dll">
+      <Link>FixedStringBuffers.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\..\..\Programming\Visual_Studio_6\DLL\P6CStringLib1\Release\P6CStringLib1.dll">
+      <Link>P6CStringLib1.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\..\..\Programming\Visual_Studio_6\DLL\P6CUtilLib1\Release\P6CUtilLib1.dll">
+      <Link>P6CUtilLib1.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\..\..\Programming\Visual_Studio_6\DLL\SafeMemCpy\Release\SafeMemCpy.dll">
+      <Link>SafeMemCpy.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\..\..\Programming\Visual_Studio_6\DLL\WWConAid\Release\WWConAid.dll">
+      <Link>WWConAid.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\..\..\Programming\Visual_Studio_6\DLL\WWKernelLibWrapper\Release\WWKernelLibWrapper.dll">
+      <Link>WWKernelLibWrapper.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WizardWrx.DLLServices2.dll.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>wwBldNbrMgr.exe "$(ProjectDir) "</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>wwBldNbrMgr.exe -r "-p$(ProjectDir) " "-t$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

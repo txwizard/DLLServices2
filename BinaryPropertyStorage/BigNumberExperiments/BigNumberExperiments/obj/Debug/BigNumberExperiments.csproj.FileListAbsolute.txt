@@ -1,0 +1,6 @@
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\BigNumberExperiments\BigNumberExperiments\bin\Debug\BigNumberExperiments.exe.config
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\BigNumberExperiments\BigNumberExperiments\bin\Debug\BigNumberExperiments.exe
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\BigNumberExperiments\BigNumberExperiments\bin\Debug\BigNumberExperiments.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\BigNumberExperiments\BigNumberExperiments\obj\Debug\BigNumberExperiments.csprojResolveAssemblyReference.cache
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\BigNumberExperiments\BigNumberExperiments\obj\Debug\BigNumberExperiments.exe
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\BinaryPropertyStorage\BigNumberExperiments\BigNumberExperiments\obj\Debug\BigNumberExperiments.pdb

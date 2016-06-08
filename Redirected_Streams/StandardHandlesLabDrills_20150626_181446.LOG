@@ -1,0 +1,27 @@
+2015/06/26 18:05:16	BOJ C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\scripts\StandardHandlesLabDrills.CMD, version 1.01
+2015/06/26 18:05:16	Working Directory = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Redirected_Streams
+2015/06/26 18:05:16	Program File Name = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\Debug\StandardHandlesLab.exe
+2015/06/26 18:05:16	THE_DRILL: NONE STDERR=D STDIN=D STDOUT=D
+2015/06/26 18:05:16	THE_DRILL: Task NONE - everything to console
+2015/06/26 18:05:16	THE_DRILL: Task NONE completed = exit code = 0
+2015/06/26 18:08:31	BOJ C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\scripts\StandardHandlesLabDrills.CMD, version 1.01
+2015/06/26 18:08:31	Working Directory = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Redirected_Streams
+2015/06/26 18:08:31	Program File Name = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\Debug\StandardHandlesLab.exe
+2015/06/26 18:08:31	THE_DRILL: IN STDERR=D STDIN=R,STDIN.TXT STDOUT=D
+2015/06/26 18:08:31	THE_DRILL: Task IN - STDIN redirected, everything else to console
+2015/06/26 18:08:31	THE_DRILL: Task IN - STDIN redirected to STDIN.TXT
+2015/06/26 18:08:31	THE_DRILL: Task IN completed = exit code = 0
+2015/06/26 18:11:09	BOJ C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\scripts\StandardHandlesLabDrills.CMD, version 1.01
+2015/06/26 18:11:09	Working Directory = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Redirected_Streams
+2015/06/26 18:11:09	Program File Name = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\Debug\StandardHandlesLab.exe
+2015/06/26 18:11:09	THE_DRILL: OUT STDERR=D STDIN=D STDOUT=R,STDOUT.TXT
+2015/06/26 18:11:09	THE_DRILL: Task OUT - STDOUT redirected, everything else to console
+2015/06/26 18:11:09	THE_DRILL: Task OUT - STDOUT redirected to a new STDOUT.TXT - existing report preserved
+2015/06/26 18:11:09	THE_DRILL: Task OUT completed = exit code = 0
+2015/06/26 18:14:46	BOJ C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\scripts\StandardHandlesLabDrills.CMD, version 1.01
+2015/06/26 18:14:46	Working Directory = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Redirected_Streams
+2015/06/26 18:14:46	Program File Name = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\StandardHandlesLab\Debug\StandardHandlesLab.exe
+2015/06/26 18:14:46	THE_DRILL: ERR STDERR=R,STDERR.TXT STDIN=D STDOUT=D
+2015/06/26 18:14:46	THE_DRILL: Task ERR - STDERR redirected, everything else to console
+2015/06/26 18:14:46	THE_DRILL: Task ERR - STDERR redirected to a new STDERR.TXT - existing report preserved
+2015/06/26 18:14:46	THE_DRILL: Task ERR completed = exit code = 0

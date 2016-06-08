@@ -1,0 +1,425 @@
+        /// <summary>
+        /// Format and report the properties of a generic Exception on a console
+        /// in a thread-safe manner.
+        /// </summary>
+        /// <param name="perrAny">
+        /// The instance of the base Exception class to process. See Remarks.
+        /// </param>
+        /// <remarks>
+        /// This can be ANY exception type, although the intent is to limit its
+        /// use to reporting exceptions thrown by the base class,
+        /// System.Exception.
+        ///
+        /// Other overloads exist for reporting exceptions thrown by types
+        /// derived from System.Exception.
+        ///
+        /// The TargetSite property, exposed by descendants of System.Exception,
+        /// is the name of the method in which the exception was thrown.
+        /// </remarks>
+        public string ReportException ( Exception perrAny )
+        {
+            StringBuilder sbMsg = new StringBuilder ( MagicNumbers.CAPACITY_08KB );
+            StringBuilder sbLogMsg = CreateForEventLog ( _enmOutputOptions & OutputOptions.EventLog );
+
+            sbMsg.Append (
+                ReformatExceptionMessage (
+                    perrAny ,
+                    pstrCurrMethodName ,
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_MSG_TPL) );
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+                sbLogMsg.Append (
+                    ReformatExceptionMessage (
+                        perrAny ,
+                        pstrCurrMethodName ,
+                        WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_EVTMSG_TPL ) );
+
+            AddCommonElements (
+                sbMsg ,
+                sbLogMsg ,
+                perrAny ,
+                _enmOutputOptions );
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+                return ReportAsDirected (
+                    sbMsg.ToString ( ) ,
+                    sbLogMsg.ToString ( ) );
+            else
+                return ReportAsDirected (
+                    sbMsg.ToString ( ) ,
+                    string.Empty );
+        }   // ReportException method (1 of 7 - Exception)
+
+
+        /// <summary>
+        /// Format and report the properties of an ArgumentException exception on
+        /// a console in a thread-safe manner.
+        /// </summary>
+        /// <param name="perrBadArg">
+        /// The instance of the ArgumentException exception to process. See
+        /// Remarks.
+        /// </param>
+        /// <remarks>
+        /// Although this method can process objects of ANY class which derives
+        /// from ArgumentException, other methods of this class specialize in
+        /// processing objects of the commonly used ArgumentOutOfRangeException
+        /// and ArgumentNullException derived classes.
+        ///
+        /// The TargetSite property, exposed by descendants of System.Exception,
+        /// is the name of the method in which the exception was thrown.
+        /// </remarks>
+        public string ReportException ( ArgumentException perrBadArg )
+        {
+            StringBuilder sbMsg = new StringBuilder ( MagicNumbers.CAPACITY_08KB );
+            StringBuilder sbLogMsg = CreateForEventLog ( _enmOutputOptions & OutputOptions.EventLog );
+
+            sbMsg.Append (
+                ReformatExceptionMessage (
+                    perrBadArg ,
+                    pstrCurrMethodName ,
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_MSG_TPL ) );
+            sbMsg.AppendFormat (
+                WizardWrx.DLLServices2.Properties.Resources.ERRMSG_ARGNAME_TPL ,        // Format String
+                perrBadArg.ParamName ,                                                  // Token Index 0
+                Environment.NewLine );                                                  // Token Index 1
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+            {
+                sbLogMsg.Append (
+                    ReformatExceptionMessage (
+                        perrBadArg ,
+                        pstrCurrMethodName ,
+                        WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_EVTMSG_TPL ) );
+                sbLogMsg.AppendFormat (
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_ARGNAME_TPL ,    // Format String
+                    perrBadArg.ParamName ,                                              // Token Index 0
+                    Environment.NewLine );                                              // Token Index 1
+            }   // if ( UseEventLog ( _enmOutputOptions ) )
+
+            AddCommonElements (
+                sbMsg ,
+                sbLogMsg ,
+                perrBadArg ,
+                _enmOutputOptions );
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+                return ReportAsDirected (
+                    sbMsg.ToString ( ) ,
+                    sbLogMsg.ToString ( ) );
+            else
+                return ReportAsDirected (
+                    sbMsg.ToString ( ) ,
+                    string.Empty );
+        }   // ReportException method (2 of 7 - Exception)
+
+
+        /// <summary>
+        /// Format and report the properties of an ArgumentOutOfRangeException
+        /// exception on a console in a thread-safe manner.
+        /// </summary>
+        /// <param name="perrBadArg">
+        /// The instance of the ArgumentOutOfRangeException class to process.
+        /// </param>
+        /// <remarks>
+        /// The TargetSite property, exposed by descendants of System.Exception,
+        /// is the name of the method in which the exception was thrown.
+        /// </remarks>
+        public string ReportException (ArgumentOutOfRangeException perrBadArg )
+        {
+            StringBuilder sbMsg = new StringBuilder ( MagicNumbers.CAPACITY_08KB );
+            StringBuilder sbLogMsg = CreateForEventLog ( _enmOutputOptions & OutputOptions.EventLog );
+
+            sbMsg.Append (
+                ReformatExceptionMessage (
+                    perrBadArg ,
+                    pstrCurrMethodName ,
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_MSG_TPL ) );
+            sbMsg.AppendFormat (
+                WizardWrx.DLLServices2.Properties.Resources.ERRMSG_ARGNAME_TPL ,        // Format String
+                perrBadArg.ParamName ,                                                  // Token Index 0
+                Environment.NewLine );                                                  // Token Index 1
+            sbMsg.AppendFormat (
+                WizardWrx.DLLServices2.Properties.Resources.ERRMSG_ARGVALUE_TPL ,       // Format String
+                perrBadArg.ActualValue ,                                                // Token Index 0
+                Environment.NewLine );                                                  // Taken Index 1
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+            {
+                sbLogMsg.Append (
+                    ReformatExceptionMessage (
+                        perrBadArg ,
+                        pstrCurrMethodName ,
+                        WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_EVTMSG_TPL ) );
+                sbLogMsg.AppendFormat (
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_ARGNAME_TPL ,    // Format String
+                    perrBadArg.ParamName ,                                              // Token Index 0
+                    Environment.NewLine );                                              // Token Index 1
+                sbLogMsg.AppendFormat (
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_ARGVALUE_TPL ,   // Format String
+                    perrBadArg.ActualValue ,                                            // Token Index 0
+                    Environment.NewLine );                                              // Taken Index 1
+            }   // if ( UseEventLog ( _enmOutputOptions ) )
+
+            AddCommonElements (
+                sbMsg ,
+                sbLogMsg ,
+                perrBadArg ,
+                _enmOutputOptions );
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+                return ReportAsDirected (
+                    sbMsg.ToString ( ) ,
+                    sbLogMsg.ToString ( ) );
+            else
+                return ReportAsDirected (
+                    sbMsg.ToString ( ) ,
+                    string.Empty );
+        }   // ReportException method (3 of 7 - ArgumentOutOfRangeException)
+
+
+        /// <summary>
+        /// Format and report the properties of an ArgumentNullException
+        /// exception on a console in a thread-safe manner. See Remarks.
+        /// </summary>
+        /// <param name="perrNullArg">
+        /// The instance of an ArgumentNullException exception to process.
+        /// </param>
+        /// <remarks>
+        /// The TargetSite property, exposed by descendants of System.Exception,
+        /// is the name of the method in which the exception was thrown.
+        /// </remarks>
+        public string ReportException ( ArgumentNullException perrNullArg )
+        {
+            StringBuilder sbMsg = new StringBuilder ( MagicNumbers.CAPACITY_08KB );
+            StringBuilder sbLogMsg = new StringBuilder ( MagicNumbers.CAPACITY_08KB );
+
+            sbMsg.Append (
+                ReformatExceptionMessage (
+                    perrNullArg ,
+                    pstrCurrMethodName ,
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_MSG_TPL ) );
+            sbMsg.AppendFormat (
+                WizardWrx.DLLServices2.Properties.Resources.ERRMSG_ARGNAME_TPL ,        // Format String
+                perrNullArg.ParamName ,                                                 // Token Index 0
+                Environment.NewLine );                                                  // Token Index 1
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+            {   // Generate the separate message for the event log, which always includes the stack trace.
+                sbLogMsg.Append (
+                    ReformatExceptionMessage (
+                        perrNullArg ,
+                        pstrCurrMethodName ,
+                        WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_EVTMSG_TPL ) );
+                sbLogMsg.AppendFormat (
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_ARGNAME_TPL ,    // Format String
+                    perrNullArg.ParamName ,                                             // Token Index 0
+                    Environment.NewLine );                                              // Token Index 1
+            }   // if ( UseEventLog ( _enmOutputOptions ) )
+
+            AddCommonElements (
+                sbMsg ,
+                sbLogMsg ,
+                perrNullArg ,
+                _enmOutputOptions );
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+                return ReportAsDirected (                                               // This routine handles the console and the event log.
+                    sbMsg.ToString ( ) ,                                                // Return this message to the caller.
+                    sbLogMsg.ToString ( ) );                                            // See to it that this always goes into the event log.
+            else
+                return ReportAsDirected (                                               // This routine handles the console and the event log.
+                    sbMsg.ToString ( ) ,                                                // Return this message to the caller.
+                    string.Empty );                                                     // Event logging is disabled.
+        }   // ReportException method (4 of 7 - ArgumentNullException)
+
+
+        /// <summary>
+        /// Format and report the properties of an ObjectDisposedException
+        /// exception on a console in a thread-safe manner. See Remarks.
+        /// </summary>
+        /// <param name="perrDisposed">
+        /// The instance of the ObjectDisposedException Exception class to
+        /// process.
+        /// </param>
+        /// <remarks>
+        /// Any process that throws an ObjectDisposedException exception is in
+        /// serious trouble, and deserves to crash, and be investigated, because
+        /// this type of exception is almost invariably caused by a programming
+        /// logic error.
+        ///
+        /// The TargetSite property, exposed by descendants of System.Exception,
+        /// is the name of the method in which the exception was thrown.
+        /// </remarks>
+        public string ReportException ( ObjectDisposedException perrDisposed )
+        {
+            StringBuilder sbMsg = new StringBuilder ( MagicNumbers.CAPACITY_08KB );
+            StringBuilder sbLogMsg = new StringBuilder ( MagicNumbers.CAPACITY_08KB );
+
+            sbMsg.Append (
+                ReformatExceptionMessage (
+                    perrDisposed ,
+                    pstrCurrMethodName ,
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_MSG_TPL ) );
+            sbMsg.AppendFormat (
+                WizardWrx.DLLServices2.Properties.Resources.ERRMSG_OBJNAME_TPL ,
+                perrDisposed.ObjectName ,
+                Environment.NewLine );
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+            {   // Generate the separate message for the event log, which always includes the stack trace.
+                sbLogMsg.Append (
+                    ReformatExceptionMessage (
+                        perrDisposed ,
+                        pstrCurrMethodName ,
+                        WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_EVTMSG_TPL ) );
+                sbLogMsg.AppendFormat (
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_OBJNAME_TPL ,
+                    perrDisposed.ObjectName ,
+                    Environment.NewLine );
+            }   // if ( UseEventLog ( _enmOutputOptions ) )
+
+            AddCommonElements (
+                sbMsg ,
+                sbLogMsg ,
+                perrDisposed ,
+                _enmOutputOptions );
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+                return ReportAsDirected (                                               // This routine handles the console and the event log.
+                    sbMsg.ToString ( ) ,                                                // Return this message to the caller.
+                    sbLogMsg.ToString ( ) );                                            // See to it that this always goes into the event log.
+            else
+                return ReportAsDirected (                                               // This routine handles the console and the event log.
+                    sbMsg.ToString ( ) ,                                                // Return this message to the caller.
+                    string.Empty );                                                     // Event logging is disabled.
+        }   // ReportException method (5 of 7 - ObjectDisposedException)
+
+
+        /// <summary>
+        /// Format and report the properties of an IOException exception on a
+        /// console in a thread-safe manner.
+        /// </summary>
+        /// <param name="perrIOError">
+        /// The instance of the IOException class to process. See Remarks.
+        /// </param>
+        /// <param name="pfi">
+        /// The FileInfo object makes available much more than the file name,
+        /// allowing for the possibility of an override to deliver more detailed
+        /// information about the file being processed.
+        /// </param>
+        /// <remarks>
+        /// This routine processes ANY exception of the IOException class and
+        /// its derivatives. Methods for parsing published derived classes are
+        /// somewhere on my ToDo list.
+        ///
+        /// The TargetSite property, exposed by descendants of System.Exception,
+        /// is the name of the method in which the exception was thrown.
+        /// </remarks>
+        public string ReportException (
+            IOException perrIOError ,
+            FileInfo pfi )
+        {
+            StringBuilder sbMsg = new StringBuilder ( MagicNumbers.CAPACITY_08KB );
+            StringBuilder sbLogMsg = new StringBuilder ( MagicNumbers.CAPACITY_08KB );
+
+            sbMsg.Append (
+                ReformatExceptionMessage (
+                    perrIOError ,
+                    pstrCurrMethodName ,
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_MSG_TPL ) );
+            sbMsg.AppendFormat (
+                WizardWrx.DLLServices2.Properties.Resources.ERRMSG_FILENAME_TPL ,
+                pfi.Name ,
+                Environment.NewLine );
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+            {   // Generate the separate message for the event log, which always includes the stack trace.
+                sbLogMsg.Append (
+                    ReformatExceptionMessage (
+                        perrIOError ,
+                        pstrCurrMethodName ,
+                        WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_EVTMSG_TPL ) );
+                sbLogMsg.AppendFormat (
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_FILENAME_TPL ,
+                    pfi.FullName ,
+                    Environment.NewLine );
+            }   // if ( UseEventLog ( _enmOutputOptions ) )
+
+            AddCommonElements (
+                sbMsg ,
+                sbLogMsg ,
+                perrIOError ,
+                _enmOutputOptions );
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+                return ReportAsDirected (                                               // This routine handles the console and the event log.
+                    sbMsg.ToString ( ) ,                                                // Return this message to the caller.
+                    sbLogMsg.ToString ( ) );                                            // See to it that this always goes into the event log.
+            else
+                return ReportAsDirected (                                               // This routine handles the console and the event log.
+                    sbMsg.ToString ( ) ,                                                // Return this message to the caller.
+                    string.Empty );                                                     // Event logging is disabled.
+        }   // ReportException method (6 of 7 - IOException)
+
+
+        /// <summary>
+        /// Format and report the properties of an FormatException exception on
+        /// a console in a thread-safe manner.
+        /// </summary>
+        /// <param name="perrrBadFormat">
+        /// The instance of the FormatException class to process.
+        /// </param>
+        /// <param name="pstrFormatString">
+        /// This should be the format string which caused the exception. There
+        /// should be a way to feed this to the exception, or recover it, but I
+        /// have yet to find it.
+        /// </param>
+        /// <remarks>
+        /// The TargetSite property, exposed by descendants of System.Exception,
+        /// is the name of the method in which the exception was thrown.
+        /// </remarks>
+        public string ReportException (
+            FormatException perrrBadFormat ,
+            string pstrCurrMethodName )
+        {
+            StringBuilder sbMsg = new StringBuilder ( MagicNumbers.CAPACITY_08KB );
+            StringBuilder sbLogMsg = new StringBuilder ( MagicNumbers.CAPACITY_08KB );
+
+            sbMsg.Append (
+                ReformatExceptionMessage (
+                    perrrBadFormat ,
+                    pstrCurrMethodName ,
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_MSG_TPL ) );
+            sbMsg.AppendFormat (
+                WizardWrx.DLLServices2.Properties.Resources.ERRMSG_FORMATSTRING_TPL ,
+                pstrFormatString ,
+                Environment.NewLine );
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+            {   // Generate the separate message for the event log, which always includes the stack trace.
+                sbLogMsg.Append (
+                    ReformatExceptionMessage (
+                        perrrBadFormat ,
+                        pstrCurrMethodName ,
+                        WizardWrx.DLLServices2.Properties.Resources.ERRMSG_EX_EVTMSG_TPL ) );
+                sbLogMsg.AppendFormat (
+                    WizardWrx.DLLServices2.Properties.Resources.ERRMSG_FORMATSTRING_TPL ,
+                    pstrFormatString ,
+                    Environment.NewLine );
+            }   // if ( UseEventLog ( _enmOutputOptions ) )
+
+            AddCommonElements (
+                sbMsg ,
+                sbLogMsg ,
+                perrrBadFormat ,
+                _enmOutputOptions );
+
+            if ( UseEventLog ( _enmOutputOptions ) )
+                return ReportAsDirected (                                               // This routine handles the console and the event log.
+                    sbMsg.ToString ( ) ,                                                // Return this message to the caller.
+                    sbLogMsg.ToString ( ) );                                            // See to it that this always goes into the event log.
+            else
+                return ReportAsDirected (                                               // This routine handles the console and the event log.
+                    sbMsg.ToString ( ) ,                                                // Return this message to the caller.
+                    string.Empty );                                                     // Event logging is disabled.
+        }   // ReportException method (7 of 7 - FormatException)y

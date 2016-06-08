@@ -1,0 +1,3012 @@
+                           Parsing C# String Literals
+
+================================================================================
+2016-04-18 11:44:22
+================================================================================
+
+Parsing_C#_String_Literals
+Parsing C# String Literals
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\Parsing_C#_String_Literals.PDF
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\Parsing_C#_String_Literals.TXT
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\
+
+================================================================================
+2016-04-18 12:16:13
+================================================================================
+
+Error   16  The type or namespace name 'TestMethodAttribute' could not be found (are you missing a using directive or an assembly reference?)   C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS  72  6   CSharpLiteralsParser
+
+
+================================================================================
+2016-04-18 12:19:30
+================================================================================
+
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v2.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+
+================================================================================
+2016-04-18 12:21:26
+================================================================================
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\DAVE>dir "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies
+
+2013-10-05  02:38           100,784 Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+               1 File(s)        100,784 bytes
+               0 Dir(s)  547,194,683,392 bytes free
+
+C:\Users\DAVE>dir "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v2.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v2.0
+
+2013-10-05  02:38            88,488 Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+               1 File(s)         88,488 bytes
+               0 Dir(s)  547,194,683,392 bytes free
+
+C:\Users\DAVE>dir "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0
+
+2013-10-05  02:38           100,784 Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+               1 File(s)        100,784 bytes
+               0 Dir(s)  547,194,617,856 bytes free
+
+C:\Users\DAVE>ShowVer.exe "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+VERSIONINFO for file "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll":  (type:0)
+  Signature:       feef04bd
+  StrucVersion:    1.0
+  FileVersion:     12.0.21005.1
+  ProductVersion:  12.0.21005.1
+  FileFlagsMask:   0x3f
+  FileFlags:       0
+  FileOS:          VOS__WINDOWS32
+  FileType:        VFT_DLL
+  FileDate:        0.0
+ Translation: 000004b0
+ LangID: 000004b0
+  Comments          : Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+  CompanyName       : Microsoft Corporation
+  FileDescription   : Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+  FileVersion       : 12.0.21005.1
+  InternalName      : Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+  LegalCopyright    : ¬ Microsoft Corporation. All rights reserved.
+  OriginalFilename  : Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+  ProductName       : Microsoft« Visual Studio« 2013
+  ProductVersion    : 12.0.21005.1
+  Assembly Version  : 10.0.0.0
+
+C:\Users\DAVE>ShowVer.exe "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v2.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+VERSIONINFO for file "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v2.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll":  (type:0)
+  Signature:       feef04bd
+  StrucVersion:    1.0
+  FileVersion:     12.0.21005.1
+  ProductVersion:  12.0.21005.1
+  FileFlagsMask:   0x3f
+  FileFlags:       0
+  FileOS:          VOS__WINDOWS32
+  FileType:        VFT_DLL
+  FileDate:        0.0
+ Translation: 000004b0
+ LangID: 000004b0
+  Comments          : Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+  CompanyName       : Microsoft Corporation
+  FileDescription   : Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+  FileVersion       : 12.0.21005.1
+  InternalName      : Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+  LegalCopyright    : ¬ Microsoft Corporation. All rights reserved.
+  OriginalFilename  : Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+  ProductName       : Microsoft« Visual Studio« 2013
+  ProductVersion    : 12.0.21005.1
+  Assembly Version  : 10.1.0.0
+
+C:\Users\DAVE>ShowVer.exe "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+VERSIONINFO for file "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll":  (type:0)
+  Signature:       feef04bd
+  StrucVersion:    1.0
+  FileVersion:     12.0.21005.1
+  ProductVersion:  12.0.21005.1
+  FileFlagsMask:   0x3f
+  FileFlags:       0
+  FileOS:          VOS__WINDOWS32
+  FileType:        VFT_DLL
+  FileDate:        0.0
+ Translation: 000004b0
+ LangID: 000004b0
+  Comments          : Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+  CompanyName       : Microsoft Corporation
+  FileDescription   : Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+  FileVersion       : 12.0.21005.1
+  InternalName      : Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+  LegalCopyright    : ¬ Microsoft Corporation. All rights reserved.
+  OriginalFilename  : Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+  ProductName       : Microsoft« Visual Studio« 2013
+  ProductVersion    : 12.0.21005.1
+  Assembly Version  : 10.0.0.0
+
+
+C:\Users\DAVE>fc.exe "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /b
+Comparing files C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\PUBLICASSEMBLIES\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll and C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\REFERENCEASSEMBLIES\V4.0\MICROSOFT.VISUALSTUDIO.QUALITYTOOLS.UNITTESTFRAMEWORK.DLL
+FC: no differences encountered
+
+
+C:\Users\DAVE>
+
+================================================================================
+2016-04-18 12:35:42
+================================================================================
+
+csharp = &quot;\\\\\\a\\b\\&#39;\\\&quot;\\0\\f\ \ \\t\\v&quot;;
+
+
+================================================================================
+2016-04-18 12:40:46
+================================================================================
+
+Error   1   The type or namespace name 'VisualStudio' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)  C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS  3   17  CSharpLiteralsParser
+Error   2   The type or namespace name 'TestMethodAttribute' could not be found (are you missing a using directive or an assembly reference?)   C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS  38  6   CSharpLiteralsParser
+Error   4   The type or namespace name 'TestMethodAttribute' could not be found (are you missing a using directive or an assembly reference?)   C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS  73  6   CSharpLiteralsParser
+Error   6   The type or namespace name 'TestMethodAttribute' could not be found (are you missing a using directive or an assembly reference?)   C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS  84  6   CSharpLiteralsParser
+Error   8   The type or namespace name 'TestMethodAttribute' could not be found (are you missing a using directive or an assembly reference?)   C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS  107 6   CSharpLiteralsParser
+Error   3   The type or namespace name 'TestMethod' could not be found (are you missing a using directive or an assembly reference?)    C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS  38  6   CSharpLiteralsParser
+Error   5   The type or namespace name 'TestMethod' could not be found (are you missing a using directive or an assembly reference?)    C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS  73  6   CSharpLiteralsParser
+Error   7   The type or namespace name 'TestMethod' could not be found (are you missing a using directive or an assembly reference?)    C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS  84  6   CSharpLiteralsParser
+Error   9   The type or namespace name 'TestMethod' could not be found (are you missing a using directive or an assembly reference?)    C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS  107 6   CSharpLiteralsParser
+Warning 10  The currently targeted framework ".NETFramework,Version=v4.0,Profile=Client" does not include "System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" which the referenced assembly "Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" depends on. This caused the referenced assembly to not resolve. To fix this, either (1) change the targeted framework for this project, or (2) remove the referenced assembly from the project. C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets 1697    5   CSharpLiteralsParser
+
+
+================================================================================
+2016-04-18 12:50:04
+================================================================================
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\DAVE>dir "C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\NETFX 4.0 To
+ols\ildasm.exe"
+The system cannot find the path specified.
+
+C:\Users\DAVE>dir "C:\Program Files(x86)\Microsoft SDKs\Windows\v7.1\Bin\NETFX 4
+.0 Tools\ildasm.exe"
+The system cannot find the path specified.
+
+C:\Users\DAVE>dir "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1\Bin\NETFX
+4.0 Tools\ildasm.exe"
+The system cannot find the path specified.
+
+C:\Users\DAVE>cd "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7"
+
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7>dir ildasm* /s
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+File Not Found
+
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7>cd..
+
+C:\Program Files (x86)\Microsoft Visual Studio 12.0>dir ildasm* /s
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+File Not Found
+
+C:\Program Files (x86)\Microsoft Visual Studio 12.0>cd..
+
+C:\Program Files (x86)>dir ildasm* /s
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin
+
+2011-12-12  13:55           382,792 ildasm.exe
+2011-12-12  13:55               181 ildasm.exe.config
+               2 File(s)        382,973 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64
+
+2011-12-12  13:54           447,816 ildasm.exe
+2011-12-12  13:54               181 ildasm.exe.config
+               2 File(s)        447,997 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools
+
+2012-08-30  21:39            18,371 IlDasm.chm
+2012-09-26  03:16           509,928 ildasm.exe
+2012-09-25  23:27               223 ildasm.exe.config
+               3 File(s)        528,522 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\1033
+
+2012-09-26  03:28            61,424 IlDasmrc.dll
+               1 File(s)         61,424 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\x64
+
+2012-08-30  21:39            18,371 IlDasm.chm
+2012-09-26  02:05           570,840 ildasm.exe
+2012-09-25  23:23               223 ildasm.exe.config
+               3 File(s)        589,434 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\x64\1033
+
+2012-09-26  02:13            61,408 IlDasmrc.dll
+               1 File(s)         61,408 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools
+
+2013-07-05  11:02            18,371 IlDasm.chm
+2013-08-06  19:36           511,560 ildasm.exe
+2013-08-05  16:07               223 ildasm.exe.config
+               3 File(s)        530,154 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\1033
+
+2013-08-06  19:49            61,520 IlDasmrc.dll
+               1 File(s)         61,520 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64
+
+2013-07-05  11:02            18,371 IlDasm.chm
+2013-08-05  20:12           575,560 ildasm.exe
+2013-08-05  15:56               223 ildasm.exe.config
+               3 File(s)        594,154 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64\1033
+
+2013-08-05  21:08            61,520 IlDasmrc.dll
+               1 File(s)         61,520 bytes
+
+     Total Files Listed:
+              20 File(s)      3,319,106 bytes
+               0 Dir(s)  547,189,997,568 bytes free
+
+
+C:\Program Files (x86)>dir gacutil.exe /s
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin
+
+2011-12-12  13:55           103,248 gacutil.exe
+               1 File(s)        103,248 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64
+
+2011-12-12  13:54           110,416 gacutil.exe
+               1 File(s)        110,416 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools
+
+2012-09-26  03:16           118,768 gacutil.exe
+               1 File(s)        118,768 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\x64
+
+2012-09-26  02:05           130,528 gacutil.exe
+               1 File(s)        130,528 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools
+
+2013-08-06  19:36           130,632 gacutil.exe
+               1 File(s)        130,632 bytes
+
+ Directory of C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64
+
+2013-08-05  20:12           146,504 gacutil.exe
+               1 File(s)        146,504 bytes
+
+     Total Files Listed:
+               6 File(s)        740,096 bytes
+               0 Dir(s)  547,189,989,376 bytes free
+
+
+C:\Program Files (x86)>MakeShortcut.vbs
+
+C:\Program Files (x86)>cscript.exe MakeShortcut.vbs
+Microsoft (R) Windows Script Host Version 5.8
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Input Error: Can not find script file "C:\Program Files (x86)\MakeShortcut.vbs".
+
+
+C:\Program Files (x86)>cscript.exe C:\bin\MakeShortcut.vbs
+Microsoft (R) Windows Script Host Version 5.8
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MakeShortcut.vbs, version 1.00
+Begin 2016-04-18 12:53:06
+Copyright (C) 2015, David A. Gray. All rights reserved world wide.
+
+Script Engine: Full Path   = C:\Windows\system32\cscript.exe
+               Engine Name = VBScript
+               Version     = 5.8
+               Build       = 18283
+
+Usage: MakeShortcut.vbs -f[Shortcut] -t[Target] -w[WorkindDir] -a[Arguments]
+
+where: [Shortcut]   = Name to assign to shortcut file.
+       [Target]     = Absolute (fully qualified) name of program
+       [WorkindDir] = Working directory in which to start
+       [Arguments]  = Program arguments
+
+C:\Program Files (x86)>cscript.exe C:\bin\MakeShortcut.vbs "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4.LNK" "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\ildasm.exe"
+Microsoft (R) Windows Script Host Version 5.8
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MakeShortcut.vbs, version 1.00
+Begin 2016-04-18 12:55:25
+Copyright (C) 2015, David A. Gray. All rights reserved world wide.
+
+Script Engine: Full Path   = C:\Windows\system32\cscript.exe
+               Engine Name = VBScript
+               Version     = 5.8
+               Build       = 18283
+
+Argument 1: Specified value, C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4.LNK is invalid - ignored
+Argument 2: Specified value, C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\ildasm.exe is invalid - ignored
+
+Argument Values:
+
+    Shortcut File Name =
+    Shortcut Target    =
+    Working Directory  =
+    Program Arguments  =
+
+Shortcut created!
+<*>
+
+C:\Program Files (x86)>cscript.exe C:\bin\MakeShortcut.vbs "-fC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4.LNK" "-tC:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\ildasm.exe"
+Microsoft (R) Windows Script Host Version 5.8
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MakeShortcut.vbs, version 1.00
+Begin 2016-04-18 12:56:25
+Copyright (C) 2015, David A. Gray. All rights reserved world wide.
+
+Script Engine: Full Path   = C:\Windows\system32\cscript.exe
+               Engine Name = VBScript
+               Version     = 5.8
+               Build       = 18283
+
+
+Argument Values:
+
+    Shortcut File Name = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4.LNK
+    Shortcut Target    = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\ildasm.exe
+    Working Directory  =
+    Program Arguments  =
+
+Shortcut created!
+<*>
+
+C:\Program Files (x86)>cscript.exe C:\bin\MakeShortcut.vbs "-fC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\GACUtil version 4.LNK" "-tC:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\gacutil.exe"
+Microsoft (R) Windows Script Host Version 5.8
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MakeShortcut.vbs, version 1.00
+Begin 2016-04-18 12:57:34
+Copyright (C) 2015, David A. Gray. All rights reserved world wide.
+
+Script Engine: Full Path   = C:\Windows\system32\cscript.exe
+               Engine Name = VBScript
+               Version     = 5.8
+               Build       = 18283
+
+
+Argument Values:
+
+    Shortcut File Name = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\GACUtil version 4.LNK
+    Shortcut Target    = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\gacutil.exe
+    Working Directory  =
+    Program Arguments  =
+
+Shortcut created!
+<*>
+
+C:\Program Files (x86)>dir "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\*.LNK"
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings
+
+2016-04-18  12:57             1,413 GACUtil version 4.LNK
+2016-04-18  12:56             1,408 ildasm version 4.LNK
+2016-04-18  12:27             1,776 Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll.lnk
+               3 File(s)          4,597 bytes
+               0 Dir(s)  547,189,776,384 bytes free
+
+C:\Program Files (x86)>attrib.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\*.LNK" +r
+
+C:\Program Files (x86)>attrib.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\*.LNK"
+A    R       C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\GACUtil version 4.LNK
+A    R       C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4.LNK
+A    R       C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll.lnk
+
+C:\Program Files (x86)>compact.exe /c "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\*.LNK"
+
+ Compressing files in C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\
+
+GACUtil version 4.LNK      1413 :      1413 = 1.0 to 1 [OK]
+ildasm version 4.LNK      1408 :      1408 = 1.0 to 1 [OK]
+
+2 files within 1 directories were compressed.
+2,821 total bytes of data are stored in 2,821 bytes.
+The compression ratio is 1.0 to 1.
+
+
+C:\Program Files (x86)>cscript.exe C:\bin\MakeShortcut.vbs "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4 (x64).LNK" "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64\ildasm.exe"
+Microsoft (R) Windows Script Host Version 5.8
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MakeShortcut.vbs, version 1.00
+Begin 2016-04-18 13:02:02
+Copyright (C) 2015, David A. Gray. All rights reserved world wide.
+
+Script Engine: Full Path   = C:\Windows\system32\cscript.exe
+               Engine Name = VBScript
+               Version     = 5.8
+               Build       = 18283
+
+Argument 1: Specified value, C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4 (x64).LNK is invalid - ignored
+Argument 2: Specified value, C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64\ildasm.exe is invalid - ignored
+
+Argument Values:
+
+    Shortcut File Name =
+    Shortcut Target    =
+    Working Directory  =
+    Program Arguments  =
+
+Shortcut created!
+<*>
+
+C:\Program Files (x86)>cscript.exe C:\bin\MakeShortcut.vbs "-fC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4 (x64).LNK" "-tC:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64\ildasm.exe"
+Microsoft (R) Windows Script Host Version 5.8
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MakeShortcut.vbs, version 1.00
+Begin 2016-04-18 13:02:23
+Copyright (C) 2015, David A. Gray. All rights reserved world wide.
+
+Script Engine: Full Path   = C:\Windows\system32\cscript.exe
+               Engine Name = VBScript
+               Version     = 5.8
+               Build       = 18283
+
+
+Argument Values:
+
+    Shortcut File Name = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4 (x64).LNK
+    Shortcut Target    = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64\ildasm.exe
+    Working Directory  =
+    Program Arguments  =
+
+Shortcut created!
+<*>
+
+
+C:\Program Files (x86)>compact.exe /c "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\*.LNK"
+
+ Compressing files in C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\
+
+GACUtil version 4 (x64).LNK      1495 :      1495 = 1.0 to 1 [OK]
+ildasm version 4 (x64).LNK      1490 :      1490 = 1.0 to 1 [OK]
+
+2 files within 1 directories were compressed.
+2,985 total bytes of data are stored in 2,985 bytes.
+The compression ratio is 1.0 to 1.
+
+C:\Program Files (x86)>attrib.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\*.LNK" +r
+
+C:\Program Files (x86)>attrib.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\*.LNK"
+A    R       C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\GACUtil version 4 (x64).LNK
+A    R       C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\GACUtil version 4.LNK
+A    R       C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4 (x64).LNK
+A    R       C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4.LNK
+A    R       C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll.lnk
+
+
+C:\Program Files (x86)>XCopyD.CMD "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\*.LNK" "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools" /f /k /v
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\GACUtil version 4 (x64).LNK -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools\GACUtil version 4 (x64).LNK
+Overwrite C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools\GACUtil version 4.LNK (Yes/No/All)? D
+Overwrite C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools\GACUtil version 4.LNK (Yes/No/All)?
+Overwrite C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools\GACUtil version 4.LNK (Yes/No/All)?
+
+Overwrite C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools\GACUtil version 4.LNK (Yes/No/All)?
+C:\Program Files (x86)>XCopyD.CMD "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\*.LNK" "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools" /f /k /r /v /y
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\GACUtil version 4 (x64).LNK -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools\GACUtil version 4 (x64).LNK
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\GACUtil version 4.LNK -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools\GACUtil version 4.LNK
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4 (x64).LNK -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools\ildasm version 4 (x64).LNK
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\ildasm version 4.LNK -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools\ildasm version 4.LNK
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll.lnk -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll.lnk
+5 File(s) copied
+
+C:\Program Files (x86)>fc.exe     "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\*.LNK" "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools\*.LNK" /b
+Comparing files C:\USERS\DAVE\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\WIZARDWRX_LIBS\DLLSERVICES2\_NOTES\UNESCAPING_C#_STRINGS\GACUtil version 4 (x64).LNK and C:\USERS\DAVE\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\WIZARDWRX_LIBS\_TOOLS\GACUtil version 4 (x64).LNK
+FC: no differences encountered
+
+Comparing files C:\USERS\DAVE\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\WIZARDWRX_LIBS\DLLSERVICES2\_NOTES\UNESCAPING_C#_STRINGS\GACUtil version 4.LNK and C:\USERS\DAVE\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\WIZARDWRX_LIBS\_TOOLS\GACUtil version 4.LNK
+FC: no differences encountered
+
+Comparing files C:\USERS\DAVE\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\WIZARDWRX_LIBS\DLLSERVICES2\_NOTES\UNESCAPING_C#_STRINGS\ildasm version 4 (x64).LNK and C:\USERS\DAVE\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\WIZARDWRX_LIBS\_TOOLS\ildasm version 4 (x64).LNK
+FC: no differences encountered
+
+Comparing files C:\USERS\DAVE\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\WIZARDWRX_LIBS\DLLSERVICES2\_NOTES\UNESCAPING_C#_STRINGS\ildasm version 4.LNK and C:\USERS\DAVE\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\WIZARDWRX_LIBS\_TOOLS\ildasm version 4.LNK
+FC: no differences encountered
+
+Comparing files C:\USERS\DAVE\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\WIZARDWRX_LIBS\DLLSERVICES2\_NOTES\UNESCAPING_C#_STRINGS\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll.lnk and C:\USERS\DAVE\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\WIZARDWRX_LIBS\_TOOLS\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll.LNK
+FC: no differences encountered
+
+
+C:\Program Files (x86)>dir        "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\*.LNK" "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools\*.LNK"
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings
+
+2016-04-18  13:01             1,495 GACUtil version 4 (x64).LNK
+2016-04-18  12:57             1,413 GACUtil version 4.LNK
+2016-04-18  13:02             1,490 ildasm version 4 (x64).LNK
+2016-04-18  12:56             1,408 ildasm version 4.LNK
+2016-04-18  12:27             1,776 Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll.lnk
+               5 File(s)          7,582 bytes
+
+ Directory of C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\_tools
+
+2010-10-28  00:03               948 gacutil from the Framework 2.0 SDK.lnk
+2016-04-18  13:01             1,495 GACUtil version 4 (x64).LNK
+2016-04-18  12:57             1,413 gacutil Version 4.lnk
+2011-06-12  21:51               501 GacUtil.CMD.lnk
+2011-03-26  20:35             1,398 GACUtil_Notes.TXT.lnk
+2016-04-18  13:02             1,490 ildasm version 4 (x64).LNK
+2016-04-18  12:56             1,408 ildasm version 4.lnk
+2011-03-26  20:22               874 Install AssemblyPropertyViewer into GAC.lnk
+2011-03-26  20:23               846 Install DateMath into GAC.lnk
+2011-03-26  20:24               850 Install SharedUtl1 into GAC.lnk
+2011-03-26  20:24               850 Install SharedUtl2 into GAC.lnk
+2011-03-26  20:25               850 Install SharedUtl3 into GAC.lnk
+2013-02-17  23:44               844 Install SharedUtlX into GAC.lnk
+2011-03-26  20:25               842 Install WebApp into GAC.lnk
+2011-03-26  20:22               828 InstallIntoGlobalAssemblyCache.CMD.lnk
+2011-03-22  00:37             1,040 machine.config.lnk
+2016-04-18  12:27             1,776 Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll.lnk
+2010-10-28  00:02               937 RegAsm for Framework 2.0.lnk
+2011-04-03  00:49             1,331 WWSourceCodeArchiver app.config.lnk
+2014-07-02  12:57             1,121 xsd.exe.lnk
+              20 File(s)         21,642 bytes
+               0 Dir(s)  547,188,899,840 bytes free
+
+C:\Program Files (x86)>
+
+================================================================================
+2016-04-18 13:30:03
+================================================================================
+
+ 12         public static void StringLiteralsAreOK ( )
+ 39         public static void StringLiteralExceptionsAreOK ( )
+113         }   // public static void StringLiteralExceptionsAreOK
+116         public static void CharLiteralsAreOK ( )
+124         }   // public static void CharLiteralsAreOK
+127         public static void CharLiteralExceptionsAreOK ( )
+172         }   // public static void CharLiteralExceptionsAreOK
+175         public static void VerbatimLiteralsAreOK ( )
+183         }   // public static void VerbatimLiteralsAreOK
+
+
+================================================================================
+2016-04-18 14:27:35 - Build with my reporting additions.
+================================================================================
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 14:27:24.
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:obj\x86\Debug\ConsoleApplication.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\ConsoleApplication.exe"
+                 to "bin\Debug\ConsoleApplication.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe
+  Copying file from "obj\x86\Debug\ConsoleApplication.pdb"
+                 to "bin\Debug\ConsoleApplication.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+System.ArgumentException was unhandled
+  IsTransient=false
+  Message=Unrecognized escape sequence
+  Source=ConsoleApplication
+  StackTrace:
+       at CSharpParser.Utility.StringHelper.StringFromCSharpLiteral(String source) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS:line 130
+       at CSharpParser.Utility.StringHelper.CharFromCSharpLiteral(String source) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS:line 180
+       at CSharpParserTest.StringHelperTest.CharLiteralsAreOK() in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS:line 167
+       at CSharpParserTest.StringHelperTest.Main(String[] pastrArgs) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS:line 28
+       at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+       at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+       at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+       at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+       at System.Threading.ThreadHelper.ThreadStart()
+  InnerException:
+
+
+================================================================================
+2016-04-18 14:45:23
+================================================================================
+
+Rename 'csharp' to 'pstrCsharp'
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(263,11): updated definition
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(272,7): updated reference
+Looking for symbol references in project 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\ConsoleApplication.exe'
+
+Rename 'exArg' to 'pexArg'
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(264,22): updated definition
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(270,7): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(273,7): updated reference
+Looking for symbol references in project 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\ConsoleApplication.exe'
+
+
+================================================================================
+2016-04-18 14:50:23 - Fit StringLiteralsAreOK with structured exception handling
+                      blocks.
+================================================================================
+
+------ Rebuild All started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 14:50:14.
+CoreClean:
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe.config".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.pdb".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharpLiteralsParser.csprojResolveAssemblyReference.cache".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\ConsoleApplication.exe".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\ConsoleApplication.pdb".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:obj\x86\Debug\ConsoleApplication.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+_CopyAppConfigFile:
+  Copying file from "app.config"
+                 to "bin\Debug\ConsoleApplication.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\ConsoleApplication.exe"
+                 to "bin\Debug\ConsoleApplication.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe
+  Copying file from "obj\x86\Debug\ConsoleApplication.pdb"
+                 to "bin\Debug\ConsoleApplication.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.19
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 15:01:10.
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:obj\x86\Debug\ConsoleApplication.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\ConsoleApplication.exe"
+                 to "bin\Debug\ConsoleApplication.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe
+  Copying file from "obj\x86\Debug\ConsoleApplication.pdb"
+                 to "bin\Debug\ConsoleApplication.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.19
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+ConsoleApplication, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine ReportArgExceiption while processing string:\
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+
+ConsoleApplication, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+
+================================================================================
+2016-04-18 15:09:10 - Add code to display the runtime version, then rebuild.
+================================================================================
+
+------ Rebuild All started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 15:09:35.
+
+CoreClean:
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe.config".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.pdb".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\ConsoleApplication.exe".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\ConsoleApplication.pdb".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharpLiteralsParser.csprojResolveAssemblyReference.cache".
+
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:obj\x86\Debug\ConsoleApplication.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+_CopyAppConfigFile:
+  Copying file from "app.config"
+                 to "bin\Debug\ConsoleApplication.exe.config".
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\ConsoleApplication.exe"
+                 to "bin\Debug\ConsoleApplication.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe
+  Copying file from "obj\x86\Debug\ConsoleApplication.pdb"
+                 to "bin\Debug\ConsoleApplication.pdb".
+
+
+Build succeeded.
+
+Time Elapsed 00:00:00.21
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+
+ConsoleApplication, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+StringLiteralsAreOK Begin:
+
+v2.0.50727
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+v2.0.50727
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+v2.0.50727
+
+An ArgumentException occurred in routine ReportArgExceiption,
+    while processing string:\
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+v2.0.50727
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+v2.0.50727
+
+
+VerbatimLiteralsAreOK Done!
+
+
+ConsoleApplication, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+ConsoleApplication, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+StringLiteralsAreOK Begin:
+
+Target .NET Framework version: v2.0.50727
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+Target .NET Framework version: v2.0.50727
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+Target .NET Framework version: v2.0.50727
+
+An ArgumentException occurred in routine ReportArgExceiption,
+    while processing string:\
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+Target .NET Framework version: v2.0.50727
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+Target .NET Framework version: v2.0.50727
+
+
+VerbatimLiteralsAreOK Done!
+
+
+ConsoleApplication, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+
+================================================================================
+2016-04-18 15:17:08 - Move the image runtime version into the banner, where it
+                      belongs!
+================================================================================
+
+------ Rebuild All started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 15:17:01.
+
+CoreClean:
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe.config".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.pdb".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\ConsoleApplication.exe".
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\ConsoleApplication.pdb".
+
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll
+                                                  /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:obj\x86\Debug\ConsoleApplication.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+_CopyAppConfigFile:
+  Copying file from "app.config"
+                 to "bin\Debug\ConsoleApplication.exe.config".
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\ConsoleApplication.exe"
+                 to "bin\Debug\ConsoleApplication.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe
+  Copying file from "obj\x86\Debug\ConsoleApplication.pdb"
+                 to "bin\Debug\ConsoleApplication.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.22
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+
+ConsoleApplication, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v2.0.50727
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine ReportArgExceiption,
+    while processing string:\
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+
+ConsoleApplication, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+
+================================================================================
+2016-04-18 15:24:37 - Rebuild against Microsoft .NET Framework 4.0, full set.
+                      It won't build against Client Profile.
+================================================================================
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 15:24:17.
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll"
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:obj\x86\Debug\ConsoleApplication.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+                                                  "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\ConsoleApplication.exe"
+                 to "bin\Debug\ConsoleApplication.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe
+  Copying file from "obj\x86\Debug\ConsoleApplication.pdb"
+                 to "bin\Debug\ConsoleApplication.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.32
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+ConsoleApplication, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine ReportArgExceiption,
+    while processing string:\
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+
+ConsoleApplication, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+
+================================================================================
+2016-04-18 15:33:06 - Populate the AssemblyInfo form and rebuild.
+================================================================================
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 15:32:57.
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:DEBUG;TRACE /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\x86\Debug\ConsoleApplication.exe /target:exe /utf8output /win32icon:WW_Icon1.ico Properties\AssemblyInfo.cs StringHelper.CS StringHelper_UnitTests.CS "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\ConsoleApplication.exe"
+                 to "bin\Debug\ConsoleApplication.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe
+  Copying file from "obj\x86\Debug\ConsoleApplication.pdb"
+                 to "bin\Debug\ConsoleApplication.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.18
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+ConsoleApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine ReportArgExceiption,
+    while processing string:\
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+
+ConsoleApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Symbols loaded.
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll'. Symbols loaded.
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Symbols loaded.
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Symbols loaded.
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Symbols loaded.
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll'. Symbols loaded.
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll'.
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.vshost.exe'. Symbols loaded.
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll'. Symbols loaded.
+The thread 0x17e0 has exited with code 259 (0x103).
+The thread 0x15e4 has exited with code 259 (0x103).
+The thread 0x9ec has exited with code 0 (0x0).
+The thread 0x10e8 has exited with code 259 (0x103).
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe'. Symbols loaded.
+A first chance exception of type 'System.ArgumentException' occurred in ConsoleApplication.exe
+A first chance exception of type 'System.ArgumentException' occurred in ConsoleApplication.exe
+A first chance exception of type 'System.ArgumentException' occurred in ConsoleApplication.exe
+A first chance exception of type 'System.ArgumentException' occurred in ConsoleApplication.exe
+A first chance exception of type 'System.ArgumentException' occurred in ConsoleApplication.exe
+A first chance exception of type 'System.ArgumentException' occurred in ConsoleApplication.exe
+A first chance exception of type 'System.ArgumentException' occurred in ConsoleApplication.exe
+A first chance exception of type 'System.ArgumentException' occurred in ConsoleApplication.exe
+A first chance exception of type 'System.ArgumentException' occurred in ConsoleApplication.exe
+A first chance exception of type 'System.ArgumentException' occurred in ConsoleApplication.exe
+A first chance exception of type 'System.ArgumentException' occurred in ConsoleApplication.exe
+A first chance exception of type 'System.ArgumentException' occurred in ConsoleApplication.exe
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Symbols loaded.
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Symbols loaded.
+'ConsoleApplication.vshost.exe' (CLR v4.0.30319: ConsoleApplication.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Symbols loaded.
+The thread 0x16a4 has exited with code 259 (0x103).
+The thread 0x314 has exited with code 259 (0x103).
+The program '[0x126C] ConsoleApplication.vshost.exe' has exited with code 0 (0x0).
+
+
+================================================================================
+2016-04-18 15:34:51 - Amend the assembly name, and build from scratch.
+================================================================================
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 15:34:45.
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll"
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:"obj\x86\Debug\CSharbStringParsi ngTester.exe"
+                                                  /target:exe
+                                                  /utf8output
+
+                                                  /win32icon:WW_Icon1.ico
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+                                                  Properties\AssemblyInfo.cs
+
+                                                  "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+
+_CopyAppConfigFile:
+  Copying file from "app.config"
+                 to "bin\Debug\CSharbStringParsi ngTester.exe.config".
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\CSharbStringParsi ngTester.exe"
+                 to "bin\Debug\CSharbStringParsi ngTester.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsi ngTester.exe
+  Copying file from "obj\x86\Debug\CSharbStringParsi ngTester.pdb"
+                 to "bin\Debug\CSharbStringParsi ngTester.pdb".
+
+IncrementalClean:
+  Deleting file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\ConsoleApplication.exe.config".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.25
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+CSharbStringParsi ngTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nul
+l BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine ReportArgExceiption,
+    while processing string:\
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+
+CSharbStringParsi ngTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+
+================================================================================
+2016-04-18 15:42:25
+================================================================================
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 15:42:15.
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll"
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:obj\x86\Debug\CSharbStringParsingTester.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+                                                  Properties\AssemblyInfo.cs
+
+                                                  "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\CSharbStringParsingTester.exe"
+                 to "bin\Debug\CSharbStringParsingTester.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe
+  Copying file from "obj\x86\Debug\CSharbStringParsingTester.pdb"
+                 to "bin\Debug\CSharbStringParsingTester.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:01.27
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+CSharbStringParsingTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine ReportArgExceiption,
+    while processing string:\
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+
+CSharbStringParsingTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll'.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.vshost.exe'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll'. Symbols loaded.
+The thread 0x1470 has exited with code 259 (0x103).
+The thread 0x14d8 has exited with code 259 (0x103).
+The thread 0x1600 has exited with code 0 (0x0).
+The thread 0x37c has exited with code 259 (0x103).
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe'. Symbols loaded.
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Symbols loaded.
+The thread 0x1248 has exited with code 259 (0x103).
+The thread 0xc58 has exited with code 259 (0x103).
+The program '[0x153C] CSharbStringParsingTester.vshost.exe' has exited with code 0 (0x0).
+
+
+
+================================================================================
+2016-04-18 15:45:36 - Make a retail build and test it.
+================================================================================
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Release x86 ------
+Build started 2016-04-18 15:45:23.
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll"
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug:pdbonly
+                                                  /filealign:512
+                                                  /optimize+
+                                                  /out:obj\x86\Release\CSharbStringParsingTester.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+                                                  Properties\AssemblyInfo.cs
+
+                                                  "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Release\CSharbStringParsingTester.exe"
+                 to "bin\Release\CSharbStringParsingTester.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe
+  Copying file from "obj\x86\Release\CSharbStringParsingTester.pdb"
+                 to "bin\Release\CSharbStringParsingTester.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\DAVE>dir "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe"
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release
+
+2016-04-18  15:45            20,992 CSharbStringParsingTester.exe
+               1 File(s)         20,992 bytes
+               0 Dir(s)  547,187,331,072 bytes free
+
+C:\Users\DAVE>ShowVer.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe"
+VERSIONINFO for file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe":  (type:0)
+  Signature:       feef04bd
+  StrucVersion:    1.0
+  FileVersion:     1.0.0.0
+  ProductVersion:  1.0.0.0
+  FileFlagsMask:   0x3f
+  FileFlags:       0
+  FileOS:          VOS__WINDOWS32
+  FileType:        VFT_APP
+  FileDate:        0.0
+ Translation: 000004b0
+ LangID: 000004b0
+  Comments          : Unit Tests for C Sharp String Parser
+  CompanyName       : David A. Gray
+  FileDescription   : CSharbStringParsingTester
+  FileVersion       : 1.0.0.0
+  InternalName      : CSharbStringParsingTester.exe
+  LegalCopyright    : 2016, David A. Gray
+  LegalTrademarks   : Portions Copyright 2008, DiveDeeper
+  OriginalFilename  : CSharbStringParsingTester.exe
+  ProductName       : CSharbStringParsingTester
+  ProductVersion    : 1.0.0.0
+  Assembly Version  : 1.0.0.0
+
+C:\Users\DAVE>"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe"
+CSharbStringParsingTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine ReportArgExceiption,
+    while processing string:\
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+
+CSharbStringParsingTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+C:\Users\DAVE>
+
+================================================================================
+2016-04-18 16:02:48
+================================================================================
+
+Rename 'ReportArgExceiption' to 'ReportArgException'
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(341,23): updated definition
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(55,5): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(68,5): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(82,5): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(95,5): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(108,5): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(121,5): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(134,5): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(244,5): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS(257,5): updated reference
+Looking for symbol references in project 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharbStringParsingTester.exe'
+
+
+
+================================================================================
+2016-04-18 16:06:03 - Correct some
+================================================================================
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 16:05:55.
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll"
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:obj\x86\Debug\CSharbStringParsingTester.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+                                                  Properties\AssemblyInfo.cs
+
+                                                  "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\CSharbStringParsingTester.exe"
+                 to "bin\Debug\CSharbStringParsingTester.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe
+  Copying file from "obj\x86\Debug\CSharbStringParsingTester.pdb"
+                 to "bin\Debug\CSharbStringParsingTester.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.23
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+CSharbStringParsingTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine StringFromCSharpLiteral,
+    while processing string:\
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+
+CSharbStringParsingTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll'.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.vshost.exe'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll'. Symbols loaded.
+The thread 0x1430 has exited with code 259 (0x103).
+The thread 0x16c4 has exited with code 259 (0x103).
+The thread 0x11b0 has exited with code 0 (0x0).
+The thread 0x1448 has exited with code 0 (0x0).
+The thread 0x1474 has exited with code 259 (0x103).
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe'. Symbols loaded.
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Symbols loaded.
+The thread 0xc34 has exited with code 259 (0x103).
+The thread 0x14f0 has exited with code 259 (0x103).
+The program '[0x1580] CSharbStringParsingTester.vshost.exe' has exited with code 0 (0x0).
+
+
+================================================================================
+2016-04-18 16:12:24 - Wrap the error string in quotatio marks.
+================================================================================
+
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 16:12:17.
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll"
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:obj\x86\Debug\CSharbStringParsingTester.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+                                                  Properties\AssemblyInfo.cs
+
+                                                  "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\CSharbStringParsingTester.exe"
+                 to "bin\Debug\CSharbStringParsingTester.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe
+  Copying file from "obj\x86\Debug\CSharbStringParsingTester.pdb"
+                 to "bin\Debug\CSharbStringParsingTester.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+CSharbStringParsingTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine StringFromCSharpLiteral,
+    while processing string: "\ "
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+
+CSharbStringParsingTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll'.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.vshost.exe'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll'. Symbols loaded.
+The thread 0x1764 has exited with code 259 (0x103).
+The thread 0xff4 has exited with code 259 (0x103).
+The thread 0x15a4 has exited with code 0 (0x0).
+The thread 0xac4 has exited with code 259 (0x103).
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe'. Symbols loaded.
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Symbols loaded.
+The thread 0x10c8 has exited with code 259 (0x103).
+The thread 0x1428 has exited with code 259 (0x103).
+The program '[0xC3C] CSharbStringParsingTester.vshost.exe' has exited with code 0 (0x0).
+
+
+================================================================================
+2016-04-18 16:54:18 - This is a complete list of test string.
+================================================================================
+
+\r\n
+\r\nParameter name:
+\r\nParameter name:
+\r\nParameter name:
+\r\nObject name:
+\r\n
+\r\n
+
+
+================================================================================
+2016-04-18 17:19:22 - Build the first attempt at the test program.
+================================================================================
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 17:19:11.
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll"
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:obj\x86\Debug\CSharbStringParsingTester.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+                                                  Properties\AssemblyInfo.cs
+
+                                                  "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\CSharbStringParsingTester.exe"
+                 to "bin\Debug\CSharbStringParsingTester.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe
+  Copying file from "obj\x86\Debug\CSharbStringParsingTester.pdb"
+                 to "bin\Debug\CSharbStringParsingTester.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.34
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine StringFromCSharpLiteral,
+    while processing string: "\ "
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+SpecificStringTests Begin:
+
+Case # 1: pstrThisCase                 =
+
+        pstrTreatedAsVerbatimLiteral =
+
+        pstrTreatedAsCSharpLiteral   =
+
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine StringFromCSharpLiteral,
+    while processing string: "\ "
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+SpecificStringTests Begin:
+
+Case # 1: pstrThisCase                 = "\r\n", length = 4
+          pstrTreatedAsVerbatimLiteral = "\r\n", length = 4
+          pstrTreatedAsCSharpLiteral   = "  ", length = 2
+
+Case # 2: pstrThisCase                 = "\r\nParameter name: ", length = 20
+          pstrTreatedAsVerbatimLiteral = "\r\nParameter name: ", length = 20
+          pstrTreatedAsCSharpLiteral   = "  Parameter name: ", length = 18
+
+Case # 3: pstrThisCase                 = "\r\nObject name: ", length = 17
+          pstrTreatedAsVerbatimLiteral = "\r\nObject name: ", length = 17
+          pstrTreatedAsCSharpLiteral   = "  Object name: ", length = 15
+
+
+SpecificStringTests Done!
+
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null
+ EOJ
+<*>
+
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll'.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.vshost.exe'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll'. Symbols loaded.
+The thread 0x14c4 has exited with code 259 (0x103).
+The thread 0xfc0 has exited with code 259 (0x103).
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe'. Symbols loaded.
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Symbols loaded.
+The thread 0x4a0 has exited with code 259 (0x103).
+The thread 0x17c4 has exited with code 259 (0x103).
+The thread 0x42c has exited with code 259 (0x103).
+The program '[0x1618] CSharbStringParsingTester.vshost.exe' has exited with code 0 (0x0).
+
+
+================================================================================
+2016-04-18 17:54:42 - Rebuild to read the strings from a file.
+================================================================================
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 17:54:30.
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll"
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:obj\x86\Debug\CSharbStringParsingTester.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+                                                  Properties\AssemblyInfo.cs
+
+                                                  "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\CSharbStringParsingTester.exe"
+                 to "bin\Debug\CSharbStringParsingTester.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe
+  Copying file from "obj\x86\Debug\CSharbStringParsingTester.pdb"
+                 to "bin\Debug\CSharbStringParsingTester.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine StringFromCSharpLiteral,
+    while processing string: "\ "
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+SpecificStringTests Begin:
+
+
+
+        strTreatedAsVerbatimLiteral null        string
+        strTreatedAsCSharpLiteral   null        string
+        strThisCase                 "\\r\\n"    string
+        intCaseNumber               0x00000000  int
+
+        strTreatedAsVerbatimLiteral "\\r\\n"    string
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine StringFromCSharpLiteral,
+    while processing string: "\ "
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+SpecificStringTests Begin:
+
+Case # 1: pstrThisCase                 = "\r\n", length = 4
+          pstrTreatedAsVerbatimLiteral = "\r\n", length = 4
+          pstrTreatedAsCSharpLiteral   = "  ", length = 2
+
+Case # 2: pstrThisCase                 = "\r\nParameter name: ", length = 20
+          pstrTreatedAsVerbatimLiteral = "\r\nParameter name: ", length = 20
+          pstrTreatedAsCSharpLiteral   = "  Parameter name: ", length = 18
+
+Case # 3: pstrThisCase                 = "\r\nObject name: ", length = 17
+          pstrTreatedAsVerbatimLiteral = "\r\nObject name: ", length = 17
+          pstrTreatedAsCSharpLiteral   = "  Object name: ", length = 15
+
+
+SpecificStringTests Done!
+
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll'.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.vshost.exe'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll'. Symbols loaded.
+The thread 0x1084 has exited with code 259 (0x103).
+The thread 0x1464 has exited with code 259 (0x103).
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe'. Symbols loaded.
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Symbols loaded.
+The thread 0x1020 has exited with code 259 (0x103).
+The thread 0x142c has exited with code 0 (0x0).
+The thread 0x1668 has exited with code 259 (0x103).
+The thread 0x1270 has exited with code 259 (0x103).
+The program '[0xC58] CSharbStringParsingTester.vshost.exe' has exited with code 0 (0x0).
+
+
+================================================================================
+2016-04-18 18:06:38 - Test the modification that runs just my tests.
+================================================================================
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+SpecificStringTests Begin:
+
+Case # 1: pstrThisCase                 = "\r\n", length = 4
+          pstrTreatedAsVerbatimLiteral = "\r\n", length = 4
+          pstrTreatedAsCSharpLiteral   = "  ", length = 2
+
+Case # 2: pstrThisCase                 = "\r\nParameter name: ", length = 20
+          pstrTreatedAsVerbatimLiteral = "\r\nParameter name: ", length = 20
+          pstrTreatedAsCSharpLiteral   = "  Parameter name: ", length = 18
+
+Case # 3: pstrThisCase                 = "\r\nObject name: ", length = 17
+          pstrTreatedAsVerbatimLiteral = "\r\nObject name: ", length = 17
+          pstrTreatedAsCSharpLiteral   = "  Object name: ", length = 15
+
+
+SpecificStringTests Done!
+
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll'.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.vshost.exe'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll'. Symbols loaded.
+The thread 0xf78 has exited with code 259 (0x103).
+The thread 0x9a8 has exited with code 259 (0x103).
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Symbols loaded.
+The thread 0x1060 has exited with code 259 (0x103).
+The thread 0xa00 has exited with code 259 (0x103).
+The thread 0x17cc has exited with code 259 (0x103).
+The program '[0x1270] CSharbStringParsingTester.vshost.exe' has exited with code 0 (0x0).
+
+
+================================================================================
+2016-04-18 18:28:16 - Adapt to my needs, as follows.
+
+                      1) Format with tabs stops set at 4.
+
+                      2) Adapt the escape table to preserve cariiage returns and
+                         line feeds, rather than substituting spaces, as his did.
+
+                      3) Implement RGUNC.
+================================================================================
+
+Rename 'source' to 'pstrsource'
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(26,57): updated definition
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(18,20): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(28,43): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(31,18): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(33,14): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(40,18): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(43,15): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(83,20): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(85,12): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(92,20): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(94,14): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(101,22): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(103,16): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(112,24): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(114,18): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(137,24): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(142,41): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(157,24): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(162,41): updated reference
+Looking for symbol references in project 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharbStringParsingTester.exe'
+
+Rename 'pos' to 'intPos'
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(29,8): updated definition
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(31,12): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(33,27): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(38,6): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(40,11): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(43,28): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(82,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(83,13): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(85,25): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(90,9): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(92,14): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(94,27): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(99,11): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(101,16): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(103,29): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(110,13): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(112,18): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(114,31): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(120,15): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(130,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(135,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(137,13): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(142,64): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(145,9): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(155,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(157,13): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(162,64): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(167,9): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(180,5): updated reference
+Looking for symbol references in project 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharbStringParsingTester.exe'
+
+Rename 'c' to 'chrThisChar'
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(33,10): updated definition
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(35,10): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(47,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(50,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(53,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(56,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(59,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(62,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(65,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(68,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(71,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(74,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(77,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(85,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(87,28): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(87,37): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(87,49): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(87,65): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(87,77): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(89,23): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(94,10): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(96,30): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(96,39): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(96,51): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(96,67): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(96,79): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(98,25): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(103,12): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(105,32): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(106,18): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(106,30): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(107,18): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(107,30): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(109,27): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(114,14): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(115,34): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(116,20): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(116,32): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(117,20): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(117,32): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(119,29): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(129,8): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(144,9): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(166,9): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(181,17): updated reference
+Looking for symbol references in project 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharbStringParsingTester.exe'
+
+Rename 'sb' to 'sbWork'
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(28,18): updated definition
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(181,5): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(184,11): updated reference
+Looking for symbol references in project 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharbStringParsingTester.exe'
+
+Rename 'pos' to 'intPos'
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(204,8): updated definition
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(206,12): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(208,23): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(213,6): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(214,11): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(216,20): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(222,5): updated reference
+Looking for symbol references in project 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharbStringParsingTester.exe'
+
+Rename 'c' to 'chrThisChar'
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(208,10): updated definition
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(210,10): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(217,7): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(223,17): updated reference
+Looking for symbol references in project 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharbStringParsingTester.exe'
+
+Rename 'sb' to 'sbWork'
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(203,18): updated definition
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(223,5): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(226,11): updated reference
+Looking for symbol references in project 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharbStringParsingTester.exe'
+
+Rename 'source' to 'pstrSource'
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(209,59): updated definition
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(204,20): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(211,47): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(214,21): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(216,24): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(222,21): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(224,11): updated reference
+Looking for symbol references in project 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharbStringParsingTester.exe'
+
+Rename 'source' to 'pstrSource'
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(248,53): updated definition
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(243,20): updated reference
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper.CS(250,46): updated reference
+Looking for symbol references in project 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\obj\x86\Debug\CSharbStringParsingTester.exe'
+
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Debug x86 ------
+Build started 2016-04-18 18:47:43.
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:DEBUG;
+                                                          TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll"
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug+
+                                                  /debug:full
+                                                  /filealign:512
+                                                  /optimize-
+                                                  /out:obj\x86\Debug\CSharbStringParsingTester.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+                                                  Properties\AssemblyInfo.cs
+
+                                                  "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\CSharbStringParsingTester.exe"
+                 to "bin\Debug\CSharbStringParsingTester.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe
+  Copying file from "obj\x86\Debug\CSharbStringParsingTester.pdb"
+                 to "bin\Debug\CSharbStringParsingTester.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.22
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+SpecificStringTests Begin:
+
+Case # 1: pstrThisCase                 = "\r\n", length = 4
+          pstrTreatedAsVerbatimLiteral = "\r\n", length = 4
+          pstrTreatedAsCSharpLiteral   = "
+", length = 2
+
+Case # 2: pstrThisCase                 = "\r\nParameter name: ", length = 20
+          pstrTreatedAsVerbatimLiteral = "\r\nParameter name: ", length = 20
+          pstrTreatedAsCSharpLiteral   = "
+Parameter name: ", length = 18
+
+Case # 3: pstrThisCase                 = "\r\nObject name: ", length = 17
+          pstrTreatedAsVerbatimLiteral = "\r\nObject name: ", length = 17
+          pstrTreatedAsCSharpLiteral   = "
+Object name: ", length = 15
+
+
+SpecificStringTests Done!
+
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll'.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.vshost.exe'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll'. Symbols loaded.
+The thread 0xd88 has exited with code 259 (0x103).
+The thread 0xb44 has exited with code 259 (0x103).
+The thread 0xee4 has exited with code 0 (0x0).
+The thread 0x1618 has exited with code 0 (0x0).
+The thread 0x314 has exited with code 259 (0x103).
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Symbols loaded.
+The thread 0xd94 has exited with code 259 (0x103).
+The thread 0x1620 has exited with code 259 (0x103).
+The program '[0x11D0] CSharbStringParsingTester.vshost.exe' has exited with code 0 (0x0).
+
+
+================================================================================
+2016-04-18 18:51:38 - Repeat the test of the whole set.
+================================================================================
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine StringFromCSharpLiteral,
+    while processing string: "\ "
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+SpecificStringTests Begin:
+
+Case # 1: pstrThisCase                 = "\r\n", length = 4
+          pstrTreatedAsVerbatimLiteral = "\r\n", length = 4
+          pstrTreatedAsCSharpLiteral   = "
+", length = 2
+
+Case # 2: pstrThisCase                 = "\r\nParameter name: ", length = 20
+          pstrTreatedAsVerbatimLiteral = "\r\nParameter name: ", length = 20
+          pstrTreatedAsCSharpLiteral   = "
+Parameter name: ", length = 18
+
+Case # 3: pstrThisCase                 = "\r\nObject name: ", length = 17
+          pstrTreatedAsVerbatimLiteral = "\r\nObject name: ", length = 17
+          pstrTreatedAsCSharpLiteral   = "
+Object name: ", length = 15
+
+
+SpecificStringTests Done!
+
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll'.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.vshost.exe'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll'. Symbols loaded.
+The thread 0xfa4 has exited with code 259 (0x103).
+The thread 0xa50 has exited with code 259 (0x103).
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Debug\CSharbStringParsingTester.exe'. Symbols loaded.
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+A first chance exception of type 'System.ArgumentException' occurred in CSharbStringParsingTester.exe
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Symbols loaded.
+'CSharbStringParsingTester.vshost.exe' (CLR v4.0.30319: CSharbStringParsingTester.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Symbols loaded.
+The thread 0xc58 has exited with code 259 (0x103).
+The thread 0xc44 has exited with code 259 (0x103).
+The thread 0xcb8 has exited with code 259 (0x103).
+The program '[0xD80] CSharbStringParsingTester.vshost.exe' has exited with code 0 (0x0).
+
+
+================================================================================
+2016-04-18 18:52:35 - Make another retail version, and put it through its paces.
+================================================================================
+
+------ Build started: Project: CSharpLiteralsParser, Configuration: Release x86 ------
+Build started 2016-04-18 18:53:05.
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig
+                                                  /nowarn:1701,
+                                                          1702,
+                                                          2008
+                                                  /nostdlib+
+                                                  /platform:x86
+                                                  /errorreport:prompt
+                                                  /warn:4
+                                                  /define:TRACE
+                                                  /errorendlocation
+                                                  /preferreduilang:en-US
+                                                  /highentropyva-
+
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll"
+                                                  /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll"
+
+                                                  /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"
+
+                                                  /debug:pdbonly
+                                                  /filealign:512
+                                                  /optimize+
+                                                  /out:obj\x86\Release\CSharbStringParsingTester.exe
+                                                  /target:exe
+                                                  /utf8output
+                                                  /win32icon:WW_Icon1.ico
+
+                                                  StringHelper.CS
+                                                  StringHelper_UnitTests.CS
+
+                                                  Properties\AssemblyInfo.cs
+
+                                                  "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Release\CSharbStringParsingTester.exe"
+                 to "bin\Release\CSharbStringParsingTester.exe".
+  CSharpLiteralsParser -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe
+  Copying file from "obj\x86\Release\CSharbStringParsingTester.pdb"
+                 to "bin\Release\CSharbStringParsingTester.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.18
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\DAVE>dir "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe"
+ Volume in drive C is Gateway
+ Volume Serial Number is D841-419A
+
+ Directory of C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release
+
+2016-04-18  18:53            22,528 CSharbStringParsingTester.exe
+               1 File(s)         22,528 bytes
+               0 Dir(s)  547,169,726,464 bytes free
+
+C:\Users\DAVE>ShowVer.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe"
+VERSIONINFO for file "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe":  (type:0)
+  Signature:       feef04bd
+  StrucVersion:    1.0
+  FileVersion:     1.1.0.0
+  ProductVersion:  1.1.0.0
+  FileFlagsMask:   0x3f
+  FileFlags:       0
+  FileOS:          VOS__WINDOWS32
+  FileType:        VFT_APP
+  FileDate:        0.0
+ Translation: 000004b0
+ LangID: 000004b0
+  Comments          : Unit Tests for C Sharp String Parser
+  CompanyName       : David A. Gray
+  FileDescription   : CSharbStringParsingTester
+  FileVersion       : 1.1.0.0
+  InternalName      : CSharbStringParsingTester.exe
+  LegalCopyright    : 2016, David A. Gray
+  LegalTrademarks   : Portions Copyright 2008, DiveDeeper
+  OriginalFilename  : CSharbStringParsingTester.exe
+  ProductName       : CSharbStringParsingTester
+  ProductVersion    : 1.1.0.0
+  Assembly Version  : 1.1.0.0
+
+C:\Users\DAVE>DumpBin.CMD "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe"
+DumpBin.CMD, Version 1.4 Starting
+
+The second argument was omitted. Assuming IMPORTS,
+    since ANY PE file can have them.
+
+Microsoft (R) COFF/PE Dumper Version 12.00.31101.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe
+
+File Type: EXECUTABLE IMAGE
+
+  Section contains the following imports:
+
+    mscoree.dll
+                402000 Import Address Table
+                404220 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 _CorExeMain
+
+  Summary
+
+        2000 .reloc
+        4000 .rsrc
+        4000 .text
+
+DumpBin.CMD Done!
+
+WWPause version 3, 0, 0, 4
+Mon 18 Apr 2016 18:56:06 Local
+
+Please press RETURN when ready...
+
+C:\Users\DAVE>"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe"
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine StringFromCSharpLiteral,
+    while processing string: "\ "
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+SpecificStringTests Begin:
+
+
+Unhandled Exception: System.IO.FileNotFoundException: Could not find file 'C:\Users\DAVE\SpecificStringTests.TXT'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access,FileShare share, Int32 bufferSize, FileOptions options, String msgPath, BooleanbFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path, Encoding encoding)
+   at CSharpParserTest.StringHelperTest.SpecificStringTests() in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS:line 69
+   at CSharpParserTest.StringHelperTest.Main(String[] pastrArgs) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\StringHelper_UnitTests.CS:line 43
+
+C:\Users\DAVE>cd "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\"
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES>"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\Unescaping_C#_Strings\bin\Release\CSharbStringParsingTester.exe"
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null BOJ
+
+Target .NET Framework version: v4.0.30319
+
+StringLiteralsAreOK Begin:
+
+
+StringLiteralsAreOK Done!
+
+StringLiteralExceptionsAreOK Begin:
+
+
+StringLiteralExceptionsAreOK Done!
+
+CharLiteralsAreOK Begin:
+
+An ArgumentException occurred in routine StringFromCSharpLiteral,
+    while processing string: "\ "
+    Message = Unrecognized escape sequence
+
+CharLiteralsAreOK Done!
+
+CharLiteralExceptionsAreOK Begin:
+
+
+CharLiteralExceptionsAreOK Done!
+
+VerbatimLiteralsAreOK Begin:
+
+
+VerbatimLiteralsAreOK Done!
+
+SpecificStringTests Begin:
+
+Case # 1: pstrThisCase                 = "\r\n", length = 4
+          pstrTreatedAsVerbatimLiteral = "\r\n", length = 4
+          pstrTreatedAsCSharpLiteral   = "
+", length = 2
+
+Case # 2: pstrThisCase                 = "\r\nParameter name: ", length = 20
+          pstrTreatedAsVerbatimLiteral = "\r\nParameter name: ", length = 20
+          pstrTreatedAsCSharpLiteral   = "
+Parameter name: ", length = 18
+
+Case # 3: pstrThisCase                 = "\r\nObject name: ", length = 17
+          pstrTreatedAsVerbatimLiteral = "\r\nObject name: ", length = 17
+          pstrTreatedAsCSharpLiteral   = "
+Object name: ", length = 15
+
+
+SpecificStringTests Done!
+
+
+CSharbStringParsingTester, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null EOJ
+<*>
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES>
