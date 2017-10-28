@@ -14,7 +14,7 @@
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -66,9 +66,21 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DLLServices2\DLLServices2.csproj">
-      <Project>{b0244f74-69f0-4383-9698-46fee524b446}</Project>
-      <Name>DLLServices2</Name>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{c1fb48d6-4a54-4424-bca1-4777f3aae2df}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLLConfigurationManager\DLLConfigurationManager.csproj">
+      <Project>{6cffb889-9457-4bfa-9efb-614118885760}</Project>
+      <Name>DLLConfigurationManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConsoleStreams\ConsoleStreams.csproj">
+      <Project>{714f5bee-4663-4b0c-8865-8a2165bf6bf2}</Project>
+      <Name>ConsoleStreams</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{b5282e82-d211-4bea-bebd-b2cc6e45bf5c}</Project>
+      <Name>Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

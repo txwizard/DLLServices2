@@ -1,0 +1,520 @@
+------ Build started: Project: Common, Configuration: Release Any CPU ------
+Build started 2017/09/10 18:06:03.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/09/10 18:06:04 (2017/09/10 23:06:04 UTC)
+          Build Number = 98
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\BitMath\BitMath\bin\Release\WizardWrx.BitMath.dll" /compile Properties\Resources.resx,obj\Release\WizardWrx.Common.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Release\WizardWrx.Common.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.Common.XML /define:TRACE;NET20 /errorendlocation /preferreduilang:en-US /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\BitMath\BitMath\bin\Release\WizardWrx.BitMath.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.Common.dll /resource:obj\Release\WizardWrx.Common.Properties.Resources.resources /target:library /utf8output ArrayInfo.cs CSVFileInfo.cs DisplayFormats.cs FileIOFlags.cs ListInfo.cs MagicBooleans.cs MagicNumbers.cs NumericFormats.cs PathPositions.cs RegExpSupport.cs SpecialCharacters.cs SpecialStrings.cs StringTricks.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+CSC : warning CS1607: Assembly generation -- The version '7.0.98.*' specified for the 'file version' is not in the normal 'major.minor.build.revision' format
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\BitMath\BitMath\bin\Release\WizardWrx.BitMath.dll" to "bin\Release\WizardWrx.BitMath.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\BitMath\BitMath\bin\Release\WizardWrx.BitMath.pdb" to "bin\Release\WizardWrx.BitMath.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\BitMath\BitMath\bin\Release\WizardWrx.BitMath.xml" to "bin\Release\WizardWrx.BitMath.xml".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.Common.dll" to "bin\Release\WizardWrx.Common.dll".
+  Common -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll
+  Copying file from "obj\Release\WizardWrx.Common.pdb" to "bin\Release\WizardWrx.Common.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll
+          Version    = 7.0.98.30784
+          File Date  = 2017/09/10 18:06:08 (2017/09/10 23:06:08 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\BuildHistory.LOG
+          File Date  = 2017/09/10 18:06:09 (2017/09/10 23:06:09 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:05.05
+------ Build started: Project: ASCIIInfo, Configuration: Release Any CPU ------
+Build started 2017/09/10 18:06:09.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/09/10 18:06:09 (2017/09/10 23:06:09 UTC)
+          Build Number = 77
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /compile Properties\Resources.resx,obj\Release\WizardWrx.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Release\WizardWrx.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.ASCIIInfo.XML /define:TRACE /errorendlocation /preferreduilang:en-US /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.ASCIIInfo.dll /resource:obj\Release\WizardWrx.Properties.Resources.resources /resource:ASCII_Character_Display_Table.xml,WizardWrx.ASCII_Character_Display_Table.xml /target:library /utf8output ASCIICharacterDisplayInfo.cs ASCII_Character_Display_Table.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+CSC : warning CS1607: Assembly generation -- The version '7.0.77.*' specified for the 'file version' is not in the normal 'major.minor.build.revision' format
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.ASCIIInfo.dll" to "bin\Release\WizardWrx.ASCIIInfo.dll".
+  ASCIIInfo -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.dll
+  Copying file from "obj\Release\WizardWrx.ASCIIInfo.pdb" to "bin\Release\WizardWrx.ASCIIInfo.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.dll
+          Version    = 7.0.77.30786
+          File Date  = 2017/09/10 18:06:12 (2017/09/10 23:06:12 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\BuildHistory.LOG
+          File Date  = 2017/09/10 18:06:13 (2017/09/10 23:06:13 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.10
+------ Build started: Project: FormatStringEngine, Configuration: Release Any CPU ------
+Build started 2017/09/10 18:06:13.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/09/10 18:06:13 (2017/09/10 23:06:13 UTC)
+          Build Number = 150
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\AnyCSV\AnyCSV\bin\Release\WizardWrx.AnyCSV.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /compile Properties\Resources.resx,obj\Release\WizardWrx.FormatStringEngine.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Release\WizardWrx.FormatStringEngine.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.FormatStringEngine.XML /define:TRACE /errorendlocation /preferreduilang:en-US /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\AnyCSV\AnyCSV\bin\Release\WizardWrx.AnyCSV.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.FormatStringEngine.dll /resource:obj\Release\WizardWrx.FormatStringEngine.Properties.Resources.resources /target:library /utf8output FormatItem.cs FormatItemsCollection.cs FormatStringError.cs FormatStringParser.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+CSC : warning CS1607: Assembly generation -- The version '7.0.150.*' specified for the 'file version' is not in the normal 'major.minor.build.revision' format
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\AnyCSV\AnyCSV\bin\Release\WizardWrx.AnyCSV.dll" to "bin\Release\WizardWrx.AnyCSV.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.dll" to "bin\Release\WizardWrx.ASCIIInfo.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" to "bin\Release\WizardWrx.Common.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.dll" to "bin\Release\WizardWrx.BitMath.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.pdb" to "bin\Release\WizardWrx.ASCIIInfo.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.xml" to "bin\Release\WizardWrx.ASCIIInfo.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.pdb" to "bin\Release\WizardWrx.Common.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.xml" to "bin\Release\WizardWrx.Common.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\AnyCSV\AnyCSV\bin\Release\WizardWrx.AnyCSV.pdb" to "bin\Release\WizardWrx.AnyCSV.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\AnyCSV\AnyCSV\bin\Release\WizardWrx.AnyCSV.xml" to "bin\Release\WizardWrx.AnyCSV.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.pdb" to "bin\Release\WizardWrx.BitMath.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.xml" to "bin\Release\WizardWrx.BitMath.xml".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.FormatStringEngine.dll" to "bin\Release\WizardWrx.FormatStringEngine.dll".
+  FormatStringEngine -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.dll
+  Copying file from "obj\Release\WizardWrx.FormatStringEngine.pdb" to "bin\Release\WizardWrx.FormatStringEngine.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.dll
+          Version    = 7.0.150.30788
+          File Date  = 2017/09/10 18:06:17 (2017/09/10 23:06:17 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\BuildHistory.LOG
+          File Date  = 2017/09/10 18:06:17 (2017/09/10 23:06:17 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.22
+------ Build started: Project: Core, Configuration: Release Any CPU ------
+Build started 2017/09/10 18:06:17.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/09/10 18:06:17 (2017/09/10 23:06:17 UTC)
+          Build Number = 139
+  Sleeping for 3 seconds
+  Waking from cat nap
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Configuration.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\BitMath\BitMath\bin\Release\WizardWrx.BitMath.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.dll" /compile Properties\Resources.resx,obj\Release\WizardWrx.Core.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Release\WizardWrx.Core.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.Core.XML /define:TRACE /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Configuration.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\BitMath\BitMath\bin\Release\WizardWrx.BitMath.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.Core.dll /resource:obj\Release\WizardWrx.Core.Properties.Resources.resources /target:library /utf8output AgedFileInfo.cs AgedFileInfoCollection.cs AssemblyLocatorBase.cs BasicSystemInfoDisplayMessages.cs ByteArrayFormatters.cs CmdLneArgsBasic.cs DigestFile.cs DigestString.cs FileInfoExtension.cs FileInfoExtensionMethods.cs FileNameTricks.cs GenericSingletonBase.cs ListHelpers.cs Logic.cs NumberFormatters.cs PropertyDefaults.cs RegistryValues.cs ReportDetail.cs ReportDetails.cs ReportHelpers.cs StringExtensions.cs SyncRoot.cs SysDateFormatters.cs TextBlocks.cs TimeDisplayFormatter.cs TraceLogger.cs UnmanagedLibrary.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+CSC : warning CS1607: Assembly generation -- The version '7.0.139.*' specified for the 'file version' is not in the normal 'major.minor.build.revision' format
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\BitMath\BitMath\bin\Release\WizardWrx.BitMath.dll" to "bin\Release\WizardWrx.BitMath.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" to "bin\Release\WizardWrx.Common.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.dll" to "bin\Release\WizardWrx.FormatStringEngine.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.AnyCSV.dll" to "bin\Release\WizardWrx.AnyCSV.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.ASCIIInfo.dll" to "bin\Release\WizardWrx.ASCIIInfo.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.pdb" to "bin\Release\WizardWrx.Common.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.xml" to "bin\Release\WizardWrx.Common.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.pdb" to "bin\Release\WizardWrx.FormatStringEngine.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.xml" to "bin\Release\WizardWrx.FormatStringEngine.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\BitMath\BitMath\bin\Release\WizardWrx.BitMath.pdb" to "bin\Release\WizardWrx.BitMath.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\BitMath\BitMath\bin\Release\WizardWrx.BitMath.xml" to "bin\Release\WizardWrx.BitMath.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.AnyCSV.pdb" to "bin\Release\WizardWrx.AnyCSV.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.AnyCSV.xml" to "bin\Release\WizardWrx.AnyCSV.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.ASCIIInfo.pdb" to "bin\Release\WizardWrx.ASCIIInfo.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.ASCIIInfo.xml" to "bin\Release\WizardWrx.ASCIIInfo.xml".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.Core.dll" to "bin\Release\WizardWrx.Core.dll".
+  Core -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll
+  Copying file from "obj\Release\WizardWrx.Core.pdb" to "bin\Release\WizardWrx.Core.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll
+          Version    = 7.0.139.30790
+          File Date  = 2017/09/10 18:06:21 (2017/09/10 23:06:21 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\BuildHistory.LOG
+          File Date  = 2017/09/10 18:06:22 (2017/09/10 23:06:22 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.74
+------ Build started: Project: AssemblyUtils, Configuration: Release Any CPU ------
+Build started 2017/09/10 18:06:22.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/09/10 18:06:22 (2017/09/10 23:06:22 UTC)
+          Build Number = 102
+  Sleeping for 3 seconds
+  Waking from cat nap
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" /compile Properties\Resources.resx,obj\Release\WizardWrx.AssemblyUtils.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Release\WizardWrx.AssemblyUtils.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.AssemblyUtils.XML /define:TRACE /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.AssemblyUtils.dll /resource:obj\Release\WizardWrx.AssemblyUtils.Properties.Resources.resources /target:library /utf8output AssemblyContainer.cs DependentAssemblies.cs DependentAssemblyInfo.cs PESubsystemInfo.cs ReportGenerators.cs SortableManagedResourceItem.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+CSC : warning CS1607: Assembly generation -- The version '7.0.102.*' specified for the 'file version' is not in the normal 'major.minor.build.revision' format
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" to "bin\Release\WizardWrx.Common.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" to "bin\Release\WizardWrx.Core.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.dll" to "bin\Release\WizardWrx.BitMath.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.FormatStringEngine.dll" to "bin\Release\WizardWrx.FormatStringEngine.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.AnyCSV.dll" to "bin\Release\WizardWrx.AnyCSV.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.ASCIIInfo.dll" to "bin\Release\WizardWrx.ASCIIInfo.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.pdb" to "bin\Release\WizardWrx.Common.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.xml" to "bin\Release\WizardWrx.Common.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.pdb" to "bin\Release\WizardWrx.Core.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.xml" to "bin\Release\WizardWrx.Core.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.pdb" to "bin\Release\WizardWrx.BitMath.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.xml" to "bin\Release\WizardWrx.BitMath.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.FormatStringEngine.pdb" to "bin\Release\WizardWrx.FormatStringEngine.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.FormatStringEngine.xml" to "bin\Release\WizardWrx.FormatStringEngine.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.AnyCSV.pdb" to "bin\Release\WizardWrx.AnyCSV.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.AnyCSV.xml" to "bin\Release\WizardWrx.AnyCSV.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.ASCIIInfo.pdb" to "bin\Release\WizardWrx.ASCIIInfo.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.ASCIIInfo.xml" to "bin\Release\WizardWrx.ASCIIInfo.xml".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.AssemblyUtils.dll" to "bin\Release\WizardWrx.AssemblyUtils.dll".
+  AssemblyUtils -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll
+  Copying file from "obj\Release\WizardWrx.AssemblyUtils.pdb" to "bin\Release\WizardWrx.AssemblyUtils.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll
+          Version    = 7.0.102.30793
+          File Date  = 2017/09/10 18:06:26 (2017/09/10 23:06:26 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\BuildHistory.LOG
+          File Date  = 2017/09/10 18:06:27 (2017/09/10 23:06:27 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:05.00
+------ Build started: Project: ConsoleStreams, Configuration: Release Any CPU ------
+Build started 2017/09/10 18:06:27.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/09/10 18:06:27 (2017/09/10 23:06:27 UTC)
+          Build Number = 179
+  Sleeping for 3 seconds
+  Waking from cat nap
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" /compile Properties\Resources.resx,obj\Release\WizardWrx.ConsoleStreams.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Release\WizardWrx.ConsoleStreams.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.ConsoleStreams.XML /define:TRACE /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.ConsoleStreams.dll /resource:obj\Release\WizardWrx.ConsoleStreams.Properties.Resources.resources /target:library /utf8output ConsoleColorPropertyDisplay.cs DefaultErrorMessageColors.cs ErrorMessagesInColor.cs MessageInColor.cs StandardHandleInfo.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+CSC : warning CS1607: Assembly generation -- The version '7.0.179.*' specified for the 'file version' is not in the normal 'major.minor.build.revision' format
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll" to "bin\Release\WizardWrx.AssemblyUtils.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" to "bin\Release\WizardWrx.Common.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" to "bin\Release\WizardWrx.Core.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.dll" to "bin\Release\WizardWrx.BitMath.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.FormatStringEngine.dll" to "bin\Release\WizardWrx.FormatStringEngine.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.AnyCSV.dll" to "bin\Release\WizardWrx.AnyCSV.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.ASCIIInfo.dll" to "bin\Release\WizardWrx.ASCIIInfo.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.pdb" to "bin\Release\WizardWrx.AssemblyUtils.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.xml" to "bin\Release\WizardWrx.AssemblyUtils.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.pdb" to "bin\Release\WizardWrx.Common.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.xml" to "bin\Release\WizardWrx.Common.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.pdb" to "bin\Release\WizardWrx.Core.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.xml" to "bin\Release\WizardWrx.Core.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.pdb" to "bin\Release\WizardWrx.BitMath.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.xml" to "bin\Release\WizardWrx.BitMath.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.FormatStringEngine.pdb" to "bin\Release\WizardWrx.FormatStringEngine.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.FormatStringEngine.xml" to "bin\Release\WizardWrx.FormatStringEngine.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.AnyCSV.pdb" to "bin\Release\WizardWrx.AnyCSV.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.AnyCSV.xml" to "bin\Release\WizardWrx.AnyCSV.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.ASCIIInfo.pdb" to "bin\Release\WizardWrx.ASCIIInfo.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.ASCIIInfo.xml" to "bin\Release\WizardWrx.ASCIIInfo.xml".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.ConsoleStreams.dll" to "bin\Release\WizardWrx.ConsoleStreams.dll".
+  ConsoleStreams -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.dll
+  Copying file from "obj\Release\WizardWrx.ConsoleStreams.pdb" to "bin\Release\WizardWrx.ConsoleStreams.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.dll
+          Version    = 7.0.179.30795
+          File Date  = 2017/09/10 18:06:31 (2017/09/10 23:06:31 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\BuildHistory.LOG
+          File Date  = 2017/09/10 18:06:31 (2017/09/10 23:06:31 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.24
+------ Build started: Project: DLLConfigurationManager, Configuration: Release Any CPU ------
+Build started 2017/09/10 18:06:31.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/09/10 18:06:31 (2017/09/10 23:06:31 UTC)
+          Build Number = 195
+  Sleeping for 3 seconds
+  Waking from cat nap
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Configuration.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" /compile Properties\Resources.resx,obj\Release\WizardWrx.DLLConfigurationManager.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Release\WizardWrx.DLLConfigurationManager.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.DLLConfigurationManager.XML /define:TRACE;NET35 /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Configuration.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.DLLConfigurationManager.dll /resource:obj\Release\WizardWrx.DLLConfigurationManager.Properties.Resources.resources /target:library /utf8output ExceptionLogger.cs IniFileReader.cs StateManager.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+CSC : warning CS1607: Assembly generation -- The version '7.0.195.*' specified for the 'file version' is not in the normal 'major.minor.build.revision' format
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll" to "bin\Release\WizardWrx.AssemblyUtils.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" to "bin\Release\WizardWrx.Common.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.dll" to "bin\Release\WizardWrx.ConsoleStreams.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" to "bin\Release\WizardWrx.Core.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.dll" to "bin\Release\WizardWrx.BitMath.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.FormatStringEngine.dll" to "bin\Release\WizardWrx.FormatStringEngine.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.AnyCSV.dll" to "bin\Release\WizardWrx.AnyCSV.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.ASCIIInfo.dll" to "bin\Release\WizardWrx.ASCIIInfo.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.pdb" to "bin\Release\WizardWrx.AssemblyUtils.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.xml" to "bin\Release\WizardWrx.AssemblyUtils.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.pdb" to "bin\Release\WizardWrx.Common.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.xml" to "bin\Release\WizardWrx.Common.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.pdb" to "bin\Release\WizardWrx.ConsoleStreams.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.xml" to "bin\Release\WizardWrx.ConsoleStreams.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.pdb" to "bin\Release\WizardWrx.Core.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.xml" to "bin\Release\WizardWrx.Core.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.pdb" to "bin\Release\WizardWrx.BitMath.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.xml" to "bin\Release\WizardWrx.BitMath.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.FormatStringEngine.pdb" to "bin\Release\WizardWrx.FormatStringEngine.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.FormatStringEngine.xml" to "bin\Release\WizardWrx.FormatStringEngine.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.AnyCSV.pdb" to "bin\Release\WizardWrx.AnyCSV.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.AnyCSV.xml" to "bin\Release\WizardWrx.AnyCSV.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.ASCIIInfo.pdb" to "bin\Release\WizardWrx.ASCIIInfo.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.ASCIIInfo.xml" to "bin\Release\WizardWrx.ASCIIInfo.xml".
+_CopyOutOfDateSourceItemsToOutputDirectory:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\WizardWrx.DLLConfigurationManager.dll.config" to "bin\Release\WizardWrx.DLLConfigurationManager.dll.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.DLLConfigurationManager.dll" to "bin\Release\WizardWrx.DLLConfigurationManager.dll".
+  DLLConfigurationManager -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.dll
+  Copying file from "obj\Release\WizardWrx.DLLConfigurationManager.pdb" to "bin\Release\WizardWrx.DLLConfigurationManager.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.dll
+          Version    = 7.0.195.30797
+          File Date  = 2017/09/10 18:06:35 (2017/09/10 23:06:35 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\BuildHistory.LOG
+          File Date  = 2017/09/10 18:06:35 (2017/09/10 23:06:35 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.14
+------ Build started: Project: EmbeddedTextFile, Configuration: Release Any CPU ------
+Build started 2017/09/10 18:06:35.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\EmbeddedTextFile\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\EmbeddedTextFile\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/09/10 18:06:36 (2017/09/10 23:06:36 UTC)
+          Build Number = 78
+  Sleeping for 3 seconds
+  Waking from cat nap
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /compile Properties\Resources.resx,obj\Release\WizardWrx.EmbeddedTextFile.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Release\WizardWrx.EmbeddedTextFile.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.EmbeddedTextFile.xml /define:TRACE /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.EmbeddedTextFile.dll /resource:obj\Release\WizardWrx.EmbeddedTextFile.Properties.Resources.resources /target:library /utf8output ByteOrderMark.cs Readers.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+CSC : warning CS1607: Assembly generation -- The version '7.0.78.*' specified for the 'file version' is not in the normal 'major.minor.build.revision' format
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll" to "bin\Release\WizardWrx.AssemblyUtils.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" to "bin\Release\WizardWrx.Common.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.Core.dll" to "bin\Release\WizardWrx.Core.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.dll" to "bin\Release\WizardWrx.BitMath.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.FormatStringEngine.dll" to "bin\Release\WizardWrx.FormatStringEngine.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AnyCSV.dll" to "bin\Release\WizardWrx.AnyCSV.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.ASCIIInfo.dll" to "bin\Release\WizardWrx.ASCIIInfo.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.pdb" to "bin\Release\WizardWrx.AssemblyUtils.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.xml" to "bin\Release\WizardWrx.AssemblyUtils.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.pdb" to "bin\Release\WizardWrx.Common.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.xml" to "bin\Release\WizardWrx.Common.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.Core.pdb" to "bin\Release\WizardWrx.Core.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.Core.xml" to "bin\Release\WizardWrx.Core.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.pdb" to "bin\Release\WizardWrx.BitMath.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.xml" to "bin\Release\WizardWrx.BitMath.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.FormatStringEngine.pdb" to "bin\Release\WizardWrx.FormatStringEngine.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.FormatStringEngine.xml" to "bin\Release\WizardWrx.FormatStringEngine.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AnyCSV.pdb" to "bin\Release\WizardWrx.AnyCSV.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AnyCSV.xml" to "bin\Release\WizardWrx.AnyCSV.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.ASCIIInfo.pdb" to "bin\Release\WizardWrx.ASCIIInfo.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.ASCIIInfo.xml" to "bin\Release\WizardWrx.ASCIIInfo.xml".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.EmbeddedTextFile.dll" to "bin\Release\WizardWrx.EmbeddedTextFile.dll".
+  EmbeddedTextFile -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\EmbeddedTextFile\bin\Release\WizardWrx.EmbeddedTextFile.dll
+  Copying file from "obj\Release\WizardWrx.EmbeddedTextFile.pdb" to "bin\Release\WizardWrx.EmbeddedTextFile.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\EmbeddedTextFile\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\EmbeddedTextFile\bin\Release\WizardWrx.EmbeddedTextFile.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\EmbeddedTextFile\bin\Release\WizardWrx.EmbeddedTextFile.dll
+          Version    = 7.0.78.30799
+          File Date  = 2017/09/10 18:06:39 (2017/09/10 23:06:39 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\EmbeddedTextFile\BuildHistory.LOG
+          File Date  = 2017/09/10 18:06:41 (2017/09/10 23:06:41 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:05.41
+------ Build started: Project: DLLServices2TestStand, Configuration: Release Any CPU ------
+Build started 2017/09/10 18:06:41.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLServices2TestStand\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLServices2TestStand\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/09/10 18:06:41 (2017/09/10 23:06:41 UTC)
+          Build Number = 925
+  Sleeping for 3 seconds
+  Waking from cat nap
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Xml.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\EmbeddedTextFile\bin\Release\WizardWrx.EmbeddedTextFile.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.dll" /compile Properties\Resources.resx,obj\Release\DLLServices2TestStand.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Release\DLLServices2TestStand.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /platform:AnyCPU /errorreport:prompt /define:TRACE;NET35;USE_STRING_EXTENSION_METHODS /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Xml.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\EmbeddedTextFile\bin\Release\WizardWrx.EmbeddedTextFile.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\DLLServices2TestStand.exe /resource:obj\Release\DLLServices2TestStand.Properties.Resources.resources /resource:ClassTestMap.TXT,DLLServices2TestStand.ClassTestMap.TXT /resource:TextWithUTF_8_BOM.TXT,DLLServices2TestStand.TextWithUTF_8_BOM.TXT /resource:DigestMD5TestCases.TXT,DLLServices2TestStand.DigestMD5TestCases.TXT /target:exe /utf8output /win32icon:WW_Icon1.ico Program.cs AppDomainDetails.cs CmdLneArgsTests.cs DigestTestCases.cs FileNameTricks_Exerciser.cs FormatStringParsing_Drills.cs ImportsFromSharedUtl4.cs MaxStringLength_Tester.cs MergeNewItemsIntoArray_Tester.cs NewClassTests_20140914.cs TestItemSortByString.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs
+CSC : warning CS1607: Assembly generation -- The version '7.0.925.*' specified for the 'file version' is not in the normal 'major.minor.build.revision' format
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.dll" to "bin\Release\WizardWrx.ASCIIInfo.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.dll" to "bin\Release\WizardWrx.AssemblyUtils.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" to "bin\Release\WizardWrx.Common.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.dll" to "bin\Release\WizardWrx.ConsoleStreams.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" to "bin\Release\WizardWrx.Core.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.dll" to "bin\Release\WizardWrx.DLLConfigurationManager.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\EmbeddedTextFile\bin\Release\WizardWrx.EmbeddedTextFile.dll" to "bin\Release\WizardWrx.EmbeddedTextFile.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.dll" to "bin\Release\WizardWrx.FormatStringEngine.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.dll" to "bin\Release\WizardWrx.BitMath.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.AnyCSV.dll" to "bin\Release\WizardWrx.AnyCSV.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.pdb" to "bin\Release\WizardWrx.ASCIIInfo.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ASCIIInfo\bin\Release\WizardWrx.ASCIIInfo.xml" to "bin\Release\WizardWrx.ASCIIInfo.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.pdb" to "bin\Release\WizardWrx.AssemblyUtils.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\AssemblyUtils\bin\Release\WizardWrx.AssemblyUtils.xml" to "bin\Release\WizardWrx.AssemblyUtils.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.pdb" to "bin\Release\WizardWrx.Common.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.xml" to "bin\Release\WizardWrx.Common.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.pdb" to "bin\Release\WizardWrx.DLLConfigurationManager.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.xml" to "bin\Release\WizardWrx.DLLConfigurationManager.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.pdb" to "bin\Release\WizardWrx.ConsoleStreams.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.xml" to "bin\Release\WizardWrx.ConsoleStreams.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.pdb" to "bin\Release\WizardWrx.Core.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.xml" to "bin\Release\WizardWrx.Core.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\EmbeddedTextFile\bin\Release\WizardWrx.EmbeddedTextFile.pdb" to "bin\Release\WizardWrx.EmbeddedTextFile.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\EmbeddedTextFile\bin\Release\WizardWrx.EmbeddedTextFile.xml" to "bin\Release\WizardWrx.EmbeddedTextFile.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.pdb" to "bin\Release\WizardWrx.FormatStringEngine.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.FormatStringEngine.xml" to "bin\Release\WizardWrx.FormatStringEngine.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.pdb" to "bin\Release\WizardWrx.BitMath.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.xml" to "bin\Release\WizardWrx.BitMath.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.AnyCSV.pdb" to "bin\Release\WizardWrx.AnyCSV.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\FormatStringEngine\bin\Release\WizardWrx.AnyCSV.xml" to "bin\Release\WizardWrx.AnyCSV.xml".
+_CopyOutOfDateSourceItemsToOutputDirectory:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\WizardWrx.DLLConfigurationManager.dll.config" to "bin\Release\WizardWrx.DLLConfigurationManager.dll.config".
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\DLLServices2TestStand.exe" to "bin\Release\DLLServices2TestStand.exe".
+  DLLServices2TestStand -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe
+  Copying file from "obj\Release\DLLServices2TestStand.pdb" to "bin\Release\DLLServices2TestStand.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLServices2TestStand\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe
+          Version    = 7.0.925.30802
+          File Date  = 2017/09/10 18:06:45 (2017/09/10 23:06:45 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLServices2TestStand\BuildHistory.LOG
+          File Date  = 2017/09/10 18:06:46 (2017/09/10 23:06:46 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.72
+------ Build started: Project: RedirectedStreamTester, Configuration: Release Any CPU ------
+Build started 2017/09/10 18:06:46.
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.dll" /compile Properties\Resources.resx,obj\Release\RedirectedStreamTester.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Release\RedirectedStreamTester.Properties.Resources.resources".
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\RedirectedStreamTester.exe /resource:obj\Release\RedirectedStreamTester.Properties.Resources.resources /target:exe /utf8output /win32icon:WW_Icon1.ico Program.cs StreamStateInfo.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs "C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs"
+CSC : warning CS1607: Assembly generation -- The version '7.0.195.*' specified for the 'file version' is not in the normal 'major.minor.build.revision' format
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.dll" to "bin\Release\WizardWrx.Common.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.dll" to "bin\Release\WizardWrx.ConsoleStreams.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.dll" to "bin\Release\WizardWrx.Core.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.dll" to "bin\Release\WizardWrx.DLLConfigurationManager.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.dll" to "bin\Release\WizardWrx.BitMath.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.AssemblyUtils.dll" to "bin\Release\WizardWrx.AssemblyUtils.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.FormatStringEngine.dll" to "bin\Release\WizardWrx.FormatStringEngine.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.AnyCSV.dll" to "bin\Release\WizardWrx.AnyCSV.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.ASCIIInfo.dll" to "bin\Release\WizardWrx.ASCIIInfo.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.pdb" to "bin\Release\WizardWrx.Common.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.Common.xml" to "bin\Release\WizardWrx.Common.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.pdb" to "bin\Release\WizardWrx.DLLConfigurationManager.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.DLLConfigurationManager.xml" to "bin\Release\WizardWrx.DLLConfigurationManager.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.pdb" to "bin\Release\WizardWrx.ConsoleStreams.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\ConsoleStreams\bin\Release\WizardWrx.ConsoleStreams.xml" to "bin\Release\WizardWrx.ConsoleStreams.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.pdb" to "bin\Release\WizardWrx.Core.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.Core.xml" to "bin\Release\WizardWrx.Core.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.pdb" to "bin\Release\WizardWrx.BitMath.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Common\bin\Release\WizardWrx.BitMath.xml" to "bin\Release\WizardWrx.BitMath.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.AssemblyUtils.pdb" to "bin\Release\WizardWrx.AssemblyUtils.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\bin\Release\WizardWrx.AssemblyUtils.xml" to "bin\Release\WizardWrx.AssemblyUtils.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.FormatStringEngine.pdb" to "bin\Release\WizardWrx.FormatStringEngine.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.FormatStringEngine.xml" to "bin\Release\WizardWrx.FormatStringEngine.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.AnyCSV.pdb" to "bin\Release\WizardWrx.AnyCSV.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.AnyCSV.xml" to "bin\Release\WizardWrx.AnyCSV.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.ASCIIInfo.pdb" to "bin\Release\WizardWrx.ASCIIInfo.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\Core\bin\Release\WizardWrx.ASCIIInfo.xml" to "bin\Release\WizardWrx.ASCIIInfo.xml".
+_CopyOutOfDateSourceItemsToOutputDirectory:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLConfigurationManager\WizardWrx.DLLConfigurationManager.dll.config" to "bin\Release\WizardWrx.DLLConfigurationManager.dll.config".
+_CopyAppConfigFile:
+  Copying file from "App.config" to "bin\Release\RedirectedStreamTester.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\RedirectedStreamTester.exe" to "bin\Release\RedirectedStreamTester.exe".
+  RedirectedStreamTester -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\RedirectedStreamTester\bin\Release\RedirectedStreamTester.exe
+  Copying file from "obj\Release\RedirectedStreamTester.pdb" to "bin\Release\RedirectedStreamTester.pdb".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.99
+========== Build: 10 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

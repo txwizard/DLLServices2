@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CMD_ARG_INPUT" xml:space="preserve">
+    <value>Input</value>
+    <comment>Named Command Line Argument: Text against which to evaluate Pattern</comment>
+  </data>
+  <data name="CMD_ARG_PATTERN" xml:space="preserve">
+    <value>Pattern</value>
+    <comment>Pattern (Regular Expression) to apply to Input</comment>
+  </data>
+  <data name="CMD_ARG_REPLACEWITH" xml:space="preserve">
+    <value>ReplaceWith</value>
+    <comment>Text with which to replace matched input text to apply to Input</comment>
+  </data>
+  <data name="ERRMSG_MISSING_FORMAT_ITEM" xml:space="preserve">
+    <value>The input string is expected to be the text of a label, followed by a standard Format Item.</value>
+    <comment>This string is the message argument of an ArgumentOutOfRangeException exception thrown by the AlignStackTrace when the forrmat string is devoid of a format item.</comment>
+  </data>
+  <data name="MSG_AWAIT_CARBON_UNIT" xml:space="preserve">
+    <value>Please press Return to fully stop the program.</value>
+    <comment>The AwaitCarbonUnit method displays this message, then executes a ReadLine, causing it to wait for a carriage return.</comment>
+  </data>
+  <data name="MSG_EXCEPTION_REPORT_EPOLOGUE_END" xml:space="preserve">
+    <value>There are no further exceptions to report.{0}</value>
+    <comment>This message concludes the exception reporting.</comment>
+  </data>
+  <data name="MSG_EXCEPTION_REPORT_EPOLOGUE_MORE" xml:space="preserve">
+    <value>There is an {0} Inner Exception, {1}.{2}</value>
+    <comment>If there is an inner exception, it gets an abbreviated report, which is usually sufficient.</comment>
+  </data>
+  <data name="MSG_EXCEPTION_REPORT_METHOD" xml:space="preserve">
+    <value>         Method (TargetSite) = {0}</value>
+    <comment>The second message in ReportException uses this as its template to display the TargetSite (fully qualified name of the failing method) property of the Exception.</comment>
+  </data>
+  <data name="MSG_EXCEPTION_REPORT_PROLOGUE" xml:space="preserve">
+    <value>{2}An {0} exception occurred.{2}Details: Message             = {1}</value>
+    <comment>The first message in ReportException uses this as its template to display the Message property of the Exception.</comment>
+  </data>
+  <data name="MSG_EXCEPTION_REPORT_SOURCE" xml:space="preserve">
+    <value>         Source              = {0}</value>
+    <comment>The third message in ReportException uses this as its template to display the Source (Base name of the DLL that threw the exception) property of the Exception.</comment>
+  </data>
+  <data name="MSG_EXCEPTION_REPORT_STACKTRACE" xml:space="preserve">
+    <value>         StackTrace          = {0}</value>
+    <comment>The fourth message in ReportException uses this as its template to display the StackTrace property of the Exception.</comment>
+  </data>
+  <data name="MSG_INPUTS_INPUT" xml:space="preserve">
+    <value>Inputs:  Input       = {0}</value>
+    <comment>The Input parameter is echoed to the console through this template.</comment>
+  </data>
+  <data name="MSG_INPUTS_PATTERN" xml:space="preserve">
+    <value>         Pattern     = {0}</value>
+    <comment>The Pattern parameter is echoed to the console through this template.</comment>
+  </data>
+  <data name="MSG_INPUTS_REPLACE_WITH" xml:space="preserve">
+    <value>         ReplaceWith = {0}</value>
+    <comment>The ReplaceWith parameter is echoed to the console through this template.</comment>
+  </data>
+  <data name="MSG_MISSING_ARG" xml:space="preserve">
+    <value>INPUT ERROR: Named command line argument {0} is missing.</value>
+    <comment>This message appears once for each missing command line argument.</comment>
+  </data>
+  <data name="MSG_MISSING_ARGS_COUNT" xml:space="preserve">
+    <value>{1}{0} required command line arguments are missing. Execution cannot continue.{1}</value>
+    <comment>This message appears once only when one or more command line arguments is missing.</comment>
+  </data>
+  <data name="MSG_OUTPUTS_ISMATCH" xml:space="preserve">
+    <value>Outputs: IsMatch     = {0}</value>
+    <comment>The IsMatch property is reported through this template.</comment>
+  </data>
+  <data name="MSG_OUTPUTS_MATCHES" xml:space="preserve">
+    <value>         Match {0}     = {1}</value>
+    <comment>The ten Match properties are reported through this template.</comment>
+  </data>
+  <data name="MSG_OUTPUTS_REPLACEMENT" xml:space="preserve">
+    <value>         Replacement = {0}</value>
+    <comment>The Replacement string is reported through this template.</comment>
+  </data>
+  <data name="MSG_PROGRESS_EXECUTE" xml:space="preserve">
+    <value>{1}         Execute     = {0}{1}</value>
+    <comment>The program displays the result of the Execute method through this template.</comment>
+  </data>
+  <data name="MSG_START" xml:space="preserve">
+    <value>{0}, version {1}.{2}{5}{3} ({4} UTC){5}</value>
+    <comment>The CreateStartupBanner method formats its message from this template.</comment>
+  </data>
+  <data name="MSG_STOP" xml:space="preserve">
+    <value>{4}{0} Done, {1} ({2} UTC){4}Running time = {3}</value>
+    <comment>The CreateShutdownBanner method formats its message from this template.</comment>
+  </data>
+  <data name="MSG_TEST_HOST_REPORT" xml:space="preserve">
+    <value>The test host sees the following.</value>
+    <comment>Display this static message before the final report.</comment>
+  </data>
+</root>

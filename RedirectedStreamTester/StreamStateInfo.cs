@@ -148,13 +148,13 @@ namespace RedirectedStreamTester
 
 				strCurrentArgName = ARGNAME_STREAMSTATE;
 
-				if ( pstrStreamState.IndexOf ( SpecialCharacters.COMMA ) == WizardWrx.DLLServices2.ListInfo.INDEXOF_NOT_FOUND )
+				if ( pstrStreamState.IndexOf ( SpecialCharacters.COMMA ) == WizardWrx.ListInfo.INDEXOF_NOT_FOUND )
 				{	// The file name was omitted.
 					_enmStreamState = ( StreamState ) Enum.Parse (
 						typeof ( StreamState ) ,
 						pstrStreamState ,
 						MagicBooleans.ENUM_PARSE_CASE_INSENSITIVE );
-				}	// TRUE (degenerate case) block, if ( strCurrentArgName.IndexOf ( SpecialCharacters.COMMA ) == WizardWrx.DLLServices2.ListInfo.INDEXOF_NOT_FOUND )
+				}	// TRUE (degenerate case) block, if ( pstrStreamState.IndexOf ( SpecialCharacters.COMMA ) == WizardWrx.ListInfo.INDEXOF_NOT_FOUND )
 				else
 				{	// The file name is included.
 					string [ ] astrParts = pstrStreamState.Split ( new char [ ] { SpecialCharacters.COMMA } );
@@ -176,7 +176,7 @@ namespace RedirectedStreamTester
 								pstrStreamState ,									// Format Item 1 = Stream State
 								Environment.NewLine ) );							// Format Item 2 = Newline, My Way
 					}	// FALSE (UNanticipated outcome) block, if ( astrParts.Length == STREAMSTATE_MAX_SUBSTRINGS )
-				}	// FALSE (normal case) block, if ( strCurrentArgName.IndexOf ( SpecialCharacters.COMMA ) == WizardWrx.DLLServices2.ListInfo.INDEXOF_NOT_FOUND )
+				}	// FALSE (anticipated outcome) block, if ( pstrStreamState.IndexOf ( SpecialCharacters.COMMA ) == WizardWrx.ListInfo.INDEXOF_NOT_FOUND )
 			}	// Normal flow of the constructor ends here.
 			catch ( ArgumentNullException errNullArg )
 			{

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WizardWrx.DLLServices2.Properties {
+namespace WizardWrx.Core.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace WizardWrx.DLLServices2.Properties {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WizardWrx.DLLServices2.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WizardWrx.Core.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -84,24 +84,6 @@ namespace WizardWrx.DLLServices2.Properties {
         public static string EMPTY_ALIAS_LIST {
             get {
                 return ResourceManager.GetString("EMPTY_ALIAS_LIST", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The specified argument is a null reference..
-        /// </summary>
-        public static string ERRMSG_ARG_IS_NULL {
-            get {
-                return ResourceManager.GetString("ERRMSG_ARG_IS_NULL", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The argument is a null reference or the empty string..
-        /// </summary>
-        public static string ERRMSG_ARG_IS_NULL_OR_EMPTY {
-            get {
-                return ResourceManager.GetString("ERRMSG_ARG_IS_NULL_OR_EMPTY", resourceCulture);
             }
         }
         
@@ -237,15 +219,6 @@ namespace WizardWrx.DLLServices2.Properties {
         public static string ERRMSG_INNER {
             get {
                 return ResourceManager.GetString("ERRMSG_INNER", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The type of the first argument, pintegralValue, is invalid.{2}Argument value = {0}{2}Argument type  = {1}{2}{2}Limitations of the underlying formatting engine{2}restrict this method to integral types.{2}.
-        /// </summary>
-        public static string ERRMSG_INTEGER2HEXSTR_INVALID_INPUT {
-            get {
-                return ResourceManager.GetString("ERRMSG_INTEGER2HEXSTR_INVALID_INPUT", resourceCulture);
             }
         }
         

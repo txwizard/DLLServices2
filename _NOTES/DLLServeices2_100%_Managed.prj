@@ -1,0 +1,32 @@
+[Project ID]
+Signature=UE Proj: v.1
+Unicode=1
+[Project Information]
+Use Relative Directory=1
+Relative to Project File=1
+Include Sub Directories=1
+Project TagfileW=
+Project WordfileW=
+Project TpFileW=
+FilterW=
+Create Tagfile=0
+[FilesW]
+0=..\..\..\..\..\Programming\Visual_Studio_6\DLL\WWConAid\NOTES\High_Performance_Header\dllimport_As_Shown\StandardHandleState.H
+1=Development_Notes_7.0.TXT
+2=..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\WinBase.h
+3=..\DLLConfigurationManager\StateManager.cs
+4=..\..\..\..\..\Programming\Visual_Studio_6\DLL\WWConAid\StandardHandleState.C
+5=..\ConsoleStreams\IP6CUtilLib1.cs
+6=..\AssemblyUtils\PESubsystemInfo.cs
+7=..\DLLConfigurationManager\ExceptionLogger.cs
+8=..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\WinUser.h
+9=..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h
+10=..\..\..\..\..\Programming\Visual_Studio_6\INCLUDE\WWKernelLibWrapper.H
+11=..\..\..\..\..\Programming\Visual_Studio_6\DLL\WWConAid\SHS_GetStdHandleFN.INL
+12=..\..\..\..\..\Programming\Visual_Studio_6\DLL\WWConAid\SHS_GetStdHandleFNW.CPP
+13=..\..\..\..\..\Programming\Visual_Studio_6\DLL\WWConAid\SHS_GetStdHandleFNCLI.C
+14=..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h
+15=..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h
+16=..\DLLServices2TestStand\Program.cs
+17=..\DLLServices2TestStand\Properties\Resources.resx
+18=..\..\..\Tools_for_Programmers\MemCalc\MemCalc\NumberTypeFormatParameters.cs

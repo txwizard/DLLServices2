@@ -3,8 +3,11 @@ ArrayInfoExercises	ArrayInfo
 ChopChop	StringTricks.Chop
 CSVFileInfoExercises	CSVFileInfo
 DisplayFormatsExercises	DisplayFormats
+EnumerateStringResourcesInAssembly	WizardWrx.Common.Properties.Resources
 FileIOFlagsExercises	FileIOFlags
 ListInfoExercises	ListInfo
 PathPositionsExercises	PathPositions
 SpecialCharactersExercises	SpecialCharacters
 UtilsExercises	Util
+EventMessageCleanupTests	PrepareMessageForEventLog
+

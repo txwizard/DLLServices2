@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration ( "" )]
 [assembly: AssemblyCompany ( "David A. Gray" )]
 [assembly: AssemblyProduct ( "DLLServices" )]
-[assembly: AssemblyCopyright ( "Copyright 2013-2016, David A. Gray" )]
+[assembly: AssemblyCopyright ( "Copyright 2013-2017, David A. Gray" )]
 [assembly: AssemblyTrademark ( "This library is distributed under a three-clause BSD license." )]
 [assembly: AssemblyCulture ( "" )]
 
@@ -33,6 +33,8 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 //
+//	============================================================================
+//
 //  ----------------------------------------------------------------------------
 //  Revision History
 //  ----------------------------------------------------------------------------
@@ -44,4 +46,8 @@ using System.Runtime.InteropServices;
 //                 the DLL project, this is the only source file of this project
 //                 that is changed.
 //
-[assembly: AssemblyVersion ( "6.3.621.*" )]
+//  2016/10/29 7.0 Break this library apart, so that smaller subsets of classes
+//                 can be distributed and consumed independently.
+//	============================================================================
+[assembly: AssemblyVersion ( "7.0.937.*" )]
+[assembly: AssemblyFileVersion ( "7.0.937.0" )]

@@ -362,3 +362,10 @@
                    	Program File Name = ..\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe   
                    	Input File Name   = C:\Users\DAVE\Documents\Programming\Visual_Studio_6\EXE\Console\WWLOGGER\Test_Data\HereDoc.TEXT 
 2015/10/28 23:39:41	EOJ DLLServices2TestStand_Redirected_STDIN.CMD
+2017/04/04 16:37:16	BOJ C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\scripts\DLLServices2TestStand_Redirected_STDIN.CMD, version 1.01
+2017/04/04 16:37:16	Operating Parameters:
+                   	                              
+                   	Working Directory = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\scripts      
+                   	Program File Name = ..\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe   
+                   	Input File Name   = C:\Users\DAVE\Documents\Programming\Visual_Studio_6\EXE\Console\WWLOGGER\Test_Data\HereDoc.TEXT 
+2017/04/04 17:40:53	EOJ DLLServices2TestStand_Redirected_STDIN.CMD

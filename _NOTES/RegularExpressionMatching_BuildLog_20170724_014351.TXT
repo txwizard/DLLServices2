@@ -1,0 +1,766 @@
+       Diagnostic Log from Build that Consumes RegularExpressionMatching
+
+================================================================================
+2017/07/23 21:07:13 - Upgrade the library, and build the project.
+================================================================================
+
+Error   1   The "RegularExpressionMatching" task could not be loaded from the
+                assembly RegexMatch.MSBuildTask, Version=1.0.0.7, Culture=neutral, PublicKeyToken=659f28f508fc4cd9, processorArchitecture=MSIL.
+                Confirm that the <UsingTask> declaration is correct, that the assembly and all its dependencies are available,
+                and that the task contains a public class that implements Microsoft.Build.Framework.ITask.  C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\ConsoleStreamsLab_4.7.csproj    81  5   ConsoleStreamsLab_4.7
+
+------ Build started: Project: ConsoleStreamsLab_4.7, Configuration: Debug Any CPU ------
+Build started 2017/07/23 21:09:41.
+SecondMatch:
+  TargetFrameworkVersion = v4.7
+  DefineConstants        = DEBUG;TRACE
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\ConsoleStreamsLab_4.7.csproj(81,5): error MSB4062: The "RegularExpressionMatching" task could not be loaded from the assembly RegexMatch.MSBuildTask, Version=1.0.0.7, Culture=neutral, PublicKeyToken=659f28f508fc4cd9, processorArchitecture=MSIL.  Confirm that the <UsingTask> declaration is correct, that the assembly and all its dependencies are available, and that the task contains a public class that implements Microsoft.Build.Framework.ITask.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.16
+========== Build: 0 succeeded, 1 failed, 1 up-to-date, 0 skipped ==========
+
+================================================================================
+2017/07/23 21:14:47 - Repeat with diagnostic level logging.
+================================================================================
+
+Project 'ConsoleStreamsLab_4.7' is not up to date. Missing output file 'C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\bin\Debug\ConsoleStreamsLab_4.exe'.
+------ Build started: Project: ConsoleStreamsLab_4.7, Configuration: Debug Any CPU ------
+Build started 2017/07/23 21:14:34.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\DAVE\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = ENIGMA
+ComSpec = C:\Windows\system32\cmd.exe
+DOSTASK = P
+EMET_CE = I:-1;S:0;F:0;E:0;V:Mar 13 2015 18:36:14
+FP_NO_HOST_CHECK = NO
+HOMEDRIVE = C:
+HOMEPATH = \Users\DAVE
+LOCALAPPDATA = C:\Users\DAVE\AppData\Local
+LOGONSERVER = \\ENIGMA
+MAKEAZIP = DATE2FN
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 2
+OS = Windows_NT
+Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\bin\Python36_x64\;C:\bin\Python36_x64\Scripts\;C:\bin\WWSYMBOL;C:\bin;C:\Windows;C:\Windows\system32;C:\bin\Perl\site\bin;C:\bin\Perl\bin;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\IDM Computer Solutions\UltraCompare;C:\Program Files\Prio;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Windows Imaging\;C:\Users\DAVE\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft_VS_Code\bin;C:\Program Files\Git\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+pex_clientid = pex6116_1
+pex_server_channel = pex6116
+PkgDefApplicationConfigFile = C:\Users\DAVE\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 2a07
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PROJECT_DOCUMENTS = C:\Users\Public\Documents\NOLANB
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\;C:\Program Files\Microsoft Message Analyzer\PowerShell\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\DAVE\AppData\Local\Temp
+TMP = C:\Users\DAVE\AppData\Local\Temp
+TouchAppsTargetDir = C:\Program Files (x86)\Microsoft Touch Pack for Windows 7\
+USERDOMAIN = ENIGMA
+USERNAME = DAG
+USERPROFILE = C:\Users\DAVE
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+VisualStudioDir = C:\Users\DAVE\Documents\Visual Studio 2013
+VisualStudioEdition = Microsoft Visual Studio Community 2013
+VisualStudioVersion = 12.0
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+VSLANG = 1033
+WINBATCH_SOURCE = C:\Users\DAVE\Documents\Programming\WinBatch_Studio
+windir = C:\Windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+WWCmdUtils = P
+WWIncludePath = C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE
+WWLinkLibPath = C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB
+WWUtlPath = C:\bin\
+XCOPYCHK = DEBUG
+XLW = C:\Program Files (x86)\XLW\xlw-5.0.2f0
+
+Initial Properties:
+_AfterCompileWinFXInternalDependsOn =
+        PrepareResourcesForSatelliteAssemblies;
+        MergeLocalizationDirectives;
+        AfterCompileWinFX
+
+_CompileTargetNameForLocalType = _CompileTemporaryAssembly
+_DebugSymbolsProduced = true
+_DeploymentApplicationManifestIdentity = ConsoleStreamsLab_4.exe
+_DeploymentBuiltUpdateInterval = 0
+_DeploymentBuiltUpdateIntervalUnits = Days
+_DeploymentDeployManifestIdentity = ConsoleStreamsLab_4.application
+_DeploymentFileMappingExtension =
+_DeploymentPublishableProjectDefault = true
+_DeploymentTargetApplicationManifestFileName = ConsoleStreamsLab_4.exe.manifest
+_DeploymentUrl =
+_DocumentationFileProduced = false
+_GenerateBindingRedirectsIntermediateAppConfig = obj\Debug\ConsoleStreamsLab_4.7.csproj.ConsoleStreamsLab_4.exe.config
+_GetChildProjectCopyToOutputDirectoryItems = true
+_InvalidConfigurationMessageText = The OutputPath property is not set for project 'ConsoleStreamsLab_4.7.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'.  This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Configuration or Platform.
+_OriginalConfiguration = Debug
+_OriginalPlatform = AnyCPU
+_ProjectDefaultTargets = Build
+_RequireMCPass2ForMainAssembly = false
+_RequireMCPass2ForSatelliteAssemblyOnly = false
+_ResolveReferenceDependencies = false
+_ResourceNameInMainAssembly = ConsoleStreamsLab_4.g.resources
+_SGenDllCreated = false
+_SGenDllName = ConsoleStreamsLab_4.XmlSerializers.dll
+_SGenGenerateSerializationAssembliesConfig = Off
+AddAdditionalExplicitAssemblyReferences = true
+AddAppConfigToBuildOutputs = true
+AddBuildInfoToAssembly = false
+AdditionalExplicitAssemblyReferences = System.Core;
+AllowedReferenceAssemblyFileExtensions =
+      .winmd;
+      .dll;
+      .exe
+
+AllowedReferenceRelatedFileExtensions =
+      .pdb;
+      .xml;
+      .pri
+
+ALLUSERSPROFILE = C:\ProgramData
+AlwaysCompileMarkupFilesInSeparateDomain = true
+APPDATA = C:\Users\DAVE\AppData\Roaming
+AppDesignerFolder = Properties
+ApplicationIcon = WW_Icon1.ico
+AssemblyFoldersSuffix = AssemblyFoldersEx
+AssemblyName = ConsoleStreamsLab_4
+AssemblySearchPaths =
+      {CandidateAssemblyFiles};
+      ;
+      {HintPathFromItem};
+      {TargetFrameworkDirectory};
+      {Registry:Software\Microsoft\.NETFramework,v4.7,AssemblyFoldersEx};
+      {AssemblyFolders};
+      {GAC};
+      {RawFileName};
+      bin\Debug\
+
+AssignTargetPathsDependsOn =
+AutoUnifyAssemblyReferences = false
+AvailablePlatforms = Any CPU,x86,x64
+BaseIntermediateOutputPath = obj\
+BuildCompileAction = Build
+BuildDependsOn =
+      EntityDeploy;
+
+      BeforeBuild;
+      CoreBuild;
+      AfterBuild
+
+
+BuildGenerateSourcesAction = Build
+BuildInfoBinPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\BuildInfo
+BuildInfoTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets
+BuildingInsideVisualStudio = true
+BuildingOutOfProcess = true
+BuildingProject = false
+BuildInParallel = true
+BuildLinkAction = Build
+BuildProjectReferences = true
+BuildSystem = MSBuild
+BuildTaskAssembly = PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+BuiltProjectOutputGroupDependsOn = PrepareForBuild
+CleanDependsOn =
+
+      BeforeClean;
+      UnmanagedUnregistration;
+      CoreClean;
+      CleanReferencedProjects;
+      CleanPublishFolder;
+      AfterClean
+    ;
+      EntityClean;
+
+CleanFile = ConsoleStreamsLab_4.7.csproj.FileListAbsolute.txt
+CodeAnalysisApplyLogFileXsl = false
+CodeAnalysisFailOnMissingRules = false
+CodeAnalysisForceOutput = true
+CodeAnalysisGenerateSuccessFile = true
+CodeAnalysisIgnoreGeneratedCode = true
+CodeAnalysisIgnoreInvalidTargets = true
+CodeAnalysisIgnoreMissingIndirectReferences = false
+CodeAnalysisInputAssembly = bin\Debug\ConsoleStreamsLab_4.exe
+CodeAnalysisLogFile = bin\Debug\ConsoleStreamsLab_4.exe.CodeAnalysisLog.xml
+CodeAnalysisModuleSuppressionsFile = GlobalSuppressions.cs
+CodeAnalysisOutputToConsole = false
+CodeAnalysisOverrideRuleVisibilities = false
+CodeAnalysisPath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop\
+CodeAnalysisQuiet = false
+CodeAnalysisRuleDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop\\Rules
+CodeAnalysisRuleSet = MinimumRecommendedRules.ruleset
+CodeAnalysisRuleSetDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\\Rule Sets
+CodeAnalysisSaveMessagesToReport = Active
+CodeAnalysisSearchGlobalAssemblyCache = true
+CodeAnalysisStaticAnalysisDirectory = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\
+CodeAnalysisSucceededFile = bin\Debug\ConsoleStreamsLab_4.exe.lastcodeanalysissucceeded
+CodeAnalysisSummary = false
+CodeAnalysisTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets
+CodeAnalysisTimeout = 120
+CodeAnalysisTreatWarningsAsErrors = false
+CodeAnalysisUpdateProject = false
+CodeAnalysisUseTypeNameInSuppression = true
+CodeAnalysisVerbose = false
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+CommonTargetsPath = C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets
+CompileDependsOn =
+
+      ResolveReferences;
+      ResolveKeySource;
+      SetWin32ManifestProperties;
+      _GenerateCompileInputs;
+      BeforeCompile;
+      _TimeStampBeforeCompile;
+      CoreCompile;
+      _TimeStampAfterCompile;
+      AfterCompile;
+    ;
+        _AfterCompileWinFXInternal
+
+CompileLicxFilesDependsOn =
+CompileRdlFilesDependsOn = PrepareRdlFiles;RunRdlCompiler
+CompileTargetNameForTemporaryAssembly = CompileTemporaryAssembly
+ComputeIntermediateSatelliteAssembliesDependsOn =
+      CreateManifestResourceNames
+
+COMPUTERNAME = ENIGMA
+ComReferenceExecuteAsTool = false
+ComReferenceNoClassMembers = false
+ComSpec = C:\Windows\system32\cmd.exe
+Configuration = Debug
+ConfigurationName = Debug
+ConsiderPlatformAsProcessorArchitecture = true
+ContentFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+ContinueOnError = false
+CoreBuildDependsOn =
+      BuildOnlySettings;
+      PrepareForBuild;
+      PreBuildEvent;
+      ResolveReferences;
+      PrepareResources;
+      ResolveKeySource;
+      Compile;
+      ExportWindowsMDFile;
+      UnmanagedUnregistration;
+      GenerateSerializationAssemblies;
+      CreateSatelliteAssemblies;
+      GenerateManifests;
+      GetTargetPath;
+      PrepareForRun;
+      UnmanagedRegistration;
+      IncrementalClean;
+      PostBuildEvent
+
+CoreCleanDependsOn =
+CoreCompileDependsOn =
+        GenerateCompiledExpressionsTempFile;
+
+        DesignTimeXamlMarkupCompilation;
+
+          DesignTimeMarkupCompilation;
+          _ComputeNonExistentFileProperty
+
+
+
+CoreResGenDependsOn =
+CreateCustomManifestResourceNamesDependsOn =
+CreateHardLinksForCopyAdditionalFilesIfPossible = false
+CreateManifestResourceNamesDependsOn =
+CreateSatelliteAssembliesDependsOn =
+      _GenerateSatelliteAssemblyInputs;
+      ComputeIntermediateSatelliteAssemblies;
+      GenerateSatelliteAssemblies
+
+CSharpTargetsPath = C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.CSharp.CurrentVersion.targets
+CSharpXamlResourcesDirectory = C:\Program Files (x86)\MSBuild\12.0\bin\\
+CurrentSolutionConfigurationContents = <SolutionConfiguration>
+<ProjectConfiguration Project="{3aec1fe6-11da-48c0-a468-3fd936070fc5}" AbsolutePath="C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab\ConsoleStreamsLab.csproj">Debug|AnyCPU</ProjectConfiguration>
+<ProjectConfiguration Project="{aca1d771-99c2-4671-8320-54f938c40bd2}" AbsolutePath="C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\ConsoleStreamsLab_4.7.csproj">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+CustomAfterMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v12.0\Custom.After.Microsoft.Common.props
+CustomAfterMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v12.0\Custom.After.Microsoft.Common.targets
+CustomAfterMicrosoftCSharpTargets = C:\Program Files (x86)\MSBuild\v12.0\Custom.After.Microsoft.CSharp.targets
+CustomBeforeMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v12.0\Custom.Before.Microsoft.Common.props
+CustomBeforeMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v12.0\Custom.Before.Microsoft.Common.targets
+CustomBeforeMicrosoftCSharpTargets = C:\Program Files (x86)\MSBuild\v12.0\Custom.Before.Microsoft.CSharp.targets
+DebugSymbols = true
+DebugSymbolsProjectOutputGroupDependsOn =
+DebugType = full
+DefaultLanguageSourceExtension = .cs
+DeferredValidationErrorsFileName = obj\Debug\\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+DefineConstants = DEBUG;TRACE
+DelaySign =
+DeploymentType = Installed
+DesignTimeIntermediateOutputPath = obj\Debug\InProcessTempFiles\
+DesignTimeResolveAssemblyReferencesDependsOn =
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      ResolveReferences
+
+DevEnvDir = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\
+DocumentationProjectOutputGroupDependsOn =
+DOSTASK = P
+EmbeddedWin32Manifest =
+EntityDeployDependsOn =
+EntityDeployIntermediateResourcePath = obj\Debug\edmxResourcesToEmbed\
+ErrorEndLocation = true
+ErrorReport = prompt
+ExpandSDKAllowedReferenceExtensions =
+      .winmd;
+      .dll
+
+ExpandSDKReferencesDependsOn =
+      ResolveSDKReferences
+
+FileAlignment = 512
+FindInvalidProjectReferencesDependsOn =
+      GetReferenceTargetPlatformMonikers
+
+FP_NO_HOST_CHECK = NO
+Framework20Dir = @(_TargetFramework20DirectoryItem)
+Framework30Dir = @(_TargetFramework30DirectoryItem)
+Framework35Dir = @(_TargetFramework35DirectoryItem)
+Framework40Dir = @(_TargetFramework40DirectoryItem)
+FrameworkDir = @(_TargetFramework40DirectoryItem)
+FrameworkPathOverride = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7
+FrameworkRegistryBase = Software\Microsoft\.NETFramework
+FrameworkSDKDir = @(_TargetFrameworkSDKDirectoryItem)
+FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\
+FullReferenceAssemblyNames = Full
+GenerateBindingRedirectsOutputType = true
+GenerateBuildInfoConfigFile = false
+GenerateClickOnceManifests =
+GenerateCompiledExpressionsTempFilePathForEditing = obj\Debug\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+GenerateCompiledExpressionsTempFilePathForTypeInfer = obj\Debug\\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+GenerateCompiledExpressionsTempFilePathForValidation = obj\Debug\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+GeneratedFileExtension = .g.cs
+GenerateManifestsDependsOn =
+      SetWin32ManifestProperties;
+      GenerateApplicationManifest;
+      GenerateDeploymentManifest
+
+GenerateTargetFrameworkAttribute = true
+GetCopyToOutputDirectoryItemsDependsOn =
+      AssignTargetPaths;
+      _SplitProjectReferencesByFileExistence
+
+GetFrameworkPathsDependsOn =
+GetReferenceAssemblyPathsDependsOn =
+        ;
+        GetWinFXPath
+
+GetTargetPathDependsOn =
+GetTargetPathWithTargetPlatformMonikerDependsOn = ; GetTargetPath
+HighEntropyVA = true
+HOMEDRIVE = C:
+HOMEPATH = \Users\DAVE
+HostInBrowser = false
+ImplicitlyExpandDesignTimeFacades = true
+ImplicitlyExpandDesignTimeFacadesDependsOn =
+      ;
+      GetReferenceAssemblyPaths
+
+ImportByWildcardAfterMicrosoftCommonTargets = true
+ImportByWildcardAfterMicrosoftCSharpTargets = true
+ImportByWildcardAfterMicrosoftNetFrameworkProps = true
+ImportByWildcardAfterMicrosoftNetFrameworkTargets = true
+ImportByWildcardBeforeMicrosoftCommonTargets = true
+ImportByWildcardBeforeMicrosoftCSharpTargets = true
+ImportByWildcardBeforeMicrosoftNetFrameworkProps = true
+ImportByWildcardBeforeMicrosoftNetFrameworkTargets = true
+ImportUserLocationsByWildcardAfterMicrosoftCommonTargets = true
+ImportUserLocationsByWildcardAfterMicrosoftCSharpTargets = true
+ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkProps = true
+ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkTargets = true
+ImportUserLocationsByWildcardBeforeMicrosoftCommonTargets = true
+ImportUserLocationsByWildcardBeforeMicrosoftCSharpTargets = true
+ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkProps = true
+ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkTargets = true
+IncludeServerNameInBuildInfo = false
+IntermediateOutputPath = obj\Debug\
+IsApplication = true
+Language = C#
+LoadTimeSensitiveProperties =
+      ;
+
+LoadTimeSensitiveTargets =
+      ;
+      XamlMarkupCompilePass1;
+
+LOCALAPPDATA = C:\Users\DAVE\AppData\Local
+LocalizationDirectivesToLocFile = None
+LOGONSERVER = \\ENIGMA
+MAKEAZIP = DATE2FN
+MarkupCompilePass2ForMainAssemblyDependsOn =
+                     GenerateTemporaryTargetAssembly;
+                     MarkupCompilePass2;
+                     AfterMarkupCompilePass2;
+                     CleanupTemporaryTargetAssembly
+
+MaxTargetPath = 100
+MergedOutputCodeAnalysisFile = vc.nativecodeanalysis.all.xml
+MicrosoftCommonPropsHasBeenImported = true
+MsAppxPackageTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\Microsoft.AppXPackage.Targets
+MSBuildAllProjects = ;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.CSharp.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.props;C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\ConsoleStreamsLab_4.7.csproj;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Xaml.targets
+MSBuildAssemblyVersion = 12.0
+MSBuildBinPath = C:\Program Files (x86)\MSBuild\12.0\bin
+MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+MSBuildFrameworkToolsPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+MSBuildFrameworkToolsPath32 = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+MSBuildFrameworkToolsRoot = C:\Windows\Microsoft.NET\Framework\
+MSBuildLastTaskResult = true
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MSBuildNodeCount = 1
+MSBuildProgramFiles32 = C:\Program Files (x86)
+MSBuildProjectDefaultTargets = Build
+MSBuildProjectDirectory = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7
+MSBuildProjectDirectoryNoRoot = Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7
+MSBuildProjectExtension = .csproj
+MSBuildProjectFile = ConsoleStreamsLab_4.7.csproj
+MSBuildProjectFullPath = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\ConsoleStreamsLab_4.7.csproj
+MSBuildProjectName = ConsoleStreamsLab_4.7
+MSBuildRuntimeVersion = 4.0.30319
+MSBuildStartupDirectory = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab
+MSBuildToolsPath = C:\Program Files (x86)\MSBuild\12.0\bin
+MSBuildToolsPath32 = C:\Program Files (x86)\MSBuild\12.0\bin\
+MSBuildToolsRoot = C:\Program Files (x86)\MSBuild\
+MSBuildToolsVersion = 12.0
+MSBuildUserExtensionsPath = C:\Users\DAVE\AppData\Local\Microsoft\MSBuild
+MsTestToolsTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\TeamTest\Microsoft.TeamTest.targets
+NetFrameworkPropsPath = C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.props
+NetFrameworkTargetsPath = C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.targets
+NoCompilerStandardLib = true
+NUMBER_OF_PROCESSORS = 2
+Optimize = false
+OS = Windows_NT
+OSVersion = 5.1.2600.0
+OutDir = bin\Debug\
+OutputPath = bin\Debug\
+OutputType = Exe
+OverwriteReadOnlyFiles = false
+Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\bin\Python36_x64\;C:\bin\Python36_x64\Scripts\;C:\bin\WWSYMBOL;C:\bin;C:\Windows;C:\Windows\system32;C:\bin\Perl\site\bin;C:\bin\Perl\bin;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\IDM Computer Solutions\UltraCompare;C:\Program Files\Prio;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Windows Imaging\;C:\Users\DAVE\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft_VS_Code\bin;C:\Program Files\Git\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PkgDefApplicationConfigFile = C:\Users\DAVE\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config
+Platform = AnyCPU
+PlatformName = AnyCPU
+PlatformTarget = AnyCPU
+PlatformTargetAsMSBuildArchitecture = CurrentArchitecture
+PlatformTargetAsMSBuildArchitectureExplicitlySet = false
+PostBuildEventDependsOn =
+PreBuildEventDependsOn =
+Prefer32Bit = false
+PreferredUILang = en-US
+PrepareForBuildDependsOn = GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata
+PrepareForRunDependsOn =
+      CopyFilesToOutputDirectory
+    ;RunCodeAnalysis
+PrepareResourceNamesDependsOn =
+                    AssignWinFXEmbeddedResource;
+
+      AssignTargetPaths;
+      SplitResourcesByCulture;
+      CreateManifestResourceNames;
+      CreateCustomManifestResourceNames
+
+
+PrepareResourcesDependsOn =
+      ValidationExtension;
+      ExpressionBuildExtension;
+
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+
+                MarkupCompilePass1;
+                AfterMarkupCompilePass1;
+                MarkupCompilePass2ForMainAssembly;
+                FileClassification;
+                MainResourcesGeneration;
+
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    ;CompileRdlFiles
+
+
+
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 2a07
+ProcessorArchitecture = msil
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PROJECT_DOCUMENTS = C:\Users\Public\Documents\NOLANB
+ProjectDesignTimeAssemblyResolutionSearchPaths =
+      {CandidateAssemblyFiles};
+      ;
+      {HintPathFromItem};
+      {TargetFrameworkDirectory};
+      {Registry:Software\Microsoft\.NETFramework,v4.7,AssemblyFoldersEx};
+      {RawFileName};
+      C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\bin\Debug\
+
+ProjectDir = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\
+ProjectExt = .csproj
+ProjectFileName = ConsoleStreamsLab_4.7.csproj
+ProjectFlavor = Client
+ProjectGuid = {ACA1D771-99C2-4671-8320-54F938C40BD2}
+ProjectName = ConsoleStreamsLab_4.7
+ProjectPath = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\ConsoleStreamsLab_4.7.csproj
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\;C:\Program Files\Microsoft Message Analyzer\PowerShell\
+PUBLIC = C:\Users\Public
+PublishableProject = true
+PublishBuildDependsOn =
+            BuildOnlySettings;
+            PrepareForBuild;
+            ResolveReferences;
+            PrepareResources;
+            ResolveKeySource;
+            PrepareResourcesForSatelliteAssemblies;
+            GenerateSerializationAssemblies;
+            CreateSatelliteAssemblies;
+
+PublishDependsOn =
+      SetGenerateManifests;
+      Build;
+      PublishOnly
+
+PublishDir = bin\Debug\app.publish\
+PublishOnlyDependsOn =
+      SetGenerateManifests;
+      PublishBuild;
+      BeforePublish;
+      GenerateManifests;
+      CopyFilesToOutputDirectory;
+      _CopyFilesToPublishFolder;
+      _DeploymentGenerateBootstrapper;
+      ResolveKeySource;
+      _DeploymentSignClickOnceDeployment;
+      AfterPublish
+
+PublishPipelineCollectFilesCore =
+            ;
+            CollectFilesFromBuildInfoConfigFile;
+
+RebuildDependsOn =
+      BeforeRebuild;
+      Clean;
+      Build;
+      AfterRebuild;
+
+ReportingServicesTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\ReportingServices\Microsoft.ReportingServices.targets
+ResGenDependsOn = ResolveAssemblyReferences;SplitResourcesByCulture;BeforeResGen;CoreResGen;AfterResGen
+ResGenExecuteAsTool = false
+ResolveAssemblyReferencesDependsOn =
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      PrepareForBuild;
+      ResolveSDKReferences;
+      ExpandSDKReferences;
+
+ResolveReferencesDependsOn =
+
+
+      BeforeResolveReferences;
+      AssignProjectConfiguration;
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      ResolveNativeReferences;
+      ResolveAssemblyReferences;
+      GenerateBindingRedirects;
+      ResolveComReferences;
+      AfterResolveReferences
+    ;
+      ImplicitlyExpandDesignTimeFacades
+    ;
+      ResolveTestReferences
+
+ResolveSDKReferencesDependsOn =
+      GetInstalledSDKLocations
+
+RootNamespace = ConsoleStreamsLab_4
+RunAfterInstall = true
+RunCodeAnalysisDependsOn = ;Compile
+RunCodeAnalysisInputs = bin\Debug\ConsoleStreamsLab_4.exe
+RunCodeAnalysisOnce = FALSE
+RunDependsOn =
+RunNativeCodeAnalysisInputs =
+SatelliteDllsProjectOutputGroupDependsOn = PrepareForBuild;PrepareResourceNames
+SDK35ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\
+SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\
+SDKRedistOutputGroupDependsOn = ResolveSDKReferences;ExpandSDKReferences
+SDKReferenceDirectoryRoot = C:\Users\DAVE\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
+SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
+SESSIONNAME = Console
+SGenFilesOutputGroupDependsOn =
+SGenShouldGenerateSerializer = true
+SGenUseKeep = false
+SGenUseProxyTypes = true
+ShouldMarkCertainSDKReferencesAsRuntimeOnly = true
+SkipCopyUnchangedFiles = true
+SolutionDir = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\
+SolutionExt = .sln
+SolutionFileName = ConsoleStreamsLab.sln
+SolutionName = ConsoleStreamsLab
+SolutionPath = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab.sln
+SourceFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+SubsystemVersion = 6.00
+SystemDrive = C:
+SystemRoot = C:\Windows
+TargetCulture = *
+TargetDeployManifestFileName = ConsoleStreamsLab_4.application
+TargetDir = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\bin\Debug\
+TargetedFrameworkDir = @(_TargetedFrameworkDirectoryItem)
+TargetedRuntimeVersion = v4.0.30319
+TargetedSDKArchitecture = msil
+TargetedSDKConfiguration = Debug
+TargetExt = .exe
+TargetFileName = ConsoleStreamsLab_4.exe
+TargetFrameworkAsMSBuildRuntime = CurrentRuntime
+TargetFrameworkIdentifier = .NETFramework
+TargetFrameworkMoniker = .NETFramework,Version=v4.7
+TargetFrameworkMonikerAssemblyAttributesPath = C:\Users\DAVE\AppData\Local\Temp\.NETFramework,Version=v4.7.AssemblyAttributes.cs
+TargetFrameworkProfile =
+TargetFrameworkSDKToolsDirectory = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\
+TargetFrameworkVersion = v4.7
+TargetName = ConsoleStreamsLab_4
+TargetPath = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\bin\Debug\ConsoleStreamsLab_4.exe
+TargetPlatformDisplayName = Windows 7.0
+TargetPlatformIdentifier = Windows
+TargetPlatformMoniker = Windows,Version=7.0
+TargetPlatformRegistryBase = Software\Microsoft\Microsoft SDKs\Windows
+TargetPlatformSdkPath =
+TargetPlatformVersion = 7.0
+TargetRuntime = Managed
+TaskKeyToken = 31bf3856ad364e35
+TaskVersion = 4.0.0.0
+TEMP = C:\Users\DAVE\AppData\Local\Temp
+TMP = C:\Users\DAVE\AppData\Local\Temp
+TouchAppsTargetDir = C:\Program Files (x86)\Microsoft Touch Pack for Windows 7\
+UnmanagedRegistrationDependsOn =
+UnmanagedUnregistrationDependsOn =
+UpgradeSubsetToProfile = true
+UseCommonOutputDirectory = false
+UseHostCompilerIfAvailable = true
+USERDOMAIN = ENIGMA
+USERNAME = DAG
+USERPROFILE = C:\Users\DAVE
+UseSourcePath = true
+Utf8Output = true
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+VCTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+VCTargetsPath12 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+Version = 1.0.0.0
+VisualStudioDir = C:\Users\DAVE\Documents\Visual Studio 2013
+VisualStudioEdition = Microsoft Visual Studio Community 2013
+VisualStudioVersion = 12.0
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+VSIDEResolvedNonMSBuildProjectOutputs = <VSIDEResolvedNonMSBuildProjectOutputs />
+VSLANG = 1033
+WarningLevel = 4
+WebReference_EnableLegacyEventingModel = false
+WebReference_EnableProperties = true
+WebReference_EnableSQLTypes = true
+WINBATCH_SOURCE = C:\Users\DAVE\Documents\Programming\WinBatch_Studio
+windir = C:\Windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+WindowsSDK80Path = C:\Program Files (x86)\Windows Kits\8.1\
+WMSJSProject = WJProject
+WMSJSProjectDirectory = JavaScript
+WorkflowBuildExtensionAssemblyName = Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+WorkflowBuildExtensionKeyToken = 31bf3856ad364e35
+WorkflowBuildExtensionVersion = 4.0.0.0
+WWCmdUtils = P
+WWIncludePath = C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE
+WWLinkLibPath = C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB
+WWUtlPath = C:\bin\
+XamlBuildTaskAssemblyName = XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+XamlBuildTaskLocation = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+XamlBuildTaskPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+XamlDebuggingInformation = true
+XamlGenCodeFileNames = ConsoleStreamsLab_4.7.csproj.XamlGeneratedCodeFileListAbsolute.txt
+XamlGenMarkupFileNames = ConsoleStreamsLab_4.7.csproj.XamlGeneratedXamlFileListAbsolute.txt
+XamlPass2FlagFile = ConsoleStreamsLab_4.7.csproj.XamlPass2Flag.txt
+XamlRequiresCompilationPass2 = false
+XamlTemporaryAssemblyName = ConsoleStreamsLab_4
+XCOPYCHK = DEBUG
+XLW = C:\Program Files (x86)\XLW\xlw-5.0.2f0
+YieldDuringToolExecution = true
+
+Building with tools version "12.0".
+Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\ConsoleStreamsLab_4.7.csproj" (entry point):
+Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+Using "Message" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Message" (TaskId:2)
+  Task Parameter:Text=Configuration=Debug (TaskId:2)
+  Task Parameter:Importance=Low (TaskId:2)
+  Configuration=Debug (TaskId:2)
+Done executing task "Message". (TaskId:2)
+Task "Message" (TaskId:3)
+  Task Parameter:Text=Platform=AnyCPU (TaskId:3)
+  Task Parameter:Importance=Low (TaskId:3)
+  Platform=AnyCPU (TaskId:3)
+Done executing task "Message". (TaskId:3)
+Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\Debug\' != '' and !HasTrailingSlash('bin\Debug\')).
+Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+Done building target "_CheckForInvalidConfigurationAndPlatform" in project "ConsoleStreamsLab_4.7.csproj".: (TargetId:2)
+Target "EntityDeploy" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+Target "BeforeBuild: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\ConsoleStreamsLab_4.7.csproj" (target "Build" depends on it):
+Done building target "BeforeBuild" in project "ConsoleStreamsLab_4.7.csproj".: (TargetId:3)
+Target "SecondMatch: (TargetId:4)" in project "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\ConsoleStreamsLab_4.7.csproj" (target "Build" depends on it):
+Task "Message" (TaskId:4)
+  Task Parameter:Text=TargetFrameworkVersion = v4.7 (TaskId:4)
+  Task Parameter:Importance=high (TaskId:4)
+  TargetFrameworkVersion = v4.7 (TaskId:4)
+Done executing task "Message". (TaskId:4)
+Task "Message" (TaskId:5)
+  Task Parameter:Text=DefineConstants        = DEBUG;TRACE (TaskId:5)
+  Task Parameter:Importance=high (TaskId:5)
+  DefineConstants        = DEBUG;TRACE (TaskId:5)
+Done executing task "Message". (TaskId:5)
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\ConsoleStreamsLab_4.7.csproj(81,5): error MSB4062: The "RegularExpressionMatching" task could not be loaded from the assembly RegexMatch.MSBuildTask, Version=1.0.0.7, Culture=neutral, PublicKeyToken=659f28f508fc4cd9, processorArchitecture=MSIL.  Confirm that the <UsingTask> declaration is correct, that the assembly and all its dependencies are available, and that the task contains a public class that implements Microsoft.Build.Framework.ITask.
+Done building target "SecondMatch" in project "ConsoleStreamsLab_4.7.csproj" -- FAILED.: (TargetId:4)
+
+Project Performance Summary:
+       61 ms  C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreamsLab\ConsoleStreamsLab_4.7\ConsoleStreamsLab_4.7.csproj   1 calls
+
+Target Performance Summary:
+        0 ms  BeforeBuild                                1 calls
+        4 ms  SecondMatch                                1 calls
+       57 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+
+Task Performance Summary:
+       46 ms  Message                                    4 calls
+
+Build FAILED.
+
+Time Elapsed 00:00:00.00
+========== Build: 0 succeeded, 1 failed, 1 up-to-date, 0 skipped ==========

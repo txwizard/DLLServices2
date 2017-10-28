@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Events><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='WizardWrx'/><EventID Qualifiers='0'>0</EventID><Level>2</Level><Task>0</Task><Keywords>0x80000000000000</Keywords><TimeCreated SystemTime='2017-09-04T05:14:51.000000000Z'/><EventRecordID>332698</EventRecordID><Channel>Application</Channel><Computer>ENIGMA</Computer><Security/></System><EventData><Data>An System.Exception exception was caught in routine Main:
+               Message          = Test Exception Message Number 2 
+Exception Method = Void Main(System.String[])
+Exception Source = DLLServices2TestStand
+
+Stack Trace Begin:
+   at DLLServices2TestStand.Program.Main(String[] pastrArgs) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLServices2TestStand\Program.cs:line 531
+End of Stack Trace
+
+There are no further exceptions to report.
+</Data></EventData><RenderingInfo Culture='en-US'><Message>An System.Exception exception was caught in routine Main:
+               Message          = Test Exception Message Number 2 
+Exception Method = Void Main(System.String[])
+Exception Source = DLLServices2TestStand
+
+Stack Trace Begin:
+   at DLLServices2TestStand.Program.Main(String[] pastrArgs) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLServices2TestStand\Program.cs:line 531
+End of Stack Trace
+
+There are no further exceptions to report.
+</Message><Level>Error</Level><Task></Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords><Keyword>Classic</Keyword></Keywords></RenderingInfo></Event></Events>

@@ -49,15 +49,17 @@ goto SKIPREM
 ::                                                    RETURN key being pressed.
 ::
 ::                      DLLServices2TestStand.exe must be installed into the
-::                      following directory.
+::                      following directory, relative to the directory in which
+::                      this script is installed.
 ::
-::                          C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug
+::                          ..\DLLServices2TestStand\bin\%_Confiuration%\DLLServices2TestStand.exe
 ::
 ::                      All other dependent programs must be installed into a
 ::                      directory that is in the Windows PATH list.
 ::
-::  Remarks:            Companion script DocumentTestStandRun.CMD dispenses with
-::                      capturing its standard output.
+::  Remarks:            Since there is no compelling reason to return through
+::                      this script, invocation of CaptureTestStandOutput.CMD
+::                      dispenses with the CALL mechanism.
 ::
 ::                      This script has almost everything it needs to be a
 ::                      general purpose test platform.
@@ -71,12 +73,16 @@ goto SKIPREM
 ::  2016/04/03 DAG 4.00    Create this copy from the debug script.
 ::  2016/04/06 DAG 5.00    Differentiate release and debug outputs for the logs,
 ::                         and change the version string from 5.5 to 6.0.
+::  2017/07/12 DAG         Implement my new self-maintaining version marking
+::                         method and change the version string from 6.0 to 7.0.
+::  2017/08/28 DAG         Adjust the script to derive its paths from its own
+::                         location.
 ::  ============================================================================
 
 :SKIPREM
 
     echo.
-    echo BOJ %0, version 5.00
+    echo BOJ %0, version %~t0
     echo.
     call ShowTime.CMD
     echo.
@@ -86,31 +92,7 @@ goto SKIPREM
     echo ENTER key. Press ENTER now to launch DLLServices2TestStand.exe.
     echo ---------------------------------------------------------------------
     echo.
-    WWPause.exe
-    echo.
-    "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Release\DLLServices2TestStand.exe" > "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\DLLServices2TestStand_6.0_Output_Release.LOG"
-    echo.
-    echo --------------------------------------------------
-    echo DLLServices2TestStand.exe exit code = %ERRORLEVEL%
-    echo --------------------------------------------------
-    echo.
-
-    Date2FN.exe -r "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\DLLServices2TestStand_6.0_Output_Release.LOG"
-
-    if exist "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\DLLServices2TestStand_6.0_Trace.LOG" (
-        Date2FN.exe -r "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\DLLServices2TestStand_6.0_Trace.LOG"
-    ) else (
-        echo.
-        echo ---------------------------------------------------------------------
-        echo C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\DLLServices2TestStand_6.0_Trace.LOG does not exist.
-        echo ---------------------------------------------------------------------
-        echo.
-    )
-
-    call ExportFromEventLogNDays.CMD Application "%USERPROFILE%\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\ApplicationEvents_%COMPUTERNAME%.TXT"
-    Date2fn.exe -r "%USERPROFILE%\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\_NOTES\ApplicationEvents_%COMPUTERNAME%.TXT"
-
-    echo.
-    echo EOJ %~nx0
-    echo.
-    WWPause.exe
+    setlocal
+    set _Confiuration=Release
+    set _ScriptDir=%~dp0
+    CaptureTestStandOutput.CMD

@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+
+  <!--
+		The “RegularExpressionMatching” task could not be loaded from the assembly RegexMatch.MSBuildTask
+		https://stackoverflow.com/questions/45290171/the-regularexpressionmatching-task-could-not-be-loaded-from-the-assembly-regex
+  -->
+
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v12.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />	
+
+  <UsingTask TaskName="RegularExpressionMatching"
+			 AssemblyName="RegexMatch.MSBuildTask, Version=1.0.0.7, Culture=neutral, PublicKeyToken=659f28f508fc4cd9, processorArchitecture=MSIL" />
+    <!--<ParameterGroup>
+      <Input       ParameterType="System.String" 
+                   Required="True" 
+                   Output="False" />
+      <Pattern     ParameterType="System.String" 
+                   Required="True"
+                   Output="False" />
+      <ReplaceWith ParameterType="System.String"
+                   Required="False"
+                   Output="False" />
+
+	  <IsMatch     ParameterType="System.Boolean"
+                   Required="False"
+                   Output="True" />
+
+      <Match       ParameterType="System.String"
+                   Required="False"
+                   Output="True" />
+
+      <Match1      ParameterType="System.String"
+                   Required="False"
+                   Output="True" />
+      <Match2      ParameterType="System.String"
+                   Required="False"
+                   Output="True" />
+      <Match3      ParameterType="System.String"
+                   Required="False"
+                   Output="True" />
+      <Match4      ParameterType="System.String"
+                   Required="False"
+                   Output="True" />
+      <Match5      ParameterType="System.String"
+                   Required="False"
+                   Output="True" />
+      <Match6      ParameterType="System.String"
+                   Required="False"
+                   Output="True" />
+      <Match7      ParameterType="System.String"
+                   Required="False"
+                   Output="True" />
+      <Match8      ParameterType="System.String"
+                   Required="False"
+                   Output="True" />
+      <Match9      ParameterType="System.String"
+                   Required="False"
+                   Output="True" />
+
+      <Replacement ParameterType="System.String"
+                   Required="False"
+                   Output="True" />
+    </ParameterGroup>
+  </UsingTask>-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ACA1D771-99C2-4671-8320-54F938C40BD2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleStreamsLab_4</RootNamespace>
+    <AssemblyName>ConsoleStreamsLab_4</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <!--
+    2015/06/09 DAG Add the following, per thread message that begins, "An
+                   alternative that is working for me so far is to add the
+                   following to the project file:"
+
+                   Reference: "Conditional Compilation and Framework Targets," thread at
+                              http://stackoverflow.com/questions/2923210/conditional-compilation-and-framework-targets
+  -->
+  <Target Name="SecondMatch" AfterTargets="BeforeBuild">
+    <Message Text="TargetFrameworkVersion = $(TargetFrameworkVersion)" Importance="high" />
+    <Message Text="DefineConstants        = $(DefineConstants)" Importance="high" />
+    <RegularExpressionMatching Input="$(DefineConstants)" Pattern="^(.*)(*;NET\d{1,2})(;*.*)*$" >
+      <Output TaskParameter="IsMatch" 
+              PropertyName="IsMatchJiro" />
+      <Output TaskParameter="Match"
+              PropertyName="MatchJiro" />
+      <Output TaskParameter="Replacement"
+              PropertyName="ReplacementJiro" />
+    </RegularExpressionMatching>
+  <!--
+    <PropertyGroup>
+    <DefineConstants Condition=" !$(DefineConstants.Contains(';NET')) ">$(DefineConstants);$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</DefineConstants>
+    <DefineConstants Condition=" $(DefineConstants.Contains(';NET')) ">$(DefineConstants.Remove($(DefineConstants.LastIndexOf(";NET"))));$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</DefineConstants>
+  </PropertyGroup>
+  -->
+
+    <Message Text="IsMatchJiro            = $(IsMatchJiro)" Importance="high" />
+  </Target>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>WW_Icon1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="WizardWrx.Common">
+      <HintPath>..\..\Common\bin\Release\WizardWrx.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="WizardWrx.Core">
+      <HintPath>..\..\Core\bin\Release\WizardWrx.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\ConsoleStreamsLab\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
+    <Compile Include="..\ConsoleStreamsLab\StandardHandleInfo.cs">
+      <Link>StandardHandleInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\ConsoleStreamsLab\UnmanagedLibrary.cs">
+      <Link>UnmanagedLibrary.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WW_Icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

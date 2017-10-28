@@ -1,0 +1,12 @@
+Level,Date and Time,Source,Event ID,Task Category
+Error,2017/09/04 00:14:51,WizardWrx,0,None,"An System.Exception exception was caught in routine Main:
+               Message          = Test Exception Message Number 2 
+Exception Method = Void Main(System.String[])
+Exception Source = DLLServices2TestStand
+
+Stack Trace Begin:
+   at DLLServices2TestStand.Program.Main(String[] pastrArgs) in c:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\Wizardwrx\DLLServices2TestStand\Program.cs:line 531
+End of Stack Trace
+
+There are no further exceptions to report.
+"

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" targetNamespace="http://schemas.microsoft.com/VisualStudio/2004/01/settings" xmlns:mstns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="SettingsFile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Profiles" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+        <xs:element name="Settings" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Setting" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Value" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:simpleContent msdata:ColumnName="Value_Text" msdata:Ordinal="1">
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="Profile" form="unqualified" type="xs:string" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="Name" form="unqualified" type="xs:string" />
+                  <xs:attribute name="Type" form="unqualified" type="xs:string" />
+                  <xs:attribute name="Scope" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="CurrentProfile" form="unqualified" type="xs:string" />
+      <xs:attribute name="GeneratedClassNamespace" form="unqualified" type="xs:string" />
+      <xs:attribute name="GeneratedClassName" form="unqualified" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="SettingsFile" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

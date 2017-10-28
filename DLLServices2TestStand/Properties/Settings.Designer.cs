@@ -25,7 +25,7 @@ namespace DLLServices2TestStand.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("ExceptionGUIDsListingFile.TXT")]
+        [global::System.Configuration.DefaultSettingValueAttribute("$$DATADIRNAME$$\\ExceptionGUIDsListingFile.TXT")]
         public string ExceptionGUIDsListingFile {
             get {
                 return ((string)(this["ExceptionGUIDsListingFile"]));
@@ -34,13 +34,79 @@ namespace DLLServices2TestStand.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("ExcceptionMessageTable.TXT")]
+        [global::System.Configuration.DefaultSettingValueAttribute("$$DATADIRNAME$$\\ExcceptionMessageTable.TXT")]
         public string ExcceptionMessageTable {
             get {
                 return ((string)(this["ExcceptionMessageTable"]));
             }
             set {
                 this["ExcceptionMessageTable"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("$$DATADIRNAME$$\\DependentAssemblyInfoReport.TXT")]
+        public string DependentAssemblyInfoReport {
+            get {
+                return ((string)(this["DependentAssemblyInfoReport"]));
+            }
+            set {
+                this["DependentAssemblyInfoReport"] = value;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(".\\Test_Data")]
+        public string Data_Directory {
+            get {
+                return ((string)(this["Data_Directory"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("MaxStringLength.TXT")]
+        public string MaxStringLength_Input {
+            get {
+                return ((string)(this["MaxStringLength_Input"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("$$DATADIRNAME$$\\MergeNewItemsIntoArray_Master.TXT")]
+        public string MergeNewItemsIntoArray_Master {
+            get {
+                return ((string)(this["MergeNewItemsIntoArray_Master"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("$$DATADIRNAME$$\\MergeNewItemsIntoArray_Case_??.TXT")]
+        public string MergeNewItemsIntoArray_Cases {
+            get {
+                return ((string)(this["MergeNewItemsIntoArray_Cases"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("$$DATADIRNAME$$\\MergeNewItemsIntoArray_Output_$$CASENBR$$.TXT")]
+        public string MergeNewItemsIntoArray_Outputs {
+            get {
+                return ((string)(this["MergeNewItemsIntoArray_Outputs"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("$$DATADIRNAME$$\\MergeNewItemsIntoArray_Summary.TXT")]
+        public string MergeNewItemsIntoArray_Summary {
+            get {
+                return ((string)(this["MergeNewItemsIntoArray_Summary"]));
             }
         }
     }

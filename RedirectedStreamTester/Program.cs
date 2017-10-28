@@ -16,7 +16,7 @@
 
     Author:				David A. Gray
 
-	License:            Copyright (C) 2011-2016, David A. Gray. 
+	License:            Copyright (C) 2011-2017, David A. Gray. 
 						All rights reserved.
 
                         Redistribution and use in source and binary forms, with
@@ -67,6 +67,18 @@
                               instance method on a StateManager object.
 
 	2016/06/06 6.3     DAG    Insert my three-clause BSD license.
+
+	2017/02/26 7.0     DAG    Break this library apart, so that smaller subsets
+	                          of classes can be distributed and consumed
+                              independently.
+
+                              The only effect of this change on this module is
+                              it moves into a new namespace, and the new library
+                              replaces one dependency with four, only because it
+                              exercises all of them.
+	
+	2017/07/11 7.0     DAG    Adjust to support the improved 100% managed code
+                              that processes standard console handles.
     ============================================================================
 */
 
@@ -83,7 +95,10 @@ using System.Text;
 //	============================================================================
 
 using WizardWrx;
-using WizardWrx.DLLServices2;
+using WizardWrx.Common;
+using WizardWrx.Core;
+using WizardWrx.ConsoleStreams;
+using WizardWrx.DLLConfigurationManager;
 
 namespace RedirectedStreamTester
 {
@@ -245,24 +260,24 @@ namespace RedirectedStreamTester
 
 			Dictionary<StreamID , StreamStateInfo> rStreamStates = new Dictionary<StreamID , StreamStateInfo> ( argsParsed.Count );
 
-			foreach ( string strInternalArgName in argsParsed.Keys )
-			{
-				string strExternalArgName = CmdLneArgsBasic.ArgNameFromKeyValue ( strInternalArgName );
+			//foreach ( string strInternalArgName in argsParsed.ValidNamedArgsInCmdLine)
+			//{
+			//	string strExternalArgName = CmdLneArgsBasic.ArgNameFromKeyValue ( strInternalArgName );
 
-				StreamID enmState = ( StreamID ) Enum.Parse (
-						typeof ( StreamID ) ,
-						strExternalArgName ,
-						MagicBooleans.ENUM_PARSE_CASE_INSENSITIVE );
+			//	StreamID enmState = ( StreamID ) Enum.Parse (
+			//			typeof ( StreamID ) ,
+			//			strExternalArgName ,
+			//			MagicBooleans.ENUM_PARSE_CASE_INSENSITIVE );
 
-				StreamStateInfo enmStateInfo = new StreamStateInfo (
-						strExternalArgName ,
-						argsParsed.GetArgByName (
-							strExternalArgName ,
-							Properties.Resources.ARGVALUE_DEFAULT ) );
-				rStreamStates.Add (
-					enmState ,
-					enmStateInfo );
-			}	// foreach ( string strArgName in argsParsed.Keys )
+			//	StreamStateInfo enmStateInfo = new StreamStateInfo (
+			//			strExternalArgName ,
+			//			argsParsed.GetArgByName (
+			//				strExternalArgName ,
+			//				Properties.Resources.ARGVALUE_DEFAULT ) );
+			//	rStreamStates.Add (
+			//		enmState ,
+			//		enmStateInfo );
+			//}	// foreach ( string strArgName in argsParsed.Keys )
 
 			return rStreamStates;
 		}	// private static Dictionary<StreamState , StreamStateInfo> GetStreamStateInfo
@@ -319,7 +334,7 @@ namespace RedirectedStreamTester
 			sbMsgForLog.AppendFormat (
 				Properties.Resources.LOGMSG_REPORTED_STDOUT_STATE ,
 //				Properties.Resources.LOGMSG_STREAM_STATE_UNKNOWN ,
-				s_smTheApp.StandardHandleState ( StateManager.ShsStandardHandle.ShSStdIn ) == StateManager.ShsHandleState.ShsRedirected
+				s_smTheApp.StandardHandleState ( StandardHandleInfo.StandardConsoleHandle.StandardInput ) == StandardHandleInfo.StandardHandleState.Redirected
 					? Properties.Resources.LOGMSG_STREAM_REDIRECTED
 					: Properties.Resources.LOGMSG_STREAM_DEFAULT ,
 				//				Console.IsOutputRedirected ?
@@ -329,7 +344,7 @@ namespace RedirectedStreamTester
 			sbMsgForLog.AppendFormat (
 				Properties.Resources.LOGMSG_REPORTED_STDIN_STATE ,
 //				Properties.Resources.LOGMSG_STREAM_STATE_UNKNOWN ,
-				s_smTheApp.StandardHandleState ( StateManager.ShsStandardHandle.ShsStdOut ) == StateManager.ShsHandleState.ShsRedirected
+				s_smTheApp.StandardHandleState ( StandardHandleInfo.StandardConsoleHandle.StandardOutput ) == StandardHandleInfo.StandardHandleState.Redirected
 					? Properties.Resources.LOGMSG_STREAM_REDIRECTED
 					: Properties.Resources.LOGMSG_STREAM_DEFAULT ,
 				//				Console.IsOutputRedirected ?
@@ -339,7 +354,7 @@ namespace RedirectedStreamTester
 			sbMsgForLog.AppendFormat (
 				Properties.Resources.LOGMSG_REPORTED_STDERR_STATE ,
 //				Properties.Resources.LOGMSG_STREAM_STATE_UNKNOWN ,
-				s_smTheApp.StandardHandleState ( StateManager.ShsStandardHandle.ShsStdEror ) == StateManager.ShsHandleState.ShsRedirected
+				s_smTheApp.StandardHandleState ( StandardHandleInfo.StandardConsoleHandle.StandardError ) == StandardHandleInfo.StandardHandleState.Redirected
 					? Properties.Resources.LOGMSG_STREAM_REDIRECTED
 					: Properties.Resources.LOGMSG_STREAM_DEFAULT ,
 				//				Console.IsOutputRedirected ?
@@ -403,17 +418,17 @@ namespace RedirectedStreamTester
 								Environment.NewLine );							// Format Item 1 = Newline, My Way
 						sbMsgForLog.AppendFormat (								// Message template
 							Properties.Resources.LOGMSG_STREAM_FILE_CREATED ,
-							DisplayFormats.FormatDateTimeForShow (
+							SysDateFormatters.FormatDateTimeForShow (
 								fiAssociatedFile.CreationTimeUtc ) ,			// Format Item 1 = Create time (UTC)
 								Environment.NewLine );							// Format Item 1 = Newline, My Way
 						sbMsgForLog.AppendFormat (								// Message template
 							Properties.Resources.LOGMSG_STREAM_FILE_MODIFIED ,	// Message template
-							DisplayFormats.FormatDateTimeForShow (
+							SysDateFormatters.FormatDateTimeForShow (
 								fiAssociatedFile.LastAccessTimeUtc ) ,			// Format Item 1 = Create time (UTC)
 								Environment.NewLine );							// Format Item 1 = Newline, My Way
 						sbMsgForLog.AppendFormat (
 							Properties.Resources.LOGMSG_STREAM_FILE_ACCESSED ,	// Message template
-							DisplayFormats.FormatDateTimeForShow (
+							SysDateFormatters.FormatDateTimeForShow (
 								fiAssociatedFile.LastAccessTimeUtc ) ,			// Format Item 1 = Create time (UTC)
 								Environment.NewLine );							// Format Item 1 = Newline, My Way
 					}	// if ( fiAssociatedFile.Exists )

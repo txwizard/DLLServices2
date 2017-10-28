@@ -1,5 +1,0 @@
-2016/03/29 21:28:16: BOJ DLLServices2TestStand.
-2016/03/29 21:28:16: Entering PauseForPictures method with pfAppendLineFeed = False.
-2016/03/29 21:28:16:      PauseForPictures: IsStdOutRedirected returned FALSE.
-2016/03/29 21:47:39: Entering PauseForPictures method with pfAppendLineFeed = True.
-2016/03/29 21:47:40:      PauseForPictures: IsStdOutRedirected returned FALSE.

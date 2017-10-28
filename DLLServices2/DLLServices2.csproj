@@ -8,12 +8,11 @@
     <ProjectGuid>{B0244F74-69F0-4383-9698-46FEE524B446}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WizardWrx.DLLServices2</RootNamespace>
+    <RootNamespace>WizardWrx.Core</RootNamespace>
     <AssemblyName>WizardWrx.DLLServices2</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile>
-    </TargetFrameworkProfile>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -62,38 +61,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayInfo.cs" />
     <Compile Include="AssemblyLocatorBase.cs" />
-    <Compile Include="CmdLneArgsBasic.cs" />
-    <Compile Include="CSVFileInfo.cs" />
-    <Compile Include="DisplayFormats.cs" />
     <Compile Include="EnhancedIOException.cs" />
     <Compile Include="ErrorMessagesInColor.cs" />
     <Compile Include="ExceptionLogger.cs" />
-    <Compile Include="FileInfoExtension.cs" />
-    <Compile Include="FileIOFlags.cs" />
-    <Compile Include="FileNameTricks.cs" />
-    <Compile Include="GenericSingletonBase.cs" />
     <Compile Include="IniFileReader.cs" />
     <Compile Include="IP6CUtilLib1.cs" />
-    <Compile Include="ListInfo.cs" />
-    <Compile Include="Logic.cs" />
-    <Compile Include="MagicBooleans.cs" />
-    <Compile Include="MagicNumbers.cs" />
     <Compile Include="MessageInColor.cs" />
-    <Compile Include="NumericFormats.cs" />
-    <Compile Include="PathPositions.cs" />
     <Compile Include="PropertyDefaults.cs" />
-    <Compile Include="RegExpSupport.cs" />
-    <Compile Include="RegistryValues.cs" />
-    <Compile Include="SpecialCharacters.cs" />
-    <Compile Include="SpecialStrings.cs" />
     <Compile Include="StateManager.cs" />
-    <Compile Include="StringTricks.cs" />
-    <Compile Include="SyncRoot.cs" />
-    <Compile Include="SysDateFormatters.cs" />
-    <Compile Include="TextBlocks.cs" />
-    <Compile Include="TimeDisplayFormatter.cs" />
     <Compile Include="Util.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -141,6 +117,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{c1fb48d6-4a54-4424-bca1-4777f3aae2df}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{b5282e82-d211-4bea-bebd-b2cc6e45bf5c}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

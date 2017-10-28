@@ -61,7 +61,7 @@ namespace DLLServices2TestStand.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0}, version {1} BOJ{4}{2} ({3} UTC).
+        ///   Looks up a localized string similar to {0}, version {1} BOJ{4}{2} ({3} UTC){4}.
         /// </summary>
         public static string BOJ_MSG_TPL {
             get {
@@ -88,11 +88,29 @@ namespace DLLServices2TestStand.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to EventMessageCleanupTests.
+        /// </summary>
+        public static string CMDARG_EVENT_MSG_CLEANUP_TESTS {
+            get {
+                return ResourceManager.GetString("CMDARG_EVENT_MSG_CLEANUP_TESTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to GenerateExceptionMessageFormatTable.
         /// </summary>
         public static string CMDARG_GENERATE_EXCEPTION_MESSAGE_FORMAT_TABLE {
             get {
                 return ResourceManager.GetString("CMDARG_GENERATE_EXCEPTION_MESSAGE_FORMAT_TABLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EnumerateStringResourcesInAssembly.
+        /// </summary>
+        public static string CMDARG_LIST_COMMON_STRINGS {
+            get {
+                return ResourceManager.GetString("CMDARG_LIST_COMMON_STRINGS", resourceCulture);
             }
         }
         
@@ -169,6 +187,15 @@ namespace DLLServices2TestStand.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The specified test index, {0}, is too high.{2}Valid values are positive integers less than {1}..
+        /// </summary>
+        public static string ERRMSG_INVALID_TEST_INDEX {
+            get {
+                return ResourceManager.GetString("ERRMSG_INVALID_TEST_INDEX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Value must belong to the LimitConditon enumeration..
         /// </summary>
         public static string ERRMSG_LIMIT_CONDITON {
@@ -183,6 +210,15 @@ namespace DLLServices2TestStand.Properties {
         public static string ERRMSG_LIMIT_VALUE {
             get {
                 return ResourceManager.GetString("ERRMSG_LIMIT_VALUE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This literal is made plural if the error count is greater than 1..
+        /// </summary>
+        public static string ERRMSG_LITERAL_ERROR {
+            get {
+                return ResourceManager.GetString("ERRMSG_LITERAL_ERROR", resourceCulture);
             }
         }
         
@@ -232,7 +268,331 @@ namespace DLLServices2TestStand.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to [Empty String].
+        ///   Looks up a localized string similar to Character {0} ({1}): Display Value = {2}{3}.
+        /// </summary>
+        public static string IDS_ASCII_TABLE_ITEM {
+            get {
+                return ResourceManager.GetString("IDS_ASCII_TABLE_ITEM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}The following table lists key attributes of every ASCII character.{0}.
+        /// </summary>
+        public static string IDS_ASCII_TABLE_PREAMBLE {
+            get {
+                return ResourceManager.GetString("IDS_ASCII_TABLE_PREAMBLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The format of the label row in the master input file is invalid.{3}It should contain {0} TAB delimited fields.{3}The supplied label contains {1} fields.{3}The label row follows.{2}{3}.
+        /// </summary>
+        public static string IDS_BAD_MASTER_LABEL_ROW {
+            get {
+                return ResourceManager.GetString("IDS_BAD_MASTER_LABEL_ROW", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Comparison must involve objects of the same type..
+        /// </summary>
+        public static string IDS_COMPARETO_MISMATCH {
+            get {
+                return ResourceManager.GetString("IDS_COMPARETO_MISMATCH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Source of Test Data.
+        /// </summary>
+        public static string IDS_DATA_SOURCE {
+            get {
+                return ResourceManager.GetString("IDS_DATA_SOURCE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fully Qualified Name of Input File.
+        /// </summary>
+        public static string IDS_DATAFILE_FQFN {
+            get {
+                return ResourceManager.GetString("IDS_DATAFILE_FQFN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Number of Lines in Input File.
+        /// </summary>
+        public static string IDS_DATAFILE_LINES {
+            get {
+                return ResourceManager.GetString("IDS_DATAFILE_LINES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date Input File Last Modified.
+        /// </summary>
+        public static string IDS_DATAFILE_MODDATE {
+            get {
+                return ResourceManager.GetString("IDS_DATAFILE_MODDATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Size, in Bytes, of Input File.
+        /// </summary>
+        public static string IDS_DATAFILE_SIZE {
+            get {
+                return ResourceManager.GetString("IDS_DATAFILE_SIZE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Master File.
+        /// </summary>
+        public static string IDS_DESCR_MASTER_FILE {
+            get {
+                return ResourceManager.GetString("IDS_DESCR_MASTER_FILE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New Items File.
+        /// </summary>
+        public static string IDS_DESCR_NEWITEMS_FILE {
+            get {
+                return ResourceManager.GetString("IDS_DESCR_NEWITEMS_FILE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Output File.
+        /// </summary>
+        public static string IDS_DESCR_OUTPUT_FILE {
+            get {
+                return ResourceManager.GetString("IDS_DESCR_OUTPUT_FILE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Input files are inconsistent{2}Label row of master file = {0}{2}Label Row of current file = {1}.
+        /// </summary>
+        public static string IDS_INCONSISTENT_INPUTS {
+            get {
+                return ResourceManager.GetString("IDS_INCONSISTENT_INPUTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Key field {0} in record {1} is invalid. All keys must be integers..
+        /// </summary>
+        public static string IDS_INVALID_KEY {
+            get {
+                return ResourceManager.GetString("IDS_INVALID_KEY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Length of Longest Line.
+        /// </summary>
+        public static string IDS_LENGTH_OF_LONGEST {
+            get {
+                return ResourceManager.GetString("IDS_LENGTH_OF_LONGEST", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}Begin Tests of MaxStringLength Method:{0}.
+        /// </summary>
+        public static string IDS_MAX_STRLEN_BEGIN {
+            get {
+                return ResourceManager.GetString("IDS_MAX_STRLEN_BEGIN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}MaxStringLength tests completed.{0}.
+        /// </summary>
+        public static string IDS_MAX_STRLEN_END {
+            get {
+                return ResourceManager.GetString("IDS_MAX_STRLEN_END", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}Begin Tests of MergeNewItemsIntoArray Method:{0}.
+        /// </summary>
+        public static string IDS_MERGENEWITEMSINTOARRAY_BEGIN {
+            get {
+                return ResourceManager.GetString("IDS_MERGENEWITEMSINTOARRAY_BEGIN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}MergeNewItemsIntoArray tests completed.{0}.
+        /// </summary>
+        public static string IDS_MERGENEWITEMSINTOARRAY_END {
+            get {
+                return ResourceManager.GetString("IDS_MERGENEWITEMSINTOARRAY_END", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Description\tFileName\tModDate\tSize\tLineCount.
+        /// </summary>
+        public static string IDS_MERGENEWITEMSINTOARRAY_LABELS {
+            get {
+                return ResourceManager.GetString("IDS_MERGENEWITEMSINTOARRAY_LABELS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Begin.
+        /// </summary>
+        public static string IDS_MSG_BEGIN {
+            get {
+                return ResourceManager.GetString("IDS_MSG_BEGIN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Done!.
+        /// </summary>
+        public static string IDS_MSG_DONE {
+            get {
+                return ResourceManager.GetString("IDS_MSG_DONE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not Found.
+        /// </summary>
+        public static string IDS_MSG_FILE_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("IDS_MSG_FILE_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Longest Label = {0}.
+        /// </summary>
+        public static string IDS_MSG_LONGEST_LABEL {
+            get {
+                return ResourceManager.GetString("IDS_MSG_LONGEST_LABEL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Longest Value = {0}{1}.
+        /// </summary>
+        public static string IDS_MSG_LONGEST_VALUE {
+            get {
+                return ResourceManager.GetString("IDS_MSG_LONGEST_VALUE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Report Label 1.
+        /// </summary>
+        public static string IDS_MSG_REPORT_LABEL_1 {
+            get {
+                return ResourceManager.GetString("IDS_MSG_REPORT_LABEL_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Report Label 2.
+        /// </summary>
+        public static string IDS_MSG_REPORT_LABEL_2 {
+            get {
+                return ResourceManager.GetString("IDS_MSG_REPORT_LABEL_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Report Label 3.
+        /// </summary>
+        public static string IDS_MSG_REPORT_LABEL_3 {
+            get {
+                return ResourceManager.GetString("IDS_MSG_REPORT_LABEL_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Report Label 4.
+        /// </summary>
+        public static string IDS_MSG_REPORT_LABEL_4 {
+            get {
+                return ResourceManager.GetString("IDS_MSG_REPORT_LABEL_4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Report Label 5.
+        /// </summary>
+        public static string IDS_MSG_REPORT_LABEL_5 {
+            get {
+                return ResourceManager.GetString("IDS_MSG_REPORT_LABEL_5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This long string is for testing another routine, for use in right-alingining numeric values in a report..
+        /// </summary>
+        public static string IDS_REALLY_LONG_STRING {
+            get {
+                return ResourceManager.GetString("IDS_REALLY_LONG_STRING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     Test # {0}:{1}.
+        /// </summary>
+        public static string IDS_TEST_BEGIN {
+            get {
+                return ResourceManager.GetString("IDS_TEST_BEGIN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {1}    Test # {0} done{1}.
+        /// </summary>
+        public static string IDS_TEST_END {
+            get {
+                return ResourceManager.GetString("IDS_TEST_END", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to FAIL.
+        /// </summary>
+        public static string IDS_TEST_FAIL {
+            get {
+                return ResourceManager.GetString("IDS_TEST_FAIL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pass.
+        /// </summary>
+        public static string IDS_TEST_PASS {
+            get {
+                return ResourceManager.GetString("IDS_TEST_PASS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Internal variable _enmDataSource has an unsupported value of {0}..
+        /// </summary>
+        public static string IDS_UNSUPPORTED_DATASOURCE {
+            get {
+                return ResourceManager.GetString("IDS_UNSUPPORTED_DATASOURCE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [Empty String}.
         /// </summary>
         public static string MESSAGE_EMPTY_STRING {
             get {
@@ -241,11 +601,38 @@ namespace DLLServices2TestStand.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to [Null String].
+        ///   Looks up a localized string similar to [Null String}.
         /// </summary>
         public static string MESSAGE_NULL_STRING {
             get {
                 return ResourceManager.GetString("MESSAGE_NULL_STRING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     Absolute Location of Entry Assembly                = {0}.
+        /// </summary>
+        public static string MSG_APP_DOMAIN_ENTRY_ASM_LOCATION {
+            get {
+                return ResourceManager.GetString("MSG_APP_DOMAIN_ENTRY_ASM_LOCATION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {1}    Name of Entry Assembly                             = {0}.
+        /// </summary>
+        public static string MSG_APP_DOMAIN_ENTRY_ASM_NAME {
+            get {
+                return ResourceManager.GetString("MSG_APP_DOMAIN_ENTRY_ASM_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {3}    Entry Assembly Subsystem                           = {0} ({1}): {2}{3}.
+        /// </summary>
+        public static string MSG_APP_DOMAIN_SUBSYSTEM {
+            get {
+                return ResourceManager.GetString("MSG_APP_DOMAIN_SUBSYSTEM", resourceCulture);
             }
         }
         
@@ -264,6 +651,150 @@ namespace DLLServices2TestStand.Properties {
         public static string MSG_ASSEMBLY_SUBSYSTEM {
             get {
                 return ResourceManager.GetString("MSG_ASSEMBLY_SUBSYSTEM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     BaseDirectory                                      = {0}.
+        /// </summary>
+        public static string MSG_BASE_DIRECTORY_NAME {
+            get {
+                return ResourceManager.GetString("MSG_BASE_DIRECTORY_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     Current Machine Time     = {0} ({1} UTC).
+        /// </summary>
+        public static string MSG_CURRENT_MACHINE_TIME {
+            get {
+                return ResourceManager.GetString("MSG_CURRENT_MACHINE_TIME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     ApplicationIdentity                                = NULL.
+        /// </summary>
+        public static string MSG_DFLT_APP_IDENTITY_NULL {
+            get {
+                return ResourceManager.GetString("MSG_DFLT_APP_IDENTITY_NULL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     ActivationContext.Identity.CodeBase                = {0}.
+        /// </summary>
+        public static string MSG_DFLT_DOMAIN_IDENTITY_CODEBASE {
+            get {
+                return ResourceManager.GetString("MSG_DFLT_DOMAIN_IDENTITY_CODEBASE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     ActivationContext.Identity.FullName                = {0}.
+        /// </summary>
+        public static string MSG_DFLT_DOMAIN_IDENTITY_FULLNAME {
+            get {
+                return ResourceManager.GetString("MSG_DFLT_DOMAIN_IDENTITY_FULLNAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}End of property listing for default application domain{0}.
+        /// </summary>
+        public static string MSG_DFLT_DOMAIN_PROPS_FOOTER {
+            get {
+                return ResourceManager.GetString("MSG_DFLT_DOMAIN_PROPS_FOOTER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}The default application domain exhibits the following properties.{0}.
+        /// </summary>
+        public static string MSG_DFLT_DOMAIN_PROPS_HEADER {
+            get {
+                return ResourceManager.GetString("MSG_DFLT_DOMAIN_PROPS_HEADER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     SetupInformation                                   = NULL.
+        /// </summary>
+        public static string MSG_DFLT_SETUP_INFO_NULL {
+            get {
+                return ResourceManager.GetString("MSG_DFLT_SETUP_INFO_NULL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     DomainManager.SetupInformation.ApplicationBase     = {0}.
+        /// </summary>
+        public static string MSG_DOMAIN_MGR_APP_BASE {
+            get {
+                return ResourceManager.GetString("MSG_DOMAIN_MGR_APP_BASE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     DomainManager.SetupInformation.ApplicationName     = {0}.
+        /// </summary>
+        public static string MSG_DOMAIN_MGR_APP_NAME {
+            get {
+                return ResourceManager.GetString("MSG_DOMAIN_MGR_APP_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     DomainManager.FriendlyName                         = {0}.
+        /// </summary>
+        public static string MSG_DOMAIN_MGR_FRIENDLY_NAME {
+            get {
+                return ResourceManager.GetString("MSG_DOMAIN_MGR_FRIENDLY_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     DomainManager.Id                                   = {0}.
+        /// </summary>
+        public static string MSG_DOMAIN_MGR_ID {
+            get {
+                return ResourceManager.GetString("MSG_DOMAIN_MGR_ID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     DomainManager.EntryAssembly.FullName               = {0}.
+        /// </summary>
+        public static string MSG_ENTRY_ASM_FULLNAME {
+            get {
+                return ResourceManager.GetString("MSG_ENTRY_ASM_FULLNAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     DomainManager.EntryAssembly.Location               = {0}.
+        /// </summary>
+        public static string MSG_ENTRY_ASM_LOCATION {
+            get {
+                return ResourceManager.GetString("MSG_ENTRY_ASM_LOCATION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {1}Total exceptions logged = {0}.
+        /// </summary>
+        public static string MSG_EXCETIONS_COUNTED {
+            get {
+                return ResourceManager.GetString("MSG_EXCETIONS_COUNTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Details for error {0}:.
+        /// </summary>
+        public static string MSG_FORMAT_ERROR_DETAILS {
+            get {
+                return ResourceManager.GetString("MSG_FORMAT_ERROR_DETAILS", resourceCulture);
             }
         }
         
@@ -376,6 +907,42 @@ namespace DLLServices2TestStand.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Case {0} of {1}:{2}.
+        /// </summary>
+        public static string MSG_NEW_TEST {
+            get {
+                return ResourceManager.GetString("MSG_NEW_TEST", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     DomainManager                                      = NULL.
+        /// </summary>
+        public static string MSG_NO_DOMAIN_MANAGER {
+            get {
+                return ResourceManager.GetString("MSG_NO_DOMAIN_MANAGER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     ActivationContext                                  = NULL.
+        /// </summary>
+        public static string MSG_NULL_ACTIVATION_CONTEXT {
+            get {
+                return ResourceManager.GetString("MSG_NULL_ACTIVATION_CONTEXT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     Argument penmAlignment, an Alignment.
+        /// </summary>
+        public static string MSG_PENMALIGNMENT {
+            get {
+                return ResourceManager.GetString("MSG_PENMALIGNMENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Press ENTER to resume the program..
         /// </summary>
         public static string MSG_PHOTO_OP {
@@ -394,6 +961,87 @@ namespace DLLServices2TestStand.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to     Name of Entry Assembly   = {0}.
+        /// </summary>
+        public static string MSG_PROCESS_ENTRY_ASM_NAME {
+            get {
+                return ResourceManager.GetString("MSG_PROCESS_ENTRY_ASM_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     Entry Assembly Subsystem = {0} ({1}): {2}{3}.
+        /// </summary>
+        public static string MSG_PROCESS_ENTRY_ASM_SUBSYSTEM {
+            get {
+                return ResourceManager.GetString("MSG_PROCESS_ENTRY_ASM_SUBSYSTEM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     Process ID               = 0x{0:X8} ({1} decimal){2}.
+        /// </summary>
+        public static string MSG_PROCESS_ID {
+            get {
+                return ResourceManager.GetString("MSG_PROCESS_ID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}End of property listing for current process{0}.
+        /// </summary>
+        public static string MSG_PROCESS_PROPERTIES_FOOTER {
+            get {
+                return ResourceManager.GetString("MSG_PROCESS_PROPERTIES_FOOTER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}The current process has the following properties.{0}.
+        /// </summary>
+        public static string MSG_PROCESS_PROPERTIES_HEADER {
+            get {
+                return ResourceManager.GetString("MSG_PROCESS_PROPERTIES_HEADER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     Process Startup Time     = {0} ({1} UTC).
+        /// </summary>
+        public static string MSG_PROCESS_STARTUP_TIME {
+            get {
+                return ResourceManager.GetString("MSG_PROCESS_STARTUP_TIME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     Argument pstrFormatString, a string&lt;.
+        /// </summary>
+        public static string MSG_PSTRFORMATSTRING {
+            get {
+                return ResourceManager.GetString("MSG_PSTRFORMATSTRING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     Argument puintItemIndex, an uint.
+        /// </summary>
+        public static string MSG_PUINTITEMINDEX {
+            get {
+                return ResourceManager.GetString("MSG_PUINTITEMINDEX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     Argument puintMaximumWidth, an uint&lt;.
+        /// </summary>
+        public static string MSG_PUINTMAXIMUMWIDTH {
+            get {
+                return ResourceManager.GetString("MSG_PUINTMAXIMUMWIDTH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Redirection State Test Method = {0}: Iterations   = {1}{5}                                            Start Time   = {2}{5}                                            Finish Time  = {3}{5}                                            Elapsed Time = {4}{5}{5}.
         /// </summary>
         public static string MSG_REDIRECTION_STATE_TEST_TIMING {
@@ -408,6 +1056,51 @@ namespace DLLServices2TestStand.Properties {
         public static string MSG_REG_KEY_VALUE {
             get {
                 return ResourceManager.GetString("MSG_REG_KEY_VALUE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}The DisplayOrder properties are auto-generated.{0}.
+        /// </summary>
+        public static string MSG_REPORT_DETAILS_AUTO_ORDERED {
+            get {
+                return ResourceManager.GetString("MSG_REPORT_DETAILS_AUTO_ORDERED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}The DisplayOrder properties of selected items were explicitly set.{0}.
+        /// </summary>
+        public static string MSG_REPORT_DETAILS_SELECTIVELY_OVERRIDDEN {
+            get {
+                return ResourceManager.GetString("MSG_REPORT_DETAILS_SELECTIVELY_OVERRIDDEN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}The test collection is UNsorted.{0}.
+        /// </summary>
+        public static string MSG_REPORT_DETAILS_UNSORTED {
+            get {
+                return ResourceManager.GetString("MSG_REPORT_DETAILS_UNSORTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Token 0 = {0}, Token 1 ={1}, Token 2 - {2}, Token 3 = {3}.
+        /// </summary>
+        public static string MSG_SAMPLE_FORMAT_STRING {
+            get {
+                return ResourceManager.GetString("MSG_SAMPLE_FORMAT_STRING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {2}    Sample Format: Before Transformation = {0}{2}                   After Transformation  = {1}{2}.
+        /// </summary>
+        public static string MSG_SHOW_SAMPLE_BEFORE_AND_AFTER {
+            get {
+                return ResourceManager.GetString("MSG_SHOW_SAMPLE_BEFORE_AND_AFTER", resourceCulture);
             }
         }
         
@@ -529,6 +1222,15 @@ namespace DLLServices2TestStand.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to         Upgraded Format String.
+        /// </summary>
+        public static string MSG_UPGRADED_FORMAT {
+            get {
+                return ResourceManager.GetString("MSG_UPGRADED_FORMAT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0}Testing StateManager.GetAssemblyProductAndVersion:{0}.
         /// </summary>
         public static string MSG_VERSIONIFNO_TESTS_BEGIN {
@@ -556,7 +1258,16 @@ namespace DLLServices2TestStand.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to     Public method Util.FileMatchesRegExpMask = {0,-5}, for filename = {1} and mask = {2}.
+        ///   Looks up a localized string similar to {1}CAUTION: Command line argument {0} trumps all others.{1}         Remaining arguments will be ignored.{1}.
+        /// </summary>
+        public static string MSG_WARNING_SUPERFLUOUS_ARGS_DISCARDED {
+            get {
+                return ResourceManager.GetString("MSG_WARNING_SUPERFLUOUS_ARGS_DISCARDED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     Public method RegExpSupport.FileMatchesRegExpMask = {0,-5}, for filename = {1} and mask = {2}.
         /// </summary>
         public static string REGEXP_TEST_ALL_BUT_LAST {
             get {
@@ -565,7 +1276,7 @@ namespace DLLServices2TestStand.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to     Public method Util.FileMatchesRegExpMask = {0,-5}, for filename = {1} and mask = {2}{3}.
+        ///   Looks up a localized string similar to     Public method RegExpSupport.FileMatchesRegExpMask = {0,-5}, for filename = {1} and mask = {2}{3}.
         /// </summary>
         public static string REGEXP_TEST_LAST {
             get {

@@ -1,0 +1,1009 @@
+                            Raw Build Output Samples
+
+================================================================================
+2017/07/12 13:44:45 - This is the raw output of a C# build.
+================================================================================
+
+------ Build started: Project: Core, Configuration: Debug Any CPU ------
+Build started 2017/07/12 13:44:07.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/07/12 13:44:07 (2017/07/12 18:44:07 UTC)
+          Build Number = 99
+  Sleeping for 3 seconds
+  Waking from cat nap
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Configuration.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Common\bin\Debug\WizardWrx.Common.dll" /compile Properties\Resources.resx,obj\Debug\WizardWrx.Core.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Debug\WizardWrx.Core.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Debug\WizardWrx.Core.XML /define:DEBUG;TRACE /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Configuration.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Common\bin\Debug\WizardWrx.Common.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\WizardWrx.Core.dll /resource:obj\Debug\WizardWrx.Core.Properties.Resources.resources /target:library /utf8output AgedFileInfo.cs AgedFileInfoCollection.cs AssemblyLocatorBase.cs BasicSystemInfoDisplayMessages.cs ByteArrayFormatters.cs CmdLneArgsBasic.cs FileInfoExtension.cs FileInfoExtensionMethods.cs FileNameTricks.cs GenericSingletonBase.cs Logic.cs NumberFormatters.cs PropertyDefaults.cs RegistryValues.cs StringTricks.cs SyncRoot.cs SysDateFormatters.cs TextBlocks.cs TimeDisplayFormatter.cs TraceLogger.cs UnmanagedLibrary.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\WizardWrx.Core.dll" to "bin\Debug\WizardWrx.Core.dll".
+  Core -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll
+  Copying file from "obj\Debug\WizardWrx.Core.pdb" to "bin\Debug\WizardWrx.Core.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll
+          Version    = 7.0.99.22925
+          File Date  = 2017/07/12 13:44:11 (2017/07/12 18:44:11 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\BuildHistory.LOG
+          File Date  = 2017/07/12 13:44:11 (2017/07/12 18:44:11 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.30
+------ Build started: Project: AssemblyUtils, Configuration: Debug Any CPU ------
+Build started 2017/07/12 13:44:11.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/07/12 13:44:11 (2017/07/12 18:44:11 UTC)
+          Build Number = 60
+  Sleeping for 3 seconds
+  Waking from cat nap
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Common\bin\Debug\WizardWrx.Common.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll" /compile Properties\Resources.resx,obj\Debug\WizardWrx.AssemblyUtils.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Debug\WizardWrx.AssemblyUtils.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Debug\WizardWrx.AssemblyUtils.XML /define:TRACE;DEBUG;DBG_PE_SUBSYSTEM_INFO /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Common\bin\Debug\WizardWrx.Common.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\WizardWrx.AssemblyUtils.dll /resource:obj\Debug\WizardWrx.AssemblyUtils.Properties.Resources.resources /target:library /utf8output AssemblyContainer.cs DependentAssemblies.cs DependentAssemblyInfo.cs PESubsystemInfo.cs ReportGenerators.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll" to "bin\Debug\WizardWrx.Core.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.pdb" to "bin\Debug\WizardWrx.Core.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.xml" to "bin\Debug\WizardWrx.Core.xml".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\WizardWrx.AssemblyUtils.dll" to "bin\Debug\WizardWrx.AssemblyUtils.dll".
+  AssemblyUtils -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.dll
+  Copying file from "obj\Debug\WizardWrx.AssemblyUtils.pdb" to "bin\Debug\WizardWrx.AssemblyUtils.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.dll
+          Version    = 7.0.60.22927
+          File Date  = 2017/07/12 13:44:15 (2017/07/12 18:44:15 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\BuildHistory.LOG
+          File Date  = 2017/07/12 13:44:15 (2017/07/12 18:44:15 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:03.68
+------ Build started: Project: ConsoleStreams, Configuration: Debug Any CPU ------
+Build started 2017/07/12 13:44:15.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/07/12 13:44:15 (2017/07/12 18:44:15 UTC)
+          Build Number = 136
+  Sleeping for 3 seconds
+  Waking from cat nap
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Common\bin\Debug\WizardWrx.Common.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll" /compile Properties\Resources.resx,obj\Debug\WizardWrx.ConsoleStreams.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Debug\WizardWrx.ConsoleStreams.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Debug\WizardWrx.ConsoleStreams.xml /define:TRACE;DEBUG;LOG_ALL_EXCEPTIONS /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Common\bin\Debug\WizardWrx.Common.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\WizardWrx.ConsoleStreams.dll /resource:obj\Debug\WizardWrx.ConsoleStreams.Properties.Resources.resources /target:library /utf8output ConsoleColorPropertyDisplay.cs DefaultErrorMessageColors.cs ErrorMessagesInColor.cs MessageInColor.cs StandardHandleInfo.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.dll" to "bin\Debug\WizardWrx.AssemblyUtils.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll" to "bin\Debug\WizardWrx.Core.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.pdb" to "bin\Debug\WizardWrx.AssemblyUtils.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.xml" to "bin\Debug\WizardWrx.AssemblyUtils.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.pdb" to "bin\Debug\WizardWrx.Core.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.xml" to "bin\Debug\WizardWrx.Core.xml".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\WizardWrx.ConsoleStreams.dll" to "bin\Debug\WizardWrx.ConsoleStreams.dll".
+  ConsoleStreams -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.dll
+  Copying file from "obj\Debug\WizardWrx.ConsoleStreams.pdb" to "bin\Debug\WizardWrx.ConsoleStreams.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.dll
+          Version    = 7.0.136.22929
+          File Date  = 2017/07/12 13:44:18 (2017/07/12 18:44:18 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\BuildHistory.LOG
+          File Date  = 2017/07/12 13:44:19 (2017/07/12 18:44:19 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:03.68
+------ Build started: Project: DLLConfigurationManager, Configuration: Debug Any CPU ------
+Build started 2017/07/12 13:44:19.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLConfigurationManager\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLConfigurationManager\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/07/12 13:44:19 (2017/07/12 18:44:19 UTC)
+          Build Number = 150
+  Sleeping for 3 seconds
+  Waking from cat nap
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Configuration.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Common\bin\Debug\WizardWrx.Common.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll" /compile Properties\Resources.resx,obj\Debug\WizardWrx.DLLConfigurationManager.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Debug\WizardWrx.DLLConfigurationManager.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Debug\WizardWrx.DLLConfigurationManager.xml /define:DEBUG;TRACE;NET35 /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Configuration.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Common\bin\Debug\WizardWrx.Common.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\WizardWrx.DLLConfigurationManager.dll /resource:obj\Debug\WizardWrx.DLLConfigurationManager.Properties.Resources.resources /target:library /utf8output ExceptionLogger.cs IniFileReader.cs StateManager.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.dll" to "bin\Debug\WizardWrx.AssemblyUtils.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.dll" to "bin\Debug\WizardWrx.ConsoleStreams.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll" to "bin\Debug\WizardWrx.Core.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.pdb" to "bin\Debug\WizardWrx.AssemblyUtils.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.xml" to "bin\Debug\WizardWrx.AssemblyUtils.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.pdb" to "bin\Debug\WizardWrx.ConsoleStreams.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.xml" to "bin\Debug\WizardWrx.ConsoleStreams.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.pdb" to "bin\Debug\WizardWrx.Core.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.xml" to "bin\Debug\WizardWrx.Core.xml".
+_CopyOutOfDateSourceItemsToOutputDirectory:
+Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\WizardWrx.DLLConfigurationManager.dll" to "bin\Debug\WizardWrx.DLLConfigurationManager.dll".
+  DLLConfigurationManager -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLConfigurationManager\bin\Debug\WizardWrx.DLLConfigurationManager.dll
+  Copying file from "obj\Debug\WizardWrx.DLLConfigurationManager.pdb" to "bin\Debug\WizardWrx.DLLConfigurationManager.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLConfigurationManager\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLConfigurationManager\bin\Debug\WizardWrx.DLLConfigurationManager.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLConfigurationManager\bin\Debug\WizardWrx.DLLConfigurationManager.dll
+          Version    = 7.0.150.22931
+          File Date  = 2017/07/12 13:44:22 (2017/07/12 18:44:22 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLConfigurationManager\BuildHistory.LOG
+          File Date  = 2017/07/12 13:44:22 (2017/07/12 18:44:22 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:03.68
+------ Build started: Project: DLLServices2TestStand, Configuration: Debug Any CPU ------
+Build started 2017/07/12 13:44:23.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 2017/07/12 13:44:23 (2017/07/12 18:44:23 UTC)
+          Build Number = 836
+  Sleeping for 3 seconds
+  Waking from cat nap
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Xml.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Common\bin\Debug\WizardWrx.Common.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLConfigurationManager\bin\Debug\WizardWrx.DLLConfigurationManager.dll" /r:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\EmbeddedTextFile\bin\Debug\WizardWrx.EmbeddedTextFile.dll" /compile Properties\Resources.resx,obj\Debug\DLLServices2TestStand.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\Debug\DLLServices2TestStand.Properties.Resources.resources".
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /platform:AnyCPU /errorreport:prompt /define:TRACE;DEBUG;NET35 /errorendlocation /preferreduilang:en-US /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client\System.Xml.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Common\bin\Debug\WizardWrx.Common.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLConfigurationManager\bin\Debug\WizardWrx.DLLConfigurationManager.dll" /reference:"C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\EmbeddedTextFile\bin\Debug\WizardWrx.EmbeddedTextFile.dll" /debug+ /debug:full /filealign:512 /out:obj\Debug\DLLServices2TestStand.exe /resource:obj\Debug\DLLServices2TestStand.Properties.Resources.resources /resource:ClassTestMap.TXT,DLLServices2TestStand.ClassTestMap.TXT /resource:TextWithUTF_8_BOM.TXT,DLLServices2TestStand.TextWithUTF_8_BOM.TXT /target:exe /utf8output /win32icon:WW_Icon1.ico Program.cs AppDomainDetails.cs CmdLneArgsTests.cs FileNameTricks_Exerciser.cs NewClassTests_20140914.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.dll" to "bin\Debug\WizardWrx.AssemblyUtils.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.dll" to "bin\Debug\WizardWrx.ConsoleStreams.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.dll" to "bin\Debug\WizardWrx.Core.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLConfigurationManager\bin\Debug\WizardWrx.DLLConfigurationManager.dll" to "bin\Debug\WizardWrx.DLLConfigurationManager.dll".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.pdb" to "bin\Debug\WizardWrx.AssemblyUtils.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\AssemblyUtils\bin\Debug\WizardWrx.AssemblyUtils.xml" to "bin\Debug\WizardWrx.AssemblyUtils.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLConfigurationManager\bin\Debug\WizardWrx.DLLConfigurationManager.pdb" to "bin\Debug\WizardWrx.DLLConfigurationManager.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLConfigurationManager\bin\Debug\WizardWrx.DLLConfigurationManager.xml" to "bin\Debug\WizardWrx.DLLConfigurationManager.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.pdb" to "bin\Debug\WizardWrx.ConsoleStreams.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\ConsoleStreams\bin\Debug\WizardWrx.ConsoleStreams.xml" to "bin\Debug\WizardWrx.ConsoleStreams.xml".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.pdb" to "bin\Debug\WizardWrx.Core.pdb".
+  Copying file from "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\Core\bin\Debug\WizardWrx.Core.xml" to "bin\Debug\WizardWrx.Core.xml".
+_CopyOutOfDateSourceItemsToOutputDirectory:
+Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\DLLServices2TestStand.exe" to "bin\Debug\DLLServices2TestStand.exe".
+  DLLServices2TestStand -> C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+  Copying file from "obj\Debug\DLLServices2TestStand.pdb" to "bin\Debug\DLLServices2TestStand.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\ " "-tC:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\bin\Debug\DLLServices2TestStand.exe
+          Version    = 7.0.836.22933
+          File Date  = 2017/07/12 13:44:26 (2017/07/12 18:44:26 UTC)
+  Log File FQFN      = C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\DLLServices2\DLLServices2TestStand\BuildHistory.LOG
+          File Date  = 2017/07/12 13:44:26 (2017/07/12 18:44:26 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:03.75
+------ Skipped Build: Project: RedirectedStreamTester, Configuration: Debug Any CPU ------
+Project not selected to build for this solution configuration
+========== Build: 5 succeeded, 0 failed, 2 up-to-date, 1 skipped ==========
+
+================================================================================
+2017/07/12 21:21:23 - This is the raw output of a C/C++ DLL build.
+================================================================================
+
+---------------------------------------------------------------------------------------------------
+C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex.log:
+---------------------------------------------------------------------------------------------------
+
+Build started 2017/02/15 00:50:36.
+Project "C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\SaferMutex.vcxproj" on node 2 (Rebuild target(s)).
+_PrepareForClean:
+  Deleting file "Debug\SaferMutex.tlog\SaferMutex.lastbuildstate".
+InitializeBuildStatus:
+  Creating "Debug\SaferMutex.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /sdl /Od /Oi /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SAFERMUTEX_EXPORTS /D _TCHAR_MACROS_SEH_ALLOCATORS_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /doc"Debug\\" /Gd /TP /analyze- /FC /errorReport:prompt dllmain.cpp
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+
+  cl /c /Zi /W3 /WX- /sdl /Od /Oi /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SAFERMUTEX_EXPORTS /D _TCHAR_MACROS_SEH_ALLOCATORS_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /doc"Debug\\" /Gd /TP /analyze- /FC /errorReport:prompt dllmain.cpp
+
+  dllmain.cpp
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Auto-including prerequisite header Windows.h, since this file was included independently.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h CRT header stdio.h is included, which is taken as sanctioning the CRT library.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     TCHAR.H auto-included, to establish the generic TCHAR mappings that make writing code that supports ANSI, MBCS, and Unicode so much easier
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     CharPosMacros_WW.H auto-included, to define special purpose macros used herein, and available for general use
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Auto-including SEHHeapAllocators.H, since WWKernelLibWrapper.H is absent from the translation stream.
+  c:\users\dave\documents\programming\visual_studio_6\include\sehheapallocators.h You must link against WWKernelLibWrapper32.lib, and WWKernelLibWrapper32.dll is a dependent DLL.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Using Win32 memory allocators with Structured Exception Handling and calls to SetLastError.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Since neither FormatMsgs_WW.H, nor P6CStringLib1.H is included in this translation unit,
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     macros FormatMsgForConsole_WW and FormatMsgForMsgbox_WW are disabled.
+c:\users\dave\documents\programming\visual_studio_6\dll\safermutex\safermutex\dllmain.cpp(29): warning C4101: 'intRC' : unreferenced local variable
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /sdl /Od /Oi /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SAFERMUTEX_EXPORTS /D _TCHAR_MACROS_SEH_ALLOCATORS_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /doc"Debug\\" /Gd /TP /analyze- /FC /errorReport:prompt HandleManager.cpp SaferMutex.cpp SaferMutexCreateA.cpp SaferMutexCreateW.cpp SaferMutexGetErrMsgA.cpp SaferMutexGetErrMsgW.cpp
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+
+  cl /c /Zi /W3 /WX- /sdl /Od /Oi /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SAFERMUTEX_EXPORTS /D _TCHAR_MACROS_SEH_ALLOCATORS_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /doc"Debug\\" /Gd /TP /analyze- /FC /errorReport:prompt HandleManager.cpp SaferMutex.cpp SaferMutexCreateA.cpp SaferMutexCreateW.cpp SaferMutexGetErrMsgA.cpp SaferMutexGetErrMsgW.cpp
+
+  SaferMutexGetErrMsgW.cpp
+  c:\users\dave\documents\programming\visual_studio_6\dll\safermutex\safermutex\safermutexgeterrmsgw.cppPreprocessor symbols UNICODE and _UNICODE are defined at project scope, and shall remain so for this Unicode (wide character) module.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Prerequisite header Windows.h is already included.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h CRT header stdio.h is included, which is taken as sanctioning the CRT library.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     TCHAR.H auto-included, to establish the generic TCHAR mappings that make writing code that supports ANSI, MBCS, and Unicode so much easier
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     CharPosMacros_WW.H auto-included, to define special purpose macros used herein, and available for general use
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Auto-including SEHHeapAllocators.H, since WWKernelLibWrapper.H is absent from the translation stream.
+  c:\users\dave\documents\programming\visual_studio_6\include\sehheapallocators.h You must link against WWKernelLibWrapper32.lib, and WWKernelLibWrapper32.dll is a dependent DLL.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Using Win32 memory allocators with Structured Exception Handling and calls to SetLastError.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Since neither FormatMsgs_WW.H, nor P6CStringLib1.H is included in this translation unit,
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     macros FormatMsgForConsole_WW and FormatMsgForMsgbox_WW are disabled.
+  SaferMutexGetErrMsgA.cpp
+  c:\users\dave\documents\programming\visual_studio_6\dll\safermutex\safermutex\safermutexgeterrmsga.cppPreprocessor symbols UNICODE and _UNICODE are defined at project scope, but must be undefined for this ANSI (narrow character) module.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Auto-including prerequisite header Windows.h, since this file was included independently.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h CRT header stdio.h is included, which is taken as sanctioning the CRT library.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     TCHAR.H auto-included, to establish the generic TCHAR mappings that make writing code that supports ANSI, MBCS, and Unicode so much easier
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     CharPosMacros_WW.H auto-included, to define special purpose macros used herein, and available for general use
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Auto-including SEHHeapAllocators.H, since WWKernelLibWrapper.H is absent from the translation stream.
+  c:\users\dave\documents\programming\visual_studio_6\include\sehheapallocators.h You must link against WWKernelLibWrapper32.lib, and WWKernelLibWrapper32.dll is a dependent DLL.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Using Win32 memory allocators with Structured Exception Handling and calls to SetLastError.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Since neither FormatMsgs_WW.H, nor P6CStringLib1.H is included in this translation unit,
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     macros FormatMsgForConsole_WW and FormatMsgForMsgbox_WW are disabled.
+  SaferMutexCreateW.cpp
+  c:\users\dave\documents\programming\visual_studio_6\dll\safermutex\safermutex\safermutexcreatew.cppPreprocessor symbols UNICODE and _UNICODE are defined at project scope, and shall remain so for this Unicode (wide character) module.
+  SaferMutexCreateA.cpp
+  c:\users\dave\documents\programming\visual_studio_6\dll\safermutex\safermutex\safermutexcreatea.cppPreprocessor symbols UNICODE and _UNICODE are defined at project scope, but must be undefined for this ANSI (narrow character) module.
+  SaferMutex.cpp
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Auto-including prerequisite header Windows.h, since this file was included independently.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h CRT header stdio.h is included, which is taken as sanctioning the CRT library.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     TCHAR.H auto-included, to establish the generic TCHAR mappings that make writing code that supports ANSI, MBCS, and Unicode so much easier
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     CharPosMacros_WW.H auto-included, to define special purpose macros used herein, and available for general use
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Auto-including SEHHeapAllocators.H, since WWKernelLibWrapper.H is absent from the translation stream.
+  c:\users\dave\documents\programming\visual_studio_6\include\sehheapallocators.h You must link against WWKernelLibWrapper32.lib, and WWKernelLibWrapper32.dll is a dependent DLL.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Using Win32 memory allocators with Structured Exception Handling and calls to SetLastError.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Since neither FormatMsgs_WW.H, nor P6CStringLib1.H is included in this translation unit,
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     macros FormatMsgForConsole_WW and FormatMsgForMsgbox_WW are disabled.
+  HandleManager.cpp
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Prerequisite header Windows.h is already included.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h CRT header stdio.h is included, which is taken as sanctioning the CRT library.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     TCHAR.H auto-included, to establish the generic TCHAR mappings that make writing code that supports ANSI, MBCS, and Unicode so much easier
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     CharPosMacros_WW.H auto-included, to define special purpose macros used herein, and available for general use
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Auto-including SEHHeapAllocators.H, since WWKernelLibWrapper.H is absent from the translation stream.
+  c:\users\dave\documents\programming\visual_studio_6\include\sehheapallocators.h You must link against WWKernelLibWrapper32.lib, and WWKernelLibWrapper32.dll is a dependent DLL.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Using Win32 memory allocators with Structured Exception Handling and calls to SetLastError.
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h Since neither FormatMsgs_WW.H, nor P6CStringLib1.H is included in this translation unit,
+  c:\users\dave\documents\programming\visual_studio_6\include\tcharmacros_ww.h     macros FormatMsgForConsole_WW and FormatMsgForMsgbox_WW are disabled.
+  Generating Code...
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /v /fo"Debug\SaferMutex.res" /n SaferMutex.rc
+  Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17298
+
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+  Creating Debug\SaferMutex.res
+
+  Using codepage 1252 as default
+
+  SaferMutex.rc.
+  Writing VERSION:1,	lang:0x409,	size 820..
+  Writing STRING:7,	lang:0x409,	size 196
+  Writing STRING:129,	lang:0x409,	size 2110
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.dll" /VERBOSE /INCREMENTAL:NO WWKernelLibWrapper32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.pdb" /MAP /MAPINFO:EXPORTS /SUBSYSTEM:CONSOLE /OPT:ICF /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.lib" /MACHINE:X86 /CLRSupportLastError /SAFESEH /DLL Debug\SaferMutex.res
+  Debug\dllmain.obj
+  Debug\HandleManager.obj
+  Debug\SaferMutex.obj
+  Debug\SaferMutexCreateA.obj
+  Debug\SaferMutexCreateW.obj
+  Debug\SaferMutexGetErrMsgA.obj
+  Debug\SaferMutexGetErrMsgW.obj
+  Microsoft (R) Incremental Linker Version 12.00.31101.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+
+  "/OUT:C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.dll" /VERBOSE /INCREMENTAL:NO WWKernelLibWrapper32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG "/PDB:C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.pdb" /MAP /MAPINFO:EXPORTS /SUBSYSTEM:CONSOLE /OPT:ICF /DYNAMICBASE /NXCOMPAT "/IMPLIB:C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.lib" /MACHINE:X86 /CLRSupportLastError /SAFESEH /DLL Debug\SaferMutex.res
+  Debug\dllmain.obj
+  Debug\HandleManager.obj
+  Debug\SaferMutex.obj
+  Debug\SaferMutexCreateA.obj
+  Debug\SaferMutexCreateW.obj
+  Debug\SaferMutexGetErrMsgA.obj
+  Debug\SaferMutexGetErrMsgW.obj
+
+  Starting pass 1
+  Processed /DEFAULTLIB:MSVCRTD
+  Processed /DEFAULTLIB:OLDNAMES
+  Processed /DEFAULTLIB:uuid.lib
+
+  Searching libraries
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\WWKernelLibWrapper32.lib:
+        Found __imp__AllocDfltHeapBufSEH_P6C@4
+          Referenced in HandleManager.obj
+          Loaded WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+        Found __imp__FreeDfltHeapBuf_P6C@4
+          Referenced in HandleManager.obj
+          Loaded WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+        Found __IMPORT_DESCRIPTOR_WWKernelLibWrapper32
+          Referenced in WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+          Referenced in WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+          Loaded WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+        Found __NULL_IMPORT_DESCRIPTOR
+          Referenced in WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+          Loaded WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+        Found WWKernelLibWrapper32_NULL_THUNK_DATA
+          Referenced in WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+          Loaded WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found __imp__CreateMutexW@12
+          Referenced in dllmain.obj
+          Referenced in HandleManager.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__CloseHandle@4
+          Referenced in HandleManager.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetLastError@4
+          Referenced in HandleManager.obj
+          Referenced in SaferMutex.obj
+          Referenced in SaferMutexCreateA.obj
+          Referenced in SaferMutexCreateW.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__ReleaseMutex@4
+          Referenced in HandleManager.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__WaitForSingleObject@8
+          Referenced in HandleManager.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentThreadId@0
+          Referenced in HandleManager.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetLastError@0
+          Referenced in SaferMutexGetErrMsgA.obj
+          Referenced in SaferMutexGetErrMsgW.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FormatMessageA@28
+          Referenced in SaferMutexGetErrMsgA.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FormatMessageW@28
+          Referenced in SaferMutexGetErrMsgW.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __IMPORT_DESCRIPTOR_KERNEL32
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found KERNEL32_NULL_THUNK_DATA
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+        Found __imp__LoadStringA@16
+          Referenced in SaferMutexGetErrMsgA.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__LoadStringW@16
+          Referenced in SaferMutexGetErrMsgW.obj
+          Loaded user32.lib(USER32.dll)
+        Found __IMPORT_DESCRIPTOR_USER32
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+        Found USER32_NULL_THUNK_DATA
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRTD.lib:
+        Found "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+          Referenced in dllmain.obj
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+          Referenced in dllmain.obj
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found @_RTC_CheckStackVars@8
+          Referenced in dllmain.obj
+          Loaded MSVCRTD.lib(stack.obj)
+        Found @__security_check_cookie@4
+          Referenced in dllmain.obj
+          Loaded MSVCRTD.lib(secchk.obj)
+        Found __RTC_InitBase
+          Referenced in SaferMutexCreateW.obj
+          Referenced in SaferMutexGetErrMsgA.obj
+          Referenced in SaferMutexGetErrMsgW.obj
+          Referenced in dllmain.obj
+          Referenced in HandleManager.obj
+          Referenced in SaferMutex.obj
+          Referenced in SaferMutexCreateA.obj
+          Loaded MSVCRTD.lib(init.obj)
+        Found ___CxxFrameHandler3
+          Referenced in dllmain.obj
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found _memset
+          Referenced in dllmain.obj
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found "const type_info::`vftable'" (??_7type_info@@6B@)
+          Referenced in dllmain.obj
+          Referenced in HandleManager.obj
+          Loaded MSVCRTD.lib(ti_inst.obj)
+        Found ___security_cookie
+          Referenced in dllmain.obj
+          Referenced in MSVCRTD.lib(secchk.obj)
+          Loaded MSVCRTD.lib(gs_cookie.obj)
+        Found __CxxThrowException@8
+          Referenced in HandleManager.obj
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __imp__sprintf_s
+          Referenced in SaferMutexGetErrMsgA.obj
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __imp__swprintf_s
+          Referenced in SaferMutexGetErrMsgW.obj
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __DllMainCRTStartup@12
+          Loaded MSVCRTD.lib(crtdll.obj)
+        Found __IMPORT_DESCRIPTOR_MSVCR120D
+          Referenced in MSVCRTD.lib(MSVCR120D.dll)
+          Referenced in MSVCRTD.lib(MSVCR120D.dll)
+          Referenced in MSVCRTD.lib(MSVCR120D.dll)
+          Referenced in MSVCRTD.lib(MSVCR120D.dll)
+          Referenced in MSVCRTD.lib(MSVCR120D.dll)
+          Referenced in MSVCRTD.lib(MSVCR120D.dll)
+          Referenced in MSVCRTD.lib(MSVCR120D.dll)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found "void __cdecl _RTC_Failure(void *,int)" (?_RTC_Failure@@YAXPAXH@Z)
+          Referenced in MSVCRTD.lib(stack.obj)
+          Loaded MSVCRTD.lib(error.obj)
+        Found ___report_gsfailure
+          Referenced in MSVCRTD.lib(secchk.obj)
+          Loaded MSVCRTD.lib(gs_report.obj)
+        Found __RTC_SetErrorFuncW
+          Referenced in MSVCRTD.lib(init.obj)
+          Loaded MSVCRTD.lib(userapi.obj)
+        Found __CRT_RTC_INITW
+          Referenced in MSVCRTD.lib(init.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)
+          Referenced in MSVCRTD.lib(ti_inst.obj)
+          Loaded MSVCRTD.lib(ehvecdtr.obj)
+        Found "public: virtual __thiscall type_info::~type_info(void)" (??1type_info@@UAE@XZ)
+          Referenced in MSVCRTD.lib(ti_inst.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found ___CppXcptFilter
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __amsg_exit
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __imp___malloc_dbg
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __imp___free_dbg
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __imp___CrtSetCheckCount
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __IsNonwritableInCurrentImage
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(pesect.obj)
+        Found _atexit
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(atonexit.obj)
+        Found ___security_init_cookie
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(gs_support.obj)
+        Found __RTC_Initialize
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(initsect.obj)
+        Found __initterm
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __initterm_e
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found ___clean_type_info_names
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(tncleanup.obj)
+        Found __except_handler4
+          Referenced in MSVCRTD.lib(atonexit.obj)
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Referenced in MSVCRTD.lib(error.obj)
+          Referenced in MSVCRTD.lib(ehvecdtr.obj)
+          Referenced in MSVCRTD.lib(pesect.obj)
+          Loaded MSVCRTD.lib(chandler4gs.obj)
+        Found ___native_startup_state
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(natstart.obj)
+        Found ___xi_a
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Loaded MSVCRTD.lib(cinitexe.obj)
+  Processed /DEFAULTLIB:kernel32.lib
+   Processed /DISALLOWLIB:libcmt.lib
+   Processed /DISALLOWLIB:libcmtd.lib
+   Processed /DISALLOWLIB:msvcrt.lib
+        Found MSVCR120D_NULL_THUNK_DATA
+          Referenced in MSVCRTD.lib(MSVCR120D.dll)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded MSVCRTD.lib(pdblkup.obj)
+        Found __crt_debugger_hook
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found ___crtUnhandledException
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found ___crtTerminateProcess
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found "void __cdecl terminate(void)" (?terminate@@YAXXZ)
+          Referenced in MSVCRTD.lib(ehvecdtr.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __lock
+          Referenced in MSVCRTD.lib(atonexit.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __unlock
+          Referenced in MSVCRTD.lib(atonexit.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __imp___CrtDbgReportW
+          Referenced in MSVCRTD.lib(atonexit.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __imp___calloc_dbg
+          Referenced in MSVCRTD.lib(atonexit.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found ___dllonexit
+          Referenced in MSVCRTD.lib(atonexit.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __imp___onexit
+          Referenced in MSVCRTD.lib(atonexit.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found ___clean_type_info_names_internal
+          Referenced in MSVCRTD.lib(tncleanup.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __except_handler4_common
+          Referenced in MSVCRTD.lib(chandler4gs.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found _wcscpy_s
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __wmakepath_s
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+        Found __wsplitpath_s
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded MSVCRTD.lib(MSVCR120D.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\WWKernelLibWrapper32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found __imp__EncodePointer@4
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Referenced in MSVCRTD.lib(atonexit.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__DecodePointer@4
+          Referenced in MSVCRTD.lib(crtdll.obj)
+          Referenced in MSVCRTD.lib(atonexit.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsDebuggerPresent@0
+          Referenced in MSVCRTD.lib(error.obj)
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__RaiseException@16
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetProcAddress@8
+          Referenced in MSVCRTD.lib(error.obj)
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__LoadLibraryExW@12
+          Referenced in MSVCRTD.lib(error.obj)
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__MultiByteToWideChar@24
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__WideCharToMultiByte@32
+          Referenced in MSVCRTD.lib(error.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _IsProcessorFeaturePresent@4
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__QueryPerformanceCounter@4
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcessId@0
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetSystemTimeAsFileTime@4
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__HeapAlloc@12
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__HeapFree@12
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetProcessHeap@0
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__VirtualQuery@12
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FreeLibrary@4
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleFileNameW@12
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleHandleW@4
+          Referenced in MSVCRTD.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+
+  Finished searching libraries
+
+  Generating .exp file
+     Creating library C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.lib and object C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.exp
+
+  Finished generating .exp file
+
+  Searching libraries
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\WWKernelLibWrapper32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+
+  Finished searching libraries
+
+  Finished pass 1
+
+
+  Searching libraries
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\WWKernelLibWrapper32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRTD.lib:
+        Found __load_config_used
+          Loaded MSVCRTD.lib(loadcfg.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\WWKernelLibWrapper32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+
+  Finished searching libraries
+
+  Invoking rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\DAVE\AppData\Local\Temp\lnk{8513D8EE-4914-4D3C-99DA-834362E9DD06}.tmp"
+   "C:\Users\DAVE\AppData\Local\Temp\lnk{3EBA3008-9E17-49FB-827F-0C6125BF9E72}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17298
+
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+  Creating C:\Users\DAVE\AppData\Local\Temp\lnk{8513D8EE-4914-4D3C-99DA-834362E9DD06}.tmp
+
+  Using codepage 1252 as default
+
+  C:\Users\DAVE\AppData\Local\Temp\lnk{3EBA3008-9E17-49FB-827F-0C6125BF9E72}.tmp.
+  Writing 24:2,	lang:0x409,	size 381
+
+  Invoking cvtres.exe:
+   /machine:x86
+   /verbose
+   /out:"C:\Users\DAVE\AppData\Local\Temp\lnk{BE0046AA-3C2D-4002-87BC-AD2C36EEFB08}.tmp"
+   /readonly
+   "Debug\SaferMutex.res"
+   "C:\Users\DAVE\AppData\Local\Temp\lnk{8513D8EE-4914-4D3C-99DA-834362E9DD06}.tmp"
+  Microsoft (R) Windows Resource To Object Converter Version 12.00.21005.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+
+  adding resource. type:VERSION, name:1, language:0x0409, flags:0x30, size:820
+  adding resource. type:STRING, name:7, language:0x0409, flags:0x1030, size:196
+  adding resource. type:STRING, name:129, language:0x0409, flags:0x1030, size:2110
+  adding resource. type:MANIFEST, name:2, language:0x0409, flags:0x30, size:381
+
+  Unused libraries:
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib
+    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib
+
+  Starting pass 2
+       SaferMutex.res
+       SaferMutex32.exp
+       SaferMutexGetErrMsgW.obj
+       SaferMutexGetErrMsgA.obj
+       SaferMutexCreateW.obj
+       SaferMutexCreateA.obj
+       SaferMutex.obj
+       HandleManager.obj
+       dllmain.obj
+       WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+       WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+       WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+       WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+       WWKernelLibWrapper32.lib(WWKernelLibWrapper32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       MSVCRTD.lib(ehvecdtr.obj)
+       MSVCRTD.lib(tncleanup.obj)
+       MSVCRTD.lib(atonexit.obj)
+       MSVCRTD.lib(cinitexe.obj)
+       MSVCRTD.lib(crtdll.obj)
+       MSVCRTD.lib(gs_cookie.obj)
+       MSVCRTD.lib(gs_report.obj)
+       MSVCRTD.lib(gs_support.obj)
+       MSVCRTD.lib(natstart.obj)
+       MSVCRTD.lib(pesect.obj)
+       MSVCRTD.lib(ti_inst.obj)
+       MSVCRTD.lib(chandler4gs.obj)
+       MSVCRTD.lib(loadcfg.obj)
+       MSVCRTD.lib(secchk.obj)
+       MSVCRTD.lib(userapi.obj)
+       MSVCRTD.lib(stack.obj)
+       MSVCRTD.lib(pdblkup.obj)
+       MSVCRTD.lib(initsect.obj)
+       MSVCRTD.lib(init.obj)
+       MSVCRTD.lib(error.obj)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+       MSVCRTD.lib(MSVCR120D.dll)
+  Finished pass 2
+  SaferMutex.vcxproj -> C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.dll
+XdcMake:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\xdcmake.exe /old "SaferMutex" /Fo"C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.xml" /FsDebug\dllmain.xdc /FsDebug\HandleManager.xdc /FsDebug\SaferMutex.xdc /FsDebug\SaferMutexCreateA.xdc /FsDebug\SaferMutexCreateW.xdc /FsDebug\SaferMutexGetErrMsgA.xdc /FsDebug\SaferMutexGetErrMsgW.xdc
+  Microsoft (R)  XML Document Comments Merge Tool  Version 12.00.21005
+  Copyright (C)  Microsoft Corporation.  All rights reserved.
+
+PostBuildEvent:
+  Description: Install Library Binaries and Imports
+  call VS6_CopyLibs SaferMutex Debug 32
+  :VCEnd
+  BOJ VS6_CopyLibs, version 2017/01/16 10:28
+
+  Current date and time = 2017/02/15  0:50:44.64
+
+  CWD=C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex
+
+
+  -------------------------------------------------------------
+  Updating the libraries ...
+  -------------------------------------------------------------
+
+
+  -------------------------------------------------------------
+  Updating the permanent Debug editions ...
+  -------------------------------------------------------------
+
+
+  VSOUTBIN = Debug
+
+  Does C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32D.LIB specify a file name
+  or directory name on the target
+  (F = file, D = directory)? F
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.lib -> C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32D.LIB
+  1 File(s) copied
+  Does C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32D.DLL specify a file name
+  or directory name on the target
+  (F = file, D = directory)? F
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.dll -> C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32D.DLL
+  1 File(s) copied
+
+  -------------------------------------------------------------
+  Updating the permanent Debug editions ... Done!
+  -------------------------------------------------------------
+
+  -------------------------------------------------------------
+  Updating the WizardWrx link library directory ...
+  -------------------------------------------------------------
+
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32D.LIB -> C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\SaferMutex32D.LIB
+  1 File(s) copied
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32D.DLL -> C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\SaferMutex32D.DLL
+  1 File(s) copied
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.lib -> C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\SaferMutex32.lib
+  1 File(s) copied
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.dll -> C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\SaferMutex32.dll
+  1 File(s) copied
+
+  -------------------------------------------------------------
+  Updating the WizardWrx link library directory ... Done!
+  -------------------------------------------------------------
+
+  -------------------------------------------------------------
+  Updating the WizardWrx Visual Studio 6 Symbol Cache ...
+  -------------------------------------------------------------
+
+  -------------------------------------------------------------
+  The WizardWrx Visual Studio 6 Symbol Cache is turned OFF.
+  -------------------------------------------------------------
+
+  DBGLIB = C:\bin\WWSYMBLB\
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32D.LIB -> C:\bin\WWSYMBLB\SaferMutex32D.LIB
+  1 File(s) copied
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32D.DLL -> C:\bin\WWSYMBLB\SaferMutex32D.DLL
+  1 File(s) copied
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.lib -> C:\bin\WWSYMBLB\SaferMutex32.lib
+  1 File(s) copied
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\Debug\SaferMutex32.dll -> C:\bin\WWSYMBLB\SaferMutex32.dll
+  1 File(s) copied
+
+  -------------------------------------------------------------
+  Updating the WizardWrx Visual Studio 6 Symbol Cache ... Done!
+  -------------------------------------------------------------
+
+
+  -------------------------------------------------------------
+  Prepare the main debug library for the next build ...
+  -------------------------------------------------------------
+
+
+  -------------------------------------------------------------
+  Prepare the main debug library for the next build ... Done!
+  -------------------------------------------------------------
+
+
+  -------------------------------------------------------------
+  Updating the SaferMutex32 libraries ... Done
+  -------------------------------------------------------------
+
+  EOJ VS6_CopyLibs.CMD
+FinalizeBuildStatus:
+  Deleting file "Debug\SaferMutex.tlog\unsuccessfulbuild".
+  Touching "Debug\SaferMutex.tlog\SaferMutex.lastbuildstate".
+Done Building Project "C:\Users\DAVE\Documents\Programming\Visual_Studio_6\DLL\SaferMutex\SaferMutex\SaferMutex.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.81

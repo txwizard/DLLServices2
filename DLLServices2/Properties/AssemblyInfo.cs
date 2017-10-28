@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration ( "" )]
 [assembly: AssemblyCompany ( "David A. Gray" )]
 [assembly: AssemblyProduct ( "DLLServices" )]
-[assembly: AssemblyCopyright ( "Copyright © 2013-2016, David A. Gray" )]
+[assembly: AssemblyCopyright ( "Copyright © 2013-2017, David A. Gray" )]
 [assembly: AssemblyTrademark ( "This library is distributed under a three-clause BSD license." )]
 [assembly: AssemblyCulture ( "" )]
 
@@ -32,6 +32,8 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
+//
+//	============================================================================
 //
 //  ------------------------------------
 //  Special Note about Assembly Version:
@@ -109,5 +111,8 @@ using System.Runtime.InteropServices;
 //                                       Console.Clear, which throws a trappable
 //                                       exception if the standard output stream
 //                                       is redirected.
+//
+//  2016/10/29 7.0 Break this library apart, so that smaller subsets of classes
+//                 can be distributed and consumed independently.
 //	============================================================================
-[assembly: AssemblyVersion ( "6.3.474.*" )]
+[assembly: AssemblyVersion ( "7.0.493.*" )]

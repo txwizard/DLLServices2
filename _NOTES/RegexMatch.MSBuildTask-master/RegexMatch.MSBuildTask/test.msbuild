@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask AssemblyFile="$(MSBuildThisFileDirectory)bin\Debug\RegexMatch.MSBuildTask.dll" TaskName="RegexMatch" />
+  <PropertyGroup>
+    <ProjectTypeGuids>{4878089c-5963-4237-a616-0990cbee2d3f};{349c5851-65df-11da-9384-00065b846f21}</ProjectTypeGuids>
+    <DefineConstants>TARO;ICHIRO;JIRO</DefineConstants>
+  </PropertyGroup>
+  <UsingTask AssemblyFile="$(MSBuildThisFileDirectory)bin\Debug\RegexMatch.MSBuildTask.dll" TaskName="RegexMatch" />
+  <PropertyGroup>
+    <Greeting>Hello Mr.Smith.</Greeting>
+  </PropertyGroup>
+  <Target Name="Build">
+    <RegexMatch Input="$(DefineConstants)" Pattern="^(.*;)*(JIRO)(;.*)*$">
+      <Output TaskParameter="IsMatch" PropertyName="IsMatchJiro" />
+    </RegexMatch>
+    <Message Text="Hello! /$(IsMatchJiro)/"/>
+    <Message Condition="$(IsMatchJiro)" Text="JIRO is here!" />
+    <RegexMatch Input="$(ProjectTypeGuids)" Pattern="^(.*;)*{349c5851-65df-11da-9384-00065b846f21}(;.*)*$">
+      <Output TaskParameter="IsMatch" PropertyName="IsMatchWebProject" />
+    </RegexMatch>
+    <Message Condition="$(IsMatchWebProject)" Text="Web project type GUID was detected." />
+    <RegexMatch Input="$(Greeting)" Pattern="^Hello (.+)\.$">
+      <Output TaskParameter="Match2" PropertyName="Name" />
+    </RegexMatch>
+    <Message Text="Nice to meet you, $(Name)."/>
+  </Target>
+
+</Project>

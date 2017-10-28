@@ -17,7 +17,7 @@
 
     Author:             David A. Gray
 
-	License:            Copyright (C) 2011-2016, David A. Gray. 
+	License:            Copyright (C) 2011-2017, David A. Gray. 
 						All rights reserved.
 
                         Redistribution and use in source and binary forms, with
@@ -67,6 +67,8 @@
                               license.
 
     2016/03/29 6.0    DAG	  Resolve the ambiguous references in the XML help.
+
+	2017/02/22 7.0     DAG    Adjust for the breakup of WizardWrx.DllServices2.
     ============================================================================
 */
 
@@ -75,7 +77,8 @@ using System.Collections.Generic;
 using System.Text;
 
 using WizardWrx;
-using WizardWrx.DLLServices2;
+using WizardWrx.Core;
+using WizardWrx.DLLConfigurationManager;
 
 
 namespace DLLServices2TestStand
@@ -197,7 +200,7 @@ namespace DLLServices2TestStand
 					System.Diagnostics.Trace.WriteLine (
 						string.Format (
 							"{0}: {1}" ,
-							DisplayFormats.FormatDateTimeForShow ( DateTime.Now ) ,
+							SysDateFormatters.FormatDateTimeForShow ( DateTime.Now ) ,
 							ExceptionLogger.GetTheSingleInstance().ReportException ( exAll ) ) );	// Log the error with the event viewer and the trace listener(s), if any.
 				}
 			}   // CmdLneArgsBasic InvalidSwitchParser goes out of scope.
@@ -678,7 +681,7 @@ namespace DLLServices2TestStand
 					}
 					catch ( Exception exAny )
 					{
-						if ( exAny.Message.StartsWith ( WizardWrx.DLLServices2.Properties.Resources.ERRMSG_ARG_IS_NULL_OR_EMPTY ) && exAny.TargetSite.Name == "FirstCharFromString" )
+						if ( exAny.Message.StartsWith ( WizardWrx.Common.Properties.Resources.ERRMSG_ARG_IS_NULL_OR_EMPTY ) && exAny.TargetSite.Name == "FirstCharFromString" )
 						{
 							Console.WriteLine (
 								ARG_DISP_TPL_NAMED_ARG ,
