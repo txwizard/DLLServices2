@@ -1,6 +1,14 @@
                               DLLServices2 ReadMe
 
 ================================================================================
+2018-09-04 01:54:00 - NOTICE: Effective immediately, this repository is retired.
+                              Please use its successor,
+                              https://github.com/txwizard/WizardWrx_NET_API,
+                              which consolidates numerous libraries int one
+                              coherent constellation of class libraries.
+================================================================================
+
+================================================================================
 2016-06-07 12:07:00
 ================================================================================
 
